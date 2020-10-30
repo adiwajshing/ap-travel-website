@@ -1,0 +1,184 @@
+openapi: 3.0.1
+
+info:
+  title: E-Travel AP20
+  description: API
+  version: 1.0.0
+
+servers:
+- url: http://127.0.0.1:5000/
+
+tags:
+- name: User Endpoints
+  description: All User Operations
+
+paths:
+  /api/signup:
+    post:
+      tags:
+      - User Endpoints
+      summary: New signup
+      operationId: signup
+      requestBody:
+        required: True
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+                name:
+                  type: string
+              required:
+                - name
+                - email
+                - password
+      responses:
+        200:
+          description: Succesfully added user. Returns access token.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  idToken:
+                    type: string
+        400:
+          description: Bad input
+          content: {}
+        401:
+          description: User already exists or Unauthorized
+
+  /api/google-signup:
+    put:
+      tags:
+      - User Endpoints
+      summary: Google signup
+      operationId: GoogleSignup
+      responses:
+        200:
+          description: Succesfully added user in DB or user already exists in DB.
+      security:
+      - Bearer: []
+  
+  /api/login:
+    post:
+      tags:
+      - User Endpoints
+      summary: Login with email and password
+      operationId: login
+      requestBody:
+        required: True
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+                - email
+                - password
+      responses:
+        200:
+          description: Succesfully logged in
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  idToken:
+                    type: string
+        400:
+          description: Bad input
+          content: {}
+        401:
+          description: Unauthorized
+    
+  /api/logout:
+    get:
+      tags:
+        - User Endpoints
+      summary: Logout and revoke tokens
+      operationId: logout
+      responses:
+        200:
+          description: Succesfully logged out and revoked tokens
+      security:
+      - Bearer: []
+  
+  /api/profile:
+    get:
+      tags:
+        - User Endpoints
+      summary: View Profile Section
+      operationId: viewUser
+      responses:
+        200:
+          description: Returns Profile
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  email:
+                    type: string
+        401:
+          description: Unauthorized
+        404:
+          description: User not found
+          content: {}
+
+      security:
+      - Bearer: []
+
+  /api/profile/:
+    patch:
+      tags:
+      - User Endpoints
+      summary: Edit Profile
+      operationId: editProfile
+      requestBody:
+        required: True
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+      responses:
+        200:
+          description: Succesfully edited user.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  email:
+                    type: string
+        400:
+          description: Bad input
+          content: {}
+        401:
+          description: Unauthorized
+
+      security:
+      - Bearer: []       
+
+components:
+
+  securitySchemes:
+    Bearer:
+      type: apiKey
+      name: Authorization
+      in: header

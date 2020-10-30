@@ -1,0 +1,8 @@
+static
+*.json
+*.js
+*.png
+*.html
+*ttf
+*.txt
+*.ico
