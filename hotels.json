@@ -1,0 +1,479 @@
+{
+  "151699": {
+    "data": {
+      "body": {
+        "overview": {
+          "overviewSections": [
+            {
+              "title": "Main amenities",
+              "type": "HOTEL_FEATURE",
+              "content": [
+                "403 guestrooms",
+                "Daily housekeeping",
+                "Golf course",
+                "5 restaurants and bar/lounge",
+                "Full-service spa",
+                "Outdoor pool",
+                "Nightclub",
+                "Breakfast available",
+                "Health club",
+                "24-hour business center",
+                "Airport shuttle",
+                "In-room childcare",
+                "Free WiFi and free parking "
+              ],
+              "contentType": "LIST"
+            },
+            {
+              "title": "For families",
+              "type": "FAMILY_FRIENDLY_SECTION",
+              "content": [
+                "Free cribs/infant beds",
+                "In-room childcare (surcharge)",
+                "Babysitting or childcare (surcharge)",
+                "Rollaway/extra beds (surcharge)",
+                "Connecting/adjoining rooms available",
+                "Private bathroom"
+              ],
+              "contentType": "LIST"
+            },
+            {
+              "title": "What\u2019s around",
+              "type": "LOCATION_SECTION",
+              "content": [
+                "Heart of New Delhi",
+                "The Chanakya - 40 min walk",
+                "Rashtrapati Bhavan - 2.9 mi / 4.6 km",
+                "Lodhi Garden - 3.7 mi / 5.9 km",
+                "Khan Market - 4.2 mi / 6.8 km",
+                "India Gate - 4.7 mi / 7.5 km",
+                "DLF Promenade Vasant Kunj - 7.4 mi / 11.9 km",
+                "DLF Emporio Vasant Kunj - 7.5 mi / 12 km",
+                "Select CITYWALK - 8.7 mi / 14.1 km",
+                "DLF Cyber City - 9.9 mi / 15.9 km"
+              ],
+              "contentType": "LIST"
+            },
+            {
+              "type": "TAGLINE",
+              "content": [
+                "<b>Luxury hotel with full-service spa, connected to the convention center, near The Chanakya\n</b>"
+              ],
+              "contentType": "LIST"
+            },
+            {
+              "type": "HOTEL_FREEBIES",
+              "content": [
+                "Free WiFi and free parking"
+              ],
+              "contentType": "LIST"
+            }
+          ]
+        },
+        "propertyDescription": {
+          "clientToken": "Ei-CExS-3cXlW9Xxnovf0BhEbQk.",
+          "address": {
+            "countryName": "India",
+            "cityName": "New Delhi",
+            "postalCode": "110 021",
+            "provinceName": "Delhi N.C.R",
+            "addressLine1": "2 Sardar Patel Marg",
+            "countryCode": "IND",
+            "pattern": "AddressLine1,#AddressLine2,#CityName,#ProvinceName,#PostalCode,#CountryName",
+            "fullAddress": "2 Sardar Patel Marg, New Delhi, Delhi N.C.R, 110 021, India"
+          },
+          "priceMatchEnabled": false,
+          "name": "Taj Palace, New Delhi",
+          "starRatingTitle": "5 stars",
+          "starRating": 5.0,
+          "featuredPrice": {
+            "beforePriceText": "Lowest price",
+            "afterPriceText": "",
+            "pricingAvailability": "available on 11/02/20",
+            "pricingTooltip": "Price may be available on other dates",
+            "currentPrice": {
+              "formatted": "Rs4,750",
+              "plain": 4750.0
+            },
+            "taxInclusiveFormatting": false,
+            "bookNowButton": false
+          },
+          "mapWidget": {
+            "staticMapUrl": "https://maps-api-ssl.google.com/maps/api/staticmap?center=28.596333,77.170013&format=jpg&sensor=false&key=AIzaSyDaDqDNrxWrxcURixO2l6TbtV68X0Klf4U&zoom=16&size=834x443&scale&signature&signature=RQicIqWlRcV5DisERlVF7yb72oA="
+          },
+          "roomTypeNames": [
+            "Deluxe Room, 1 King Bed",
+            "Luxury Suite, 1 Way Transfer, Lounge Access, Cocktail Hours",
+            "Deluxe Room, 2 Twin Beds",
+            "Luxury Room, 1 King Bed",
+            "Luxury Room, 2 Twin Beds",
+            "Taj Club Room, King Bed, 1 Way Transfer, Lounge Access, Cocktail Hours",
+            "Executive Suite, 1 Way Transfer, Lounge Access, Cocktail Hours",
+            "Taj Club Premium Room, King Bed, 1 Way Transfer, Lounge Access, Cocktail Hours",
+            "Taj Club Room, Twin Bed, 1 Way Transfer, Lounge Access, Cocktail Hours",
+            "Garden Luxury Suite, 1 Way Transfer, Lounge Access, Cocktail Hours",
+            "Presidential Suite, 2 Way Transfer, Lounge Access, Cocktail Hours",
+            "Garden Presidential Suite, 2 Bedroom, 2 Way Transfer, Lounge Access, Cocktail Hours",
+            "Superior Room, 1 Queen Bed",
+            "Tata Suite, 2 Bedroom, 2 Way Transfer, Lounge Access, Cocktail Hours",
+            "Superior Room, 2 Twin Beds"
+          ],
+          "tagline": [
+            "<b>Luxury hotel with full-service spa, connected to the convention center, near The Chanakya\n</b>"
+          ],
+          "freebies": [
+            "Free WiFi and free parking"
+          ]
+        },
+        "guestReviews": {
+          "brands": {
+            "rating": 9.0,
+            "total": 550
+          },
+          "trustYouReviews": [
+            {
+              "categoryName": "Wellness Area",
+              "percentage": "88",
+              "text": "Great wellness & sports facilities",
+              "sentiment": "pos"
+            },
+            {
+              "categoryName": "Vibe",
+              "percentage": "88",
+              "text": "Awesome vibe",
+              "sentiment": "pos"
+            },
+            {
+              "categoryName": "Service",
+              "percentage": "87",
+              "text": "Fantastic service",
+              "sentiment": "pos"
+            },
+            {
+              "categoryName": "Location",
+              "percentage": "87",
+              "text": "Great location",
+              "sentiment": "pos"
+            }
+          ]
+        },
+        "atAGlance": {
+          "keyFacts": {
+            "hotelSize": [
+              "This hotel has 403 rooms",
+              "This hotel is arranged over 8 floors"
+            ],
+            "arrivingLeaving": [
+              "Check-in time 2:00 PM-2:00 AM",
+              "Check-out time is  11:00 AM",
+              "Express check-in/out"
+            ],
+            "specialCheckInInstructions": [
+              "The check-in location differs from the property location. To check in, go to Taj Club Reception for Taj Club Rooms and Suites This property doesn't offer after-hours check-in. Guests must contact the property in advance for check-in instructions. Front desk staff will greet guests on arrival. To register at this property, guests who are Indian citizens must provide a valid photo identity card issued by the Government of India; Permanent Account Number (PAN) cards will not be accepted due to national regulations. Guests who are foreign nationals must present a valid passport and visa. Indian citizens must show a PAN card at check-out for cash transactions exceeding INR 25000."
+            ],
+            "requiredAtCheckIn": [
+              "Credit card, debit card, or cash deposit required for incidental charges",
+              "Government-issued photo ID may be required",
+              "Minimum check-in age is 18"
+            ]
+          },
+          "travellingOrInternet": {
+            "travelling": {
+              "children": [
+                "Up to 2 children (8 years old and younger) stay free when occupying the parent or guardian's room, using existing bedding",
+                "Babysitting/childcare *"
+              ],
+              "pets": [
+                "No pets or service animals allowed"
+              ],
+              "extraPeople": []
+            },
+            "internet": [
+              "Free WiFi in public areas (4-device limit)",
+              "Free WiFi (4-device limit) and wired Internet access in rooms"
+            ]
+          },
+          "transportAndOther": {
+            "transport": {
+              "transfers": [
+                "Airport shuttle (available 24 hours) *"
+              ],
+              "parking": [
+                "<em>Free</em> valet parking on site (limited)",
+                "<em>Free</em> street parking nearby"
+              ],
+              "offsiteTransfer": []
+            },
+            "otherInformation": [],
+            "otherInclusions": []
+          }
+        },
+        "amenities": [
+          {
+            "heading": "In the hotel",
+            "listItems": [
+              {
+                "heading": "Taking the kids?",
+                "listItems": [
+                  "In-room childcare (surcharge)"
+                ]
+              },
+              {
+                "heading": "Food and drink",
+                "listItems": [
+                  "Buffet breakfast daily (surcharge)",
+                  "5 restaurants",
+                  "Bar/lounge",
+                  "Coffee shop/caf\u00e9",
+                  "Snack bar/deli",
+                  "24-hour room service",
+                  "Coffee/tea in a common area",
+                  "Barbecue grills",
+                  "Hosted evening meal daily (surcharge; reservations required)"
+                ]
+              },
+              {
+                "heading": "Things to do",
+                "listItems": [
+                  "Outdoor pool",
+                  "Free pool cabanas",
+                  "24-hour fitness facilities",
+                  "Golf course on site",
+                  "Full-service spa",
+                  "Spa treatment room(s)",
+                  "Miniature golf on site",
+                  "Yoga classes/instruction on site",
+                  "Golfing nearby",
+                  "Nightclub",
+                  "Pool sun loungers",
+                  "Health club",
+                  "Spa tub",
+                  "Pool umbrellas",
+                  "Steam room"
+                ]
+              },
+              {
+                "heading": "Working away",
+                "listItems": [
+                  "24-hour business center",
+                  "Number of meeting rooms -  5",
+                  "Conference space",
+                  "Conference space size (feet) -  50000",
+                  "Conference space size (meters) -  4645",
+                  "Conference center",
+                  "Computer station"
+                ]
+              },
+              {
+                "heading": "Services",
+                "listItems": [
+                  "24-hour front desk",
+                  "Concierge services",
+                  "Tours/ticket assistance",
+                  "Dry cleaning/laundry service",
+                  "Laundry facilities",
+                  "Hair salon",
+                  "Free newspapers in lobby",
+                  "Luggage storage",
+                  "Wedding services",
+                  "Multilingual staff",
+                  "Porter/bellhop"
+                ]
+              },
+              {
+                "heading": "Facilities",
+                "listItems": [
+                  "Number of buildings/towers -  1",
+                  "Year Built -  1982",
+                  "Elevator",
+                  "ATM/banking",
+                  "Safe-deposit box at front desk",
+                  "Designated smoking areas (fines apply)",
+                  "Garden",
+                  "Picnic area",
+                  "Terrace"
+                ]
+              },
+              {
+                "heading": "Accessibility",
+                "listItems": [
+                  "Braille or raised signage",
+                  "Accessible bathroom",
+                  "In-room accessibility",
+                  "Roll-in shower",
+                  "Wheelchair accessible",
+                  "Wheelchair-accessible path of travel",
+                  "Wheelchair-accessible parking",
+                  "Wheelchair-accessible public restroom",
+                  "Wheelchair-accessible concierge desk",
+                  "Wheelchair-accessible van parking",
+                  "Valet for wheelchair-equipped vehicle",
+                  "Wheelchair-accessible path to lift",
+                  "Wheelchair-accessible registration desk",
+                  "Wheelchair-accessible spa",
+                  "Wheelchair-accessible pool",
+                  "Wheelchair-accessible fitness center",
+                  "Wheelchair-accessible meeting spaces/business center",
+                  "Wheelchair-accessible on-site restaurant",
+                  "Wheelchair-accessible lounge",
+                  "Wheelchairs available on site",
+                  "Braille signage",
+                  "Raised toilet seat",
+                  "Low-height counters/sink",
+                  "Grab bar - near toilet",
+                  "Bathroom emergency pull cord"
+                ]
+              },
+              {
+                "heading": "Languages Spoken",
+                "listItems": [
+                  "English",
+                  "Hindi"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "In the room",
+            "listItems": [
+              {
+                "heading": "Home comforts",
+                "listItems": [
+                  "Air conditioning",
+                  "Minibar",
+                  "Bathrobes",
+                  "Slippers",
+                  "Iron/ironing board (on request)"
+                ]
+              },
+              {
+                "heading": "Sleep well",
+                "listItems": [
+                  "Hypo-allergenic bedding available",
+                  "Blackout drapes/curtains",
+                  "Turndown service",
+                  "Premium bedding"
+                ]
+              },
+              {
+                "heading": "Things to enjoy",
+                "listItems": [
+                  "Individually decorated",
+                  "Individually furnished"
+                ]
+              },
+              {
+                "heading": "Freshen up",
+                "listItems": [
+                  "Private bathroom",
+                  "Shower/tub combination",
+                  "Designer toiletries",
+                  "Hair dryer"
+                ]
+              },
+              {
+                "heading": "Be entertained",
+                "listItems": [
+                  "32-inch LED TV",
+                  "Pay movies",
+                  "Premium TV channels",
+                  "DVD player"
+                ]
+              },
+              {
+                "heading": "Stay connected",
+                "listItems": [
+                  "Desk",
+                  "Free newspaper",
+                  "Free WiFi",
+                  "Phone"
+                ]
+              },
+              {
+                "heading": "Food and drink",
+                "listItems": [
+                  "Free bottled water"
+                ]
+              },
+              {
+                "heading": "More",
+                "listItems": [
+                  "Daily housekeeping",
+                  "In-room safe",
+                  "Connecting/adjoining rooms available"
+                ]
+              }
+            ]
+          }
+        ],
+        "specialFeatures": {
+          "sections": [
+            {
+              "heading": "Spa",
+              "freeText": "<strong>Jiva</strong> has 4 treatment rooms including rooms for couples. Services include deep-tissue massages, facials, body wraps, and body scrubs. A variety of treatment therapies are provided, including aromatherapy. The spa is equipped with a spa tub and a steam room. <p>The spa is open daily. </p>",
+              "listItems": [],
+              "subsections": []
+            },
+            {
+              "heading": "Dining",
+              "freeText": "<strong>Orient Express</strong> - This fine-dining restaurant specializes in French cuisine and serves dinner only. Guests can enjoy drinks at the bar. Reservations are required. <br/>\n<p></p><strong>Masala Art</strong> - This family restaurant specializes in Indian cuisine and serves lunch and dinner. Guests can enjoy drinks at the bar. Reservations are required. Open daily. <br/>\n<p></p><strong>Spicy Duck</strong> - Overlooking the pool, this family restaurant specializes in Chinese cuisine and serves lunch and dinner. Guests can enjoy drinks at the bar. Reservations are required. Open daily. <br/>\n<p></p><strong>Blue Bar</strong> - Overlooking the pool and garden, this bar specializes in Asian cuisine and serves light fare only. Guests can enjoy alfresco dining (weather permitting). Reservations are required. Open daily. <br/>\n<p></p><strong>Capital Kitchen</strong> - This poolside family restaurant specializes in international cuisine and serves breakfast, brunch, lunch, and dinner. Guests can order drinks at the bar and enjoy alfresco dining (weather permitting). A children's menu is available. Open 24 hours. Reservations are required. Open daily. ",
+              "listItems": [],
+              "subsections": []
+            },
+            {
+              "heading": "Awards and affiliations",
+              "freeText": "<strong>Green / Sustainable Property </strong><br /> This property participates in EarthCheck, a program that measures the property's impact on one or more of the following: environment, community, cultural-heritage, the local economy. <br/>\nTaj Palace, New Delhi is listed in the 2012 <em>Cond\u00e9 Nast Traveler</em> Top 100 List. ",
+              "listItems": [],
+              "subsections": []
+            }
+          ]
+        }
+      }
+    },
+    "transportation": {
+      "transportLocations": [
+        {
+          "category": "airport",
+          "locations": [
+            {
+              "name": "Indira Gandhi Intl. Airport (DEL) -",
+              "distance": "",
+              "distanceInTime": "30 min drive"
+            }
+          ]
+        },
+        {
+          "category": "train-station",
+          "locations": [
+            {
+              "name": "New Delhi Sardar Patel Station -",
+              "distance": "",
+              "distanceInTime": "2 min walk"
+            },
+            {
+              "name": "New Delhi Chanakyapuri Station -",
+              "distance": "",
+              "distanceInTime": "22 min walk"
+            },
+            {
+              "name": "New Delhi Sarojini Nagar Station -",
+              "distance": "",
+              "distanceInTime": "5 min drive"
+            }
+          ]
+        },
+        {
+          "category": "shuttle",
+          "locations": [
+            {
+              "name": "Airport shuttle (surcharge)"
+            }
+          ]
+        }
+      ]
+    },
+    "neighborhood": {
+      "neighborhoodName": "Connaught Place"
+    }
+  }
+}
