@@ -1,4 +1,7 @@
 .env
+.vscode
 .DS_Store
 fbAdminConfig.json
 backup
+
+env/

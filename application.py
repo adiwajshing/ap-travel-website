@@ -226,6 +226,22 @@ def editUser(authDict):
 
     return json.dumps(data, indent=4)
 
+# Homepage
+@app.route('/api', methods=["GET"])
+def homepage():
+    cities = json.load(open("cities.json"))
+    
+    return json.dumps(cities, indent=4), 200
+
+# Citywise hotel search
+@app.route('/api/citySearch/<string:city>', methods=['GET'])
+def citySearch(city):
+    hotel_data = json.load(open("cityWiseHotels.json"))
+    search_by_city = hotel_data.get(city)
+    
+    return json.dumps(search_by_city, indent=4), 200
+
+
 #=========================
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=True)
