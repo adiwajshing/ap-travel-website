@@ -9,9 +9,9 @@ default_app = firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
-cities = json.load(open("cities.json"))
-hotel_summary = json.load(open("hotelSummary.json"))
-allHotels = json.load(open('allHotels.json'))
+cities = json.load(open("backup/cities.json"))
+hotel_summary = json.load(open("backup/hotelSummary.json"))
+allHotels = json.load(open('backup/allHotels.json'))
 
 def addCities():
 
