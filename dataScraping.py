@@ -34,8 +34,6 @@ def locationId_GET(fileName='cities'):
         print('=======================')
 
     json_object = json.dumps(locationId_JSON, indent = 2) 
-  
-    # Writing to sample.json 
     with open(str(fileName) + ".json", "w") as outfile: 
         outfile.write(json_object)
 
@@ -111,8 +109,6 @@ def properties_GET(fileName='cityWiseHotels'):
         properties_JSON[key] = propertyList
     
     json_object = json.dumps(properties_JSON, indent = 2) 
-
-    # Writing to sample.json 
     with open(str(fileName) + ".json", "w") as outfile: 
         outfile.write(json_object)
 
@@ -133,8 +129,6 @@ def hotelSummary(fileName='hotelSummary'):
         print(f'{i - j}: {city} Hotels')
     
     json_object = json.dumps(finalJSON, indent = 2) 
-
-    # Writing to sample.json 
     with open(str(fileName) + ".json", "w") as outfile: 
         outfile.write(json_object)
 
@@ -279,7 +273,59 @@ def hotelDetails(fileName='allHotels'):
                 outfile.write(json_object)
 
     json_object = json.dumps(finalJSON, indent = 2) 
-
-    # Writing to sample.json 
     with open(str(fileName) + ".json", "w") as outfile: 
+        outfile.write(json_object)
+
+def editReviews():
+
+    cityWiseJSON = json.load(open('backup/cityWiseHotels.json'))
+    hotelSummaryJSON = json.load(open('backup/hotelSummary.json'))
+    allHotels = json.load(open('backup/allHotels.json'))
+
+    counter = -1
+
+    for hotel, summary in allHotels.items():
+
+        counter += 1
+        totalRating = 0
+
+        if len(summary['reviews']) > 0:
+
+            for r in summary['reviews']:
+                totalRating += r['rating']
+            
+            summary['rating'] = round(totalRating/len(summary['reviews']), 1)
+        
+        else:
+
+            name = random.choice(['Tanish', 'Pritish', 'Adhiraj', 'Professor', 'Koishore', 'Debargha', 'Akhil', 'Arup'])
+            reviewId = ''.join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase, k = 20))
+            review = random.choice(['Amazing hotel', 'Good locations', 'Had a nice stay', 'Lovely staff'])
+            rating = float(random.randint(6,10))
+            reviewArray = [{
+                'id': reviewId,
+                'name': name,
+                'title': 'Honest Opinion',
+                'review': review,
+                'rating': rating
+            }]
+
+            summary['reviews'] = reviewArray
+            summary['rating'] = rating
+        
+        cityWiseJSON[summary['city']][summary['title']]['rating'] = summary['rating']
+        hotelSummaryJSON[summary['title']]['rating'] = summary['rating']
+        allHotels[hotel] = summary
+
+
+    json_object = json.dumps(cityWiseJSON, indent = 2) 
+    with open(str('cityWiseJSON') + ".json", "w") as outfile: 
+        outfile.write(json_object)
+    
+    json_object = json.dumps(hotelSummaryJSON, indent = 2) 
+    with open(str('hotelSummaryJSON') + ".json", "w") as outfile: 
+        outfile.write(json_object)
+    
+    json_object = json.dumps(allHotels, indent = 2) 
+    with open(str('allHotels') + ".json", "w") as outfile: 
         outfile.write(json_object)

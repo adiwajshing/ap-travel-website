@@ -13,7 +13,7 @@
         "savings_percent": 11
       },
       "starRating": 4,
-      "rating": 8.4,
+      "rating": 8.6,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -37,7 +37,7 @@
         "savings_percent": 12
       },
       "starRating": 5,
-      "rating": 8.2,
+      "rating": 7.4,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -61,7 +61,7 @@
         "savings_percent": 15
       },
       "starRating": 3,
-      "rating": 8.2,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -85,7 +85,7 @@
         "savings_percent": 16
       },
       "starRating": 3,
-      "rating": 9.0,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -109,7 +109,7 @@
         "savings_percent": 44
       },
       "starRating": 4,
-      "rating": 7.0,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -133,7 +133,7 @@
         "savings_percent": 15
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 8.8,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -157,7 +157,7 @@
         "savings_percent": 5
       },
       "starRating": 3,
-      "rating": 7.0,
+      "rating": 9.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -205,7 +205,7 @@
         "savings_percent": 21
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -229,7 +229,7 @@
         "savings_percent": 13
       },
       "starRating": 4,
-      "rating": 8.4,
+      "rating": 8.5,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -253,7 +253,7 @@
         "savings_percent": 22
       },
       "starRating": 5,
-      "rating": 6.6,
+      "rating": 7.6,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -277,7 +277,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 8.8,
+      "rating": 8.4,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -325,7 +325,7 @@
         "savings_percent": 10
       },
       "starRating": 5,
-      "rating": 9.6,
+      "rating": 9.2,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -349,7 +349,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 10.0,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -373,7 +373,7 @@
         "savings_percent": 13
       },
       "starRating": 3,
-      "rating": 7.8,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -397,7 +397,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 7.6,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -421,7 +421,7 @@
         "savings_percent": 52
       },
       "starRating": 3,
-      "rating": 7.2,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -445,7 +445,7 @@
         "savings_percent": 19
       },
       "starRating": 3,
-      "rating": 9.0,
+      "rating": 7.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -469,7 +469,7 @@
         "savings_percent": 12
       },
       "starRating": 5,
-      "rating": 8.6,
+      "rating": 6.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -493,7 +493,7 @@
         "savings_percent": 52
       },
       "starRating": 3,
-      "rating": 10.0,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -519,7 +519,7 @@
         "savings_percent": 36
       },
       "starRating": 4,
-      "rating": 7.4,
+      "rating": 6.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -543,7 +543,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 7.4,
+      "rating": 6.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -567,7 +567,7 @@
         "savings_percent": 10
       },
       "starRating": 5,
-      "rating": 9.0,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -591,7 +591,7 @@
         "savings_percent": 11
       },
       "starRating": 4,
-      "rating": 9.2,
+      "rating": 8.3,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -615,7 +615,7 @@
         "savings_percent": 11
       },
       "starRating": 4,
-      "rating": 7.8,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -639,7 +639,7 @@
         "savings_percent": 10
       },
       "starRating": 3,
-      "rating": 6.2,
+      "rating": 8.8,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -663,7 +663,7 @@
         "savings_percent": 21
       },
       "starRating": 5,
-      "rating": 7.6,
+      "rating": 6.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -687,7 +687,7 @@
         "savings_percent": 21
       },
       "starRating": 4,
-      "rating": 8.2,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -711,7 +711,7 @@
         "savings_percent": 12
       },
       "starRating": 3,
-      "rating": 8.2,
+      "rating": 8.3,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -735,7 +735,7 @@
         "savings_percent": 12
       },
       "starRating": 4,
-      "rating": 8.6,
+      "rating": 8.8,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -759,7 +759,7 @@
         "savings_percent": 31
       },
       "starRating": 4,
-      "rating": 6.2,
+      "rating": 6.3,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -783,7 +783,7 @@
         "savings_percent": 31
       },
       "starRating": 4,
-      "rating": 7.6,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -831,7 +831,7 @@
         "savings_percent": 12
       },
       "starRating": 4,
-      "rating": 7.8,
+      "rating": 7.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -855,7 +855,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -879,7 +879,7 @@
         "savings_percent": 12
       },
       "starRating": 4,
-      "rating": 7.8,
+      "rating": 6.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -903,7 +903,7 @@
         "savings_percent": 47
       },
       "starRating": 5,
-      "rating": 8.8,
+      "rating": 8.3,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -927,7 +927,7 @@
         "savings_percent": 11
       },
       "starRating": 4,
-      "rating": 8.0,
+      "rating": 7.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -951,7 +951,7 @@
         "savings_percent": 11
       },
       "starRating": 4,
-      "rating": 7.6,
+      "rating": 8.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -975,7 +975,7 @@
         "savings_percent": 11
       },
       "starRating": 3,
-      "rating": 8.2,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1001,7 +1001,7 @@
         "savings_percent": 2
       },
       "starRating": 5,
-      "rating": 9.4,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1025,7 +1025,7 @@
         "savings_percent": 16
       },
       "starRating": 4,
-      "rating": 9.4,
+      "rating": 8.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1049,7 +1049,7 @@
         "savings_percent": 35
       },
       "starRating": 5,
-      "rating": 8.4,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1073,7 +1073,7 @@
         "savings_percent": 23
       },
       "starRating": 3,
-      "rating": 7.0,
+      "rating": 8.5,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1097,7 +1097,7 @@
         "savings_percent": 4
       },
       "starRating": 4,
-      "rating": 8.2,
+      "rating": 7.1,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1121,7 +1121,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 9.0,
+      "rating": 8.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -1145,7 +1145,7 @@
         "savings_percent": 10
       },
       "starRating": 4,
-      "rating": 6.0,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1169,7 +1169,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 9.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1193,7 +1193,7 @@
         "savings_percent": 38
       },
       "starRating": 4,
-      "rating": 6.4,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1217,7 +1217,7 @@
         "savings_percent": 12
       },
       "starRating": 5,
-      "rating": 8.0,
+      "rating": 7.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1241,7 +1241,7 @@
         "savings_percent": 41
       },
       "starRating": 3,
-      "rating": 10.0,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1265,7 +1265,7 @@
         "savings_percent": 38
       },
       "starRating": 5,
-      "rating": 9.6,
+      "rating": 9.3,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1289,7 +1289,7 @@
         "savings_percent": 2
       },
       "starRating": 4,
-      "rating": 8.8,
+      "rating": 9.2,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1313,7 +1313,7 @@
         "savings_percent": 13
       },
       "starRating": 4,
-      "rating": 8.4,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1337,7 +1337,7 @@
         "savings_percent": 25
       },
       "starRating": 3,
-      "rating": 10.0,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1361,7 +1361,7 @@
         "savings_percent": 44
       },
       "starRating": 5,
-      "rating": 7.8,
+      "rating": 8.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1385,7 +1385,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 9.0,
+      "rating": 7.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -1409,7 +1409,7 @@
         "savings_percent": 18
       },
       "starRating": 3,
-      "rating": 6.0,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1433,7 +1433,7 @@
         "savings_percent": 34
       },
       "starRating": 5,
-      "rating": 9.0,
+      "rating": 9.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1457,7 +1457,7 @@
         "savings_percent": 27
       },
       "starRating": 4,
-      "rating": 7.6,
+      "rating": 6.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1481,7 +1481,7 @@
         "savings_percent": 4
       },
       "starRating": 3,
-      "rating": 8.2,
+      "rating": 7.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1507,7 +1507,7 @@
         "savings_percent": 4
       },
       "starRating": 5,
-      "rating": 8.6,
+      "rating": 8.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1531,7 +1531,7 @@
         "savings_percent": 18
       },
       "starRating": 4,
-      "rating": 7.2,
+      "rating": 7.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1555,7 +1555,7 @@
         "savings_percent": 27
       },
       "starRating": 4,
-      "rating": 7.8,
+      "rating": 7.1,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1579,7 +1579,7 @@
         "savings_percent": 22
       },
       "starRating": 5,
-      "rating": 7.8,
+      "rating": 9.6,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1603,7 +1603,7 @@
         "savings_percent": 4
       },
       "starRating": 4,
-      "rating": 8.8,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1627,7 +1627,7 @@
         "savings_percent": 28
       },
       "starRating": 3,
-      "rating": 7.6,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1651,7 +1651,7 @@
         "savings_percent": 3
       },
       "starRating": 5,
-      "rating": 9.0,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1675,7 +1675,7 @@
         "savings_percent": 68
       },
       "starRating": 3,
-      "rating": 6.6,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1699,7 +1699,7 @@
         "savings_percent": 62
       },
       "starRating": 3,
-      "rating": 6.0,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1723,7 +1723,7 @@
         "savings_percent": 68
       },
       "starRating": 3,
-      "rating": 6.6,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1747,7 +1747,7 @@
         "savings_percent": 39
       },
       "starRating": 5,
-      "rating": 8.0,
+      "rating": 7.2,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1771,7 +1771,7 @@
         "savings_percent": 50
       },
       "starRating": 3,
-      "rating": 8.0,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1795,7 +1795,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 8.6,
+      "rating": 6.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1819,7 +1819,7 @@
         "savings_percent": 13
       },
       "starRating": 4,
-      "rating": 5.0,
+      "rating": 2.8,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1843,7 +1843,7 @@
         "savings_percent": 25
       },
       "starRating": 5,
-      "rating": 8.2,
+      "rating": 8.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1867,7 +1867,7 @@
         "savings_percent": 20
       },
       "starRating": 5,
-      "rating": 8.4,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1891,7 +1891,7 @@
         "savings_percent": 15
       },
       "starRating": 3,
-      "rating": 7.0,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1915,7 +1915,7 @@
         "savings_percent": 61
       },
       "starRating": 3,
-      "rating": 4.0,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1939,7 +1939,7 @@
         "savings_percent": 14
       },
       "starRating": 3,
-      "rating": 6.0,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -1963,7 +1963,7 @@
         "savings_percent": 14
       },
       "starRating": 3,
-      "rating": 7.0,
+      "rating": 6.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -1987,7 +1987,7 @@
         "savings_percent": 14
       },
       "starRating": 3,
-      "rating": 5.6,
+      "rating": 7.2,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2011,7 +2011,7 @@
         "savings_percent": 14
       },
       "starRating": 3,
-      "rating": 6.0,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2035,7 +2035,7 @@
         "savings_percent": 12
       },
       "starRating": 3,
-      "rating": 7.0,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2061,7 +2061,7 @@
         "savings_percent": 10
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 9.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2085,7 +2085,7 @@
         "savings_percent": 22
       },
       "starRating": 3,
-      "rating": 8.0,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2109,7 +2109,7 @@
         "savings_percent": 36
       },
       "starRating": 5,
-      "rating": 8.8,
+      "rating": 9.2,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2133,7 +2133,7 @@
         "savings_percent": 10
       },
       "starRating": 4,
-      "rating": 9.8,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2157,7 +2157,7 @@
         "savings_percent": 18
       },
       "starRating": 4,
-      "rating": 7.4,
+      "rating": 6.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2205,7 +2205,7 @@
         "savings_percent": 11
       },
       "starRating": 4,
-      "rating": 6.8,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2229,7 +2229,7 @@
         "savings_percent": 2
       },
       "starRating": 3,
-      "rating": 6.0,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2253,7 +2253,7 @@
         "savings_percent": 61
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2277,7 +2277,7 @@
         "savings_percent": 23
       },
       "starRating": 5,
-      "rating": 9.4,
+      "rating": 8.2,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2301,7 +2301,7 @@
         "savings_percent": 18
       },
       "starRating": 4,
-      "rating": 7.8,
+      "rating": 8.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2325,7 +2325,7 @@
         "savings_percent": 22
       },
       "starRating": 4,
-      "rating": 7.6,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2349,7 +2349,7 @@
         "savings_percent": 50
       },
       "starRating": 3,
-      "rating": 8.0,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2373,7 +2373,7 @@
         "savings_percent": 60
       },
       "starRating": 3,
-      "rating": 9.4,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2397,7 +2397,7 @@
         "savings_percent": 60
       },
       "starRating": 3,
-      "rating": 9.0,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2421,7 +2421,7 @@
         "savings_percent": 17
       },
       "starRating": 4,
-      "rating": 8.4,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2445,7 +2445,7 @@
         "savings_percent": 15
       },
       "starRating": 4,
-      "rating": 9.0,
+      "rating": 9.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2469,7 +2469,7 @@
         "savings_percent": 22
       },
       "starRating": 4,
-      "rating": 9.2,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2517,7 +2517,7 @@
         "savings_percent": 5
       },
       "starRating": 3,
-      "rating": 7.4,
+      "rating": 6.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2541,7 +2541,7 @@
         "savings_percent": 12
       },
       "starRating": 3,
-      "rating": 8.0,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2565,7 +2565,7 @@
         "savings_percent": 23
       },
       "starRating": 3,
-      "rating": 4.0,
+      "rating": 6.6,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2589,7 +2589,7 @@
         "savings_percent": 28
       },
       "starRating": 4,
-      "rating": 5.6,
+      "rating": 5.4,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2615,7 +2615,7 @@
         "savings_percent": 60
       },
       "starRating": 4,
-      "rating": 8.6,
+      "rating": 8.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2639,7 +2639,7 @@
         "savings_percent": 35
       },
       "starRating": 4,
-      "rating": 9.0,
+      "rating": 7.7,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2663,7 +2663,7 @@
         "savings_percent": 60
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 7.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2687,7 +2687,7 @@
         "savings_percent": 21
       },
       "starRating": 3,
-      "rating": 9.2,
+      "rating": 7.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2711,7 +2711,7 @@
         "savings_percent": 12
       },
       "starRating": 3,
-      "rating": 9.4,
+      "rating": 9.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2735,7 +2735,7 @@
         "savings_percent": 39
       },
       "starRating": 3,
-      "rating": 8.4,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -2759,7 +2759,7 @@
         "savings_percent": 32
       },
       "starRating": 4,
-      "rating": 8.0,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2783,7 +2783,7 @@
         "savings_percent": 19
       },
       "starRating": 3,
-      "rating": 9.2,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2807,7 +2807,7 @@
         "savings_percent": 11
       },
       "starRating": 3,
-      "rating": 8.0,
+      "rating": 9.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2831,7 +2831,7 @@
         "savings_percent": 11
       },
       "starRating": 3,
-      "rating": 7.8,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -2855,7 +2855,7 @@
         "savings_percent": 27
       },
       "starRating": 3,
-      "rating": 9.2,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2879,7 +2879,7 @@
         "savings_percent": 31
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2903,7 +2903,7 @@
         "savings_percent": 12
       },
       "starRating": 3,
-      "rating": 8.8,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2927,7 +2927,7 @@
         "savings_percent": 12
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -2951,7 +2951,7 @@
         "savings_percent": 12
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 8.8,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -2975,7 +2975,7 @@
         "savings_percent": 41
       },
       "starRating": 3,
-      "rating": 8.8,
+      "rating": 6.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -2999,7 +2999,7 @@
         "savings_percent": 21
       },
       "starRating": 3,
-      "rating": 9.0,
+      "rating": 6.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -3023,7 +3023,7 @@
         "savings_percent": 30
       },
       "starRating": 4,
-      "rating": 9.4,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3047,7 +3047,7 @@
         "savings_percent": 53
       },
       "starRating": 3,
-      "rating": 8.8,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3071,7 +3071,7 @@
         "savings_percent": 20
       },
       "starRating": 4,
-      "rating": 9.2,
+      "rating": 8.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3095,7 +3095,7 @@
         "savings_percent": 12
       },
       "starRating": 4,
-      "rating": 8.2,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -3119,7 +3119,7 @@
         "savings_percent": 21
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -3143,7 +3143,7 @@
         "savings_percent": 17
       },
       "starRating": 3,
-      "rating": 9.0,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3167,7 +3167,7 @@
         "savings_percent": 26
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3193,7 +3193,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3217,7 +3217,7 @@
         "savings_percent": 40
       },
       "starRating": 4,
-      "rating": 8.0,
+      "rating": 7.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3241,7 +3241,7 @@
         "savings_percent": 38
       },
       "starRating": 4,
-      "rating": 8.4,
+      "rating": 7.6,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3265,7 +3265,7 @@
         "savings_percent": 41
       },
       "starRating": 4,
-      "rating": 7.4,
+      "rating": 7.2,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3289,7 +3289,7 @@
         "savings_percent": 40
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3313,7 +3313,7 @@
         "savings_percent": 0
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3337,7 +3337,7 @@
         "savings_percent": 52
       },
       "starRating": 4,
-      "rating": 7.6,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3361,7 +3361,7 @@
         "savings_percent": 15
       },
       "starRating": 4,
-      "rating": 8.4,
+      "rating": 8.7,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3385,7 +3385,7 @@
         "savings_percent": 11
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 8.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3409,7 +3409,7 @@
         "savings_percent": 48
       },
       "starRating": 5,
-      "rating": 9.0,
+      "rating": 8.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3433,7 +3433,7 @@
         "savings_percent": 23
       },
       "starRating": 4,
-      "rating": 7.8,
+      "rating": 8.7,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3457,7 +3457,7 @@
         "savings_percent": 16
       },
       "starRating": 4,
-      "rating": 8.2,
+      "rating": 8.4,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3481,7 +3481,7 @@
         "savings_percent": 20
       },
       "starRating": 4,
-      "rating": 9.4,
+      "rating": 10.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3505,7 +3505,7 @@
         "savings_percent": 23
       },
       "starRating": 3,
-      "rating": 8.4,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3529,7 +3529,7 @@
         "savings_percent": 19
       },
       "starRating": 3,
-      "rating": 6.4,
+      "rating": 9.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3553,7 +3553,7 @@
         "savings_percent": 60
       },
       "starRating": 4,
-      "rating": 9.4,
+      "rating": 9.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3577,7 +3577,7 @@
         "savings_percent": 23
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3601,7 +3601,7 @@
         "savings_percent": 27
       },
       "starRating": 4,
-      "rating": 7.8,
+      "rating": 8.2,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3649,7 +3649,7 @@
         "savings_percent": 25
       },
       "starRating": 4,
-      "rating": 8.6,
+      "rating": 8.8,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3673,7 +3673,7 @@
         "savings_percent": 10
       },
       "starRating": 4,
-      "rating": 8.8,
+      "rating": 8.9,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3697,7 +3697,7 @@
         "savings_percent": 39
       },
       "starRating": 4,
-      "rating": 8.6,
+      "rating": 8.8,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3721,7 +3721,7 @@
         "savings_percent": 20
       },
       "starRating": 4,
-      "rating": 8.6,
+      "rating": 7.6,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3745,7 +3745,7 @@
         "savings_percent": 20
       },
       "starRating": 3,
-      "rating": 8.0,
+      "rating": 7.6,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3771,7 +3771,7 @@
         "savings_percent": 79
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 8.4,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3795,7 +3795,7 @@
         "savings_percent": 18
       },
       "starRating": 4,
-      "rating": 8.0,
+      "rating": 7.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3819,7 +3819,7 @@
         "savings_percent": 25
       },
       "starRating": 4,
-      "rating": 8.6,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3867,7 +3867,7 @@
         "savings_percent": 20
       },
       "starRating": 4,
-      "rating": 8.2,
+      "rating": 8.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3891,7 +3891,7 @@
         "savings_percent": 18
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 8.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -3915,7 +3915,7 @@
         "savings_percent": 10
       },
       "starRating": 4,
-      "rating": 8.8,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3939,7 +3939,7 @@
         "savings_percent": 40
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 9.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3963,7 +3963,7 @@
         "savings_percent": 11
       },
       "starRating": 4,
-      "rating": 8.4,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -3987,7 +3987,7 @@
         "savings_percent": 10
       },
       "starRating": 5,
-      "rating": 9.0,
+      "rating": 8.3,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4011,7 +4011,7 @@
         "savings_percent": 38
       },
       "starRating": 4,
-      "rating": 9.0,
+      "rating": 8.2,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4035,7 +4035,7 @@
         "savings_percent": 11
       },
       "starRating": 3,
-      "rating": 8.2,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4059,7 +4059,7 @@
         "savings_percent": 1
       },
       "starRating": 3,
-      "rating": 9.0,
+      "rating": 7.5,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4083,7 +4083,7 @@
         "savings_percent": 15
       },
       "starRating": 4,
-      "rating": 9.2,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -4107,7 +4107,7 @@
         "savings_percent": 37
       },
       "starRating": 4,
-      "rating": 9.0,
+      "rating": 8.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -4131,7 +4131,7 @@
         "savings_percent": 1
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 8.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4155,7 +4155,7 @@
         "savings_percent": 0
       },
       "starRating": 5,
-      "rating": 9.6,
+      "rating": 8.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4179,7 +4179,7 @@
         "savings_percent": 16
       },
       "starRating": 5,
-      "rating": 8.6,
+      "rating": 7.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4203,7 +4203,7 @@
         "savings_percent": 10
       },
       "starRating": 5,
-      "rating": 9.4,
+      "rating": 8.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4227,7 +4227,7 @@
         "savings_percent": 21
       },
       "starRating": 3,
-      "rating": 8.0,
+      "rating": 7.4,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4251,7 +4251,7 @@
         "savings_percent": 30
       },
       "starRating": 4,
-      "rating": 8.0,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4275,7 +4275,7 @@
         "savings_percent": 23
       },
       "starRating": 4,
-      "rating": 7.6,
+      "rating": 6.6,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -4299,7 +4299,7 @@
         "savings_percent": 6
       },
       "starRating": 3,
-      "rating": 7.2,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4323,7 +4323,7 @@
         "savings_percent": 11
       },
       "starRating": 3,
-      "rating": 8.2,
+      "rating": 6.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4349,7 +4349,7 @@
         "savings_percent": 34
       },
       "starRating": 5,
-      "rating": 9.2,
+      "rating": 7.8,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4373,7 +4373,7 @@
         "savings_percent": 20
       },
       "starRating": 4,
-      "rating": 8.6,
+      "rating": 7.8,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4397,7 +4397,7 @@
         "savings_percent": 14
       },
       "starRating": 3,
-      "rating": 8.6,
+      "rating": 10.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4421,7 +4421,7 @@
         "savings_percent": 58
       },
       "starRating": 4,
-      "rating": 8.2,
+      "rating": 6.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4445,7 +4445,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 9.0,
+      "rating": 8.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4469,7 +4469,7 @@
         "savings_percent": 17
       },
       "starRating": 5,
-      "rating": 8.8,
+      "rating": 7.4,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4493,7 +4493,7 @@
         "savings_percent": 28
       },
       "starRating": 5,
-      "rating": 8.8,
+      "rating": 7.6,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4517,7 +4517,7 @@
         "savings_percent": 41
       },
       "starRating": 4,
-      "rating": 8.8,
+      "rating": 8.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4541,7 +4541,7 @@
         "savings_percent": 32
       },
       "starRating": 3,
-      "rating": 10.0,
+      "rating": 8.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4565,7 +4565,7 @@
         "savings_percent": 12
       },
       "starRating": 5,
-      "rating": 8.8,
+      "rating": 7.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -4589,7 +4589,7 @@
         "savings_percent": 14
       },
       "starRating": 3,
-      "rating": 9.0,
+      "rating": 6.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4613,7 +4613,7 @@
         "savings_percent": 45
       },
       "starRating": 5,
-      "rating": 8.8,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4637,7 +4637,7 @@
         "savings_percent": 11
       },
       "starRating": 4,
-      "rating": 8.6,
+      "rating": 8.5,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -4661,7 +4661,7 @@
         "savings_percent": 31
       },
       "starRating": 5,
-      "rating": 8.0,
+      "rating": 10.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4685,7 +4685,7 @@
         "savings_percent": 41
       },
       "starRating": 5,
-      "rating": 8.6,
+      "rating": 8.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4709,7 +4709,7 @@
         "savings_percent": 20
       },
       "starRating": 4,
-      "rating": 8.2,
+      "rating": 7.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -4733,7 +4733,7 @@
         "savings_percent": 27
       },
       "starRating": 4,
-      "rating": 7.6,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -4757,7 +4757,7 @@
         "savings_percent": 32
       },
       "starRating": 4,
-      "rating": 8.4,
+      "rating": 7.8,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -4781,7 +4781,7 @@
         "savings_percent": 31
       },
       "starRating": 4,
-      "rating": 8.4,
+      "rating": 6.9,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4805,7 +4805,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 8.2,
+      "rating": 10.0,
       "features": {
         "freeCancellation": false,
         "paymentPreference": false,
@@ -4829,7 +4829,7 @@
         "savings_percent": 23
       },
       "starRating": 3,
-      "rating": 9.4,
+      "rating": 9.0,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,
@@ -4853,7 +4853,7 @@
         "savings_percent": 21
       },
       "starRating": 5,
-      "rating": 9.0,
+      "rating": 8.7,
       "features": {
         "freeCancellation": true,
         "paymentPreference": false,
@@ -4877,7 +4877,7 @@
         "savings_percent": 11
       },
       "starRating": 5,
-      "rating": 8.8,
+      "rating": 8.1,
       "features": {
         "freeCancellation": true,
         "paymentPreference": true,

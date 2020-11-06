@@ -13,7 +13,7 @@
       "savings_percent": 11
     },
     "starRating": 4,
-    "rating": 8.4,
+    "rating": 8.6,
     "reviews": [
       {
         "id": "NVUwHAbkJ67k5LAzAE7Z",
@@ -131,7 +131,7 @@
       "savings_percent": 12
     },
     "starRating": 5,
-    "rating": 8.2,
+    "rating": 7.4,
     "reviews": [
       {
         "id": "jaBVWWemwS5q1q7cEO04",
@@ -245,7 +245,7 @@
       "savings_percent": 15
     },
     "starRating": 3,
-    "rating": 8.2,
+    "rating": 8.0,
     "reviews": [
       {
         "id": "WYuV7bezBOfxtmuTwyCG",
@@ -362,8 +362,16 @@
       "savings_percent": 16
     },
     "starRating": 3,
-    "rating": 9.0,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "7X8X18zoQ0QaVEbdzVVK",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "400 smoke-free guestrooms",
@@ -433,8 +441,16 @@
       "savings_percent": 44
     },
     "starRating": 4,
-    "rating": 7.0,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "MoR5zvTHDwiUVpHcsReV",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "48 guestrooms",
@@ -520,7 +536,7 @@
       "savings_percent": 15
     },
     "starRating": 5,
-    "rating": 9.2,
+    "rating": 8.8,
     "reviews": [
       {
         "id": "0lfPYTaPLXtVbNtagNy7",
@@ -638,8 +654,16 @@
       "savings_percent": 5
     },
     "starRating": 3,
-    "rating": 7.0,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "Hy0ISdFiIUHxJKULnIqf",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "Free WiFi in public areas",
@@ -821,8 +845,16 @@
       "savings_percent": 21
     },
     "starRating": 3,
-    "rating": 8.6,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "qdr7BXtEOCiW4NfVyLA7",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "38 smoke-free guestrooms",
@@ -910,7 +942,7 @@
       "savings_percent": 13
     },
     "starRating": 4,
-    "rating": 8.4,
+    "rating": 8.5,
     "reviews": [
       {
         "id": "RESmTaMNeiYIycHEhRRz",
@@ -1026,7 +1058,7 @@
       "savings_percent": 22
     },
     "starRating": 5,
-    "rating": 6.6,
+    "rating": 7.6,
     "reviews": [
       {
         "id": "hQSUaU05rjFfe93xCsea",
@@ -1144,7 +1176,7 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 8.8,
+    "rating": 8.4,
     "reviews": [
       {
         "id": "KLWAVl4IxPkXR6qdh2Tq",
@@ -1378,7 +1410,7 @@
       "savings_percent": 10
     },
     "starRating": 5,
-    "rating": 9.6,
+    "rating": 9.2,
     "reviews": [
       {
         "id": "qd68kluIMhiGsPB5rkbZ",
@@ -1496,8 +1528,16 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 10.0,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "G5mKMagslF6sRy4fgzar",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "104 guestrooms",
@@ -1585,7 +1625,7 @@
       "savings_percent": 13
     },
     "starRating": 3,
-    "rating": 7.8,
+    "rating": 8.0,
     "reviews": [
       {
         "id": "NZ7fKtkrQprMFt0YOKGt",
@@ -1703,8 +1743,16 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 7.6,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "I9LaZ3cOZDWXjTHTCldr",
+        "name": "Arup",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "385 guestrooms",
@@ -1786,8 +1834,16 @@
       "savings_percent": 52
     },
     "starRating": 3,
-    "rating": 7.2,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "7jppGez6Y2WifGlvDvuS",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "35 guestrooms",
@@ -1873,8 +1929,16 @@
       "savings_percent": 19
     },
     "starRating": 3,
-    "rating": 9.0,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "FEaif9kF0fFyOpMEKo61",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "50 smoke-free guestrooms",
@@ -1960,7 +2024,7 @@
       "savings_percent": 12
     },
     "starRating": 5,
-    "rating": 8.6,
+    "rating": 6.9,
     "reviews": [
       {
         "id": "3CzAZXmn5tOKh4GCmKdl",
@@ -2078,8 +2142,16 @@
       "savings_percent": 52
     },
     "starRating": 3,
-    "rating": 10.0,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "AEMl1glEGAeUO3RCDulo",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "300 guestrooms",
@@ -2149,7 +2221,7 @@
       "savings_percent": 36
     },
     "starRating": 4,
-    "rating": 7.4,
+    "rating": 6.9,
     "reviews": [
       {
         "id": "MiAXxKPvIevCOWp3vStg",
@@ -2267,7 +2339,7 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 7.4,
+    "rating": 6.7,
     "reviews": [
       {
         "id": "vNwiFNTUuyqgy8ECptT4",
@@ -2383,8 +2455,16 @@
       "savings_percent": 10
     },
     "starRating": 5,
-    "rating": 9.0,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "YlMngNzia4ygSByrbWXW",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "392 guestrooms",
@@ -2466,7 +2546,7 @@
       "savings_percent": 11
     },
     "starRating": 4,
-    "rating": 9.2,
+    "rating": 8.3,
     "reviews": [
       {
         "id": "y8wGcpOP0zGGiw0AJiu3",
@@ -2584,8 +2664,16 @@
       "savings_percent": 11
     },
     "starRating": 4,
-    "rating": 7.8,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "JI6xfpNjeHByXNWECHiO",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "23 smoke-free guestrooms",
@@ -2670,7 +2758,7 @@
       "savings_percent": 10
     },
     "starRating": 3,
-    "rating": 6.2,
+    "rating": 8.8,
     "reviews": [
       {
         "id": "QBJsa4xXhrKKITKfZJZp",
@@ -2786,7 +2874,7 @@
       "savings_percent": 21
     },
     "starRating": 5,
-    "rating": 7.6,
+    "rating": 6.7,
     "reviews": [
       {
         "id": "pJrWHDnQG75nAYLVsKpX",
@@ -2904,8 +2992,16 @@
       "savings_percent": 21
     },
     "starRating": 4,
-    "rating": 8.2,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "A5i6jPISt2fReP5ib7gI",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "121 smoke-free guestrooms",
@@ -2993,7 +3089,7 @@
       "savings_percent": 12
     },
     "starRating": 3,
-    "rating": 8.2,
+    "rating": 8.3,
     "reviews": [
       {
         "id": "I4Ot0wQVUGpMyhBTA29u",
@@ -3101,7 +3197,7 @@
       "savings_percent": 12
     },
     "starRating": 4,
-    "rating": 8.6,
+    "rating": 8.8,
     "reviews": [
       {
         "id": "jI1qk0Qi3JCKsQ6eHn91",
@@ -3218,7 +3314,7 @@
       "savings_percent": 31
     },
     "starRating": 4,
-    "rating": 6.2,
+    "rating": 6.3,
     "reviews": [
       {
         "id": "2azePIZ2C3FGllJN4PnM",
@@ -3336,8 +3432,16 @@
       "savings_percent": 31
     },
     "starRating": 4,
-    "rating": 7.6,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "b8NGsOnXpQobIOm6fBff",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "55 guestrooms",
@@ -3402,7 +3506,15 @@
     },
     "starRating": 4,
     "rating": 7.0,
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "iI3a5QT5dDZH6QbYHPAc",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "33 guestrooms",
@@ -3488,7 +3600,7 @@
       "savings_percent": 12
     },
     "starRating": 4,
-    "rating": 7.8,
+    "rating": 7.5,
     "reviews": [
       {
         "id": "4Z42ZRiFLiMpfUkGCQU4",
@@ -3605,7 +3717,7 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 9.2,
+    "rating": 9.0,
     "reviews": [
       {
         "id": "LAEZcmxbTo9KYk9OTQWK",
@@ -3717,7 +3829,7 @@
       "savings_percent": 12
     },
     "starRating": 4,
-    "rating": 7.8,
+    "rating": 6.5,
     "reviews": [
       {
         "id": "rtZDWImGlh3K0k1hloIs",
@@ -3834,7 +3946,7 @@
       "savings_percent": 47
     },
     "starRating": 5,
-    "rating": 8.8,
+    "rating": 8.3,
     "reviews": [
       {
         "id": "qXBY5B86p8E7ziHWH2aN",
@@ -3946,7 +4058,7 @@
       "savings_percent": 11
     },
     "starRating": 4,
-    "rating": 8.0,
+    "rating": 7.9,
     "reviews": [
       {
         "id": "829tyQ2eKToJSeBv1yfh",
@@ -4064,7 +4176,7 @@
       "savings_percent": 11
     },
     "starRating": 4,
-    "rating": 7.6,
+    "rating": 8.1,
     "reviews": [
       {
         "id": "BdhxFpLgiWsb6cLWzIBm",
@@ -4181,8 +4293,16 @@
       "savings_percent": 11
     },
     "starRating": 3,
-    "rating": 8.2,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "1m1qooKNIsvRh0eZeg1s",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "88 guestrooms",
@@ -4269,8 +4389,16 @@
       "savings_percent": 2
     },
     "starRating": 5,
-    "rating": 9.4,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "CEE3JBE5Ldzt0TJmrYZU",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "144 guestrooms",
@@ -4354,7 +4482,7 @@
       "savings_percent": 16
     },
     "starRating": 4,
-    "rating": 9.4,
+    "rating": 8.1,
     "reviews": [
       {
         "id": "in0XBLYn29Bm3cQBrETk",
@@ -4448,8 +4576,16 @@
       "savings_percent": 35
     },
     "starRating": 5,
-    "rating": 8.4,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "XJxNmWPFCVldI637vl6w",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "115 guestrooms",
@@ -4535,7 +4671,7 @@
       "savings_percent": 23
     },
     "starRating": 3,
-    "rating": 7.0,
+    "rating": 8.5,
     "reviews": [
       {
         "id": "LB69imiHsm3eg88SOjFx",
@@ -4629,7 +4765,7 @@
       "savings_percent": 4
     },
     "starRating": 4,
-    "rating": 8.2,
+    "rating": 7.1,
     "reviews": [
       {
         "id": "rwhYPnKxuEIUDH4ClxYL",
@@ -4741,7 +4877,7 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 9.0,
+    "rating": 8.1,
     "reviews": [
       {
         "id": "kyXmD5V94JeqtU6SKNge",
@@ -4857,8 +4993,16 @@
       "savings_percent": 10
     },
     "starRating": 4,
-    "rating": 6.0,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "PdJwvkdKPI1MdazLCK6n",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "38 smoke-free guestrooms",
@@ -4946,8 +5090,16 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 9.2,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "7MxhXhxgBJsk3E4NNKKc",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "397 guestrooms",
@@ -5025,8 +5177,16 @@
       "savings_percent": 38
     },
     "starRating": 4,
-    "rating": 6.4,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "aQXOAtO0rQJbFhEnmHKu",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "83 guestrooms",
@@ -5111,7 +5271,7 @@
       "savings_percent": 12
     },
     "starRating": 5,
-    "rating": 8.0,
+    "rating": 7.5,
     "reviews": [
       {
         "id": "5GeaUwXf3gAqv5L8Q3Pi",
@@ -5225,8 +5385,16 @@
       "savings_percent": 41
     },
     "starRating": 3,
-    "rating": 10.0,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "UCzSkPSdBh4li5AfQPWG",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "193 smoke-free guestrooms",
@@ -5290,7 +5458,7 @@
       "savings_percent": 38
     },
     "starRating": 5,
-    "rating": 9.6,
+    "rating": 9.3,
     "reviews": [
       {
         "id": "lnTwlJPITGKcbUzxBuIs",
@@ -5408,7 +5576,7 @@
       "savings_percent": 2
     },
     "starRating": 4,
-    "rating": 8.8,
+    "rating": 9.2,
     "reviews": [
       {
         "id": "sXruZmCJSljOImWyBbQv",
@@ -5526,7 +5694,7 @@
       "savings_percent": 13
     },
     "starRating": 4,
-    "rating": 8.4,
+    "rating": 8.0,
     "reviews": [
       {
         "id": "JDu3qIBRUGatNtAII4v1",
@@ -5634,8 +5802,16 @@
       "savings_percent": 25
     },
     "starRating": 3,
-    "rating": 10.0,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "7cXvN213oCEzvatAhKzw",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "25 guestrooms",
@@ -5715,7 +5891,7 @@
       "savings_percent": 44
     },
     "starRating": 5,
-    "rating": 7.8,
+    "rating": 8.5,
     "reviews": [
       {
         "id": "bUFWSS5GvL0Emf5RH1jx",
@@ -5827,7 +6003,7 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 9.0,
+    "rating": 7.7,
     "reviews": [
       {
         "id": "Q8M4NlgdKTEKSu5kf7u8",
@@ -5943,8 +6119,16 @@
       "savings_percent": 18
     },
     "starRating": 3,
-    "rating": 6.0,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "V1AP5blFB7UAxxyykZnS",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "61 guestrooms",
@@ -6031,7 +6215,7 @@
       "savings_percent": 34
     },
     "starRating": 5,
-    "rating": 9.0,
+    "rating": 9.1,
     "reviews": [
       {
         "id": "dhfLXkJWG73GYYGKZPgf",
@@ -6135,7 +6319,7 @@
       "savings_percent": 27
     },
     "starRating": 4,
-    "rating": 7.6,
+    "rating": 6.5,
     "reviews": [
       {
         "id": "TYQv4IFhjbX021Z3ZLvP",
@@ -6253,7 +6437,7 @@
       "savings_percent": 4
     },
     "starRating": 3,
-    "rating": 8.2,
+    "rating": 7.0,
     "reviews": [
       {
         "id": "XnnWMS21bAFyr2Roe3OX",
@@ -6365,7 +6549,7 @@
       "savings_percent": 4
     },
     "starRating": 5,
-    "rating": 8.6,
+    "rating": 8.7,
     "reviews": [
       {
         "id": "GjYBJmPuJQIFijXs9j7s",
@@ -6477,7 +6661,7 @@
       "savings_percent": 18
     },
     "starRating": 4,
-    "rating": 7.2,
+    "rating": 7.5,
     "reviews": [
       {
         "id": "kRCW3hpMePKEIKOqLS33",
@@ -6594,7 +6778,7 @@
       "savings_percent": 27
     },
     "starRating": 4,
-    "rating": 7.8,
+    "rating": 7.1,
     "reviews": [
       {
         "id": "2EHVlgDEGCnhfPI84Dnk",
@@ -6712,7 +6896,7 @@
       "savings_percent": 22
     },
     "starRating": 5,
-    "rating": 7.8,
+    "rating": 9.6,
     "reviews": [
       {
         "id": "ftaqEv2QEouOU6DoyUxG",
@@ -6828,8 +7012,16 @@
       "savings_percent": 4
     },
     "starRating": 4,
-    "rating": 8.8,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "yy4VwTzwl939psMEz9un",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "128 guestrooms",
@@ -6913,8 +7105,16 @@
       "savings_percent": 28
     },
     "starRating": 3,
-    "rating": 7.6,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "TmOXEd2ZIntOorg2gR3e",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "77 guestrooms",
@@ -7002,8 +7202,16 @@
       "savings_percent": 3
     },
     "starRating": 5,
-    "rating": 9.0,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "mcnwt5QL6nVDWlKJsB7m",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "274 guestrooms",
@@ -7089,8 +7297,16 @@
       "savings_percent": 68
     },
     "starRating": 3,
-    "rating": 6.6,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "Y17wqYIwKhZFsrpgvYYF",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "31 smoke-free guestrooms",
@@ -7172,8 +7388,16 @@
       "savings_percent": 62
     },
     "starRating": 3,
-    "rating": 6.0,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "YIawdgfPpMi2qrZqbbeT",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "59 smoke-free guestrooms",
@@ -7239,8 +7463,16 @@
       "savings_percent": 68
     },
     "starRating": 3,
-    "rating": 6.6,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "LtfteT3Y1TRVoQRaseWX",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "47 smoke-free guestrooms",
@@ -7317,7 +7549,7 @@
       "savings_percent": 39
     },
     "starRating": 5,
-    "rating": 8.0,
+    "rating": 7.2,
     "reviews": [
       {
         "id": "FQ4xSg5sOa8MnkxYW7Zr",
@@ -7435,8 +7667,16 @@
       "savings_percent": 50
     },
     "starRating": 3,
-    "rating": 8.0,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "75WLGlov2CPTElwokoOW",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "37 smoke-free guestrooms",
@@ -7513,8 +7753,16 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 8.6,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "rztkMuR8tWl2OZAXYH9Z",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "241 smoke-free guestrooms",
@@ -7598,7 +7846,7 @@
       "savings_percent": 13
     },
     "starRating": 4,
-    "rating": 5.0,
+    "rating": 2.8,
     "reviews": [
       {
         "id": "A4xHrcdnkT7mqLfZAwU5",
@@ -7714,7 +7962,7 @@
       "savings_percent": 25
     },
     "starRating": 5,
-    "rating": 8.2,
+    "rating": 8.5,
     "reviews": [
       {
         "id": "4NZWnaGJqEvtEiscM405",
@@ -7828,8 +8076,16 @@
       "savings_percent": 20
     },
     "starRating": 5,
-    "rating": 8.4,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "tN01AEgdX5A72eKsJAei",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "158 apartments",
@@ -7917,8 +8173,16 @@
       "savings_percent": 15
     },
     "starRating": 3,
-    "rating": 7.0,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "IMN8hksvtarvyMnBmukg",
+        "name": "Arup",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "49 smoke-free guestrooms",
@@ -8006,8 +8270,16 @@
       "savings_percent": 61
     },
     "starRating": 3,
-    "rating": 4.0,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "bMM8wjeIH437DW4E6MJS",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "57 smoke-free guestrooms",
@@ -8094,8 +8366,16 @@
       "savings_percent": 14
     },
     "starRating": 3,
-    "rating": 6.0,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "kEYYPcXB8bLTqboIpEXl",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "55 smoke-free guestrooms",
@@ -8166,8 +8446,16 @@
       "savings_percent": 14
     },
     "starRating": 3,
-    "rating": 7.0,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "A9PNVCX7fCfv8WMNL2aK",
+        "name": "Arup",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "36 smoke-free guestrooms",
@@ -8249,7 +8537,7 @@
       "savings_percent": 14
     },
     "starRating": 3,
-    "rating": 5.6,
+    "rating": 7.2,
     "reviews": [
       {
         "id": "3knQ97einTcdkynuzb6h",
@@ -8367,8 +8655,16 @@
       "savings_percent": 14
     },
     "starRating": 3,
-    "rating": 6.0,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "6Nygji6OCXCMMwbSQxfc",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "45 guestrooms",
@@ -8444,8 +8740,16 @@
       "savings_percent": 12
     },
     "starRating": 3,
-    "rating": 7.0,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "d4rIv9tQfSRcgX1DFsIp",
+        "name": "Arup",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "97 guestrooms",
@@ -8525,7 +8829,7 @@
       "savings_percent": 10
     },
     "starRating": 5,
-    "rating": 9.2,
+    "rating": 9.0,
     "reviews": [
       {
         "id": "oLagUQqwNIRt4eNfeQLz",
@@ -8635,8 +8939,16 @@
       "savings_percent": 22
     },
     "starRating": 3,
-    "rating": 8.0,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "RwyJLnPVoOn6neZHgXn2",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "40 smoke-free guestrooms",
@@ -8718,7 +9030,7 @@
       "savings_percent": 36
     },
     "starRating": 5,
-    "rating": 8.8,
+    "rating": 9.2,
     "reviews": [
       {
         "id": "RPGkQUJvbukmZfeKcMsP",
@@ -8826,8 +9138,16 @@
       "savings_percent": 10
     },
     "starRating": 4,
-    "rating": 9.8,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "ZUfWlvsbFwEdtrNG18TP",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "198 guestrooms",
@@ -8911,7 +9231,7 @@
       "savings_percent": 18
     },
     "starRating": 4,
-    "rating": 7.4,
+    "rating": 6.1,
     "reviews": [
       {
         "id": "5w2ftUlXlYpIRSCjc4BP",
@@ -9141,8 +9461,16 @@
       "savings_percent": 11
     },
     "starRating": 4,
-    "rating": 6.8,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "mLPgaZ7fQaAPqJxETrLH",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "26 smoke-free guestrooms",
@@ -9230,8 +9558,16 @@
       "savings_percent": 2
     },
     "starRating": 3,
-    "rating": 6.0,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "FzpiWtRXO8apRmsXTuuT",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "42 guestrooms",
@@ -9319,8 +9655,16 @@
       "savings_percent": 61
     },
     "starRating": 3,
-    "rating": 8.6,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "XzIIgrvKHl63KGUMXlmd",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "34 smoke-free guestrooms",
@@ -9400,7 +9744,7 @@
       "savings_percent": 23
     },
     "starRating": 5,
-    "rating": 9.4,
+    "rating": 8.2,
     "reviews": [
       {
         "id": "LO9OKw41cXp3GdONrp2G",
@@ -9518,7 +9862,7 @@
       "savings_percent": 18
     },
     "starRating": 4,
-    "rating": 7.8,
+    "rating": 8.7,
     "reviews": [
       {
         "id": "y2yGafYo3uEW4158i8MW",
@@ -9636,8 +9980,16 @@
       "savings_percent": 22
     },
     "starRating": 4,
-    "rating": 7.6,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "I15boCvjIJSnucROoXCA",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "69 smoke-free guestrooms",
@@ -9720,8 +10072,16 @@
       "savings_percent": 50
     },
     "starRating": 3,
-    "rating": 8.0,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "CSaLZUBl0hGnd2QQyScq",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "30 guestrooms",
@@ -9797,8 +10157,16 @@
       "savings_percent": 60
     },
     "starRating": 3,
-    "rating": 9.4,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "ntWCPqKAEMl9pqLj1qVc",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "16 guestrooms",
@@ -9873,8 +10241,16 @@
       "savings_percent": 60
     },
     "starRating": 3,
-    "rating": 9.0,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "MsOyPDrwQn3umVm2E0YI",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "24 smoke-free guestrooms",
@@ -9948,8 +10324,16 @@
       "savings_percent": 17
     },
     "starRating": 4,
-    "rating": 8.4,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "VsLCarPczOHgGmwxnEYF",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "117 guestrooms",
@@ -10037,7 +10421,7 @@
       "savings_percent": 15
     },
     "starRating": 4,
-    "rating": 9.0,
+    "rating": 9.1,
     "reviews": [
       {
         "id": "kK6KpQ3tmY1M1At8dajR",
@@ -10145,8 +10529,16 @@
       "savings_percent": 22
     },
     "starRating": 4,
-    "rating": 9.2,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "DjXpGegq4KSxBos1AlZO",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "150 smoke-free guestrooms",
@@ -10227,7 +10619,15 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "YseicFMpYetuFoxhQqw8",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "30 guestrooms",
@@ -10307,7 +10707,7 @@
       "savings_percent": 5
     },
     "starRating": 3,
-    "rating": 7.4,
+    "rating": 6.7,
     "reviews": [
       {
         "id": "yrIND9p2rgsa6PLfjIhs",
@@ -10425,8 +10825,16 @@
       "savings_percent": 12
     },
     "starRating": 3,
-    "rating": 8.0,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "KLIyDK3utin20BLggsv0",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "22 guestrooms",
@@ -10514,7 +10922,7 @@
       "savings_percent": 23
     },
     "starRating": 3,
-    "rating": 4.0,
+    "rating": 6.6,
     "reviews": [
       {
         "id": "FCKLYKsYaOAiI2n8vbu4",
@@ -10628,7 +11036,7 @@
       "savings_percent": 28
     },
     "starRating": 4,
-    "rating": 5.6,
+    "rating": 5.4,
     "reviews": [
       {
         "id": "7chr1IWegeEkchBYYSAo",
@@ -10746,7 +11154,7 @@
       "savings_percent": 60
     },
     "starRating": 4,
-    "rating": 8.6,
+    "rating": 8.5,
     "reviews": [
       {
         "id": "MCUiDudn9QJ36k2pIdy3",
@@ -10862,7 +11270,7 @@
       "savings_percent": 35
     },
     "starRating": 4,
-    "rating": 9.0,
+    "rating": 7.7,
     "reviews": [
       {
         "id": "lS6WSRDmVlgF4xf74cCB",
@@ -10980,7 +11388,7 @@
       "savings_percent": 60
     },
     "starRating": 3,
-    "rating": 8.6,
+    "rating": 7.9,
     "reviews": [
       {
         "id": "8PazTRmil3tBSw7NTk6w",
@@ -11098,8 +11506,16 @@
       "savings_percent": 21
     },
     "starRating": 3,
-    "rating": 9.2,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "dTQJZpNoK1TgjfbQsG8S",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "238 guestrooms",
@@ -11177,8 +11593,16 @@
       "savings_percent": 12
     },
     "starRating": 3,
-    "rating": 9.4,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "etsUtAO365FVhGlE7pXv",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "196 guestrooms",
@@ -11260,7 +11684,7 @@
       "savings_percent": 39
     },
     "starRating": 3,
-    "rating": 8.4,
+    "rating": 8.0,
     "reviews": [
       {
         "id": "TA9tBXBDWcAXqHo3kZKD",
@@ -11378,8 +11802,16 @@
       "savings_percent": 32
     },
     "starRating": 4,
-    "rating": 8.0,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "H1hOq3Uaywplq0xcj3XZ",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "265 guestrooms",
@@ -11467,8 +11899,16 @@
       "savings_percent": 19
     },
     "starRating": 3,
-    "rating": 9.2,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "Zxs4bGJguxDQI2xdWuRU",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "140 guestrooms",
@@ -11554,8 +11994,16 @@
       "savings_percent": 11
     },
     "starRating": 3,
-    "rating": 8.0,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "Ay8lx9IQxo7fQCV1SbgU",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "3 apartments",
@@ -11623,8 +12071,16 @@
       "savings_percent": 11
     },
     "starRating": 3,
-    "rating": 7.8,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "EM3RjxfSl2QJyMbJwq1A",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "1297 guestrooms",
@@ -11712,8 +12168,16 @@
       "savings_percent": 27
     },
     "starRating": 3,
-    "rating": 9.2,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "2edILY0EpJImQAwlf5R1",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "240 smoke-free guestrooms",
@@ -11791,7 +12255,7 @@
       "savings_percent": 31
     },
     "starRating": 3,
-    "rating": 8.6,
+    "rating": 8.0,
     "reviews": [
       {
         "id": "T8hJ5r7bE66F5hLReFVh",
@@ -11905,8 +12369,16 @@
       "savings_percent": 12
     },
     "starRating": 3,
-    "rating": 8.8,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "zGGmjK00o8kxC8KAR41k",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "500 smoke-free guestrooms",
@@ -11978,8 +12450,16 @@
       "savings_percent": 12
     },
     "starRating": 3,
-    "rating": 8.6,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "0hTlqf4AYn6QTvyuYGKU",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "286 guestrooms",
@@ -12065,7 +12545,7 @@
       "savings_percent": 12
     },
     "starRating": 3,
-    "rating": 8.6,
+    "rating": 8.8,
     "reviews": [
       {
         "id": "PkfndCFiHBUz4hsVQUTl",
@@ -12181,8 +12661,16 @@
       "savings_percent": 41
     },
     "starRating": 3,
-    "rating": 8.8,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "YFajXngWrYpkSKUrOmyH",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "80 smoke-free guestrooms",
@@ -12264,8 +12752,16 @@
       "savings_percent": 21
     },
     "starRating": 3,
-    "rating": 9.0,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "w8MOx4CSJemPzxeZJbx2",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "151 smoke-free guestrooms",
@@ -12339,8 +12835,16 @@
       "savings_percent": 30
     },
     "starRating": 4,
-    "rating": 9.4,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "4CfLJCqdywQHbHu81DRz",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "130 apartments",
@@ -12428,8 +12932,16 @@
       "savings_percent": 53
     },
     "starRating": 3,
-    "rating": 8.8,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "XU8JnJyoPvSl90C4oudF",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "31 guestrooms",
@@ -12515,7 +13027,7 @@
       "savings_percent": 20
     },
     "starRating": 4,
-    "rating": 9.2,
+    "rating": 8.7,
     "reviews": [
       {
         "id": "dZmIrmYX7px5Eu7GVYOi",
@@ -12631,8 +13143,16 @@
       "savings_percent": 12
     },
     "starRating": 4,
-    "rating": 8.2,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "w6jWBWGG2gHvWEEP7hZf",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "485 guestrooms",
@@ -12714,8 +13234,16 @@
       "savings_percent": 21
     },
     "starRating": 3,
-    "rating": 8.6,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "XV3pZJW6aCITvpddgZQE",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "118 smoke-free guestrooms",
@@ -12791,8 +13319,16 @@
       "savings_percent": 17
     },
     "starRating": 3,
-    "rating": 9.0,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "Q5azQjFeYVxiT0RyiXOh",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "200 smoke-free guestrooms",
@@ -12874,8 +13410,16 @@
       "savings_percent": 26
     },
     "starRating": 3,
-    "rating": 8.6,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "7gjbXILJqspvXILBKz7z",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "226 guestrooms",
@@ -12951,8 +13495,16 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 9.2,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "x85MP6cHPsaM3nZUM7sU",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "546 smoke-free guestrooms",
@@ -13040,7 +13592,7 @@
       "savings_percent": 40
     },
     "starRating": 4,
-    "rating": 8.0,
+    "rating": 7.5,
     "reviews": [
       {
         "id": "y5tzKrDLQlBQnGwyBjTm",
@@ -13158,7 +13710,7 @@
       "savings_percent": 38
     },
     "starRating": 4,
-    "rating": 8.4,
+    "rating": 7.6,
     "reviews": [
       {
         "id": "Uu7bEoSxiPHbJnFIHdVC",
@@ -13276,7 +13828,7 @@
       "savings_percent": 41
     },
     "starRating": 4,
-    "rating": 7.4,
+    "rating": 7.2,
     "reviews": [
       {
         "id": "cpGAy1QaXCVFRJZfr8Hv",
@@ -13394,7 +13946,7 @@
       "savings_percent": 40
     },
     "starRating": 3,
-    "rating": 8.6,
+    "rating": 8.0,
     "reviews": [
       {
         "id": "yhTXC7DnhERbrE8TN5lu",
@@ -13512,7 +14064,7 @@
       "savings_percent": 0
     },
     "starRating": 5,
-    "rating": 9.2,
+    "rating": 8.0,
     "reviews": [
       {
         "id": "gV6mG89X9e7OqoMcq5wL",
@@ -13630,8 +14182,16 @@
       "savings_percent": 52
     },
     "starRating": 4,
-    "rating": 7.6,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "YgNSVtWkQxZSCHYPtsz1",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "409 guestrooms",
@@ -13719,7 +14279,7 @@
       "savings_percent": 15
     },
     "starRating": 4,
-    "rating": 8.4,
+    "rating": 8.7,
     "reviews": [
       {
         "id": "BgLcyOGMUV96jmpFMECY",
@@ -13833,7 +14393,7 @@
       "savings_percent": 11
     },
     "starRating": 3,
-    "rating": 8.6,
+    "rating": 8.7,
     "reviews": [
       {
         "id": "DFBgY0sW6xN2gg6LQVPI",
@@ -13951,7 +14511,7 @@
       "savings_percent": 48
     },
     "starRating": 5,
-    "rating": 9.0,
+    "rating": 8.5,
     "reviews": [
       {
         "id": "fqZuafBKtNSw5WqMBLUA",
@@ -14069,7 +14629,7 @@
       "savings_percent": 23
     },
     "starRating": 4,
-    "rating": 7.8,
+    "rating": 8.7,
     "reviews": [
       {
         "id": "Qn1nTL95PQtyQrlVH8l2",
@@ -14187,7 +14747,7 @@
       "savings_percent": 16
     },
     "starRating": 4,
-    "rating": 8.2,
+    "rating": 8.4,
     "reviews": [
       {
         "id": "JkEjRS9rqho6VrykLJYV",
@@ -14293,8 +14853,16 @@
       "savings_percent": 20
     },
     "starRating": 4,
-    "rating": 9.4,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "49fVhQMvsHXyN2O2LBUr",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "97 smoke-free guestrooms",
@@ -14374,7 +14942,7 @@
       "savings_percent": 23
     },
     "starRating": 3,
-    "rating": 8.4,
+    "rating": 8.0,
     "reviews": [
       {
         "id": "npalebsffYd1juUrbttU",
@@ -14492,8 +15060,16 @@
       "savings_percent": 19
     },
     "starRating": 3,
-    "rating": 6.4,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "JZQwqagct2nlIv9oYcnq",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "10 smoke-free guestrooms",
@@ -14569,7 +15145,7 @@
       "savings_percent": 60
     },
     "starRating": 4,
-    "rating": 9.4,
+    "rating": 9.1,
     "reviews": [
       {
         "id": "ktQor5GX2P1JH14k3DE5",
@@ -14687,7 +15263,7 @@
       "savings_percent": 23
     },
     "starRating": 5,
-    "rating": 9.2,
+    "rating": 8.0,
     "reviews": [
       {
         "id": "kscO8iC5evQDFzqrJKP2",
@@ -14805,7 +15381,7 @@
       "savings_percent": 27
     },
     "starRating": 4,
-    "rating": 7.8,
+    "rating": 8.2,
     "reviews": [
       {
         "id": "ZenQ8FIDlOEKECJaNyem",
@@ -15015,7 +15591,7 @@
       "savings_percent": 25
     },
     "starRating": 4,
-    "rating": 8.6,
+    "rating": 8.8,
     "reviews": [
       {
         "id": "3zh3NzhSng5bYnJxdsLX",
@@ -15133,7 +15709,7 @@
       "savings_percent": 10
     },
     "starRating": 4,
-    "rating": 8.8,
+    "rating": 8.9,
     "reviews": [
       {
         "id": "rj1qcEUjKYgR41CbySKx",
@@ -15247,7 +15823,7 @@
       "savings_percent": 39
     },
     "starRating": 4,
-    "rating": 8.6,
+    "rating": 8.8,
     "reviews": [
       {
         "id": "wndAeK502I127Bpui0Tf",
@@ -15363,7 +15939,7 @@
       "savings_percent": 20
     },
     "starRating": 4,
-    "rating": 8.6,
+    "rating": 7.6,
     "reviews": [
       {
         "id": "HnfiEwq8AtRCFroQyKPu",
@@ -15477,7 +16053,7 @@
       "savings_percent": 20
     },
     "starRating": 3,
-    "rating": 8.0,
+    "rating": 7.6,
     "reviews": [
       {
         "id": "DymmmtoX1jEKU0FgJUVS",
@@ -15595,7 +16171,7 @@
       "savings_percent": 79
     },
     "starRating": 5,
-    "rating": 9.2,
+    "rating": 8.4,
     "reviews": [
       {
         "id": "2wMKsRjvaPmaUmYu9KFt",
@@ -15711,7 +16287,7 @@
       "savings_percent": 18
     },
     "starRating": 4,
-    "rating": 8.0,
+    "rating": 7.9,
     "reviews": [
       {
         "id": "qw7d5kSilsYkBUM5ApRK",
@@ -15829,8 +16405,16 @@
       "savings_percent": 25
     },
     "starRating": 4,
-    "rating": 8.6,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "F45yR4KFcm6aLO4yAxzG",
+        "name": "Arup",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "610 smoke-free guestrooms",
@@ -15917,7 +16501,15 @@
     },
     "starRating": 4,
     "rating": 9.0,
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "1CAGsbpSZvBeNzfZUBa0",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "314 smoke-free guestrooms",
@@ -16005,7 +16597,7 @@
       "savings_percent": 20
     },
     "starRating": 4,
-    "rating": 8.2,
+    "rating": 8.1,
     "reviews": [
       {
         "id": "WEfmqlITfpXMpvL7fRGt",
@@ -16121,7 +16713,7 @@
       "savings_percent": 18
     },
     "starRating": 5,
-    "rating": 9.2,
+    "rating": 8.9,
     "reviews": [
       {
         "id": "rqVdOrCjvJ73kSY49PcK",
@@ -16239,8 +16831,16 @@
       "savings_percent": 10
     },
     "starRating": 4,
-    "rating": 8.8,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "pwD87XrfjmffVT3usmxa",
+        "name": "Arup",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "220 smoke-free apartments",
@@ -16328,7 +16928,7 @@
       "savings_percent": 40
     },
     "starRating": 5,
-    "rating": 9.2,
+    "rating": 9.0,
     "reviews": [
       {
         "id": "QTojMmYfaAAJgunlutG2",
@@ -16446,8 +17046,16 @@
       "savings_percent": 11
     },
     "starRating": 4,
-    "rating": 8.4,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "OCB8nOZq5hPeTXz5KK98",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "308 smoke-free guestrooms",
@@ -16533,7 +17141,7 @@
       "savings_percent": 10
     },
     "starRating": 5,
-    "rating": 9.0,
+    "rating": 8.3,
     "reviews": [
       {
         "id": "ntdHl3RTWhbawhQnufk7",
@@ -16651,7 +17259,7 @@
       "savings_percent": 38
     },
     "starRating": 4,
-    "rating": 9.0,
+    "rating": 8.2,
     "reviews": [
       {
         "id": "xfM3SbjkZC7n0Ogkcy9A",
@@ -16767,8 +17375,16 @@
       "savings_percent": 11
     },
     "starRating": 3,
-    "rating": 8.2,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "zxkGb0e2sjd7IVQScPOq",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "130 smoke-free guestrooms",
@@ -16843,7 +17459,7 @@
       "savings_percent": 1
     },
     "starRating": 3,
-    "rating": 9.0,
+    "rating": 7.5,
     "reviews": [
       {
         "id": "alBhqqLudkT7xd84omJH",
@@ -16961,7 +17577,7 @@
       "savings_percent": 15
     },
     "starRating": 4,
-    "rating": 9.2,
+    "rating": 7.0,
     "reviews": [
       {
         "id": "d6A6MZngbfuGT74EcTfs",
@@ -17072,7 +17688,7 @@
       "savings_percent": 37
     },
     "starRating": 4,
-    "rating": 9.0,
+    "rating": 8.9,
     "reviews": [
       {
         "id": "JDG3VKR2ong62ZNuf0Tp",
@@ -17186,7 +17802,7 @@
       "savings_percent": 1
     },
     "starRating": 3,
-    "rating": 8.6,
+    "rating": 8.9,
     "reviews": [
       {
         "id": "MZXYkZyXKfob4vwvibdN",
@@ -17300,7 +17916,7 @@
       "savings_percent": 0
     },
     "starRating": 5,
-    "rating": 9.6,
+    "rating": 8.9,
     "reviews": [
       {
         "id": "GSWmEk9VYOINEn9RNcgO",
@@ -17418,7 +18034,7 @@
       "savings_percent": 16
     },
     "starRating": 5,
-    "rating": 8.6,
+    "rating": 7.5,
     "reviews": [
       {
         "id": "g9TNNHjGzbG9BSgSOTxk",
@@ -17534,7 +18150,7 @@
       "savings_percent": 10
     },
     "starRating": 5,
-    "rating": 9.4,
+    "rating": 8.1,
     "reviews": [
       {
         "id": "wyxATepkp4nAxj2P85JJ",
@@ -17652,7 +18268,7 @@
       "savings_percent": 21
     },
     "starRating": 3,
-    "rating": 8.0,
+    "rating": 7.4,
     "reviews": [
       {
         "id": "fUcPmYSUIlVMFAVPqRJ5",
@@ -17768,8 +18384,16 @@
       "savings_percent": 30
     },
     "starRating": 4,
-    "rating": 8.0,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "90e4TA9zWfUTZY896QdH",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "15 smoke-free guestrooms",
@@ -17857,7 +18481,7 @@
       "savings_percent": 23
     },
     "starRating": 4,
-    "rating": 7.6,
+    "rating": 6.6,
     "reviews": [
       {
         "id": "44dSyWIYmBaSdy8d4InH",
@@ -17975,8 +18599,16 @@
       "savings_percent": 6
     },
     "starRating": 3,
-    "rating": 7.2,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "MVqLYCXT6LEbOfky3U4e",
+        "name": "Akhil",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "80 smoke-free guestrooms",
@@ -18056,8 +18688,16 @@
       "savings_percent": 11
     },
     "starRating": 3,
-    "rating": 8.2,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "AZFFVY1sqC0BiiRhkKuw",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "36 smoke-free guestrooms",
@@ -18139,7 +18779,7 @@
       "savings_percent": 34
     },
     "starRating": 5,
-    "rating": 9.2,
+    "rating": 7.8,
     "reviews": [
       {
         "id": "TXPh2HCjnwX17IXxBBPd",
@@ -18257,7 +18897,7 @@
       "savings_percent": 20
     },
     "starRating": 4,
-    "rating": 8.6,
+    "rating": 7.8,
     "reviews": [
       {
         "id": "pc4OYKGgaWkUaAIK5URF",
@@ -18369,8 +19009,16 @@
       "savings_percent": 14
     },
     "starRating": 3,
-    "rating": 8.6,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "DQELCoEPkd1OnrizrJAQ",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "281 smoke-free guestrooms",
@@ -18458,8 +19106,16 @@
       "savings_percent": 58
     },
     "starRating": 4,
-    "rating": 8.2,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "8T03ZeLNllax5JtfRGhN",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "301 guestrooms",
@@ -18535,7 +19191,7 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 9.0,
+    "rating": 8.7,
     "reviews": [
       {
         "id": "pwwUlIPlajj3SbD5yw8h",
@@ -18653,7 +19309,7 @@
       "savings_percent": 17
     },
     "starRating": 5,
-    "rating": 8.8,
+    "rating": 7.4,
     "reviews": [
       {
         "id": "fUAQsG2NJr8J7hBXjXWj",
@@ -18771,7 +19427,7 @@
       "savings_percent": 28
     },
     "starRating": 5,
-    "rating": 8.8,
+    "rating": 7.6,
     "reviews": [
       {
         "id": "Wl2HHvOtflB8RjvzJEnR",
@@ -18887,8 +19543,16 @@
       "savings_percent": 41
     },
     "starRating": 4,
-    "rating": 8.8,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "3kxgZndddmC5K4QthX6x",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "237 guestrooms",
@@ -18972,8 +19636,16 @@
       "savings_percent": 32
     },
     "starRating": 3,
-    "rating": 10.0,
-    "reviews": [],
+    "rating": 8.0,
+    "reviews": [
+      {
+        "id": "tkJHjEF9TJdnPbhMJ4EL",
+        "name": "Arup",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "104 guestrooms",
@@ -19059,8 +19731,16 @@
       "savings_percent": 12
     },
     "starRating": 5,
-    "rating": 8.8,
-    "reviews": [],
+    "rating": 7.0,
+    "reviews": [
+      {
+        "id": "UFi2Hn8X8wPpESvUnSBL",
+        "name": "Pritish",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 7.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "432 guestrooms",
@@ -19146,8 +19826,16 @@
       "savings_percent": 14
     },
     "starRating": 3,
-    "rating": 9.0,
-    "reviews": [],
+    "rating": 6.0,
+    "reviews": [
+      {
+        "id": "ynIRwgs2FGUAqwklnQle",
+        "name": "Adhiraj",
+        "title": "Honest Opinion",
+        "review": "Had a nice stay",
+        "rating": 6.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "389 guestrooms",
@@ -19229,8 +19917,16 @@
       "savings_percent": 45
     },
     "starRating": 5,
-    "rating": 8.8,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "km7o8J3Eto3TngJ51uLm",
+        "name": "Arup",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "208 guestrooms",
@@ -19316,7 +20012,7 @@
       "savings_percent": 11
     },
     "starRating": 4,
-    "rating": 8.6,
+    "rating": 8.5,
     "reviews": [
       {
         "id": "gJH9WVBZLIAOilPw8HIF",
@@ -19426,8 +20122,16 @@
       "savings_percent": 31
     },
     "starRating": 5,
-    "rating": 8.0,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "BS6PpdrHtKsilVhuXS2m",
+        "name": "Debargha",
+        "title": "Honest Opinion",
+        "review": "Lovely staff",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "388 apartments",
@@ -19515,7 +20219,7 @@
       "savings_percent": 41
     },
     "starRating": 5,
-    "rating": 8.6,
+    "rating": 8.7,
     "reviews": [
       {
         "id": "yBNOfIa3YJO6ZASTQPI6",
@@ -19633,7 +20337,7 @@
       "savings_percent": 20
     },
     "starRating": 4,
-    "rating": 8.2,
+    "rating": 7.9,
     "reviews": [
       {
         "id": "6IAkJ9FtfNSjXQ9J36yj",
@@ -19751,8 +20455,16 @@
       "savings_percent": 27
     },
     "starRating": 4,
-    "rating": 7.6,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "u0ECxo5V3LTOQnJBtpZe",
+        "name": "Tanish",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "468 guestrooms",
@@ -19836,7 +20548,7 @@
       "savings_percent": 32
     },
     "starRating": 4,
-    "rating": 8.4,
+    "rating": 7.8,
     "reviews": [
       {
         "id": "YufAiA4er4e7LITpnAy3",
@@ -19954,7 +20666,7 @@
       "savings_percent": 31
     },
     "starRating": 4,
-    "rating": 8.4,
+    "rating": 6.9,
     "reviews": [
       {
         "id": "CpUQBcrHInMHFmdsPgzH",
@@ -20072,8 +20784,16 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 8.2,
-    "reviews": [],
+    "rating": 10.0,
+    "reviews": [
+      {
+        "id": "ucW8Xkzm2Dp8Fy2gEBKK",
+        "name": "Professor",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 10.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "350 smoke-free guestrooms",
@@ -20159,8 +20879,16 @@
       "savings_percent": 23
     },
     "starRating": 3,
-    "rating": 9.4,
-    "reviews": [],
+    "rating": 9.0,
+    "reviews": [
+      {
+        "id": "3oakV3i04CV7ym9Ns8CZ",
+        "name": "Koishore",
+        "title": "Honest Opinion",
+        "review": "Amazing hotel",
+        "rating": 9.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "420 guestrooms",
@@ -20245,7 +20973,7 @@
       "savings_percent": 21
     },
     "starRating": 5,
-    "rating": 9.0,
+    "rating": 8.7,
     "reviews": [
       {
         "id": "S8DOraf07mZyT7lkudFX",
@@ -20361,7 +21089,7 @@
       "savings_percent": 11
     },
     "starRating": 5,
-    "rating": 8.8,
+    "rating": 8.1,
     "reviews": [
       {
         "id": "d2XKs3jhCJP85cjvDLzh",
@@ -20468,7 +21196,15 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "K0WqTp66G9NoAWPJCIqI",
+        "name": "Arup",
+        "title": "Honest Opinion",
+        "review": "Good locations",
+        "rating": 8.0
+      }
+    ],
     "feature_bullets": {
       "Main amenities": [
         "528 smoke-free guestrooms",

@@ -168,6 +168,37 @@ def verifyEdits(f):
 
     return decorated
 
+def verifyReview(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+
+        body = request.get_json()
+
+        schema = {
+            "rating": {'type':'number', 'required':True, 'nullable':False, 'min': 1.0, 'max': 10.0, 'coerce':float},
+            "review": {'type':'string', 'required':True, 'empty':False, 'nullable':False},
+            "title": {'type':'string', 'required':False, 'empty':False, 'nullable':False, 'maxlength': 50, 'default':'General'}
+            }
+
+        if body is None:
+            return Response(response='No Data Sent', status=400)
+    
+        v = Validator(schema)
+        body = v.normalized(body)
+
+        if v.errors != {}:
+            return Response(response=f'Error: {v.errors}', status=400)
+
+        try:
+            if not v.validate(body):
+                return Response(response=f'Error: {v.errors}', status=400)
+        except:
+            return Response(status=400, response='Validaton Failed')
+
+        return f(body, *args, **kwargs)
+
+    return decorated
+
 #==============================
 # Token Auth
 
@@ -354,21 +385,73 @@ def search():
     q = request.args.get('q', type=str, default=None)
     if q is None or q == '' or q.isspace():
         return Response(status=400, response='Invalid Search Term')
+    check_In = request.args.get('check_In', type=str, default=None)
+    check_Out = request.args.get('check_Out', type=str, default=None)
     
-    hotelSummary = json.load(open('backup/hotelSummary.json'))
-    hotelNames = hotelSummary.keys()
-    fuzzy = process.extract(q, hotelNames, limit=len(hotelNames))
-    search = []
+    city = request.args.get('city', type=str, default=None)
 
-    for hotel in fuzzy:
-        if hotel[1] > 50: # fuzzy search %
-            search.append(hotel[0])
-    
-    data = [hotelSummary.get(hotelName) for hotelName in search]
-    # hotels = db.collection('hotelSummary').where('title', 'in', search).get()
-    # data = [x.to_dict() for x in hotels]
-    
-    return jsonify(data)
+    if city is None or city.isspace() or city == '':
+
+        hotelSummary = json.load(open('backup/hotelSummary.json'))
+        hotelNames = hotelSummary.keys()
+        fuzzy = process.extract(q, hotelNames, limit=len(hotelNames))
+        search = []
+
+        for hotel in fuzzy:
+            if hotel[1] > 60: # fuzzy search %
+                search.append(hotel[0])
+        
+        print(search)
+
+        if len(search) > 10:
+            search = search[0:10]
+        elif len(search) < 3:
+            editDistance = 60 
+            for hotel in fuzzy:
+                if len(search) == 3:
+                    break
+                editDistance -= 10
+                if hotel[1] > editDistance: # fuzzy search %
+                    search.append(hotel[0])
+        
+        # data = [hotelSummary.get(hotelName) for hotelName in search]
+        hotels = db.collection('hotelSummary').where('title', 'in', search).get()
+        data = [x.to_dict() for x in hotels]
+        
+        return jsonify(data)
+
+    else:
+
+        city = city.capitalize()
+
+        if city not in ['Delhi', 'Mumbai', 'Bengaluru', 'Hyderabad', 'Pune', 'Tokyo', 'Hong Kong', 'Singapore', 'Dubai']:
+            return Response(status=404, response='No Such City')
+        
+        cityWiseHotels = json.load(open('backup/cityWiseHotels.json'))
+        hotelNames = cityWiseHotels.get(city).keys()
+        fuzzy = process.extract(q, hotelNames, limit=len(hotelNames))
+        search = []
+
+        for hotel in fuzzy:
+            if hotel[1] >= 50: # fuzzy search %
+                search.append(hotel[0])
+
+        if len(search) > 10:
+            search = search[0:10]
+        elif len(search) < 3:
+            editDistance = 50 
+            for hotel in fuzzy:
+                if len(search) == 3:
+                    break
+                editDistance -= 10
+                if hotel[1] > editDistance: # fuzzy search %
+                    search.append(hotel[0])
+
+        # data = [cityWiseHotels.get(city).get(hotelName) for hotelName in search]
+        hotels = db.collection('hotelSummary').where('title', 'in', search).get()
+        data = [x.to_dict() for x in hotels]
+        
+        return jsonify(data)
 
 # Citywise hotels
 @app.route('/api/city/<string:city>/', methods=['GET'])
@@ -378,38 +461,11 @@ def cityHotels(city):
     if city not in ['Delhi', 'Mumbai', 'Bengaluru', 'Hyderabad', 'Pune', 'Tokyo', 'Hong Kong', 'Singapore', 'Dubai']:
         return Response(status=404, response='No Such City')
     
-    cityWiseHotels = json.load(open('backup/cityWiseHotels.json'))
-    data = [v for v in cityWiseHotels.get(city).values()]
-    # hotels = db.collection('hotelSummary').where('city', '==', city).get()
-    # data = [x.to_dict() for x in hotels]
+    # cityWiseHotels = json.load(open('backup/cityWiseHotels.json'))
+    # data = [v for v in cityWiseHotels.get(city).values()]
+    hotels = db.collection('hotelSummary').where('city', '==', city).get()
+    data = [x.to_dict() for x in hotels]
 
-    return jsonify(data)
-
-# Citywise hotel search
-@app.route('/api/city/<string:city>/search', methods=['GET'])
-def citySearch(city):
-
-    city = city.capitalize()
-    if city not in ['Delhi', 'Mumbai', 'Bengaluru', 'Hyderabad', 'Pune', 'Tokyo', 'Hong Kong', 'Singapore', 'Dubai']:
-        return Response(status=404, response='No Such City')
-
-    q = request.args.get('q', type=str, default=None)
-    if q is None or q == '' or q.isspace():
-        return Response(status=400, response='Invalid Search Term')
-    
-    cityWiseHotels = json.load(open('backup/cityWiseHotels.json'))
-    hotelNames = cityWiseHotels.get(city).keys()
-    fuzzy = process.extract(q, hotelNames, limit=len(hotelNames))
-    search = []
-
-    for hotel in fuzzy:
-        if hotel[1] >= 45: # fuzzy search %
-            search.append(hotel[0])
-    
-    data = [cityWiseHotels.get(city).get(hotelName) for hotelName in search]
-    # hotels = db.collection('hotelSummary').where('title', 'in', search).get()
-    # data = [x.to_dict() for x in hotels]
-    
     return jsonify(data)
 
 # Hotel details
@@ -479,7 +535,7 @@ def editBooking(booking, bookingId):
 
 # Add review
 @app.route('/api/hotel/<string:hotelId>/review', methods=['PUT'])
-# @verifyReview
+@verifyReview
 def addReview(review, hotelId):
 
     hotel = db.collection('hotels').document(hotelId).get().to_dict()
@@ -491,10 +547,14 @@ def addReview(review, hotelId):
     reviewId = ''.join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase, k = 20))
 
     review['id'] = reviewId
+    review['name'] = 'Tanish' #authDict.get('name') or '...'
+    hotel['reviews'].append(review)
 
-    db.collection('hotels').document(hotelId).update(review)
+    db.collection('hotels').document(hotelId).update({'reviews':firestore.firestore.ArrayUnion([review]), 'rating':round(newRating, 1)})
+    db.collection('hotelSummary').document(hotel['title']).update({'rating':round(newRating, 1)})
 
     return jsonify(hotel)
+
 #=========================
 if __name__ == "__main__":
     app.run(debug=True)
