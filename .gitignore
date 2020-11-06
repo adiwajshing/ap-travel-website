@@ -2,5 +2,6 @@
 .vscode
 .DS_Store
 fbAdminConfig.json
-backup
+backup/allHotels150.json
+backup/allHotels200.json
 env/
