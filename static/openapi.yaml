@@ -1,26 +1,25 @@
 openapi: 3.0.1
-
 info:
   title: Best of Asia (REST API)
-  description: Backend for an E-Travel Project (Ashoka University) in form of a REST API architecture.
+  description: >-
+    Backend for an E-Travel Project (Ashoka University) in form of a REST API
+    architecture.
   version: 1.0.0
-
+  contact: {}
 servers:
-- url: http://127.0.0.1:5000/
-
+  - url: 'http://127.0.0.1:5000/'
 tags:
-- name: User Endpoints
-  description: All User Operations
-
+  - name: User Endpoints
+    description: All User Operations
 paths:
   /api/signup:
     post:
       tags:
-      - User Endpoints
+        - User Endpoints
       summary: New signup
       operationId: signup
       requestBody:
-        required: True
+        required: true
         content:
           application/x-www-form-urlencoded:
             schema:
@@ -40,7 +39,7 @@ paths:
                 - password
                 - phone_number
       responses:
-        200:
+        '200':
           description: Succesfully added user. Returns access token.
           content:
             application/json:
@@ -51,32 +50,32 @@ paths:
                     type: string
                   refreshToken:
                     type: string
-        400:
+        '400':
           description: Bad input
           content: {}
-        401:
+        '401':
           description: User already exists or Unauthorized
-
+      parameters: []
   /api/google-signup:
     put:
       tags:
-      - User Endpoints
+        - User Endpoints
       summary: Add user to DB after Google Signup
       operationId: GoogleSignup
       responses:
-        200:
+        '200':
           description: Succesfully added user in DB or user already exists in DB.
       security:
-      - Bearer: []
-  
+        - Bearer: []
+      parameters: []
   /api/login:
     post:
       tags:
-      - User Endpoints
+        - User Endpoints
       summary: Login with email and password
       operationId: login
       requestBody:
-        required: True
+        required: true
         content:
           application/x-www-form-urlencoded:
             schema:
@@ -90,7 +89,7 @@ paths:
                 - email
                 - password
       responses:
-        200:
+        '200':
           description: Succesfully logged in
           content:
             application/json:
@@ -101,12 +100,12 @@ paths:
                     type: string
                   refreshToken:
                     type: string
-        400:
+        '400':
           description: Bad input
           content: {}
-        401:
+        '401':
           description: Unauthorized
-    
+      parameters: []
   /api/logout:
     get:
       tags:
@@ -114,11 +113,11 @@ paths:
       summary: Logout and revoke tokens
       operationId: logout
       responses:
-        200:
+        '200':
           description: Succesfully logged out and revoked tokens
       security:
-      - Bearer: []
-  
+        - Bearer: []
+      parameters: []
   /api/profile:
     get:
       tags:
@@ -126,7 +125,7 @@ paths:
       summary: View Profile Section
       operationId: viewUser
       responses:
-        200:
+        '200':
           description: Returns Profile
           content:
             application/json:
@@ -139,23 +138,22 @@ paths:
                     type: string
                   phone_number:
                     type: string
-        401:
+        '401':
           description: Unauthorized
-        404:
+        '404':
           description: User not found
           content: {}
-
       security:
-      - Bearer: []
-
+        - Bearer: []
+      parameters: []
   /api/profile/:
     patch:
       tags:
-      - User Endpoints
+        - User Endpoints
       summary: Edit Profile
       operationId: editProfile
       requestBody:
-        required: True
+        required: true
         content:
           application/json:
             schema:
@@ -166,7 +164,7 @@ paths:
                 phone_number:
                   type: string
       responses:
-        200:
+        '200':
           description: Succesfully edited user.
           content:
             application/json:
@@ -179,19 +177,170 @@ paths:
                     type: string
                   phone_number:
                     type: string
-        400:
+        '400':
           description: Bad input
           content: {}
-        401:
+        '401':
           description: Unauthorized
-
       security:
-      - Bearer: []       
-
+        - Bearer: []
+      parameters: []
+  /api/:
+    get:
+      summary: Homepage data containing name of cities
+      description: ''
+      parameters: []
+      operationId: Homepage
+      responses:
+        '200':
+          description: Cities in which hotels are
+          content:
+            application/json:
+              schema: {}
+      tags:
+        - Navigation
+  /api/search:
+    get:
+      summary: Search response data
+      description: ''
+      parameters:
+        - name: city
+          in: query
+          required: false
+          schema:
+            type: string
+            default: None
+        - name: q
+          in: query
+          required: false
+          schema:
+            type: string
+            default: None
+        - name: check_In
+          in: query
+          required: false
+          schema:
+            type: string
+            default: None
+        - name: check_Out
+          in: query
+          required: false
+          schema:
+            type: string
+            default: None
+      operationId: Search
+      responses:
+        '200':
+          description: Default
+          content:
+            application/json:
+              schema: {}
+      tags:
+        - Navigation
+  '/api/city/{city}':
+    get:
+      summary: Gets data of hotels according to 
+      description: ''
+      parameters:
+        - name: city
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: []
+          description: City name
+      operationId: City wise search
+      responses:
+        '200':
+          description: Hotels in city of choice/selected
+          content:
+            application/json:
+              schema: {}
+      tags:
+        - Navigation
+  '/api/hotel/{hotelId}':
+    get:
+      summary: gets all data linked to 
+      description: ''
+      parameters:
+        - name: hotelId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique hotel identity number
+      operationId: Hotel details
+      responses:
+        '200':
+          description: details of hotel
+          content:
+            application/json:
+              schema: {}
+        '404':
+          description: Hotel Not Found
+      tags:
+        - Navigation
+  /api/profile/bookings:
+    get:
+      summary: gets all bookings of user
+      description: ''
+      parameters: []
+      operationId: View bookings
+      responses:
+        '200':
+          description: 'user booking data '
+          content:
+            application/json:
+              schema: {}
+      tags:
+        - Booking
+    put:
+      summary: ''
+      description: ''
+      parameters: []
+      operationId: Add booking
+      responses:
+        default:
+          description: Default response
+      tags:
+        - Booking
+  '/api/profile/bookings/{bookingId}':
+    delete:
+      summary: ''
+      description: ''
+      parameters: []
+      operationId: Delete booking
+      responses:
+        default:
+          description: Default response
+      tags:
+        - Booking
+    patch:
+      summary: ''
+      description: ''
+      parameters: []
+      operationId: Edit booking
+      responses:
+        default:
+          description: Default response
+  '/api/hotel/{hotelId}/review':
+    put:
+      summary: ''
+      description: ''
+      parameters: []
+      operationId: Add review
+      responses:
+        default:
+          description: Default response
+      tags:
+        - Review
 components:
-
   securitySchemes:
     Bearer:
       type: apiKey
       name: Authorization
       in: header
+  links: {}
+  callbacks: {}
+  schemas: {}
+security: []
