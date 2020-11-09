@@ -11,6 +11,12 @@ servers:
 tags:
   - name: User Endpoints
     description: All User Operations
+  - name: Booking
+    description: Booking routes
+  - name: Review
+    description: Review routes
+  - name: Navigation
+    description: Navigation routes
 paths:
   /api/signup:
     post:
@@ -193,10 +199,12 @@ paths:
       operationId: Homepage
       responses:
         '200':
-          description: Cities in which hotels are
+          description: City data found
           content:
             application/json:
               schema: {}
+        '404':
+          description: Bad response
       tags:
         - Navigation
   /api/search:
@@ -209,37 +217,39 @@ paths:
           required: false
           schema:
             type: string
-            default: None
+            default: ''
         - name: q
           in: query
-          required: false
+          required: true
           schema:
             type: string
-            default: None
+            default: ''
         - name: check_In
           in: query
-          required: false
+          required: true
           schema:
             type: string
             default: None
         - name: check_Out
           in: query
-          required: false
+          required: true
           schema:
             type: string
             default: None
       operationId: Search
       responses:
         '200':
-          description: Default
+          description: Search results generated
           content:
             application/json:
               schema: {}
+        '400':
+          description: Invalid search term
       tags:
         - Navigation
   '/api/city/{city}':
     get:
-      summary: Gets data of hotels according to 
+      summary: Gets data of hotels according to city
       description: ''
       parameters:
         - name: city
@@ -247,15 +257,26 @@ paths:
           required: true
           schema:
             type: string
-            enum: []
+            enum:
+              - Mumbai
+              - New Delhi
+              - Tokyo
+              - Bengaluru
+              - Dubai
+              - Hong Kong
+              - Hyderabad
+              - Singapore
+              - Pune
           description: City name
       operationId: City wise search
       responses:
         '200':
-          description: Hotels in city of choice/selected
+          description: Hotels in city found
           content:
             application/json:
               schema: {}
+        '404':
+          description: City not found
       tags:
         - Navigation
   '/api/hotel/{hotelId}':
@@ -272,7 +293,7 @@ paths:
       operationId: Hotel details
       responses:
         '200':
-          description: details of hotel
+          description: Hotel details found
           content:
             application/json:
               schema: {}
@@ -288,10 +309,14 @@ paths:
       operationId: View bookings
       responses:
         '200':
-          description: 'user booking data '
+          description: user booking data
           content:
             application/json:
               schema: {}
+        '401':
+          description: Unauthorized
+        '404':
+          description: User booking data not found
       tags:
         - Booking
     put:
@@ -300,40 +325,94 @@ paths:
       parameters: []
       operationId: Add booking
       responses:
-        default:
-          description: Default response
+        '200':
+          description: Booking added successfully
+        '400':
+          description: Bad response
+        '401':
+          description: Unauthorized
       tags:
         - Booking
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {}
   '/api/profile/bookings/{bookingId}':
     delete:
-      summary: ''
+      summary: Delete booking using booking ID
       description: ''
-      parameters: []
+      parameters:
+        - name: bookingId
+          in: path
+          required: true
+          schema:
+            type: string
       operationId: Delete booking
       responses:
-        default:
-          description: Default response
+        '200':
+          description: Deleted
+        '201':
+          description: Description
+        '401':
+          description: Unauthorized
       tags:
         - Booking
     patch:
-      summary: ''
+      summary: Edit booking
       description: ''
-      parameters: []
+      parameters:
+        - name: bookingId
+          in: path
+          required: true
+          schema:
+            type: string
       operationId: Edit booking
       responses:
-        default:
-          description: Default response
+        '200':
+          description: edited booking
+          content:
+            application/json:
+              schema: {}
+        '400':
+          description: Booking not found
+        '401':
+          description: Unauthorized
+      tags:
+        - Booking
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {}
   '/api/hotel/{hotelId}/review':
     put:
-      summary: ''
+      summary: add review to hotel
       description: ''
-      parameters: []
+      parameters:
+        - name: hotelId
+          in: path
+          required: true
+          schema:
+            type: string
       operationId: Add review
       responses:
-        default:
-          description: Default response
+        '200':
+          description: Review added to hotel
+          content:
+            application/json:
+              schema: {}
+        '400':
+          description: Hotel Not Found
+        '401':
+          description: Unauthorized
       tags:
         - Review
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {}
 components:
   securitySchemes:
     Bearer:
@@ -342,5 +421,7 @@ components:
       in: header
   links: {}
   callbacks: {}
-  schemas: {}
+  schemas:
+    cities:
+      type: object
 security: []

@@ -540,7 +540,7 @@ def addReview(review, hotelId):
 
     hotel = db.collection('hotels').document(hotelId).get().to_dict()
     if hotel is None:
-        return Response(status=404, response='Hotel Not Found')
+        return Response(status=400, response='Hotel Not Found')
 
     oldRating = hotel['rating']
     newRating = (oldRating * len(hotel['reviews']) + review['rating']) / (len(hotel['reviews']) + 1)
