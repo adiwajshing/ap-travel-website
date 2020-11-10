@@ -202,7 +202,8 @@ paths:
           description: City data found
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/cities'
         '404':
           description: Bad response
       tags:
@@ -242,7 +243,8 @@ paths:
           description: Search results generated
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/hotelSearch'
         '400':
           description: Invalid search term
       tags:
@@ -274,14 +276,15 @@ paths:
           description: Hotels in city found
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/hotelSearch'
         '404':
           description: City not found
       tags:
         - Navigation
   '/api/hotel/{hotelId}':
     get:
-      summary: gets all data linked to 
+      summary: gets all hotel data
       description: ''
       parameters:
         - name: hotelId
@@ -289,14 +292,14 @@ paths:
           required: true
           schema:
             type: string
-          description: Unique hotel identity number
       operationId: Hotel details
       responses:
         '200':
           description: Hotel details found
           content:
             application/json:
-              schema: {}
+              schema:
+                 $ref: '#/components/schemas/hotelSearch'
         '404':
           description: Hotel Not Found
       tags:
@@ -312,7 +315,8 @@ paths:
           description: user booking data
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/bookingDetails'
         '401':
           description: Unauthorized
         '404':
@@ -320,13 +324,17 @@ paths:
       tags:
         - Booking
     put:
-      summary: ''
+      summary: add booking
       description: ''
       parameters: []
       operationId: Add booking
       responses:
         '200':
           description: Booking added successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/bookingDetails'
         '400':
           description: Bad response
         '401':
@@ -337,7 +345,9 @@ paths:
         required: true
         content:
           application/json:
-            schema: {}
+            schema:
+              $ref: '#/components/schemas/booking'
+              
   '/api/profile/bookings/{bookingId}':
     delete:
       summary: Delete booking using booking ID
@@ -352,6 +362,10 @@ paths:
       responses:
         '200':
           description: Deleted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/bookingDetails'
         '201':
           description: Description
         '401':
@@ -373,7 +387,8 @@ paths:
           description: edited booking
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/bookingDetails'
         '400':
           description: Booking not found
         '401':
@@ -384,7 +399,8 @@ paths:
         required: true
         content:
           application/json:
-            schema: {}
+            schema: 
+              $ref: '#/components/schemas/booking'
   '/api/hotel/{hotelId}/review':
     put:
       summary: add review to hotel
@@ -401,9 +417,10 @@ paths:
           description: Review added to hotel
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/hotelReviews'
         '400':
-          description: Hotel Not Found
+          description: No data sent
         '401':
           description: Unauthorized
       tags:
@@ -412,7 +429,8 @@ paths:
         required: true
         content:
           application/json:
-            schema: {}
+            schema:
+              $ref: '#/components/schemas/addReview'
 components:
   securitySchemes:
     Bearer:
@@ -421,7 +439,213 @@ components:
       in: header
   links: {}
   callbacks: {}
+  
   schemas:
     cities:
       type: object
+      properties:
+        Bengaluru:
+          type: object
+          properties:
+            destinationId:
+                type: string
+            name:
+                type: string
+            thumbnail:
+                type: string
+        Delhi:
+          type: object
+          properties:
+            destinationId:
+                type: string
+            name:
+                type: string
+            thumbnail:
+                type: string
+        Dubai:
+          type: object
+          properties:
+            destinationId:
+                type: string
+            name:
+                type: string
+            thumbnail:
+                type: string
+        Hong Kong:
+          type: object
+          properties:
+            destinationId:
+                type: string
+            name:
+                type: string
+            thumbnail:
+                type: string
+        Hyderabad:
+          type: object
+          properties:
+            destinationId:
+                type: string
+            name:
+                type: string
+            thumbnail:
+                type: string
+        Mumbai:
+          type: object
+          properties:
+            destinationId:
+                type: string
+            name:
+                type: string
+            thumbnail:
+                type: string
+        Pune:
+          type: object
+          properties:
+            destinationId:
+                type: string
+            name:
+                type: string
+            thumbnail:
+                type: string
+        Singapore:
+          type: object
+          properties:
+            destinationId:
+                type: string
+            name:
+                type: string
+            thumbnail:
+                type: string
+        Tokyo:
+          type: object
+          properties:
+            destinationId:
+                type: string
+            name:
+                type: string
+            thumbnail:
+                type: string
+        
+    booking:
+      type: object
+      properties:
+        hotelId:
+          type: string
+        status:
+          type: string
+          enum: ['booked', 'cancelled', 'visited', 'favourite']
+        title:
+          type: string
+        price: 
+          type: number
+        bookingName:
+          type: string
+        guests:
+          type: number
+        room:
+          type: object
+          properties:
+            keysrules:
+              type: string
+            valuesrules: 
+              type: number
+        check_In:
+          type: string
+        check_Out:
+          type: string
+          
+    hotel:
+      type: object
+      properties:
+        city:
+          type: string
+          enum: ["Mumbai", "New Delhi", "Tokyo", "Bengaluru", "Dubai", "Hong Kong", "Hyderabad", "Singapore" , "Pune"]
+        destinationId: 
+          type: string
+        features: 
+          type: object
+          properties: 
+            freeCancellation: 
+              type: boolean
+            noCCrequired:
+              type: boolean
+            paymentPreference: 
+              type: boolean
+        id: 
+          type: number
+        landmarks: 
+          type: string #####array######
+        neighbourhood: 
+          type: string
+        price: 
+          type: object
+          properties: 
+            before_price:
+              type: number
+            currency:
+              type: string
+            current_price:
+              type: number
+            discounted:
+              type: boolean 
+            savings_amount: 
+              type: number
+            savings_percent:
+              type: number
+              minimum: 0
+              maximum: 100
+        rating: 
+          type: number
+          minimum: 0.0
+          maximum: 10.0
+        starRating: 
+          type: number
+          minimum: 0
+          maximum: 5
+        thumbnail: 
+          type: string
+    
+    bookingDetails:
+      type: array
+      items:
+        $ref: '#/components/schemas/booking'
+   
+    hotelSearch:
+      type: array
+      items:
+        $ref: '#/components/schemas/hotel'
+        
+    hotelReviews:
+      type: object
+      properties:
+        reviews:
+          type: array
+          items:
+            type: object
+            properties:
+              rating:
+                type: number
+                minimum: 1.0
+                maximum: 10.0
+              review:
+                type: string
+              title:
+                type: string
+              
+    addReview:
+      type: object
+      required:
+      - rating
+      - review
+      - title
+      properties:
+        rating:
+          type: number
+          minimum: 1.0
+          maximum: 10.0
+        review:
+          type: string
+        title:
+          type: string
+                
 security: []
