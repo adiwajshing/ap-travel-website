@@ -2,6 +2,7 @@ import json
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
+from tqdm import tqdm
 
 # Use the application default credentials
 cred = credentials.Certificate(json.load(open('fbAdminConfig.json')))
@@ -24,10 +25,8 @@ def addCities():
 def addHotelSummary():
 
     ref = db.collection('hotelSummary')
-    counter = 0
-    total = len(hotel_summary.keys())
 
-    for hotelName, hotelInfo in hotel_summary.items():
+    for hotelName, hotelInfo in tqdm(hotel_summary.items()):
 
         try:
             ref.document(hotelName).set(hotelInfo)
@@ -35,29 +34,14 @@ def addHotelSummary():
             print(hotelName)
             continue
 
-        counter += 1
-
-        if counter % 20 == 0:
-            print(counter * 100/total, end='%...')
-
 def addHotels():
 
     ref = db.collection('hotels')
-    counter = 0
-    total = len(allHotels.keys())
 
-    for hotelId, hotelInfo in allHotels.items():
+    for hotelId, hotelInfo in tqdm(allHotels.items()):
 
         try:
             ref.document(hotelId).set(hotelInfo)
         except:
             print(hotelId)
             continue
-
-        counter += 1
-
-        if round(counter % 20) == 0:
-            print(round(counter * 100/total), end='%...')
-
-addHotelSummary()
-addHotels()

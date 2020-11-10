@@ -310,7 +310,7 @@ def editNames():
 
     for i in hotelNames:
 
-        if len(i) > 50:
+        if len(i) > 200:
 
             print(i)
             newName = input('New Name: ')
@@ -330,7 +330,11 @@ def editNames():
             allHotels[str(summary['id'])] = value
 
             print('changed...')
-    
+
+        hotelSummaryJSON[i].pop('landmarks')
+        hotelSummaryJSON[i].pop('features')
+
+        allHotels[str(hotelSummaryJSON[i]['id'])].pop('landmarks')
     
     jsonWrite = json.dumps(hotelSummaryJSON, indent = 2) 
     with open('hotelSummary' + ".json", "w") as output: 
@@ -339,3 +343,5 @@ def editNames():
     jsonWrite = json.dumps(allHotels, indent = 2) 
     with open('allHotels' + ".json", "w") as output: 
         output.write(jsonWrite)
+
+editNames()

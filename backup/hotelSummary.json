@@ -13,15 +13,9 @@
     },
     "starRating": 4,
     "rating": 8.6,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "South West",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "The Metropolitan Hotel and Spa New Delhi": {
     "id": 255037,
@@ -37,15 +31,9 @@
     },
     "starRating": 5,
     "rating": 7.4,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Connaught Place",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Hotel City Star, Delhi": {
     "id": 424978,
@@ -61,15 +49,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Paharganj",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "ADB Rooms Gaurav Guest House, Delhi": {
     "id": 1858974400,
@@ -85,15 +67,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Paharganj",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Hotel Viva Palace, Delhi": {
     "id": 701094272,
@@ -109,15 +85,9 @@
     },
     "starRating": 4,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "New Delhi",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Shangri-La's Eros Hotel, New Delhi": {
     "id": 242768,
@@ -133,15 +103,9 @@
     },
     "starRating": 5,
     "rating": 8.8,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Connaught Place",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "WelcomHotel Dwarka - Member ITC Hotel Group, Delhi": {
     "id": 392920,
@@ -157,15 +121,9 @@
     },
     "starRating": 5,
     "rating": 7.8,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Dwarka",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Bloomrooms Janpath, Delhi": {
     "id": 953567200,
@@ -181,15 +139,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Connaught Place",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Novotel New Delhi Aerocity Hotel": {
     "id": 495375,
@@ -205,15 +157,9 @@
     },
     "starRating": 4,
     "rating": 8.5,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Aerocity",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Radisson Blu Hotel New Delhi Dwarka": {
     "id": 391034,
@@ -229,15 +175,9 @@
     },
     "starRating": 5,
     "rating": 7.6,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Dwarka",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "The Claridges New Delhi": {
     "id": 216075,
@@ -253,15 +193,9 @@
     },
     "starRating": 5,
     "rating": 8.4,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "New Delhi",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "JW Marriott Hotel New Delhi Aerocity": {
     "id": 434655,
@@ -277,15 +211,9 @@
     },
     "starRating": 5,
     "rating": 9.2,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Aerocity",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "The Leela Palace New Delhi": {
     "id": 353117,
@@ -301,15 +229,9 @@
     },
     "starRating": 5,
     "rating": 9.2,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Diplomatic Enclave",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "The Connaught, New Delhi - IHCL SeleQtions": {
     "id": 327741,
@@ -325,15 +247,9 @@
     },
     "starRating": 5,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Connaught Place",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "ibis New Delhi Aerocity Hotel": {
     "id": 399882,
@@ -349,15 +265,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Aerocity",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Pride Plaza Hotel Aerocity New Delhi": {
     "id": 563277,
@@ -373,15 +283,9 @@
     },
     "starRating": 5,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Aerocity",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Hari Piorko Inn Express , Delhi": {
     "id": 644006656,
@@ -397,15 +301,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Paharganj",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Hotel White Castle, Delhi": {
     "id": 1666613408,
@@ -421,15 +319,9 @@
     },
     "starRating": 3,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Noida",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Ambassador, New Delhi - IHCL SeleQtions": {
     "id": 179150,
@@ -445,15 +337,9 @@
     },
     "starRating": 5,
     "rating": 6.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "New Delhi",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Hotel Red Stone , Delhi": {
     "id": 1758549376,
@@ -469,15 +355,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "South Extension",
     "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
+    "destinationId": "675357"
   },
   "Waterstones Hotel, Mumbai": {
     "id": 261061,
@@ -493,15 +373,9 @@
     },
     "starRating": 4,
     "rating": 6.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Marol",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Sahara Star, Mumbai": {
     "id": 186860,
@@ -517,15 +391,9 @@
     },
     "starRating": 5,
     "rating": 6.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Vile Parle East",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "The Leela Mumbai": {
     "id": 116390,
@@ -541,15 +409,9 @@
     },
     "starRating": 5,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Mumbai",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Meluha - The Fern, Mumbai": {
     "id": 373983,
@@ -565,15 +427,9 @@
     },
     "starRating": 4,
     "rating": 8.3,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hiranandani Gardens",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Niranta Transit Hotel Mumbai Airport": {
     "id": 600667,
@@ -589,15 +445,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Vile Parle East",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Hotel Planet Residency, Mumbai": {
     "id": 457829,
@@ -613,15 +463,9 @@
     },
     "starRating": 3,
     "rating": 8.8,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Vile Parle East",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "The Orchid Ecotel Mumbai Airport": {
     "id": 139941,
@@ -637,15 +481,9 @@
     },
     "starRating": 5,
     "rating": 6.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Vile Parle East",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Kohinoor Elite, Mumbai": {
     "id": 386194,
@@ -661,15 +499,9 @@
     },
     "starRating": 3,
     "rating": 8.3,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Christian Gaon",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Rodas Hotel, Mumbai": {
     "id": 222650,
@@ -685,15 +517,9 @@
     },
     "starRating": 4,
     "rating": 8.8,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hiranandani Gardens",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "VITS Mumbai International Airport": {
     "id": 222651,
@@ -709,15 +535,9 @@
     },
     "starRating": 4,
     "rating": 6.3,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bhim Nagar",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "T24 Residency, Mumbai": {
     "id": 550330,
@@ -733,15 +553,9 @@
     },
     "starRating": 4,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Marol",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "The Empresa Hotel, Mumbai": {
     "id": 670547,
@@ -757,15 +571,9 @@
     },
     "starRating": 4,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Mumbai",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "The Fern Residency - Mumbai": {
     "id": 411066,
@@ -781,15 +589,9 @@
     },
     "starRating": 4,
     "rating": 7.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Chembur East",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Sofitel Mumbai BKC Hotel": {
     "id": 374462,
@@ -805,15 +607,9 @@
     },
     "starRating": 5,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bandra Kurla complex",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "The Mirador, Mumbai": {
     "id": 208245,
@@ -829,15 +625,9 @@
     },
     "starRating": 4,
     "rating": 6.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Chakala",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "President, Mumbai - IHCL SeleQtions": {
     "id": 151698,
@@ -853,15 +643,9 @@
     },
     "starRating": 5,
     "rating": 8.3,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Cuffe Parade",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Sun N Sand Hotel Mumbai": {
     "id": 186440,
@@ -877,15 +661,9 @@
     },
     "starRating": 4,
     "rating": 7.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Juhu",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Mirage Hotel, Mumbai": {
     "id": 279291,
@@ -901,15 +679,9 @@
     },
     "starRating": 4,
     "rating": 8.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Marol",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "The Fern Goregaon, Mumbai": {
     "id": 647177,
@@ -925,15 +697,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Goregaon East",
     "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
+    "destinationId": "1640701"
   },
   "Renaissance Bengaluru Race Course Hotel": {
     "id": 866318656,
@@ -949,15 +715,9 @@
     },
     "starRating": 5,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Gandhi Nagar",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "St. Mark's Hotel, Bengaluru": {
     "id": 313310,
@@ -973,15 +733,9 @@
     },
     "starRating": 4,
     "rating": 8.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Shanthala Nagar",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "WelcomHotel Bengaluru - Member ITCHotel Group": {
     "id": 460981,
@@ -997,15 +751,9 @@
     },
     "starRating": 5,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bangalore City Center",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "The Fern Residency Yeshwanthpur, Bengaluru": {
     "id": 449047,
@@ -1021,15 +769,9 @@
     },
     "starRating": 3,
     "rating": 8.5,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Yeshwanthpur",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "ibis Bengaluru City Centre Hotel": {
     "id": 470467,
@@ -1045,15 +787,9 @@
     },
     "starRating": 4,
     "rating": 7.1,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bangalore City Center",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "The Leela Palace Bengaluru": {
     "id": 198732,
@@ -1069,15 +805,9 @@
     },
     "starRating": 5,
     "rating": 8.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bengaluru",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "TS Royal Grand - Attibele, Hosur, Bengaluru": {
     "id": 737331232,
@@ -1093,15 +823,9 @@
     },
     "starRating": 4,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bommasandra",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Shangri-La Hotel Bengaluru": {
     "id": 546124,
@@ -1117,15 +841,9 @@
     },
     "starRating": 5,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Vasanth Nagar",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Regenta Place, Bengaluru": {
     "id": 1090122048,
@@ -1141,15 +859,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Shivaji Nagar",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Sterlings Mac Hotel & Suites, Bengaluru": {
     "id": 366878,
@@ -1165,15 +877,9 @@
     },
     "starRating": 5,
     "rating": 7.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bengaluru",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "The Zinc Whitefield Bengaluru": {
     "id": 1773744832,
@@ -1189,15 +895,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Whitefield",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "The Oberoi, Bengaluru": {
     "id": 130594,
@@ -1213,15 +913,9 @@
     },
     "starRating": 5,
     "rating": 9.3,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bengaluru",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Grand Mercure Bengaluru": {
     "id": 307719,
@@ -1237,15 +931,9 @@
     },
     "starRating": 4,
     "rating": 9.2,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Koramangala 3 Block",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Iris Hotel, Bengaluru": {
     "id": 276446,
@@ -1261,15 +949,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bangalore City Center",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Hotel Shyam Inn, Bengaluru": {
     "id": 1828285536,
@@ -1285,15 +967,9 @@
     },
     "starRating": 3,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bengaluru",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Clarks Exotica Convention, Resort & Spa, Bengaluru": {
     "id": 376561,
@@ -1309,15 +985,9 @@
     },
     "starRating": 5,
     "rating": 8.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Devanahalli",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "The Oterra Bengaluru Electronics City": {
     "id": 343166,
@@ -1333,15 +1003,9 @@
     },
     "starRating": 5,
     "rating": 7.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Electronics City",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Hotel DBrooks, Bengaluru": {
     "id": 1744079296,
@@ -1357,15 +1021,9 @@
     },
     "starRating": 3,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Brookefield",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Taj MG Road, Bengaluru": {
     "id": 212473,
@@ -1381,15 +1039,9 @@
     },
     "starRating": 5,
     "rating": 9.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Ulsoor",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Royal Orchid Central Bengaluru": {
     "id": 240388,
@@ -1405,15 +1057,9 @@
     },
     "starRating": 4,
     "rating": 6.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bangalore City Center",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "Ibis Bengaluru Outer Ring Road": {
     "id": 373122,
@@ -1429,15 +1075,9 @@
     },
     "starRating": 3,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bellandur",
     "city": "Bengaluru",
-    "destinationId": "678196",
-    "landmarks": []
+    "destinationId": "678196"
   },
   "ITC Kakatiya, a Luxury Collection Hotel, Hyderabad": {
     "id": 151249,
@@ -1453,15 +1093,9 @@
     },
     "starRating": 5,
     "rating": 8.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Begumpet",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Ellaa Hotel Gachibowli, Hyderabad": {
     "id": 263039,
@@ -1477,15 +1111,9 @@
     },
     "starRating": 4,
     "rating": 7.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Radisson Blu Plaza Hotel Hyderabad Banjara Hills": {
     "id": 416468,
@@ -1501,15 +1129,9 @@
     },
     "starRating": 4,
     "rating": 7.1,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Green Valley",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Novotel Hyderabad Airport Hotel": {
     "id": 269109,
@@ -1525,15 +1147,9 @@
     },
     "starRating": 5,
     "rating": 9.6,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Mercure Hyderabad KCP Hotel": {
     "id": 551570,
@@ -1549,15 +1165,9 @@
     },
     "starRating": 4,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Punjagutta",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Best Western Ashoka, Hyderabad": {
     "id": 530470,
@@ -1573,15 +1183,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "ITC Kohenur, a Luxury Collection Hotel, Hyderabad": {
     "id": 778299488,
@@ -1597,15 +1201,9 @@
     },
     "starRating": 5,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Treebo Trend Acsys, Hyderabad": {
     "id": 1041405760,
@@ -1621,15 +1219,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Sri Simran Park Hotel, Hyderabad": {
     "id": 1285853184,
@@ -1645,15 +1237,9 @@
     },
     "starRating": 3,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Treebo Trend Rain Tree, Hyderabad": {
     "id": 1158077088,
@@ -1669,15 +1255,9 @@
     },
     "starRating": 3,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "HITEC City",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Novotel Hyderabad Convention Centre Hotel": {
     "id": 250985,
@@ -1693,15 +1273,9 @@
     },
     "starRating": 5,
     "rating": 7.2,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Treebo Tryst Tree Inn Jubliee, Hyderabad": {
     "id": 1434437184,
@@ -1717,15 +1291,9 @@
     },
     "starRating": 3,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Jubilee Hills",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Le Meridien Hyderabad": {
     "id": 1417854464,
@@ -1741,15 +1309,9 @@
     },
     "starRating": 5,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "The Manohar Hyderabad": {
     "id": 306133,
@@ -1765,15 +1327,9 @@
     },
     "starRating": 4,
     "rating": 2.8,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Begumpet",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Vivanta Hyderabad, Begumpet": {
     "id": 397200,
@@ -1789,15 +1345,9 @@
     },
     "starRating": 5,
     "rating": 8.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Begumpet",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Oakwood Residence Kapil Hyderabad": {
     "id": 512191,
@@ -1813,15 +1363,9 @@
     },
     "starRating": 5,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Nanakram Guda",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Welkin Hotel , Hyderabad": {
     "id": 1835764160,
@@ -1837,15 +1381,9 @@
     },
     "starRating": 3,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Treebo Trend Wood Bridge, Hyderabad": {
     "id": 692429,
@@ -1861,15 +1399,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Lakdi Ka Pul",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "HMC Hotel, Hyderabad": {
     "id": 1864318784,
@@ -1885,15 +1417,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "The Conclave, Hyderabad": {
     "id": 1568525472,
@@ -1909,15 +1435,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "The Central Court Hotel, Hyderabad": {
     "id": 321657,
@@ -1933,15 +1453,9 @@
     },
     "starRating": 3,
     "rating": 7.2,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Lakdi Ka Pul",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Cannychoice Inn, Hyderabad": {
     "id": 1727182272,
@@ -1957,15 +1471,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "Hotel Lotus Grand, Hyderabad": {
     "id": 1564248448,
@@ -1981,15 +1489,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250",
-    "landmarks": []
+    "destinationId": "685250"
   },
   "JW Marriott Hotel Pune": {
     "id": 361496,
@@ -2005,15 +1507,9 @@
     },
     "starRating": 5,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Model Colony",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "The Fern Residency, Pune": {
     "id": 580754,
@@ -2029,15 +1525,9 @@
     },
     "starRating": 3,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bhosari",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Sayaji Pune": {
     "id": 370202,
@@ -2053,15 +1543,9 @@
     },
     "starRating": 5,
     "rating": 9.2,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Paud",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "The Ritz-Carlton, Pune": {
     "id": 1263495904,
@@ -2077,15 +1561,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Yerawada",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Ramee Grand Hotel and Spa, Pune": {
     "id": 403278,
@@ -2101,15 +1579,9 @@
     },
     "starRating": 4,
     "rating": 6.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Shivajinagar",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Marriott Suites Pune": {
     "id": 279184,
@@ -2125,15 +1597,9 @@
     },
     "starRating": 5,
     "rating": 8.6,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Mundhwa",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Amanora The Fern Hotels & Club, Pune": {
     "id": 701516,
@@ -2149,15 +1615,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Hotel Deccan Pavilion Pune": {
     "id": 569204736,
@@ -2173,15 +1633,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Vadgaon Budruk",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Treebo Trend Popular Hotel, Pune": {
     "id": 1343339744,
@@ -2197,15 +1651,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Blue Diamond - IHCL SeleQtions, Pune": {
     "id": 184710,
@@ -2221,15 +1669,9 @@
     },
     "starRating": 5,
     "rating": 8.2,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Royal Orchid Central Pune": {
     "id": 267814,
@@ -2245,15 +1687,9 @@
     },
     "starRating": 4,
     "rating": 8.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kalyani Nagar",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Lemon Tree Hotel Viman Nagar Pune": {
     "id": 1144651008,
@@ -2269,15 +1705,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Viman Nagar",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Treebo Tryst Grand Emerald, Pune": {
     "id": 600716,
@@ -2293,15 +1723,9 @@
     },
     "starRating": 3,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Treebo Trend Park View, Pune": {
     "id": 629156,
@@ -2317,15 +1741,9 @@
     },
     "starRating": 3,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Treebo Trip Hill View, Pune": {
     "id": 748742464,
@@ -2341,15 +1759,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Shivajinagar",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Hyatt Place Pune Hinjawadi": {
     "id": 493340,
@@ -2365,15 +1777,9 @@
     },
     "starRating": 4,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Phase 1",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Courtyard by Marriott Pune Hinjewadi": {
     "id": 313971,
@@ -2389,15 +1795,9 @@
     },
     "starRating": 4,
     "rating": 9.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Paud",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Vivanta Pune, Hinjawadi": {
     "id": 547751,
@@ -2413,15 +1813,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Paud",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Bird Of Paradise Hospitality, Pune": {
     "id": 1048795840,
@@ -2437,15 +1831,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kharadi",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "ibis Pune Viman Nagar Hotel": {
     "id": 322079,
@@ -2461,15 +1849,9 @@
     },
     "starRating": 3,
     "rating": 6.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Viman Nagar",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Residency Club, Pune": {
     "id": 664677,
@@ -2485,15 +1867,9 @@
     },
     "starRating": 3,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "The Sirona Hotel, Pune": {
     "id": 491154,
@@ -2509,15 +1885,9 @@
     },
     "starRating": 3,
     "rating": 6.6,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Koregaon Park",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Della Resorts, Pune": {
     "id": 439620,
@@ -2533,15 +1903,9 @@
     },
     "starRating": 4,
     "rating": 5.4,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kune Village",
     "city": "Pune",
-    "destinationId": "687594",
-    "landmarks": []
+    "destinationId": "687594"
   },
   "Hilton Tokyo Odaiba": {
     "id": 127950,
@@ -2557,15 +1921,9 @@
     },
     "starRating": 4,
     "rating": 8.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Daiba",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "The Royal Park Hotel Iconic Tokyo Shiodome": {
     "id": 205955,
@@ -2581,15 +1939,9 @@
     },
     "starRating": 4,
     "rating": 7.7,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Shiodome",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Sotetsu Fresa Inn Higashi Shinjuku, Tokyo": {
     "id": 312768,
@@ -2605,15 +1957,9 @@
     },
     "starRating": 3,
     "rating": 7.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Okubo",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Remm Plus Ginza, Tokyo": {
     "id": 1195432448,
@@ -2629,15 +1975,9 @@
     },
     "starRating": 3,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Ginza",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Hotel Mets Akihabara, Tokyo": {
     "id": 1181451104,
@@ -2653,15 +1993,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Chiyoda",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Omori Tokyu REI Hotel, Tokyo": {
     "id": 144186,
@@ -2677,15 +2011,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Ota",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Mesm Tokyo, Autograph Collection": {
     "id": 1366909408,
@@ -2701,15 +2029,9 @@
     },
     "starRating": 4,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kaigan",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Hotel Vista Premio Tokyo Akasaka": {
     "id": 719083456,
@@ -2725,15 +2047,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Akasaka",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Le Petit Tokyo": {
     "id": 1909235456,
@@ -2749,15 +2065,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Nishinippori",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Shinjuku Washington Hotel Main, Tokyo": {
     "id": 239916,
@@ -2773,15 +2083,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Nishi-Shinjuku",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Via Inn Nihonbashi Ningyocho, Tokyo": {
     "id": 1182701376,
@@ -2797,15 +2101,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Nihonbashiningyocho",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Citadines Central Shinjuku Tokyo": {
     "id": 268046,
@@ -2821,15 +2119,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kabukicho",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "APA Hotel Pride, Tokyo": {
     "id": 1040513984,
@@ -2845,15 +2137,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Nagatacho",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Sotetsu Fresa Inn Ginza-Nanachome, Tokyo": {
     "id": 599621,
@@ -2869,15 +2155,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Ginza",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Akasaka Granbell Hotel, Tokyo": {
     "id": 337793,
@@ -2893,15 +2173,9 @@
     },
     "starRating": 3,
     "rating": 8.8,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Akasaka",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Best Western Hotel Fino Tokyo Akihabara": {
     "id": 931663808,
@@ -2917,15 +2191,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Taito",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Karaksa Hotel Tokyo Station": {
     "id": 921256736,
@@ -2941,15 +2209,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Yaesu",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Ascott Marunouchi Tokyo": {
     "id": 574575200,
@@ -2965,15 +2227,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Otemachi",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Cotoha Hotel Okachimachi, Tokyo": {
     "id": 636594,
@@ -2989,15 +2245,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Ueno",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Hotel Niwa Tokyo": {
     "id": 359540,
@@ -3013,15 +2263,9 @@
     },
     "starRating": 4,
     "rating": 8.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Suidobashi",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Shinjuku Granbell Hotel, Tokyo": {
     "id": 452172,
@@ -3037,15 +2281,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kabukicho",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Henn Na Hotel Tokyo Hamamatsucho": {
     "id": 643937664,
@@ -3061,15 +2299,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hamamatsucho",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Hotel Intergate Tokyo Kyobashi": {
     "id": 688274208,
@@ -3085,15 +2317,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kyobashi",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Via Inn Shinjuku, Tokyo": {
     "id": 1173460608,
@@ -3109,15 +2335,9 @@
     },
     "starRating": 3,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Shinjuku",
     "city": "Tokyo",
-    "destinationId": "726784",
-    "landmarks": []
+    "destinationId": "726784"
   },
   "Kerry Hotel, Hong Kong": {
     "id": 519714464,
@@ -3133,15 +2353,9 @@
     },
     "starRating": 5,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Hung Hom Bay",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Dorsett Wanchai Hong Kong": {
     "id": 221715,
@@ -3157,15 +2371,9 @@
     },
     "starRating": 4,
     "rating": 7.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Dorsett Mongkok, Hong Kong": {
     "id": 308476,
@@ -3181,15 +2389,9 @@
     },
     "starRating": 4,
     "rating": 7.6,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Tai Kok Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Cosmo Hotel Hong Kong": {
     "id": 230954,
@@ -3205,15 +2407,9 @@
     },
     "starRating": 4,
     "rating": 7.2,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "OZO Wesley Hong Kong": {
     "id": 465501,
@@ -3229,15 +2425,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Island Shangri-La, Hong Kong": {
     "id": 205409,
@@ -3253,15 +2443,9 @@
     },
     "starRating": 5,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Admiralty",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Silka Tsuen Wan Hong Kong": {
     "id": 676537,
@@ -3277,15 +2461,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kwai Chung",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Novotel Nathan Road Kowloon Hong Kong": {
     "id": 129614,
@@ -3301,15 +2479,9 @@
     },
     "starRating": 4,
     "rating": 8.7,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Jordan",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "The Figo, Hong Kong": {
     "id": 419449,
@@ -3325,15 +2497,9 @@
     },
     "starRating": 3,
     "rating": 8.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Sheung Wan",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "New World Millennium Hong Kong Hotel": {
     "id": 129643,
@@ -3349,15 +2515,9 @@
     },
     "starRating": 5,
     "rating": 8.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Regal Kowloon Hotel, Hong Kong": {
     "id": 193959,
@@ -3373,15 +2533,9 @@
     },
     "starRating": 4,
     "rating": 8.7,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Novotel Century Hong Kong": {
     "id": 151176,
@@ -3397,15 +2551,9 @@
     },
     "starRating": 4,
     "rating": 8.4,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Hotel Stage, Hong Kong": {
     "id": 571600,
@@ -3421,15 +2569,9 @@
     },
     "starRating": 4,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Jordan",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "ibis Hong Kong Central And Sheung Wan": {
     "id": 415581,
@@ -3445,15 +2587,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Sheung Wan",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "W's Lounge, Hong Kong": {
     "id": 1284128032,
@@ -3469,15 +2605,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Hotel ICON, Hong Kong": {
     "id": 372210,
@@ -3493,15 +2623,9 @@
     },
     "starRating": 4,
     "rating": 9.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Kowloon Shangri-La, Hong Kong": {
     "id": 105344,
@@ -3517,15 +2641,9 @@
     },
     "starRating": 5,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Dorsett Tsuen Wan, Hong Kong": {
     "id": 446476,
@@ -3541,15 +2659,9 @@
     },
     "starRating": 4,
     "rating": 8.2,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kwai Chung",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Regal Airport Hotel, Hong Kong": {
     "id": 142031,
@@ -3565,15 +2677,9 @@
     },
     "starRating": 5,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Chek Lap Kok",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Harbour Grand Hong Kong": {
     "id": 311204,
@@ -3589,15 +2695,9 @@
     },
     "starRating": 4,
     "rating": 8.8,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "North Point",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Crowne Plaza Hong Kong Causeway Bay": {
     "id": 333175,
@@ -3613,15 +2713,9 @@
     },
     "starRating": 4,
     "rating": 8.9,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Causeway Bay",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "JEN Hong Kong by Shangri-La": {
     "id": 269881,
@@ -3637,15 +2731,9 @@
     },
     "starRating": 4,
     "rating": 8.8,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Sai Wan",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Gloucester Luk Kwok Hong Kong": {
     "id": 121353,
@@ -3661,15 +2749,9 @@
     },
     "starRating": 4,
     "rating": 7.6,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "South Pacific Hotel, Hong Kong": {
     "id": 143705,
@@ -3685,15 +2767,9 @@
     },
     "starRating": 3,
     "rating": 7.6,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bowrington",
     "city": "Hong Kong",
-    "destinationId": "10233073",
-    "landmarks": []
+    "destinationId": "10233073"
   },
   "Sentosa Cove Singapore": {
     "id": 411956,
@@ -3709,15 +2785,9 @@
     },
     "starRating": 5,
     "rating": 8.4,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Singapore",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Orchard Rendezvous Hotel by Far East Hospitality, Singapore": {
     "id": 112533,
@@ -3733,15 +2803,9 @@
     },
     "starRating": 4,
     "rating": 7.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Orchard",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "YOTEL Singapore Orchard Road": {
     "id": 611363776,
@@ -3757,15 +2821,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Orchard",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Oasia Hotel Downtown Singapore": {
     "id": 431564416,
@@ -3781,15 +2839,9 @@
     },
     "starRating": 4,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Tanjong Pagar",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Amara Singapore": {
     "id": 115277,
@@ -3805,15 +2857,9 @@
     },
     "starRating": 4,
     "rating": 8.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Tanjong Pagar",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "The St. Regis Singapore": {
     "id": 260530,
@@ -3829,15 +2875,9 @@
     },
     "starRating": 5,
     "rating": 8.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Orchard",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Ascott Orchard Singapore": {
     "id": 520156448,
@@ -3853,15 +2893,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Newton",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "One Farrer Hotel, Singapore": {
     "id": 474995,
@@ -3877,15 +2911,9 @@
     },
     "starRating": 5,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Farrer Park",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Hotel G Singapore": {
     "id": 643063,
@@ -3901,15 +2929,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bencoolen",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Parkroyal Collection Pickering, Singapore": {
     "id": 421327,
@@ -3925,15 +2947,9 @@
     },
     "starRating": 5,
     "rating": 8.3,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Downtown Singapore",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "D'Hotel Singapore": {
     "id": 337770,
@@ -3949,15 +2965,9 @@
     },
     "starRating": 4,
     "rating": 8.2,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Singapore River",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "YotelAir Singapore Changi Airport": {
     "id": 1216885216,
@@ -3973,15 +2983,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Singapore",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Holiday Inn Express Singapore Clarke Quay": {
     "id": 439438,
@@ -3997,15 +3001,9 @@
     },
     "starRating": 3,
     "rating": 7.5,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Singapore River",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "AMOY by Far East Hospitality, Singapore": {
     "id": 439593,
@@ -4021,15 +3019,9 @@
     },
     "starRating": 4,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Financial District Singapore",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Carlton Hotel Singapore": {
     "id": 118565,
@@ -4045,15 +3037,9 @@
     },
     "starRating": 4,
     "rating": 8.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Downtown Singapore",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Holiday Inn Express Singapore Serangoon": {
     "id": 489533,
@@ -4069,15 +3055,9 @@
     },
     "starRating": 3,
     "rating": 8.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Lavender, Singapore",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Four Seasons Hotel Singapore": {
     "id": 133982,
@@ -4093,15 +3073,9 @@
     },
     "starRating": 5,
     "rating": 8.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Orchard",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Sheraton Towers Singapore": {
     "id": 105615,
@@ -4117,15 +3091,9 @@
     },
     "starRating": 5,
     "rating": 7.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Newton",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "The Fullerton Hotel Singapore": {
     "id": 192673,
@@ -4141,15 +3109,9 @@
     },
     "starRating": 5,
     "rating": 8.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Financial District Singapore",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Bliss Hotel Singapore": {
     "id": 455941,
@@ -4165,15 +3127,9 @@
     },
     "starRating": 3,
     "rating": 7.4,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Chinatown",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "XY Hotel Bugis by Asanda Hotels and Resorts, Singapore": {
     "id": 738071776,
@@ -4189,15 +3145,9 @@
     },
     "starRating": 4,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kampong Glam",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Village Hotel Bugis by Far East Hospitality, Singapore": {
     "id": 134927,
@@ -4213,15 +3163,9 @@
     },
     "starRating": 4,
     "rating": 6.6,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Kampong Glam",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Populous Hotel Bugis, Singapore": {
     "id": 967427808,
@@ -4237,15 +3181,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Singapore",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Arcadia Hotel, Singapore": {
     "id": 573479,
@@ -4261,15 +3199,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Lavender, Singapore",
     "city": "Singapore",
-    "destinationId": "10233154",
-    "landmarks": []
+    "destinationId": "10233154"
   },
   "Jumeirah Zabeel Saray, Dubai": {
     "id": 364994,
@@ -4285,15 +3217,9 @@
     },
     "starRating": 5,
     "rating": 7.8,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Palm Jumeirah",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Media One Hotel Dubai": {
     "id": 328432,
@@ -4309,15 +3235,9 @@
     },
     "starRating": 4,
     "rating": 7.8,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Dubai Media City",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Premier Inn Dubai International Airport": {
     "id": 101013152,
@@ -4333,15 +3253,9 @@
     },
     "starRating": 3,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Garhoud",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Signature 1 Hotel Tecom, Dubai": {
     "id": 569736,
@@ -4357,15 +3271,9 @@
     },
     "starRating": 4,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Barsha Heights",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Dusit Thani Dubai": {
     "id": 197154,
@@ -4381,15 +3289,9 @@
     },
     "starRating": 5,
     "rating": 8.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "DIFC",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Atlantis The Palm, Dubai": {
     "id": 274263,
@@ -4405,15 +3307,9 @@
     },
     "starRating": 5,
     "rating": 7.4,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Palm Jumeirah",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Jumeirah Beach Hotel, Dubai": {
     "id": 172395,
@@ -4429,15 +3325,9 @@
     },
     "starRating": 5,
     "rating": 7.6,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Umm Suqeim 3",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Dusit Kenz Hotel Dubai": {
     "id": 627254,
@@ -4453,15 +3343,9 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Barsha Heights",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Rose Plaza Hotel Al Barsha, Dubai": {
     "id": 1780392096,
@@ -4477,15 +3361,9 @@
     },
     "starRating": 3,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Al Barsha 1",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Radisson Blu Hotel Dubai Waterfront": {
     "id": 692168,
@@ -4501,15 +3379,9 @@
     },
     "starRating": 5,
     "rating": 7.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Downtown Dubai",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Premier Inn Dubai Al Jaddaf": {
     "id": 1027240128,
@@ -4525,15 +3397,9 @@
     },
     "starRating": 3,
     "rating": 6.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Jadaf",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Bonnington Jumeirah Lakes Towers, Dubai": {
     "id": 341549,
@@ -4549,15 +3415,9 @@
     },
     "starRating": 5,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Dubai",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Millennium Airport Hotel Dubai": {
     "id": 191084,
@@ -4573,15 +3433,9 @@
     },
     "starRating": 4,
     "rating": 8.5,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Garhoud",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Hyatt Regency Galleria Residence Dubai": {
     "id": 431204128,
@@ -4597,15 +3451,9 @@
     },
     "starRating": 5,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Deira",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Park Regis Kris Kin Hotel Dubai": {
     "id": 366153,
@@ -4621,15 +3469,9 @@
     },
     "starRating": 5,
     "rating": 8.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Bur Dubai",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Radisson Blu Hotel, Dubai Media City": {
     "id": 239112,
@@ -4645,15 +3487,9 @@
     },
     "starRating": 4,
     "rating": 7.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Dubai Media City",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Millennium Place Barsha Heights Hotel, Dubai": {
     "id": 1278271104,
@@ -4669,15 +3505,9 @@
     },
     "starRating": 4,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Barsha Heights",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Novotel World Trade Centre, Dubai": {
     "id": 246212,
@@ -4693,15 +3523,9 @@
     },
     "starRating": 4,
     "rating": 7.8,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Trade Center",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Hyatt Place Dubai Al Rigga": {
     "id": 462839,
@@ -4717,15 +3541,9 @@
     },
     "starRating": 4,
     "rating": 6.9,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Al Muraqqabat",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "FIVE Jumeirah Village Dubai": {
     "id": 1244836672,
@@ -4741,15 +3559,9 @@
     },
     "starRating": 5,
     "rating": 10.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Jumeirah Village Circle",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Rove Downtown Dubai": {
     "id": 573751,
@@ -4765,15 +3577,9 @@
     },
     "starRating": 3,
     "rating": 9.0,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Za'abeel 2",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Radisson Blu Hotel, Dubai Deira Creek": {
     "id": 106230,
@@ -4789,15 +3595,9 @@
     },
     "starRating": 5,
     "rating": 8.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "Al Rigga",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "The Meydan Hotel, Dubai": {
     "id": 340117,
@@ -4813,15 +3613,9 @@
     },
     "starRating": 5,
     "rating": 8.1,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
     "neighbourhood": "Dubai",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   },
   "Gevora Hotel, Dubai": {
     "id": 735014880,
@@ -4837,14 +3631,8 @@
     },
     "starRating": 4,
     "rating": 8.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
     "neighbourhood": "DIFC",
     "city": "Dubai",
-    "destinationId": "11594",
-    "landmarks": []
+    "destinationId": "11594"
   }
 }
