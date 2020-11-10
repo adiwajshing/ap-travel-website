@@ -3,3 +3,5 @@
 .DS_Store
 fbAdminConfig.json
 __pycache__
+
+env/

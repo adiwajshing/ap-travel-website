@@ -208,6 +208,44 @@ paths:
           description: Bad response
       tags:
         - Navigation
+  /api/fuzzy:
+    get:
+      summary: Gets data of all hotels that relate to query
+      description: ''
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: city
+          in: query
+          required: false
+          schema:
+            type: string
+            enum:
+              - Mumbai
+              - New Delhi
+              - Tokyo
+              - Bengaluru
+              - Dubai
+              - Hong Kong
+              - Hyderabad
+              - Singapore
+              - Pune
+      operationId: Universal Hotel search in search bar
+      responses:
+        '200':
+          description: Search data returned
+          content:
+            application/json:
+              schema: {}
+        '400':
+          description: Invalid Search Term
+        '404':
+          description: No Such City
+      tags:
+        - Navigation
   /api/search:
     get:
       summary: Search response data
@@ -247,6 +285,54 @@ paths:
                 $ref: '#/components/schemas/hotelSearch'
         '400':
           description: Invalid search term
+      tags:
+        - Navigation
+  /api/advsearch:
+    get:
+      summary: performs advanced search using tags
+      description: ''
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: city
+          in: query
+          required: false
+          schema:
+            type: string
+            enum:
+              - Mumbai
+              - New Delhi
+              - Tokyo
+              - Bengaluru
+              - Dubai
+              - Hong Kong
+              - Hyderabad
+              - Singapore
+              - Pune
+        - name: check_In
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: check_Out
+          in: query
+          required: false
+          schema:
+            type: string
+      operationId: search using tags
+      responses:
+        '200':
+          description: Search data returned
+          content:
+            application/json:
+              schema: {}
+        '400':
+          description: Invalid Search Term
+        '404':
+          description: No Such City
       tags:
         - Navigation
   '/api/city/{city}':
@@ -300,6 +386,27 @@ paths:
             application/json:
               schema:
                  $ref: '#/components/schemas/hotelSearch'
+        '404':
+          description: Hotel Not Found
+      tags:
+        - Navigation
+  '/api/hotel/{hotelId}/reccomendations':
+    get:
+      summary: Gets other recommendations for selected hotel
+      description: ''
+      parameters:
+        - name: hotelId
+          in: path
+          required: true
+          schema:
+            type: string
+      operationId: Recommendations
+      responses:
+        '200':
+          description: Recommendations generated
+          content:
+            application/json:
+              schema: {}
         '404':
           description: Hotel Not Found
       tags:
@@ -453,35 +560,43 @@ components:
                 type: string
             thumbnail:
                 type: string
+                description: 'URL for thumbnail'
                 
     booking:
       type: object
       properties:
+        bookingDetails:
+          type: object
+          properties:
+            bookingName:
+              type: string
+            check_In:
+              type: string
+            check_Out:
+              type: string
+            guests:
+              type: number
+            room:
+              type: object
+              properties:
+                roomType:
+                  type: number
+                  example: 'Standard Room: 1'
+        bookingId:
+          type: string
         hotelId:
-          type: string
-        status:
-          type: string
-          enum: ['booked', 'cancelled', 'visited', 'favourite']
-        title:
           type: string
         price: 
           type: number
-        bookingName:
+        status:
           type: string
-        guests:
-          type: number
-        room:
-          type: object
-          properties:
-            keysrules:
-              type: string
-            valuesrules: 
-              type: number
-        check_In:
+          enum: ['booked', 'cancelled', 'visited', 'favourite']
+        timestamp: 
           type: string
-        check_Out:
+        title:
           type: string
-          
+          example: 'Hotel Viva Palace, Delhi'
+
     hotel:
       type: object
       properties:
@@ -490,19 +605,8 @@ components:
           enum: ["Mumbai", "New Delhi", "Tokyo", "Bengaluru", "Dubai", "Hong Kong", "Hyderabad", "Singapore" , "Pune"]
         destinationId: 
           type: string
-        features: 
-          type: object
-          properties: 
-            freeCancellation: 
-              type: boolean
-            noCCrequired:
-              type: boolean
-            paymentPreference: 
-              type: boolean
         id: 
           type: number
-        landmarks: 
-          type: string #####array######
         neighbourhood: 
           type: string
         price: 
