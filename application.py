@@ -16,7 +16,13 @@ import time
 import string
 import random
 from functools import wraps
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta
+
+from profiles import verifySignUp, verifySignIn, verifyProfile
+from bookings import dateConvert, verifyBooking, verifyEdits
+from searching import verifySearch, verifyFuzzy
+from others import verifyReview, cacheFunc
+from reccomendations.data_rec import runRecEngine
 
 #==============================
 # Flask Setup
@@ -37,6 +43,14 @@ default_app = firebase_admin.initialize_app(cred)
 db = firestore.client()
 
 #==============================
+# In Memory Searching
+
+searchCityHotels = json.load(open('search/searchCityHotels.json'))
+searchHotels = json.load(open('search/searchHotels.json'))
+searchTags = json.load(open('search/searchTags.json'))
+cityList = [x.title() for x in searchCityHotels.keys()]
+
+#==============================
 # OpenAPI Documentation
 
 SWAGGER_URL = '/docs'
@@ -50,154 +64,11 @@ swaggerui_blueprint = get_swaggerui_blueprint(
 app.register_blueprint(swaggerui_blueprint, url_prefix=SWAGGER_URL)
 
 #==============================
-# Error Handling + Cache
+# Error Handling
 
 @app.errorhandler(404)
 def page_not_found(e):
     return redirect('/docs')
-
-def docache(minutes=5, content_type='application/json; charset=utf-8'):
-    """ Flask decorator that allow to set Expire and Cache headers. """
-    def fwrap(f):
-        @wraps(f)
-        def wrapped_f(*args, **kwargs):
-            r = f(*args, **kwargs)
-            then = datetime.now() + timedelta(minutes=minutes)
-            rsp = Response(r, content_type=content_type)
-            rsp.headers.add('Expires', then.strftime("%a, %d %b %Y %H:%M:%S GMT"))
-            rsp.headers.add('Cache-Control', 'public')
-            rsp.headers.add('Cache-Control', 'max-age=%d' % int(60 * minutes))
-            rsp.headers.add('Vary', '')
-            return rsp
-        return wrapped_f
-    return fwrap
-
-#==============================
-# Helper Functions
-
-def dateConvert(dateStr):
-
-    try:
-        dateObj = datetime.strptime(dateStr, '%d/%m/%Y')
-    except:
-        dateObj = date.today()
-
-    return dateObj
-
-def verifyBooking(f):
-    @wraps(f)
-    def decorated(*args, **kwargs):
-
-        body = request.get_json()
-
-        schema = {
-            'hotelId': {'type':'string', 'required':True, 'nullable':False, 'empty':False},
-            'status': {'type':'string', 'required':True, 'allowed':['booked', 'cancelled', 'visited', 'favourite']}, 
-            'title': {'type':'string', 'required':True, 'nullable':False, 'empty':False}, 
-            'price':{'type':'number', 'required':True, 'nullable':False, 'empty':False, 'coerce':float},
-
-            'bookingDetails': {'type':'dict', 'required':True, 'nullable':False, 'empty':False, 'schema':{
-                'bookingName': {'type':'string', 'required':True, 'nullable':False, 'empty':False}, # booking under name
-                'guests': {'type':'integer', 'required':True, 'nullable':False, 'empty':False, 'coerce': int, 'min':1}, # number of guests
-                'room': {'type':'dict', 'required':True, 'nullable':False, 'empty':False,'default':{'Standard Room':1},
-                    'keysrules': {'type': 'string', 'empty': False}, # name of room type
-                    'valuesrules': {'type':'integer', 'required':True, 'nullable':False, 'empty':False, 'coerce': int, 'min':1} # number of rooms
-                    },
-                'check_In': {'required':True, 'nullable':False, 'empty':False, 'coerce': dateConvert}, #dd/mm/yyyy
-                'check_Out': {'required':True, 'nullable':False, 'empty':False, 'coerce': dateConvert} #dd/mm/yyyy
-            }}
-        }
-
-        if body is None:
-            return Response(response='No Data Sent', status=400)
-    
-        v = Validator(schema)
-        body = v.normalized(body)
-
-        if v.errors != {}:
-            return Response(response=f'Error: {v.errors}', status=400)
-
-        try:
-            if not v.validate(body):
-                return Response(response=f'Error: {v.errors}', status=400)
-        except:
-            return Response(status=400, response='Validaton Failed')
-
-        return f(body, *args, **kwargs)
-
-    return decorated
-
-def verifyEdits(f):
-    @wraps(f)
-    def decorated(*args, **kwargs):
-
-        body = request.get_json()
-
-        schema = {
-            'status': {'type':'string', 'required':False, 'allowed':['booked', 'cancelled', 'visited', 'favourite']}, 
-            'price':{'type':'number', 'required':False, 'nullable':False, 'empty':False, 'coerce':float},
-
-            'bookingDetails': {'type':'dict', 'required':False, 'nullable':False, 'empty':False, 'schema':{
-                'bookingName': {'type':'string', 'required':False, 'nullable':False, 'empty':False}, # booking under name
-                'guests': {'type':'integer', 'required':False, 'nullable':False, 'empty':False, 'coerce': int, 'min':1}, # number of guests
-                'room': {'type':'dict', 'required':False, 'nullable':False, 'empty':False,
-                    'keysrules': {'type': 'string', 'empty': False}, # name of room type
-                    'valuesrules': {'type':'integer', 'required':False, 'nullable':False, 'empty':False, 'coerce': int, 'min':1} # number of rooms
-                    },
-                'check_In': {'required':False, 'nullable':False, 'empty':False, 'coerce': dateConvert}, #dd/mm/yyyy
-                'check_Out': {'required':False, 'nullable':False, 'empty':False, 'coerce': dateConvert} #dd/mm/yyyy
-            }}
-        }
-
-        if body is None:
-            return Response(response='No Data Sent', status=400)
-    
-        v = Validator(schema)
-        body = v.normalized(body)
-
-        if v.errors != {}:
-            return Response(response=f'Error: {v.errors}', status=400)
-
-        try:
-            if not v.validate(body):
-                return Response(response=f'Error: {v.errors}', status=400)
-        except:
-            return Response(status=400, response='Validaton Failed')
-
-        return f(body, *args, **kwargs)
-
-    return decorated
-
-def verifyReview(f):
-    @wraps(f)
-    def decorated(*args, **kwargs):
-
-        body = request.get_json()
-
-        schema = {
-            "rating": {'type':'number', 'required':True, 'nullable':False, 'min': 1.0, 'max': 10.0, 'coerce':float},
-            "review": {'type':'string', 'required':True, 'empty':False, 'nullable':False},
-            "title": {'type':'string', 'required':False, 'empty':False, 'nullable':False, 'maxlength': 50, 'default':'General'}
-            }
-
-        if body is None:
-            return Response(response='No Data Sent', status=400)
-    
-        v = Validator(schema)
-        body = v.normalized(body)
-
-        if v.errors != {}:
-            return Response(response=f'Error: {v.errors}', status=400)
-
-        try:
-            if not v.validate(body):
-                return Response(response=f'Error: {v.errors}', status=400)
-        except:
-            return Response(status=400, response='Validaton Failed')
-
-        return f(body, *args, **kwargs)
-
-    return decorated
 
 #==============================
 # Token Auth
@@ -232,34 +103,8 @@ def userId_required(f):
 
 # NEW USER GIVEN USERID
 @app.route('/api/signup', methods=["POST"])
-def addUser():
-
-    try:
-        email = request.form["email"]
-        password = request.form["password"]
-        name = request.form["name"]
-        phone_number = request.form["phone_number"]
-    except:
-        return Response(status=400, response='Required Form Data')
-
-    data = {}
-    data['name'] = name
-    data['email'] = email
-    data['phone_number'] = phone_number
-
-    addSchema = {
-        "name": {'type':'string', 'required':True, 'empty':False, 'nullable':False},
-        "email": {'type':'string', 'required':True, 'empty':False, 'nullable':False},
-        "phone_number": {'type':'string', 'required':True, 'empty':False, 'nullable':False, 'minlength':10, 'maxlength':13}
-        }
-
-    v = Validator(addSchema)
-    v.allow_unknown = True
-    try:
-        if not v.validate(data):
-            return Response(status=400, response=f'Error: {v.errors}')
-    except:
-        return Response(status=400, response=f'Error: {v.errors}')
+@verifySignUp
+def addUser(email, password, data):
 
     try:
         user = authCnx.create_user_with_email_and_password(email, password)
@@ -274,13 +119,8 @@ def addUser():
 
 # LOGIN ROUTE
 @app.route('/api/login', methods=["POST"])
-def login():
-
-    try:
-        email = request.form["email"]
-        password = request.form["password"]
-    except:
-        return Response(status=400, response='Form Data Invalid')
+@verifySignIn
+def login(email, password):
 
     try:
         user = authCnx.sign_in_with_email_and_password(email, password)
@@ -301,10 +141,11 @@ def addGUser(authDict):
     if existing is not None: # if user already exists
         return Response(status=200, response='User Already Exists')
 
-    data = {}
-    data['name'] = authDict.get('name') or '...'
-    data['email'] = authDict.get('email')
-    data['phone_number'] = None
+    data = {
+        'name': authDict.get('name') or '...',
+        'email': authDict.get('email'),
+        'phone_number': None
+    }
 
     # Creating db entry for user
     db.collection('users').document(userId).set(data)
@@ -341,30 +182,15 @@ def viewUser(authDict):
 # EDIT PROFILE
 @app.route('/api/profile', methods=["PATCH"])
 @userId_required
-def editUser(authDict):
+@verifyProfile
+def editUser(data, authDict):
 
     userId = authDict.get('userId')
-
-    data = request.get_json()
-    addSchema = {
-        "name": {'type':'string', 'required':False, 'empty':False, 'nullable':False},
-        "phone_number": {'type':'string', 'required':False, 'empty':False, 'nullable':False, 'minlength':10, 'maxlength':13}
-    }
-
-    if data is None:
-        return Response(status=400, response='No Data Provided')
-    v = Validator(addSchema)
-    try:
-        if not v.validate(data):
-            return Response(status=400, response=f'Error: {v.errors}')
-    except:
-        return Response(status=400, response=f'Error: {v.errors}')
 
     db.collection("users").document(userId).update(data)
     data = db.collection("users").document(userId).get().to_dict()
 
     return jsonify(data)
-
 
 #=========================
 # NAVIGATION ROUTES
@@ -378,92 +204,123 @@ def homepage():
 
     return jsonify(cities)
 
-# Universal Hotel search
-@app.route('/api/search', methods=['GET'])
-def search():
+# Universal Hotel search in search bar
+@app.route('/api/fuzzy', methods=["GET"])
+@verifyFuzzy()
+def fuzzySearch(q, city):
 
-    q = request.args.get('q', type=str, default=None)
-    if q is None or q == '' or q.isspace():
-        return Response(status=400, response='Invalid Search Term')
-    check_In = request.args.get('check_In', type=str, default=None)
-    check_Out = request.args.get('check_Out', type=str, default=None)
-    
-    city = request.args.get('city', type=str, default=None)
-
-    if city is None or city.isspace() or city == '':
-
-        hotelSummary = json.load(open('backup/hotelSummary.json'))
-        hotelNames = hotelSummary.keys()
-        fuzzy = process.extract(q, hotelNames, limit=len(hotelNames))
-        search = []
-
-        for hotel in fuzzy:
-            if hotel[1] > 60: # fuzzy search %
-                search.append(hotel[0])
-        
-        print(search)
-
-        if len(search) > 10:
-            search = search[0:10]
-        elif len(search) < 3:
-            editDistance = 60 
-            for hotel in fuzzy:
-                if len(search) == 3:
-                    break
-                editDistance -= 10
-                if hotel[1] > editDistance: # fuzzy search %
-                    search.append(hotel[0])
-        
-        # data = [hotelSummary.get(hotelName) for hotelName in search]
-        hotels = db.collection('hotelSummary').where('title', 'in', search).get()
-        data = [x.to_dict() for x in hotels]
-        
-        return jsonify(data)
-
+    if city:
+        keySearch = searchCityHotels.get(city.title()).keys()
     else:
+        keySearch = searchHotels.keys()
 
-        city = city.capitalize()
+    results = list()
 
-        if city not in ['Delhi', 'Mumbai', 'Bengaluru', 'Hyderabad', 'Pune', 'Tokyo', 'Hong Kong', 'Singapore', 'Dubai']:
-            return Response(status=404, response='No Such City')
+    fuzzy = process.extract(q, keySearch, limit=7)
+    for hotel in fuzzy:
+        if hotel[1] > 50: #cutoff edit distance
+            results.append(searchHotels.get(hotel[0]))
+
+    return jsonify(results)
+
+# Universal Hotel search on pressing ENTER
+@app.route('/api/search', methods=['GET'])
+@verifySearch()
+def search(q, city, check_In, check_Out):
+
+    if city:
+        hotelNames = searchCityHotels.get(city).keys()
+    else:
+        hotelNames = searchHotels.keys()
+
+    editDistance = 60
+    fuzzy = process.extractBests(q, hotelNames, score_cutoff=editDistance, limit=len(hotelNames))
+    searchList = [hotel[0] for hotel in fuzzy]
+
+    if len(searchList) > 10:
+        # citation for next line of code: https://www.geeksforgeeks.org/break-list-chunks-size-n-python/
+        copyList = [x for x in searchList]
+        searchList = [searchList[i * 10:(i + 1) * 10] for i in range((len(searchList) + 10 - 1) // 10 )]
+
+    elif len(searchList) == 0:
+        editDistance -= 15
+        fuzzy = process.extractBests(q, hotelNames, score_cutoff=editDistance, limit=2)
+        if fuzzy == []:
+            return Response(status=204, response='No Matches Found')
+        copyList = [hotel[0] for hotel in fuzzy]
+        searchList = [[x for x in copyList]]
         
-        cityWiseHotels = json.load(open('backup/cityWiseHotels.json'))
-        hotelNames = cityWiseHotels.get(city).keys()
-        fuzzy = process.extract(q, hotelNames, limit=len(hotelNames))
-        search = []
+    else:
+        copyList = [x for x in searchList]
+        searchList = [searchList]
 
-        for hotel in fuzzy:
-            if hotel[1] >= 50: # fuzzy search %
-                search.append(hotel[0])
+    data = dict()
 
-        if len(search) > 10:
-            search = search[0:10]
-        elif len(search) < 3:
-            editDistance = 50 
-            for hotel in fuzzy:
-                if len(search) == 3:
-                    break
-                editDistance -= 10
-                if hotel[1] > editDistance: # fuzzy search %
-                    search.append(hotel[0])
+    for searchSubList in searchList:
+        hotels = db.collection('hotelSummary').where('title', 'in', searchSubList).get()
+        for result in hotels:
+            result = result.to_dict()
+            data[result['title']] = result
 
-        # data = [cityWiseHotels.get(city).get(hotelName) for hotelName in search]
-        hotels = db.collection('hotelSummary').where('title', 'in', search).get()
-        data = [x.to_dict() for x in hotels]
-        
-        return jsonify(data)
+    # sort according to fuzzy score
+    sortData = [data.get(x) for x in copyList]
+
+    return jsonify(sortData)
+
+# Advanced search using tags
+@app.route('/api/advsearch', methods=['GET'])
+@verifySearch()
+def advancedSearch(q, city, check_In, check_Out):
+
+    tagNames = searchTags.keys()
+    fuzzy = process.extract(q, tagNames, limit=3)
+    tagList = list()
+    searchList = set()
+
+    for tag in fuzzy:
+        tagList.append(tag[0])
+    for tag in tagList:
+        searchList = searchList.union(set(list(searchTags.get(tag).keys())))
+
+    if city:
+        searchList = searchList.intersection(set(list(searchTags.get(city.lower()).keys())))
+
+    searchList = [int(x) for x in searchList]
+
+    if len(searchList) > 10:
+        # citation for next line of code: https://www.geeksforgeeks.org/break-list-chunks-size-n-python/
+        searchList = [searchList[i * 10:(i + 1) * 10] for i in range((len(searchList) + 10 - 1) // 10 )]
+    elif len(searchList) == 0:
+        return Response(status=204, response='No Matches Found')
+    else:
+        searchList = [searchList]
+
+    data = dict()
+
+    for searchSubList in searchList:
+
+        hotels = db.collection('hotelSummary').where('id', 'in', searchSubList).get()
+
+        for result in hotels:
+            result = result.to_dict()
+            data[result['title']] = result
+
+    # Sort again according to title
+    copyList = process.extract(q, data.keys(), limit=len(data.keys()))
+    sortData = [data.get(x[0]) for x in copyList]
+    
+    return jsonify(sortData)
+
 
 # Citywise hotels
 @app.route('/api/city/<string:city>/', methods=['GET'])
 def cityHotels(city):
 
-    city = city.capitalize()
-    if city not in ['Delhi', 'Mumbai', 'Bengaluru', 'Hyderabad', 'Pune', 'Tokyo', 'Hong Kong', 'Singapore', 'Dubai']:
+    city = city.title()
+    if city not in cityList:
         return Response(status=404, response='No Such City')
     
-    # cityWiseHotels = json.load(open('backup/cityWiseHotels.json'))
-    # data = [v for v in cityWiseHotels.get(city).values()]
-    hotels = db.collection('hotelSummary').where('city', '==', city).get()
+    hotels = db.collection('hotelSummary').where('city', '==', city).order_by('title').get()
     data = [x.to_dict() for x in hotels]
 
     return jsonify(data)
@@ -478,6 +335,25 @@ def getHotel(hotelId):
 
     return jsonify(hotel)
 
+# Reccomendations
+@app.route('/api/hotel/<string:hotelId>/reccomendations', methods=['GET'])
+def getRecc(hotelId):
+
+    hotelIds = runRecEngine(hotelId)
+
+    if hotelIds is None:
+        return Response(status=404, response='Hotel Not Found')
+
+    hotels = db.collection('hotelSummary').where('id', 'in', hotelIds).get()
+    data = dict()
+
+    for result in hotels:
+        result = result.to_dict()
+        data[str(result['id'])] = result
+
+    sortData = [data.get(str(x)) for x in hotelIds]
+
+    return jsonify(sortData)
 
 #=========================
 # BOOKING ROUTES
@@ -488,7 +364,7 @@ def getHotel(hotelId):
 def getBookings():
 
     userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
-    booking = db.collection('users').document(userId).collection('bookings').get()
+    booking = db.collection('users').document(userId).collection('bookings').order_by('timestamp', direction=firestore.firestore.Query.DESCENDING).get()
 
     data = [indv.to_dict() for indv in booking]
 
@@ -496,12 +372,21 @@ def getBookings():
 
 # Add Booking
 @app.route('/api/profile/bookings', methods=['PUT']) # @userId_required
-@verifyBooking # See schema to document
+@verifyBooking
 def addBooking(booking):
 
     userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
+
+    hotel = db.collection('hotels').document(booking['hotelId']).get().to_dict()
+    if hotel is None:
+        return Response(status=404, response='Hotel Not Found')
+    
     bookingId = ''.join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase, k = 20))
+
+    booking['title'] = hotel['title']
+    booking['price'] = hotel['price']['current_price']
     booking['bookingId'] = bookingId
+    booking['timestamp'] = datetime.now()
 
     db.collection('users').document(userId).collection('bookings').document(bookingId).set(booking)
 
@@ -540,7 +425,7 @@ def addReview(review, hotelId):
 
     hotel = db.collection('hotels').document(hotelId).get().to_dict()
     if hotel is None:
-        return Response(status=400, response='Hotel Not Found')
+        return Response(status=404, response='Hotel Not Found')
 
     oldRating = hotel['rating']
     newRating = (oldRating * len(hotel['reviews']) + review['rating']) / (len(hotel['reviews']) + 1)

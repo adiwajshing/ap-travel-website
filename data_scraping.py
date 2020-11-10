@@ -4,13 +4,15 @@ import os
 import json
 import random
 import string
+from fuzzywuzzy import process
+from tqdm import tqdm
 
 
 cities = ['Delhi', 'Mumbai', 'Bengaluru', 'Hyderabad', 'Pune', 'Tokyo', 'Hong Kong', 'Singapore', 'Dubai']
 APIKey=os.getenv('X-RapidAPI-Key')
 baseURL = "https://rapidapi.p.rapidapi.com/"
 
-def locationId_GET(fileName='cities'):
+def locationIdGet(fileName='cities'):
 
     locationId_JSON = {}
 
@@ -33,11 +35,11 @@ def locationId_GET(fileName='cities'):
 
         print('=======================')
 
-    json_object = json.dumps(locationId_JSON, indent = 2) 
-    with open(str(fileName) + ".json", "w") as outfile: 
-        outfile.write(json_object)
+    jsonWrite = json.dumps(locationId_JSON, indent = 2) 
+    with open(fileName + ".json", "w") as output: 
+        output.write(jsonWrite)
 
-def properties_GET(fileName='cityWiseHotels'):
+def propertiesGet(fileName='hotelSummary'):
 
     properties_JSON = {}
     cities = json.load(open('cities.json'))
@@ -64,7 +66,6 @@ def properties_GET(fileName='cityWiseHotels'):
             input('Waiting...')
         
         results = response['data']['body']['searchResults']['results']
-        propertyList = {}
 
         for hotel in results:
 
@@ -97,40 +98,16 @@ def properties_GET(fileName='cityWiseHotels'):
                 },
                 'starRating': int(hotel['starRating']),
                 'rating': rating,
-                'features': hotel['ratePlan']['features'],
                 'neighbourhood': hotel['neighbourhood'],
                 'city': key,
-                'destinationId': destinationId,
-                'landmarks': hotel['landmarks'][0] if len(hotel['landmarks']) >= 1 else []
+                'destinationId': destinationId
             }
 
-            propertyList[name] = tempHotel
-
-        properties_JSON[key] = propertyList
+        properties_JSON[name] = tempHotel
     
-    json_object = json.dumps(properties_JSON, indent = 2) 
-    with open(str(fileName) + ".json", "w") as outfile: 
-        outfile.write(json_object)
-
-def hotelSummary(fileName='hotelSummary'):
-
-    cityWise = json.load(open('cityWiseHotels.json'))
-    finalJSON = {}
-    i = 0
-
-    for city, cityResults in cityWise.items():
-        j = i
-
-        for hotelName in cityResults.keys():
-        
-            finalJSON[hotelName] = cityWise[city][hotelName]
-            i += 1
-        
-        print(f'{i - j}: {city} Hotels')
-    
-    json_object = json.dumps(finalJSON, indent = 2) 
-    with open(str(fileName) + ".json", "w") as outfile: 
-        outfile.write(json_object)
+    jsonWrite = json.dumps(properties_JSON, indent = 2) 
+    with open(fileName + ".json", "w") as output: 
+        output.write(jsonWrite)
 
 def hotelDetails(fileName='allHotels'):
 
@@ -251,7 +228,6 @@ def hotelDetails(fileName='allHotels'):
             'rooms': rooms,
             'address': response['propertyDescription']['address']['fullAddress'],
             'neighbourhood': summary['neighbourhood'],
-            'landmarks': summary['landmarks'],
             'city': summary['city'],
             'destinationId': summary['destinationId'],
             'checkIn': random.choice(['11 AM', '12 PM', '1 PM', '2 PM']),
@@ -272,13 +248,12 @@ def hotelDetails(fileName='allHotels'):
             with open(str(fileName) + f".json", "w") as outfile: 
                 outfile.write(json_object)
 
-    json_object = json.dumps(finalJSON, indent = 2) 
-    with open(str(fileName) + ".json", "w") as outfile: 
-        outfile.write(json_object)
+    jsonWrite = json.dumps(finalJSON, indent = 2) 
+    with open(fileName + ".json", "w") as output: 
+        output.write(jsonWrite)
 
 def editReviews():
 
-    cityWiseJSON = json.load(open('backup/cityWiseHotels.json'))
     hotelSummaryJSON = json.load(open('backup/hotelSummary.json'))
     allHotels = json.load(open('backup/allHotels.json'))
 
@@ -313,19 +288,54 @@ def editReviews():
             summary['reviews'] = reviewArray
             summary['rating'] = rating
         
-        cityWiseJSON[summary['city']][summary['title']]['rating'] = summary['rating']
         hotelSummaryJSON[summary['title']]['rating'] = summary['rating']
         allHotels[hotel] = summary
 
+    
+    jsonWrite = json.dumps(hotelSummaryJSON, indent = 2) 
+    with open('hotelSummary' + ".json", "w") as output: 
+        output.write(jsonWrite)
+    
+    jsonWrite = json.dumps(allHotels, indent = 2) 
+    with open('allHotels' + ".json", "w") as output: 
+        output.write(jsonWrite)
 
-    json_object = json.dumps(cityWiseJSON, indent = 2) 
-    with open(str('cityWiseJSON') + ".json", "w") as outfile: 
-        outfile.write(json_object)
+def editNames():
+
+    hotelSummaryJSON = json.load(open('backup/hotelSummary.json'))
+    allHotels = json.load(open('backup/allHotels.json'))
+
+    shallowCopy = hotelSummaryJSON.keys()
+    hotelNames = [x for x in shallowCopy]
+
+    for i in hotelNames:
+
+        if len(i) > 50:
+
+            print(i)
+            newName = input('New Name: ')
+
+            if newName == '':
+                continue
+            
+            summary = hotelSummaryJSON[i]
+            summary['title'] = newName
+
+            hotelSummaryJSON[newName] = summary
+            hotelSummaryJSON.pop(i)
+
+            value = allHotels[str(summary['id'])]
+            value['title'] = newName
+
+            allHotels[str(summary['id'])] = value
+
+            print('changed...')
     
-    json_object = json.dumps(hotelSummaryJSON, indent = 2) 
-    with open(str('hotelSummaryJSON') + ".json", "w") as outfile: 
-        outfile.write(json_object)
     
-    json_object = json.dumps(allHotels, indent = 2) 
-    with open(str('allHotels') + ".json", "w") as outfile: 
-        outfile.write(json_object)
+    jsonWrite = json.dumps(hotelSummaryJSON, indent = 2) 
+    with open('hotelSummary' + ".json", "w") as output: 
+        output.write(jsonWrite)
+    
+    jsonWrite = json.dumps(allHotels, indent = 2) 
+    with open('allHotels' + ".json", "w") as output: 
+        output.write(jsonWrite)

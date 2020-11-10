@@ -95,9 +95,9 @@
     "destinationId": "675357",
     "landmarks": []
   },
-  "HOTEL VIVA PALACE, Delhi": {
+  "Hotel Viva Palace, Delhi": {
     "id": 701094272,
-    "title": "HOTEL VIVA PALACE, Delhi",
+    "title": "Hotel Viva Palace, Delhi",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/22000000/21880000/21878000/21877946/00f246e4_l.jpg",
     "price": {
       "before_price": 1778.0,
@@ -119,9 +119,9 @@
     "destinationId": "675357",
     "landmarks": []
   },
-  "Shangri-La's - Eros Hotel, New Delhi": {
+  "Shangri-La's Eros Hotel, New Delhi": {
     "id": 242768,
-    "title": "Shangri-La's - Eros Hotel, New Delhi",
+    "title": "Shangri-La's Eros Hotel, New Delhi",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/2000000/1310000/1304400/1304393/c74ee9b1_l.jpg",
     "price": {
       "before_price": 8650.0,
@@ -139,30 +139,6 @@
       "noCCRequired": false
     },
     "neighbourhood": "Connaught Place",
-    "city": "Delhi",
-    "destinationId": "675357",
-    "landmarks": []
-  },
-  "Posh Foreigners Place,couples Allowed Lajpat Nagar, Delhi": {
-    "id": 1890636576,
-    "title": "Posh Foreigners Place,couples Allowed Lajpat Nagar, Delhi",
-    "thumbnail": "https://exp.cdn-hotels.com/hotels/60000000/59060000/59051200/59051143/637b7550_l.jpg",
-    "price": {
-      "before_price": 1701.0,
-      "currency": "INR",
-      "current_price": 1601.0,
-      "discounted": true,
-      "savings_amount": 100.0,
-      "savings_percent": 5
-    },
-    "starRating": 3,
-    "rating": 9.0,
-    "features": {
-      "freeCancellation": false,
-      "paymentPreference": false,
-      "noCCRequired": false
-    },
-    "neighbourhood": "New Delhi",
     "city": "Delhi",
     "destinationId": "675357",
     "landmarks": []
@@ -191,9 +167,9 @@
     "destinationId": "675357",
     "landmarks": []
   },
-  "bloomrooms @ Janpath, Delhi": {
+  "Bloomrooms Janpath, Delhi": {
     "id": 953567200,
-    "title": "bloomrooms @ Janpath, Delhi",
+    "title": "Bloomrooms Janpath, Delhi",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/30000000/29770000/29767800/29767725/667fc24d_l.jpg",
     "price": {
       "before_price": 4100.0,
@@ -455,9 +431,9 @@
     "destinationId": "675357",
     "landmarks": []
   },
-  "Ambassador, New Delhi-IHCL SeleQtions": {
+  "Ambassador, New Delhi - IHCL SeleQtions": {
     "id": 179150,
-    "title": "Ambassador, New Delhi-IHCL SeleQtions",
+    "title": "Ambassador, New Delhi - IHCL SeleQtions",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/1000000/530000/526400/526368/5865f14c_l.jpg",
     "price": {
       "before_price": 4399.0,
@@ -647,9 +623,9 @@
     "destinationId": "1640701",
     "landmarks": []
   },
-  "The Orchid- Ecotel Mumbai Airport": {
+  "The Orchid Ecotel Mumbai Airport": {
     "id": 139941,
-    "title": "The Orchid- Ecotel Mumbai Airport",
+    "title": "The Orchid Ecotel Mumbai Airport",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/1000000/800000/793900/793877/9db08b62_l.jpg",
     "price": {
       "before_price": 5988.0,
@@ -661,30 +637,6 @@
     },
     "starRating": 5,
     "rating": 6.7,
-    "features": {
-      "freeCancellation": true,
-      "paymentPreference": true,
-      "noCCRequired": false
-    },
-    "neighbourhood": "Vile Parle East",
-    "city": "Mumbai",
-    "destinationId": "1640701",
-    "landmarks": []
-  },
-  "Niranta Airport Transit Hotel & Lounge Terminal 2 Arrivals, Mumbai": {
-    "id": 538860,
-    "title": "Niranta Airport Transit Hotel & Lounge Terminal 2 Arrivals, Mumbai",
-    "thumbnail": "https://exp.cdn-hotels.com/hotels/12000000/11860000/11859400/11859338/80ff3bfc_l.jpg",
-    "price": {
-      "before_price": 5599.0,
-      "currency": "INR",
-      "current_price": 4399.0,
-      "discounted": true,
-      "savings_amount": 1200.0,
-      "savings_percent": 21
-    },
-    "starRating": 4,
-    "rating": 7.0,
     "features": {
       "freeCancellation": true,
       "paymentPreference": true,
@@ -743,9 +695,9 @@
     "destinationId": "1640701",
     "landmarks": []
   },
-  "VITS Mumbai International Airport T2": {
+  "VITS Mumbai International Airport": {
     "id": 222651,
-    "title": "VITS Mumbai International Airport T2",
+    "title": "VITS Mumbai International Airport",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/1000000/920000/916600/916586/07ef4333_l.jpg",
     "price": {
       "before_price": 4099.0,
@@ -1103,9 +1055,9 @@
     "destinationId": "678196",
     "landmarks": []
   },
-  "The Leela Palace Bangalore, Bengaluru": {
+  "The Leela Palace Bengaluru": {
     "id": 198732,
-    "title": "The Leela Palace Bangalore, Bengaluru",
+    "title": "The Leela Palace Bengaluru",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/1000000/860000/851500/851448/442c06a1_l.jpg",
     "price": {
       "before_price": 8100.0,
@@ -1271,9 +1223,9 @@
     "destinationId": "678196",
     "landmarks": []
   },
-  "Grand Mercure Bangalore, Bengaluru": {
+  "Grand Mercure Bengaluru": {
     "id": 307719,
-    "title": "Grand Mercure Bangalore, Bengaluru",
+    "title": "Grand Mercure Bengaluru",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/3000000/2390000/2385500/2385403/9ffc01c9_l.jpg",
     "price": {
       "before_price": 3400.0,
@@ -1439,9 +1391,9 @@
     "destinationId": "678196",
     "landmarks": []
   },
-  "Royal Orchid Central Bangalore, Bengaluru": {
+  "Royal Orchid Central Bengaluru": {
     "id": 240388,
-    "title": "Royal Orchid Central Bangalore, Bengaluru",
+    "title": "Royal Orchid Central Bengaluru",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/2000000/1140000/1135700/1135650/edcd7bb5_l.jpg",
     "price": {
       "before_price": 2620.0,
@@ -1679,9 +1631,9 @@
     "destinationId": "685250",
     "landmarks": []
   },
-  "Capital O 49135 Sri Simran Park Hotel, Hyderabad": {
+  "Sri Simran Park Hotel, Hyderabad": {
     "id": 1285853184,
-    "title": "Capital O 49135 Sri Simran Park Hotel, Hyderabad",
+    "title": "Sri Simran Park Hotel, Hyderabad",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/41000000/40160000/40151700/40151662/8d550fc7_l.jpg",
     "price": {
       "before_price": 2361.0,
@@ -1943,9 +1895,9 @@
     "destinationId": "685250",
     "landmarks": []
   },
-  "HOTEL THE CONCLAVE, Hyderabad": {
+  "The Conclave, Hyderabad": {
     "id": 1568525472,
-    "title": "HOTEL THE CONCLAVE, Hyderabad",
+    "title": "The Conclave, Hyderabad",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/49000000/48990000/48985200/48985171/64fc025e_l.jpg",
     "price": {
       "before_price": 1900.0,
@@ -2063,9 +2015,9 @@
     "destinationId": "687594",
     "landmarks": []
   },
-  "The Fern Residency,MIDC, Pune": {
+  "The Fern Residency, Pune": {
     "id": 580754,
-    "title": "The Fern Residency,MIDC, Pune",
+    "title": "The Fern Residency, Pune",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/15000000/14870000/14864400/14864363/2a3b997b_l.jpg",
     "price": {
       "before_price": 3440.0,
@@ -2375,9 +2327,9 @@
     "destinationId": "687594",
     "landmarks": []
   },
-  "Treebo Trip Hill View Ex, Pune": {
+  "Treebo Trip Hill View, Pune": {
     "id": 748742464,
-    "title": "Treebo Trip Hill View Ex, Pune",
+    "title": "Treebo Trip Hill View, Pune",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/24000000/23370000/23367000/23366952/e7c71591_l.jpg",
     "price": {
       "before_price": 4413.0,
@@ -2471,9 +2423,9 @@
     "destinationId": "687594",
     "landmarks": []
   },
-  "Bird Of Paradise- Hospitality, Pune": {
+  "Bird Of Paradise Hospitality, Pune": {
     "id": 1048795840,
-    "title": "Bird Of Paradise- Hospitality, Pune",
+    "title": "Bird Of Paradise Hospitality, Pune",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/33000000/32750000/32743700/32743620/39d4bd84_l.jpg",
     "price": {
       "before_price": 1500.0,
@@ -2519,9 +2471,9 @@
     "destinationId": "687594",
     "landmarks": []
   },
-  "Residency club, Pune": {
+  "Residency Club, Pune": {
     "id": 664677,
-    "title": "Residency club, Pune",
+    "title": "Residency Club, Pune",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/18000000/17370000/17363500/17363461/7a0c9540_l.jpg",
     "price": {
       "before_price": 3100.0,
@@ -2663,9 +2615,9 @@
     "destinationId": "726784",
     "landmarks": []
   },
-  "remm plus Ginza, Tokyo": {
+  "Remm Plus Ginza, Tokyo": {
     "id": 1195432448,
-    "title": "remm plus Ginza, Tokyo",
+    "title": "Remm Plus Ginza, Tokyo",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/38000000/37330000/37326100/37326014/2b356780_l.jpg",
     "price": {
       "before_price": 7148.0,
@@ -2687,9 +2639,9 @@
     "destinationId": "726784",
     "landmarks": []
   },
-  "JR-EAST HOTEL METS AKIHABARA, Tokyo": {
+  "Hotel Mets Akihabara, Tokyo": {
     "id": 1181451104,
-    "title": "JR-EAST HOTEL METS AKIHABARA, Tokyo",
+    "title": "Hotel Mets Akihabara, Tokyo",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/37000000/36890000/36889100/36889097/221e8d32_l.jpg",
     "price": {
       "before_price": 4320.0,
@@ -2735,9 +2687,9 @@
     "destinationId": "726784",
     "landmarks": []
   },
-  "mesm Tokyo, Autograph Collection": {
+  "Mesm Tokyo, Autograph Collection": {
     "id": 1366909408,
-    "title": "mesm Tokyo, Autograph Collection",
+    "title": "Mesm Tokyo, Autograph Collection",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/43000000/42690000/42684700/42684669/bf81c2a6_l.jpg",
     "price": {
       "before_price": 47539.0,
@@ -2831,9 +2783,9 @@
     "destinationId": "726784",
     "landmarks": []
   },
-  "VIA INN Nihonbashi Ningyocho, Tokyo": {
+  "Via Inn Nihonbashi Ningyocho, Tokyo": {
     "id": 1182701376,
-    "title": "VIA INN Nihonbashi Ningyocho, Tokyo",
+    "title": "Via Inn Nihonbashi Ningyocho, Tokyo",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/37000000/36930000/36928200/36928168/d5ea7981_l.jpg",
     "price": {
       "before_price": 3318.0,
@@ -2879,9 +2831,9 @@
     "destinationId": "726784",
     "landmarks": []
   },
-  "APA HOTEL PRIDE National Diet Bldg., Tokyo": {
+  "APA Hotel Pride, Tokyo": {
     "id": 1040513984,
-    "title": "APA HOTEL PRIDE National Diet Bldg., Tokyo",
+    "title": "APA Hotel Pride, Tokyo",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/33000000/32490000/32484900/32484812/722052b8_l.jpg",
     "price": {
       "before_price": 3085.0,
@@ -2975,9 +2927,9 @@
     "destinationId": "726784",
     "landmarks": []
   },
-  "karaksa hotel TOKYO STATION": {
+  "Karaksa Hotel Tokyo Station": {
     "id": 921256736,
-    "title": "karaksa hotel TOKYO STATION",
+    "title": "Karaksa Hotel Tokyo Station",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/29000000/28760000/28758100/28758023/ba4c1449_l.jpg",
     "price": {
       "before_price": 6537.0,
@@ -3023,9 +2975,9 @@
     "destinationId": "726784",
     "landmarks": []
   },
-  "Cotoha HOTEL OKACHIMACHI, Tokyo": {
+  "Cotoha Hotel Okachimachi, Tokyo": {
     "id": 636594,
-    "title": "Cotoha HOTEL OKACHIMACHI, Tokyo",
+    "title": "Cotoha Hotel Okachimachi, Tokyo",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/17000000/16430000/16421800/16421787/af9c26b6_l.jpg",
     "price": {
       "before_price": 5191.0,
@@ -3095,9 +3047,9 @@
     "destinationId": "726784",
     "landmarks": []
   },
-  "Henn na Hotel Tokyo Hamamatsucho": {
+  "Henn Na Hotel Tokyo Hamamatsucho": {
     "id": 643937664,
-    "title": "Henn na Hotel Tokyo Hamamatsucho",
+    "title": "Henn Na Hotel Tokyo Hamamatsucho",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/21000000/20100000/20091900/20091802/2dc42ebb_l.jpg",
     "price": {
       "before_price": 5250.0,
@@ -3119,9 +3071,9 @@
     "destinationId": "726784",
     "landmarks": []
   },
-  "HOTEL INTERGATE TOKYO KYOBASHI": {
+  "Hotel Intergate Tokyo Kyobashi": {
     "id": 688274208,
-    "title": "HOTEL INTERGATE TOKYO KYOBASHI",
+    "title": "Hotel Intergate Tokyo Kyobashi",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/22000000/21480000/21477400/21477319/50fc81e3_l.jpg",
     "price": {
       "before_price": 4196.0,
@@ -3359,9 +3311,9 @@
     "destinationId": "10233073",
     "landmarks": []
   },
-  "the Figo, Hong Kong": {
+  "The Figo, Hong Kong": {
     "id": 419449,
-    "title": "the Figo, Hong Kong",
+    "title": "The Figo, Hong Kong",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/6000000/5430000/5429100/5429097/3591f984_l.jpg",
     "price": {
       "before_price": 6010.0,
@@ -3743,9 +3695,9 @@
     "destinationId": "10233073",
     "landmarks": []
   },
-  "W Singapore - Sentosa Cove": {
+  "Sentosa Cove Singapore": {
     "id": 411956,
-    "title": "W Singapore - Sentosa Cove",
+    "title": "Sentosa Cove Singapore",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/6000000/5200000/5199000/5198964/d03c98e9_l.jpg",
     "price": {
       "before_price": 233266.0,
@@ -3959,9 +3911,9 @@
     "destinationId": "10233154",
     "landmarks": []
   },
-  "PARKROYAL COLLECTION Pickering, Singapore": {
+  "Parkroyal Collection Pickering, Singapore": {
     "id": 421327,
-    "title": "PARKROYAL COLLECTION Pickering, Singapore",
+    "title": "Parkroyal Collection Pickering, Singapore",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/6000000/5410000/5400400/5400381/30b8968d_l.jpg",
     "price": {
       "before_price": 12249.0,
@@ -4271,9 +4223,9 @@
     "destinationId": "10233154",
     "landmarks": []
   },
-  "Populous Hotel @ Bugis, Singapore": {
+  "Populous Hotel Bugis, Singapore": {
     "id": 967427808,
-    "title": "Populous Hotel @ Bugis, Singapore",
+    "title": "Populous Hotel Bugis, Singapore",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/31000000/30210000/30200900/30200869/8e330c23_l.jpg",
     "price": {
       "before_price": 5820.0,
@@ -4487,9 +4439,9 @@
     "destinationId": "11594",
     "landmarks": []
   },
-  "dusitD2 kenz Hotel Dubai": {
+  "Dusit Kenz Hotel Dubai": {
     "id": 627254,
-    "title": "dusitD2 kenz Hotel Dubai",
+    "title": "Dusit Kenz Hotel Dubai",
     "thumbnail": "https://exp.cdn-hotels.com/hotels/17000000/16090000/16083200/16083123/f225dc10_l.jpg",
     "price": {
       "before_price": 4741.0,

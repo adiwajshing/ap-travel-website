@@ -58,3 +58,6 @@ def addHotels():
 
         if round(counter % 20) == 0:
             print(round(counter * 100/total), end='%...')
+
+addHotelSummary()
+addHotels()
