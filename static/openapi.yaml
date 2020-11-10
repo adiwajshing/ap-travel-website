@@ -444,7 +444,7 @@ components:
     cities:
       type: object
       properties:
-        Bengaluru:
+        cityName:
           type: object
           properties:
             destinationId:
@@ -453,79 +453,7 @@ components:
                 type: string
             thumbnail:
                 type: string
-        Delhi:
-          type: object
-          properties:
-            destinationId:
-                type: string
-            name:
-                type: string
-            thumbnail:
-                type: string
-        Dubai:
-          type: object
-          properties:
-            destinationId:
-                type: string
-            name:
-                type: string
-            thumbnail:
-                type: string
-        Hong Kong:
-          type: object
-          properties:
-            destinationId:
-                type: string
-            name:
-                type: string
-            thumbnail:
-                type: string
-        Hyderabad:
-          type: object
-          properties:
-            destinationId:
-                type: string
-            name:
-                type: string
-            thumbnail:
-                type: string
-        Mumbai:
-          type: object
-          properties:
-            destinationId:
-                type: string
-            name:
-                type: string
-            thumbnail:
-                type: string
-        Pune:
-          type: object
-          properties:
-            destinationId:
-                type: string
-            name:
-                type: string
-            thumbnail:
-                type: string
-        Singapore:
-          type: object
-          properties:
-            destinationId:
-                type: string
-            name:
-                type: string
-            thumbnail:
-                type: string
-        Tokyo:
-          type: object
-          properties:
-            destinationId:
-                type: string
-            name:
-                type: string
-            thumbnail:
-                type: string
-        
+                
     booking:
       type: object
       properties:
