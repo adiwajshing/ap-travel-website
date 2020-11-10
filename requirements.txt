@@ -11,4 +11,5 @@ google-api-core==1.23.0
 google-cloud-core==1.4.3
 python-Levenshtein==0.12.0
 fuzzywuzzy==0.18.0
+tqdm==4.51.0
 gunicorn==20.0.4
