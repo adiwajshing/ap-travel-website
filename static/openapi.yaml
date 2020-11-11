@@ -239,7 +239,8 @@ paths:
           description: Search data returned
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/fuzzyhotel'
         '400':
           description: Invalid Search Term
         '404':
@@ -265,16 +266,14 @@ paths:
             default: ''
         - name: check_In
           in: query
-          required: true
+          required: false
           schema:
             type: string
-            default: None
         - name: check_Out
           in: query
-          required: true
+          required: false
           schema:
             type: string
-            default: None
       operationId: Search
       responses:
         '200':
@@ -290,7 +289,6 @@ paths:
   /api/advsearch:
     get:
       summary: performs advanced search using tags
-      description: ''
       parameters:
         - name: q
           in: query
@@ -328,7 +326,8 @@ paths:
           description: Search data returned
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/hotelSearch'
         '400':
           description: Invalid Search Term
         '404':
@@ -347,7 +346,7 @@ paths:
             type: string
             enum:
               - Mumbai
-              - New Delhi
+              - Delhi
               - Tokyo
               - Bengaluru
               - Dubai
@@ -558,6 +557,7 @@ components:
                 type: string
             name:
                 type: string
+                example: 'Mumbai'
             thumbnail:
                 type: string
                 description: 'URL for thumbnail'
@@ -636,6 +636,10 @@ components:
           maximum: 5
         thumbnail: 
           type: string
+          description: 'URL for thumbnail'
+        title:
+          type: string
+          example: 'Hotel Viva Palace, Delhi'
     
     bookingDetails:
       type: array
@@ -646,6 +650,21 @@ components:
       type: array
       items:
         $ref: '#/components/schemas/hotel'
+    
+    fuzzyhotel:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: number
+          starRating:
+            type: number
+            maximum: 5
+            minimum: 0
+          title:
+            type: string
+            example: 'Hotel Viva Palace, Delhi'
         
     hotelReviews:
       type: object
