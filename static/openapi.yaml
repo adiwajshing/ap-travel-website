@@ -58,7 +58,6 @@ paths:
                     type: string
         '400':
           description: Bad input
-          content: {}
         '401':
           description: User already exists or Unauthorized
       parameters: []
@@ -557,7 +556,7 @@ components:
                 type: string
             name:
                 type: string
-                example: 'Mumbai'
+                enum: ["Mumbai", "New Delhi", "Tokyo", "Bengaluru", "Dubai", "Hong Kong", "Hyderabad", "Singapore" , "Pune"]
             thumbnail:
                 type: string
                 description: 'URL for thumbnail'
