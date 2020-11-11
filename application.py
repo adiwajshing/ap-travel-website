@@ -6,6 +6,7 @@ from flask_cors import CORS
 import firebase_admin
 from firebase_admin import auth, credentials, firestore
 from fuzzywuzzy import process
+from google.api_core.exceptions import NotFound
 import pyrebase
 import requests
 import gunicorn
@@ -204,25 +205,6 @@ def homepage():
 
     return jsonify(cities)
 
-# Universal Hotel search in search bar
-@app.route('/api/fuzzy', methods=["GET"])
-@verifyFuzzy()
-def fuzzySearch(q, city):
-
-    if city:
-        keySearch = searchCityHotels.get(city.title()).keys()
-    else:
-        keySearch = searchHotels.keys()
-
-    results = list()
-
-    fuzzy = process.extract(q, keySearch, limit=7)
-    for hotel in fuzzy:
-        if hotel[1] > 50: #cutoff edit distance
-            results.append(searchHotels.get(hotel[0]))
-
-    return jsonify(results)
-
 # Universal Hotel search on pressing ENTER
 @app.route('/api/search', methods=['GET'])
 @verifySearch()
@@ -267,13 +249,32 @@ def search(q, city, check_In, check_Out):
 
     return jsonify(sortData)
 
+# Universal Hotel search in search bar
+@app.route('/api/search/fuzzy', methods=["GET"])
+@verifyFuzzy()
+def fuzzySearch(q, city):
+
+    if city:
+        keySearch = searchCityHotels.get(city.title()).keys()
+    else:
+        keySearch = searchHotels.keys()
+
+    fuzzy = process.extractBests(q, keySearch, limit=7)
+    if fuzzy is None:
+        return Response(status=204, response='No Matches Found')
+
+    results = [searchHotels[hotel[0]] for hotel in fuzzy]
+
+    return jsonify(results)
+
+
 # Advanced search using tags
-@app.route('/api/advsearch', methods=['GET'])
+@app.route('/api/search/advanced', methods=['GET'])
 @verifySearch()
 def advancedSearch(q, city, check_In, check_Out):
 
     tagNames = searchTags.keys()
-    fuzzy = process.extract(q, tagNames, limit=3)
+    fuzzy = process.extractBests(q, tagNames, limit=3)
     tagList = list()
     searchList = set()
 
@@ -332,6 +333,8 @@ def getHotel(hotelId):
     hotel = db.collection('hotels').document(hotelId).get().to_dict()
     if hotel is None:
         return Response(status=404, response='Hotel Not Found')
+    
+    hotel.pop('tags')
 
     return jsonify(hotel)
 
@@ -360,29 +363,33 @@ def getRecc(hotelId):
 #=========================
 
 # Get Bookings
-@app.route('/api/profile/bookings', methods=['GET']) # @userId_required
+@app.route('/api/profile/bookings', methods=['GET']) # 
 def getBookings():
 
     userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
     booking = db.collection('users').document(userId).collection('bookings').order_by('timestamp', direction=firestore.firestore.Query.DESCENDING).get()
+
+    if booking is None:
+        return []
 
     data = [indv.to_dict() for indv in booking]
 
     return jsonify(data)
 
 # Add Booking
-@app.route('/api/profile/bookings', methods=['PUT']) # @userId_required
+@app.route('/api/profile/bookings/<string:hotelId>', methods=['PUT']) # 
 @verifyBooking
-def addBooking(booking):
-
+def addBooking(booking, hotelId):
+    
     userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
 
-    hotel = db.collection('hotels').document(booking['hotelId']).get().to_dict()
+    hotel = db.collection('hotels').document(hotelId).get().to_dict()
     if hotel is None:
         return Response(status=404, response='Hotel Not Found')
     
     bookingId = ''.join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase, k = 20))
 
+    booking['hotelId'] = hotelId
     booking['title'] = hotel['title']
     booking['price'] = hotel['price']['current_price']
     booking['bookingId'] = bookingId
@@ -407,7 +414,11 @@ def booking(bookingId):
 def editBooking(booking, bookingId):
 
     userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
-    db.collection('users').document(userId).collection('bookings').document(bookingId).update(booking)
+
+    try:
+        db.collection('users').document(userId).collection('bookings').document(bookingId).update(booking)
+    except NotFound:
+        return Response(status=404, response='Booking not found')
 
     data = db.collection('users').document(userId).collection('bookings').document(bookingId).get().to_dict()
 
@@ -433,12 +444,17 @@ def addReview(review, hotelId):
 
     review['id'] = reviewId
     review['name'] = 'Tanish' #authDict.get('name') or '...'
-    hotel['reviews'].append(review)
+    hotel['reviews'].insert(0, review)
+    
+    tempHotel = {
+        'rating': round(newRating, 1),
+        'reviews': hotel['reviews']
+    }
 
     db.collection('hotels').document(hotelId).update({'reviews':firestore.firestore.ArrayUnion([review]), 'rating':round(newRating, 1)})
     db.collection('hotelSummary').document(hotel['title']).update({'rating':round(newRating, 1)})
 
-    return jsonify(hotel)
+    return jsonify(tempHotel)
 
 #=========================
 if __name__ == "__main__":

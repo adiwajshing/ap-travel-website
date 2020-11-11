@@ -5,25 +5,28 @@ info:
     Backend for an E-Travel Project (Ashoka University) in form of a REST API
     architecture.
   version: 1.0.0
-  contact: {}
+
 servers:
   - url: 'http://127.0.0.1:5000/'
+
 tags:
   - name: User Endpoints
     description: All User Operations
+  - name: Navigation
+    description: Navigation routes
   - name: Booking
     description: Booking routes
   - name: Review
     description: Review routes
-  - name: Navigation
-    description: Navigation routes
+
 paths:
+
   /api/signup:
     post:
-      tags:
-        - User Endpoints
-      summary: New signup
-      operationId: signup
+      tags: [User Endpoints]
+      summary: Register new signup
+      description: Creates a new user and sends back the idToken and refreshToken to be used for Bearer Tokens.
+      operationId: addUser
       requestBody:
         required: true
         content:
@@ -46,7 +49,7 @@ paths:
                 - phone_number
       responses:
         '200':
-          description: Succesfully added user. Returns access token.
+          description: Succesfully added user. Returns access tokens.
           content:
             application/json:
               schema:
@@ -56,28 +59,31 @@ paths:
                     type: string
                   refreshToken:
                     type: string
+                required:
+                  - idToken
+                  - refreshToken
         '400':
-          description: Bad input
+          description: Bad Form Input
         '401':
           description: User already exists or Unauthorized
-      parameters: []
+
   /api/google-signup:
     put:
-      tags:
-        - User Endpoints
+      tags: [User Endpoints]
       summary: Add user to DB after Google Signup
-      operationId: GoogleSignup
+      description: Call this route after anyone signs up using Google, in order to register them in the DB.
+      operationId: addGUser
       responses:
         '200':
           description: Succesfully added user in DB or user already exists in DB.
       security:
         - Bearer: []
-      parameters: []
+
   /api/login:
     post:
-      tags:
-        - User Endpoints
-      summary: Login with email and password
+      tags: [User Endpoints]
+      summary: Login user with email and password (Non-Google)
+      description: Logs in user and returns access tokens.
       operationId: login
       requestBody:
         required: true
@@ -95,7 +101,7 @@ paths:
                 - password
       responses:
         '200':
-          description: Succesfully logged in
+          description: Succesfully logged in User
           content:
             application/json:
               schema:
@@ -105,29 +111,32 @@ paths:
                     type: string
                   refreshToken:
                     type: string
+                required:
+                  - idToken
+                  - refreshToken
         '400':
-          description: Bad input
+          description: Bad Form Input
           content: {}
         '401':
           description: Unauthorized
-      parameters: []
+
   /api/logout:
     get:
-      tags:
-        - User Endpoints
+      tags: [User Endpoints]
       summary: Logout and revoke tokens
+      description: Revokes access tokens of user
       operationId: logout
       responses:
         '200':
           description: Succesfully logged out and revoked tokens
       security:
         - Bearer: []
-      parameters: []
+
   /api/profile:
     get:
-      tags:
-        - User Endpoints
+      tags: [User Endpoints]
       summary: View Profile Section
+      description: Returns profile details of User
       operationId: viewUser
       responses:
         '200':
@@ -135,14 +144,7 @@ paths:
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  name:
-                    type: string
-                  email:
-                    type: string
-                  phone_number:
-                    type: string
+                $ref:  '#/components/schemas/getProfile'
         '401':
           description: Unauthorized
         '404':
@@ -150,148 +152,104 @@ paths:
           content: {}
       security:
         - Bearer: []
-      parameters: []
+
   /api/profile/:
     patch:
-      tags:
-        - User Endpoints
-      summary: Edit Profile
-      operationId: editProfile
+      tags: [User Endpoints]
+      summary: Edit Profile Section
+      description: Takes in JSON containing edits and sends back entire new profile
+      operationId: editUser
       requestBody:
         required: true
         content:
           application/json:
             schema:
-              type: object
-              properties:
-                name:
-                  type: string
-                phone_number:
-                  type: string
+              $ref: '#/components/schemas/editProfile'
       responses:
         '200':
           description: Succesfully edited user.
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  name:
-                    type: string
-                  email:
-                    type: string
-                  phone_number:
-                    type: string
+                $ref:  '#/components/schemas/getProfile'
         '400':
-          description: Bad input
+          description: Bad JSON Input
           content: {}
         '401':
           description: Unauthorized
       security:
         - Bearer: []
-      parameters: []
+  
   /api/:
     get:
-      summary: Homepage data containing name of cities
-      description: ''
-      parameters: []
-      operationId: Homepage
+      summary: Homepage data containing name of all cities
+      description: Returns an array of all cities and their info.
+      operationId: homepage
+      tags: [Navigation]
       responses:
         '200':
-          description: City data found
+          description: JSON city data
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/cities'
-        '404':
-          description: Bad response
-      tags:
-        - Navigation
-  /api/fuzzy:
-    get:
-      summary: Gets data of all hotels that relate to query
-      description: ''
-      parameters:
-        - name: q
-          in: query
-          required: true
-          schema:
-            type: string
-        - name: city
-          in: query
-          required: false
-          schema:
-            type: string
-            enum:
-              - Mumbai
-              - Delhi
-              - Tokyo
-              - Bengaluru
-              - Dubai
-              - Hong Kong
-              - Hyderabad
-              - Singapore
-              - Pune
-      operationId: Universal Hotel search in search bar
-      responses:
-        '200':
-          description: Search data returned
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/fuzzyhotel'
-        '400':
-          description: Invalid Search Term
-        '404':
-          description: No Such City
-      tags:
-        - Navigation
+  
   /api/search:
     get:
-      summary: Search response data
-      description: ''
+      summary: Searches through all hotel names
+      description: Returns array of all hits
+      operationId: search
+      tags: [Navigation]
       parameters:
         - name: city
           in: query
           required: false
           schema:
             type: string
-            default: ''
         - name: q
           in: query
           required: true
+          description: search term
           schema:
             type: string
-            default: ''
         - name: check_In
           in: query
           required: false
           schema:
             type: string
+          description: dd/mm/yyyy
         - name: check_Out
           in: query
           required: false
           schema:
             type: string
-      operationId: Search
+          description: dd/mm/yyyy
+      
       responses:
         '200':
-          description: Search results generated
+          description: Array of all search results
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/hotelSearch'
+                $ref: '#/components/schemas/search'
+        '204':
+          description: No Matches Found
         '400':
-          description: Invalid search term
-      tags:
-        - Navigation
-  /api/advsearch:
+          description: Invalid Search Term
+        '404':
+          description: No Such City
+    
+  /api/search/fuzzy:
     get:
-      summary: performs advanced search using tags
+      summary: Fuzzy search for search bar
+      description: Fast speed search at search bar that returns basic hotel data of hits in an array.
+      operationId: fuzzySearch
+      tags: [Navigation]
       parameters:
         - name: q
           in: query
           required: true
+          description: search term
           schema:
             type: string
         - name: city
@@ -309,34 +267,82 @@ paths:
               - Hyderabad
               - Singapore
               - Pune
+      responses:
+        '200':
+          description: Search data returned to be viewed in search bar dropdown.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/fuzzySearch'
+        '204':
+          description: No Matches Found
+        '400':
+          description: Invalid Search Term
+        '404':
+          description: No Such City
+
+  /api/search/advanced:
+    get:
+      summary: Performs advanced search through tags
+      description: Give user an option to perform an advanced search and then call this endpoint with the search term
+      operationId: advancedSearch
+      tags: [Navigation]
+      parameters:
+        - name: city
+          in: query
+          required: false
+          schema:
+            type: string
+            enum:
+              - Mumbai
+              - Delhi
+              - Tokyo
+              - Bengaluru
+              - Dubai
+              - Hong Kong
+              - Hyderabad
+              - Singapore
+              - Pune
+          
+        - name: q
+          in: query
+          required: true
+          description: search term
+          schema:
+            type: string
         - name: check_In
           in: query
           required: false
           schema:
             type: string
+          description: dd/mm/yyyy
         - name: check_Out
           in: query
           required: false
           schema:
             type: string
-      operationId: search using tags
+          description: dd/mm/yyyy
+      
       responses:
         '200':
-          description: Search data returned
+          description: Array of all search results
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/hotelSearch'
+                $ref: '#/components/schemas/search'
+        '204':
+          description: No Matches Found
         '400':
           description: Invalid Search Term
         '404':
           description: No Such City
-      tags:
-        - Navigation
-  '/api/city/{city}':
+  
+  /api/city/{city}:
     get:
-      summary: Gets data of hotels according to city
-      description: ''
+      summary: Gets data of all hotels belonging to a city
+      description: Takes a city name in the path and returns all hotels in this city. Meant for Users who click on a city on the homepage.
+      operationId: cityHotels
+      tags: [Navigation]
       parameters:
         - name: city
           in: path
@@ -354,198 +360,227 @@ paths:
               - Singapore
               - Pune
           description: City name
-      operationId: City wise search
+      
       responses:
         '200':
-          description: Hotels in city found
+          description: Array of all available hotels
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/hotelSearch'
+                $ref: '#/components/schemas/search'
         '404':
-          description: City not found
-      tags:
-        - Navigation
-  '/api/hotel/{hotelId}':
+          description: No Such City
+      
+  /api/hotel/{hotelId}:
     get:
-      summary: gets all hotel related data
+      summary: Get complete hotel details on selection
+      description: Meant for individual hotel description page
+      operationId: getHotel
+      tags: [Navigation]
       parameters:
         - name: hotelId
           in: path
           required: true
           schema:
             type: string
-      operationId: Hotel details
+      
       responses:
         '200':
-          description: Hotel details found
+          description: Hotel details found and returned as JSON
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/hotelDetailed'
+                 $ref: '#/components/schemas/hotelDetails'
         '404':
           description: Hotel Not Found
-      tags:
-        - Navigation
-  '/api/hotel/{hotelId}/reccomendations':
+
+  /api/hotel/{hotelId}/reccomendations:
     get:
-      summary: Gets other recommendations for selected hotel
-      description: ''
+      summary: Gets recommendations for selected hotel
+      description: Show this in More Like This contianer when User is looking at details of a hotel using its hotelId.
+      operationId: getRecc
+      tags: [Navigation]
       parameters:
         - name: hotelId
           in: path
           required: true
           schema:
             type: string
-      operationId: Recommendations
+      
       responses:
         '200':
-          description: Recommendations generated
+          description: Recommendations generated and returned as a general search array
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/hotelSearch'
+                $ref: '#/components/schemas/search'
         '404':
           description: Hotel Not Found
-      tags:
-        - Navigation
+      
+  
   /api/profile/bookings:
     get:
-      summary: gets all bookings of user
-      description: ''
-      parameters: []
-      operationId: View bookings
+      summary: Gets all bookings of the User
+      description: Returns and array of every booking.
+      operationId: getBookings
       responses:
         '200':
-          description: user booking data
+          description: User booking data
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/bookingDetails'
+                $ref: '#/components/schemas/getBookings'
         '401':
           description: Unauthorized
-        '404':
-          description: User booking data not found
       tags:
         - Booking
+    
+  /api/profile/bookings/{hotelId}:
     put:
-      summary: add booking
-      description: ''
-      parameters: []
-      operationId: Add booking
-      responses:
-        '200':
-          description: Booking added successfully
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/bookingDetails'
-        '400':
-          description: Bad response
-        '401':
-          description: Unauthorized
-      tags:
-        - Booking
+      summary: Add new booking
+      description: Takes hotelId from path and JSON of booking details, to return succesfully added booking info.
+      operationId: addBooking
+      tags: [Booking]
+      parameters:
+        - name: hotelId
+          in: path
+          required: true
+          schema:
+            type: string
       requestBody:
         required: true
         content:
           application/json:
             schema:
               $ref: '#/components/schemas/addBooking'
-              
-  '/api/profile/bookings/{bookingId}':
+
+      responses:
+        '200':
+          description: Booking added successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/booking'
+        '400':
+          description: Input JSON error
+        '401':
+          description: Unauthorized
+        '404':
+          description: Hotel not found
+  
+  /api/profile/bookings/{bookingId}:
+
     delete:
       summary: Delete booking using booking ID
-      description: ''
+      operationId: Delete booking
+      tags: [Booking]
       parameters:
         - name: bookingId
           in: path
           required: true
           schema:
             type: string
-      operationId: Delete booking
       responses:
         '200':
           description: Deleted
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/bookingDetails'
-        '400':
-          description: Booking not found
         '401':
           description: Unauthorized
-      tags:
-        - Booking
+
     patch:
-      summary: Edit booking
-      description: ''
+      summary: Edit booking using booking ID
+      description: 'Takes bookingId from path and a JSON of any edits, to return succesfully edited booking info.'
+      operationId: editBooking
+      tags: [Booking]
       parameters:
         - name: bookingId
           in: path
           required: true
           schema:
             type: string
-      operationId: Edit booking
-      responses:
-        '200':
-          description: edited
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/bookingDetails'
-        '400':
-          description: Booking not found
-        '401':
-          description: Unauthorized
-      tags:
-        - Booking
       requestBody:
         required: true
         content:
           application/json:
             schema: 
-              $ref: '#/components/schemas/addBooking'
-  '/api/hotel/{hotelId}/review':
+              $ref: '#/components/schemas/editBooking'
+
+      responses:
+        '200':
+          description: Succesfully edited.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/booking'
+        '400':
+          description: Input JSON error
+        '401':
+          description: Unauthorized
+      
+  /api/hotel/{hotelId}/review:
     put:
-      summary: add review to hotel
-      description: ''
+      summary: Add a review to a hotel
+      description: Takes in hotel ID in path and review info as JSON, to return changed hotel details (new review array and ratings)
+      operationId: addReview
+      tags: [Review]
+
       parameters:
         - name: hotelId
           in: path
           required: true
           schema:
             type: string
-      operationId: Add review
-      responses:
-        '200':
-          description: Review added to hotel
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/hotelReviews'
-        '400':
-          description: No data sent
-        '401':
-          description: Unauthorized
-      tags:
-        - Review
+      
       requestBody:
         required: true
         content:
           application/json:
             schema:
               $ref: '#/components/schemas/addReview'
+      
+      responses:
+        '200':
+          description: Review succesfully added to hotel.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/newReview'
+        '400':
+          description: No data sent
+        '401':
+          description: Unauthorized
+
 components:
+  
   securitySchemes:
     Bearer:
       type: apiKey
       name: Authorization
       in: header
-  links: {}
-  callbacks: {}
   
   schemas:
+
+    getProfile:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        phone_number:
+          type: string
+      required:
+        - name
+        - email
+        - phone_number
+    
+    editProfile:
+      type: object
+      properties:
+        name:
+          type: string
+        phone_number:
+          type: string
+
     cities:
       type: object
       properties:
@@ -560,7 +595,35 @@ components:
             thumbnail:
                 type: string
                 description: 'URL for thumbnail'
-                
+          required:
+            - destinationId
+            - name
+            - thumbnail
+    
+    search:
+      type: array
+      items:
+        $ref: '#/components/schemas/hotel'
+
+    fuzzySearch:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: number
+          starRating:
+            type: number
+            maximum: 5
+            minimum: 0
+          title:
+            type: string
+            description: 'Hotel Name'
+        required:
+          - id
+          - starRating
+          - title
+    
     booking:
       type: object
       properties:
@@ -580,7 +643,7 @@ components:
               properties:
                 roomType:
                   type: number
-                  example: 'Standard Room: 1'
+                  description: Key is the name of room and value is number of rooms.
         bookingId:
           type: string
         hotelId:
@@ -594,9 +657,13 @@ components:
           type: string
         title:
           type: string
-          example: 'Hotel Planet Residency, Mumbai'
           description: 'Hotel Name'
-    
+
+    getBookings:
+      type: array
+      items:
+        $ref: '#/components/schemas/booking'
+   
     addBooking:
       type: object
       properties:
@@ -611,17 +678,25 @@ components:
               description: 'Booking under name'
             guests:
               type: number
+              minimum: 1
+              example: 1
             room:
               type: object
               properties:
                 roomType:
                   type: number
-                  example: 'Standard Room: 1'
+                  minimum: 1
+                  example: 1
             check_In:
               type: string
+              example: dd/mm/yyyy
             check_Out:
               type: string
-          
+              example: dd/mm/yyyy
+
+    editBooking:
+      $ref: '#/components/schemas/addBooking'
+
     hotel:
       type: object
       properties:
@@ -667,21 +742,27 @@ components:
           description: 'URL for thumbnail'
         title:
           type: string
-          example: 'Hotel Planet Residency, Mumbai'
           description: 'Hotel Name'
     
-    bookingDetails:
-      type: array
-      items:
-        $ref: '#/components/schemas/booking'
-   
-    hotelSearch:
-      type: array
-      items:
-        $ref: '#/components/schemas/hotel'
-        
-    hotelDetailed:
+    hotelDetails:
       type: object
+      required:
+        - address
+        - checkIn
+        - checkOut
+        - city
+        - description
+        - destinationId
+        - id
+        - main_image
+        - mapWidget
+        - neighbourhood
+        - price
+        - rating
+        - review
+        - rooms
+        - starRating
+        - title
       properties:
         address:
           type: string
@@ -709,6 +790,7 @@ components:
               type: array
               items:
                 type: string
+          required: [Main amenities, What is arround]
         id:
           type: number
           description: 'Hotel ID'
@@ -745,7 +827,7 @@ components:
         review: 
           type: array
           items:
-            $ref: '#/components/schemas/review'
+            $ref: '#/components/schemas/reviews'
         rooms:
           type: array
           description: 'types of rooms the hotel offers'
@@ -755,37 +837,11 @@ components:
           type: number
           maximum: 5
           minimum: 0
-        tags:
-          type: array
-          description: 'Hotel specific features/tags'
-          items: 
-            type: string
         title:
           type: string
-          example: 'Hotel Planet Residency, Mumbai'
           description: 'Hotel Name'
-    fuzzyhotel:
-      type: array
-      items:
-        type: object
-        properties:
-          id:
-            type: number
-          starRating:
-            type: number
-            maximum: 5
-            minimum: 0
-          title:
-            type: string
-            example: 'Hotel Planet Residency, Mumbai'
-            description: 'Hotel Name'
-        
-    hotelReviews:
-      type: array
-      items:
-        $ref: '#/components/schemas/review'
-              
-    review:
+    
+    reviews:
       type: object
       properties:
         id:
@@ -820,5 +876,36 @@ components:
           type: string
         title:
           type: string
-                
-security: []
+    
+    newReview:
+      type: object
+      required: 
+        - reviews
+        - rating
+      properties:
+        rating:
+          type: number
+          minimum: 1.0
+          maximum: 10.0
+        reviews:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: string
+                description: 'user ID'
+              name:
+                type: string
+                description: 'username'
+              rating:
+                type: number
+                minimum: 1.0
+                maximum: 10.0
+              review:
+                type: string
+                description: 'Body of review'
+              title:
+                type: string
+                description: 'Title of review'
+              

@@ -22,9 +22,15 @@ def verifyBooking(f):
     def decorated(*args, **kwargs):
 
         body = request.get_json()
+        hotelId = request.view_args.get('hotelId')
+
+        if body is None:
+            return Response(response='No Data Sent', status=400)
+
+        if hotelId is None:
+            return Response(status=400, response='Check hotelId In Path')
 
         schema = {
-            'hotelId': {'type':'string', 'required':True, 'nullable':False, 'empty':False},
             'status': {'type':'string', 'required':True, 'allowed':['booked', 'cancelled', 'visited', 'favourite']}, 
 
             'bookingDetails': {'type':'dict', 'required':True, 'nullable':False, 'empty':False, 'schema':{
@@ -38,9 +44,6 @@ def verifyBooking(f):
                 'check_Out': {'required':True, 'nullable':False, 'empty':False, 'coerce': dateConvert} #dd/mm/yyyy
             }}
         }
-
-        if body is None:
-            return Response(response='No Data Sent', status=400)
     
         v = Validator(schema)
         body = v.normalized(body)
