@@ -452,7 +452,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/booking'
+              $ref: '#/components/schemas/addBooking'
               
   '/api/profile/bookings/{bookingId}':
     delete:
@@ -472,8 +472,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/bookingDetails'
-        '201':
-          description: Description
+        '400':
+          description: Booking not found
         '401':
           description: Unauthorized
       tags:
@@ -490,7 +490,7 @@ paths:
       operationId: Edit booking
       responses:
         '200':
-          description: edited booking
+          description: edited
           content:
             application/json:
               schema:
@@ -506,7 +506,7 @@ paths:
         content:
           application/json:
             schema: 
-              $ref: '#/components/schemas/booking'
+              $ref: '#/components/schemas/addBooking'
   '/api/hotel/{hotelId}/review':
     put:
       summary: add review to hotel
@@ -597,7 +597,32 @@ components:
           type: string
           example: 'Hotel Planet Residency, Mumbai'
           description: 'Hotel Name'
-
+    
+    addBooking:
+      type: object
+      properties:
+        status:
+          type: string
+          enum: ['booked', 'cancelled', 'visited', 'favourite']
+        bookingDetails:
+          type: object
+          properties:
+            bookingName:
+              type: string
+              description: 'Booking under name'
+            guests:
+              type: number
+            room:
+              type: object
+              properties:
+                roomType:
+                  type: number
+                  example: 'Standard Room: 1'
+            check_In:
+              type: string
+            check_Out:
+              type: string
+          
     hotel:
       type: object
       properties:
