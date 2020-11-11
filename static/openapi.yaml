@@ -225,7 +225,7 @@ paths:
             type: string
             enum:
               - Mumbai
-              - New Delhi
+              - Delhi
               - Tokyo
               - Bengaluru
               - Dubai
@@ -302,7 +302,7 @@ paths:
             type: string
             enum:
               - Mumbai
-              - New Delhi
+              - Delhi
               - Tokyo
               - Bengaluru
               - Dubai
@@ -369,8 +369,7 @@ paths:
         - Navigation
   '/api/hotel/{hotelId}':
     get:
-      summary: gets all hotel data
-      description: ''
+      summary: gets all hotel related data
       parameters:
         - name: hotelId
           in: path
@@ -384,7 +383,7 @@ paths:
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/hotelSearch'
+                 $ref: '#/components/schemas/hotelDetailed'
         '404':
           description: Hotel Not Found
       tags:
@@ -405,7 +404,8 @@ paths:
           description: Recommendations generated
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/hotelSearch'
         '404':
           description: Hotel Not Found
       tags:
@@ -595,7 +595,8 @@ components:
           type: string
         title:
           type: string
-          example: 'Hotel Viva Palace, Delhi'
+          example: 'Hotel Planet Residency, Mumbai'
+          description: 'Hotel Name'
 
     hotel:
       type: object
@@ -605,10 +606,13 @@ components:
           enum: ["Mumbai", "New Delhi", "Tokyo", "Bengaluru", "Dubai", "Hong Kong", "Hyderabad", "Singapore" , "Pune"]
         destinationId: 
           type: string
+          description: 'city ID'
         id: 
           type: number
-        neighbourhood: 
+          description: 'hotel ID'
+        neighbourhood:
           type: string
+          description: 'locality'
         price: 
           type: object
           properties: 
@@ -619,7 +623,7 @@ components:
             current_price:
               type: number
             discounted:
-              type: boolean 
+              type: boolean
             savings_amount: 
               type: number
             savings_percent:
@@ -639,7 +643,8 @@ components:
           description: 'URL for thumbnail'
         title:
           type: string
-          example: 'Hotel Viva Palace, Delhi'
+          example: 'Hotel Planet Residency, Mumbai'
+          description: 'Hotel Name'
     
     bookingDetails:
       type: array
@@ -650,7 +655,91 @@ components:
       type: array
       items:
         $ref: '#/components/schemas/hotel'
-    
+        
+    hotelDetailed:
+      type: object
+      properties:
+        address:
+          type: string
+        checkIn:
+          type: string
+        checkOut:
+          type: string
+        city:
+          type: string
+          enum: ["Mumbai", "Delhi", "Tokyo", "Bengaluru", "Dubai", "Hong Kong", "Hyderabad", "Singapore" , "Pune"]
+        description:
+          type: string
+          description: 'gives one line summary of hotel'
+        destinationId:
+          type: string
+          description: 'city ID'
+        feature_bullets:
+          type: object
+          properties:
+            Main amenities:
+              type: array
+              items:
+                type: string
+            What is arround:
+              type: array
+              items:
+                type: string
+        id:
+          type: number
+          description: 'Hotel ID'
+        main_image:
+          type: string
+          description: 'URL for main hotel image'
+        mapWidget:
+          type: string
+          description: 'URL for google map image'
+        neighbourhood:
+          type: string
+          description: 'Hotel locality'
+        price:
+          type: object
+          properties:
+            before_price:
+              type: number
+            currency:
+              type: string
+            current_price:
+              type: number
+            discounted:
+              type: boolean
+            savings_amount: 
+              type: number
+            savings_percent:
+              type: number
+              minimum: 0
+              maximum: 100
+        rating:
+          type: number
+          minimum: 0
+          maximum: 10.0
+        review: 
+          type: array
+          items:
+            $ref: '#/components/schemas/review'
+        rooms:
+          type: array
+          description: 'types of rooms the hotel offers'
+          items:
+            type: string
+        starRating:
+          type: number
+          maximum: 5
+          minimum: 0
+        tags:
+          type: array
+          description: 'Hotel specific features/tags'
+          items: 
+            type: string
+        title:
+          type: string
+          example: 'Hotel Planet Residency, Mumbai'
+          description: 'Hotel Name'
     fuzzyhotel:
       type: array
       items:
@@ -664,25 +753,34 @@ components:
             minimum: 0
           title:
             type: string
-            example: 'Hotel Viva Palace, Delhi'
+            example: 'Hotel Planet Residency, Mumbai'
+            description: 'Hotel Name'
         
     hotelReviews:
+      type: array
+      items:
+        $ref: '#/components/schemas/review'
+              
+    review:
       type: object
       properties:
-        reviews:
-          type: array
-          items:
-            type: object
-            properties:
-              rating:
-                type: number
-                minimum: 1.0
-                maximum: 10.0
-              review:
-                type: string
-              title:
-                type: string
-              
+        id:
+          type: string
+          description: 'user ID'
+        name:
+          type: string
+          description: 'username'
+        rating:
+          type: number
+          minimum: 1.0
+          maximum: 10.0
+        review:
+          type: string
+          description: 'Body of review'
+        title:
+          type: string
+          description: 'Title of review'
+    
     addReview:
       type: object
       required:
