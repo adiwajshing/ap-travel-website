@@ -120,13 +120,18 @@ def editedHotels(fileName='hashHotels'):
     ''' Removes Neighbourhood, Stars and City from tags to reassign weights '''
 
     allHotels = json.load(open('backup/allHotels.json'))
+    removal = ['main_image', 'description', 'feature_bullets', 'mapWidget', 'rooms', 'address', 'landmarks', 'destinationId', 'checkIn', 'checkOut']
 
     for k, v in allHotels.items():
 
         try:
+            for x in removal:
+                allHotels[k].pop(x)
+
             allHotels[k]['tags'].remove(v['city'].lower())
             allHotels[k]['tags'].remove(f"{v['starRating']} stars")
             allHotels[k]['tags'].remove(v['neighbourhood'].lower())
+        
         except:
             try:
                 if v['neighbourhood'].lower() == 'new delhi':
@@ -145,8 +150,8 @@ def engine(fileName='reccomended'):
     tagHash = json.load(open('search/searchTags.json'))
 
     tagWeight = 1
-    cityWeight = 3
-    neighbourhoodWeight = 4
+    cityWeight = 4
+    neighbourhoodWeight = 5
     fuzzyWeight = 0.1
 
     starWeight = {"0":4, "1":3, "2":2, "3":1, "4":0}
@@ -166,11 +171,7 @@ def engine(fileName='reccomended'):
             for sameTagHotel in tagHash[tag].keys():
 
                 if sameTagHotel != hotelId:
-
-                    if calcWeight.get(sameTagHotel) is None:
-                        calcWeight[sameTagHotel] = 0
-                    
-                    calcWeight[sameTagHotel] = calcWeight[sameTagHotel] + tagWeight
+                    calcWeight[sameTagHotel] = (calcWeight.get(sameTagHotel) or 0) + tagWeight
              
 
         for indvHotel in allHotels.values():
@@ -178,15 +179,18 @@ def engine(fileName='reccomended'):
             tempId = str(indvHotel['id'])
             if tempId != hotelId:
                 
-                priceRange = priceKeys[min(range(len(priceKeys)), key = lambda i: abs(priceKeys[i]-indvHotel['price']['current_price']))]
-                rateRange = priceKeys[min(range(len(starKeys)), key = lambda i: abs(priceKeys[i]-indvHotel['rating']))]
+                priceDiff = abs(indvHotel['price']['current_price'] - hotelInfo['price']['current_price'])
+                starDiff = abs(indvHotel['starRating'] - hotelInfo['starRating'])
+            
+                priceRange = priceKeys[min(range(len(priceKeys)), key = lambda i: abs(priceKeys[i]-priceDiff))]
+                starRange = starKeys[min(range(len(starKeys)), key = lambda i: abs(starKeys[i]-starDiff))]
                 editDistance = fuzz.partial_ratio(hotelInfo['title'], indvHotel['title']) * fuzzyWeight
 
                 if calcWeight.get(tempId) is None:
                     calcWeight[tempId] = 0
                 
                 calcWeight[tempId] = calcWeight[tempId] + priceWeight[str(priceRange)]
-                calcWeight[tempId] = calcWeight[tempId] + priceWeight[str(rateRange)]
+                calcWeight[tempId] = calcWeight[tempId] + starWeight[str(starRange)]
                 calcWeight[tempId] = calcWeight[tempId] + editDistance
                 
                 if indvHotel['city'] == hotelInfo['city']:
@@ -214,6 +218,33 @@ def engine(fileName='reccomended'):
     with open('reccomendations/' + fileName + ".json", "w") as output: 
         output.write(jsonWrite)
 
+def userPreferenceScoring(indvHotel, preferences):
+
+    score = 0
+    scoreWeight = 0.5
+
+    starWeight = {"0":4, "1":3, "2":2, "3":1, "4":0}
+    starKeys = [int(x) for x in starWeight.keys()]
+
+    priceWeight = {"500":5, "750":4, "1000":3, "1250":2, "1500":1, "1750":0}
+    priceKeys = [int(x) for x in priceWeight.keys()]
+
+    priceDiff = abs(indvHotel['price']['current_price'] - preferences['avgPrice'])
+    starDiff = abs(indvHotel['starRating'] - preferences['avgStar'])
+            
+    priceRange = priceKeys[min(range(len(priceKeys)), key = lambda i: abs(priceKeys[i]-priceDiff))]
+    starRange = starKeys[min(range(len(starKeys)), key = lambda i: abs(starKeys[i]-starDiff))]
+
+    score += priceWeight[str(priceRange)]
+    score += starWeight[str(starRange)]
+
+    for tag in indvHotel['tags']:
+        score = score + (preferences['commonTags'].get(tag) or 0)
+    
+    # reviews
+    
+    return score * scoreWeight
+
 def runRecEngine(hotelId):
 
     allHotels = json.load(open('reccomendations/hashHotels.json'))
@@ -225,8 +256,8 @@ def runRecEngine(hotelId):
         return None
 
     tagWeight = 1
-    cityWeight = 3
-    neighbourhoodWeight = 4
+    cityWeight = 4
+    neighbourhoodWeight = 5
     fuzzyWeight = 0.1
 
     starWeight = {"0":4, "1":3, "2":2, "3":1, "4":0}
@@ -253,16 +284,19 @@ def runRecEngine(hotelId):
 
         tempId = str(indvHotel['id'])
         if tempId != hotelId:
+
+            priceDiff = abs(indvHotel['price']['current_price'] - hotelInfo['price']['current_price'])
+            starDiff = abs(indvHotel['starRating'] - hotelInfo['starRating'])
             
-            priceRange = priceKeys[min(range(len(priceKeys)), key = lambda i: abs(priceKeys[i]-indvHotel['price']['current_price']))]
-            rateRange = priceKeys[min(range(len(starKeys)), key = lambda i: abs(priceKeys[i]-indvHotel['rating']))]
+            priceRange = priceKeys[min(range(len(priceKeys)), key = lambda i: abs(priceKeys[i]-priceDiff))]
+            starRange = starKeys[min(range(len(starKeys)), key = lambda i: abs(starKeys[i]-starDiff))]
             editDistance = fuzz.partial_ratio(hotelInfo['title'], indvHotel['title']) * fuzzyWeight
 
             if calcWeight.get(tempId) is None:
                 calcWeight[tempId] = 0
             
             calcWeight[tempId] = calcWeight[tempId] + priceWeight[str(priceRange)]
-            calcWeight[tempId] = calcWeight[tempId] + priceWeight[str(rateRange)]
+            calcWeight[tempId] = calcWeight[tempId] + starWeight[str(starRange)]
             calcWeight[tempId] = calcWeight[tempId] + editDistance
 
             if indvHotel['city'] == hotelInfo['city']:
