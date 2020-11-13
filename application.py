@@ -12,8 +12,9 @@ import requests
 import gunicorn
 
 import os
-import json
 import time
+import json
+import base64
 import string
 import random
 from functools import wraps
@@ -39,7 +40,7 @@ CORS(app)
 pb = pyrebase.initialize_app(json.load(open('fbconfig.json')))
 authCnx = pb.auth()
 
-cred = credentials.Certificate(json.load(open('fbAdminConfig.json')))
+cred = credentials.Certificate(json.loads(base64.b64decode(os.getenv('FB_ADMIN_CONFIG'))))
 default_app = firebase_admin.initialize_app(cred)
 db = firestore.client()
 
@@ -67,9 +68,9 @@ app.register_blueprint(swaggerui_blueprint, url_prefix=SWAGGER_URL)
 #==============================
 # Error Handling
 
-@app.errorhandler(404)
-def page_not_found(e):
-    return redirect('/docs')
+# @app.errorhandler(404)
+# def page_not_found(e):
+#     return redirect('/docs')
 
 #==============================
 # Token Auth
@@ -458,4 +459,4 @@ def addReview(review, hotelId):
 
 #=========================
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)

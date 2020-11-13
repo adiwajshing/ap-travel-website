@@ -2,6 +2,8 @@
 .vscode
 .DS_Store
 fbAdminConfig.json
+fbAdminConfigB64.txt
 __pycache__
-
 env/
+secrets/
+secrets.zip

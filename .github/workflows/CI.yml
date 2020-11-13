@@ -1,0 +1,43 @@
+name: heroku-deploy
+
+on:
+  push:
+    branches: 
+    - master
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    # - name: Setup Node.js environment
+    #   uses: actions/setup-node@v2.1.1
+    
+    # - name: Copy production env
+    #   run: | 
+    #     echo -e '${{secrets.ENV}}' > .env
+    #     printf "${{secrets.FB_ADMIN_CONFIG}}" >> fbAdminConfigB64.txt
+    #     base64 --decode fbAdminConfigB64.txt > fbAdminConfig.json
+    #     rm -rf .gitignore 
+    
+    # - name: Install node dependencies
+    #   run: cd Frontend && yarn
+
+    # - name: Build react frontend
+    #   run: |
+    #     cd Frontend && yarn build
+    #     mv build/* ../static/
+    #     rm -rf ../static/.gitignore
+    #     rm -rf Frontend
+    #   env:
+    #     CI: false
+
+    # - name: Deploy to Heroku
+    #   uses: akhileshns/heroku-deploy@v3.6.8
+    #   with:
+    #     heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+    #     heroku_app_name: "stayasia"
+    #     heroku_email: "tanishbafna03@gmail.com"
