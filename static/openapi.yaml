@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Best of Asia (REST API)
+  title: Staysia (REST API)
   description: >-
     Backend for an E-Travel Project (Ashoka University) in form of a REST API
     architecture.
