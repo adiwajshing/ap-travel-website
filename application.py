@@ -40,7 +40,10 @@ CORS(app)
 pb = pyrebase.initialize_app(json.load(open('fbconfig.json')))
 authCnx = pb.auth()
 
-cred = credentials.Certificate(json.loads(base64.b64decode(os.getenv('FB_ADMIN_CONFIG'))))
+try:
+    cred = credentials.Certificate(json.loads(base64.b64decode(os.getenv('FB_ADMIN_CONFIG'))))
+except:
+    cred = credentials.Certificate(json.load(open('fbAdminConfig.json')))
 default_app = firebase_admin.initialize_app(cred)
 db = firestore.client()
 

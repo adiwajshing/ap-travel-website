@@ -18,7 +18,7 @@ jobs:
     
     # - name: Copy production env
     #   run: | 
-    #     echo -e '${{secrets.ENV}}' > .env
+    #     echo -e '${{secrets.FB_ADMIN_CONFIG}}' > .env
     #     printf "${{secrets.FB_ADMIN_CONFIG}}" >> fbAdminConfigB64.txt
     #     base64 --decode fbAdminConfigB64.txt > fbAdminConfig.json
     #     rm -rf .gitignore 
@@ -35,9 +35,9 @@ jobs:
     #   env:
     #     CI: false
 
-    # - name: Deploy to Heroku
-    #   uses: akhileshns/heroku-deploy@v3.6.8
-    #   with:
-    #     heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-    #     heroku_app_name: "stayasia"
-    #     heroku_email: "tanishbafna03@gmail.com"
+    - name: Deploy to Heroku
+      uses: akhileshns/heroku-deploy@v3.6.8
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "stayasia"
+        heroku_email: "tanishbafna03@gmail.com"
