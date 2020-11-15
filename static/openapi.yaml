@@ -653,7 +653,7 @@ components:
           type: number
         status:
           type: string
-          enum: ['booked', 'cancelled', 'visited', 'favourite']
+          enum: ['booked', 'reserved']
         timestamp: 
           type: string
         title:
@@ -670,7 +670,7 @@ components:
       properties:
         status:
           type: string
-          enum: ['booked', 'cancelled', 'visited', 'favourite']
+          enum: ['booked', 'reserved']
         bookingDetails:
           type: object
           properties:
@@ -830,10 +830,24 @@ components:
           items:
             $ref: '#/components/schemas/reviews'
         rooms:
-          type: array
+          type: object
           description: 'types of rooms the hotel offers'
-          items:
-            type: string
+          properties:
+            'Name of Room':
+              type: object
+              properties:
+                name:
+                  description: name of the room
+                  type: string
+                price:
+                  description: price of the room
+                  type: number
+                maxOccupants:
+                  description: number of occupants allowed
+                  type: integer
+                roomsAvailable:
+                  description: number of rooms available
+                  type: integer
         starRating:
           type: number
           maximum: 5

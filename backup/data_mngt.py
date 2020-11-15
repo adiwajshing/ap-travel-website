@@ -28,8 +28,8 @@ hotelSummary = json.load(open('backup/hotelSummary.json'))
 # {hotel_id -> {hotel_info}}: tags are filtered and used for engine use
 hashHotels = json.load(open('reccomendations/hashHotels.json'))
 
-# {hotel_id -> {reccomended_hotel_id -> score}}: output of engine
-reccomended = json.load(open('reccomendations/reccomended.json'))
+# # {hotel_id -> {reccomended_hotel_id -> score}}: output of engine
+# reccomended = json.load(open('reccomendations/reccomended.json'))
 
 # {hotel_name -> {hotel_brief}}: fuzzy search through hotel names
 searchHotels = json.load(open('search/searchHotels.json'))
@@ -41,6 +41,36 @@ searchCityHotels = json.load(open('search/searchCityHotels.json'))
 searchTags = json.load(open('search/searchTags.json'))
 
 #==============================
+def roomEdits():
+
+    allHotels = json.load(open('backup/allHotels.json'))
+
+    for hotelId, hotelDetails in allHotels.items():
+
+        n = 0
+        newRooms = {}
+
+        for room in hotelDetails['rooms']:
+
+            price = hotelDetails['price']['current_price'] + ((random.randint(150, 250)) * n)
+
+            newRooms[room['name']] = {
+                'name': room['name'],
+                'price': price,
+                'maxOccupants': random.randint(2, 3),
+                'roomsAvailable': random.randint(2,3)
+            }
+
+            n += 1
+        
+        allHotels[hotelId]['rooms'] = newRooms
+
+
+    jsonWrite = json.dumps(allHotels, indent = 2) 
+    with open('backup/' + 'allHotels2' + ".json", "w") as output: 
+        output.write(jsonWrite)
+
+#==============================
 
 def createNewHotel(hotelInfo):
 
@@ -48,7 +78,6 @@ def createNewHotel(hotelInfo):
     global cities
     global hotelSummary
     global hashHotels
-    global reccomended
     global searchCityHotels
     global searchHotels
     global searchTags
@@ -204,6 +233,7 @@ def createNewHotel(hotelInfo):
     cleanTags() # cleans tags
     fuzzyData() # writes searchCityHotels.json and searchHotels.json
     hashTags()  # writes searchTags.json
+    roomEdits() # makes new rooms and writes allHotels.json
     engine() # writes reccomended.json
 
     allHotels = json.load(open('backup/allHotels'))
@@ -227,7 +257,6 @@ for hotelId, hotelInfo in allHotels.items():
         assert searchHotels[name]['id'] ==  idInt
         assert searchCityHotels[hotelInfo['city']][name]['id'] == idInt
 
-        assert reccomended.get(idStr) is not None
         assert hashHotels[idStr]['title'] == name
 
     except AssertionError:

@@ -391,15 +391,34 @@ def addBooking(booking, hotelId):
     if hotel is None:
         return Response(status=404, response='Hotel Not Found')
     
+    price = 0
+    allRooms = hotel['rooms']
+    
+    for roomName, roomNumber in booking['bookingDetails']['room'].items():
+        
+        if allRooms.get(roomName) is None:
+            return Response(status=403, response='Room not available')
+
+        if booking['status'] == 'booked' and allRooms[roomName]['roomsAvailable'] < roomNumber:
+            return Response(status=403, response='Not Enough Rooms')
+
+        else:
+            allRooms[roomName]['roomsAvailable'] = allRooms[roomName]['roomsAvailable'] - roomNumber
+            price = price + (allRooms[roomName]['price'] * roomNumber)
+
+    
     bookingId = ''.join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase, k = 20))
 
     booking['hotelId'] = hotelId
     booking['title'] = hotel['title']
-    booking['price'] = hotel['price']['current_price']
+    booking['price'] = price
     booking['bookingId'] = bookingId
     booking['timestamp'] = datetime.now()
 
     db.collection('users').document(userId).collection('bookings').document(bookingId).set(booking)
+
+    if booking['status'] == 'booked': # update only if it is booked
+        db.collection('hotels').document(hotelId).update({'rooms':allRooms})
 
     return jsonify(booking)
 
@@ -408,6 +427,22 @@ def addBooking(booking, hotelId):
 def booking(bookingId):
 
     userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
+
+    bookingDict = db.collection('users').document(userId).collection('bookings').document(bookingId).get().to_dict()
+    if bookingDict is None:
+        return Response(status=404, response='Booking Not Found')
+    
+    if bookingDict['status'] == 'booked':
+        hotel = db.collection('hotels').document(bookingDict['hotelId']).get().to_dict()
+        if hotel is None:
+            return Response(status=404, response='Hotel Not Found')
+        allRooms = hotel['rooms']
+        
+        for roomName, roomNumber in bookingDict['bookingDetails']['room'].items():
+            allRooms[roomName]['roomsAvailable'] = allRooms[roomName]['roomsAvailable'] + roomNumber
+        
+        db.collection('hotels').document(bookingDict['hotelId']).update({'rooms':allRooms})
+    
     db.collection('users').document(userId).collection('bookings').document(bookingId).delete()
 
     return Response(response='Deleted', status=200)

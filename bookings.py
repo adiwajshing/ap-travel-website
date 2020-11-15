@@ -31,12 +31,12 @@ def verifyBooking(f):
             return Response(status=400, response='Check hotelId In Path')
 
         schema = {
-            'status': {'type':'string', 'required':True, 'allowed':['booked', 'cancelled', 'visited', 'favourite']}, 
+            'status': {'type':'string', 'required':True, 'allowed':['booked', 'reserved']}, 
 
             'bookingDetails': {'type':'dict', 'required':True, 'nullable':False, 'empty':False, 'schema':{
                 'bookingName': {'type':'string', 'required':True, 'nullable':False, 'empty':False}, # booking under name
                 'guests': {'type':'integer', 'required':True, 'nullable':False, 'empty':False, 'coerce': int, 'min':1}, # number of guests
-                'room': {'type':'dict', 'required':True, 'nullable':False, 'empty':False,'default':{'Standard Room':1},
+                'room': {'type':'dict', 'required':True, 'nullable':False, 'empty':False,
                     'keysrules': {'type': 'string', 'empty': False}, # name of room type
                     'valuesrules': {'type':'integer', 'required':True, 'nullable':False, 'empty':False, 'coerce': int, 'min':1} # number of rooms
                     },
