@@ -195,16 +195,16 @@ paths:
               schema:
                 $ref: '#/components/schemas/homepage'
           
-  /api/tags/{city}/{tag}:
+  /api/tags/{tag}:
     get:
-      summary: Gets all hotels having some tag and in a city
-      description: Takes a city name and a tag in the path and returns all hotels in the city having tag. Meant for Users who click on a star/tag card on the homepage.
+      summary: Gets all hotels having some tag and in a city if city provided
+      description: Takes a city name and a tag and returns all hotels in the city having tag. Meant for Users who click on a star/tag card on the homepage.
       operationId: tagHotels
       tags: [Navigation]
       parameters:
         - name: city
-          in: path
-          required: true
+          in: query
+          required: false
           schema:
             type: string
             enum:
@@ -249,6 +249,16 @@ paths:
           required: false
           schema:
             type: string
+            enum:
+              - Mumbai
+              - Delhi
+              - Tokyo
+              - Bengaluru
+              - Dubai
+              - Hong Kong
+              - Hyderabad
+              - Singapore
+              - Pune
         - name: q
           in: query
           required: true
@@ -282,7 +292,7 @@ paths:
         '404':
           description: No Such City
     
-  /api/search/fuzzy:
+  /api/searchbar:
     get:
       summary: Fuzzy search for search bar
       description: Fast speed search at search bar that returns basic hotel data of hits in an array.
@@ -324,9 +334,9 @@ paths:
         '404':
           description: No Such City
 
-  /api/search/advanced:
+  /api/search/tags:
     get:
-      summary: Performs advanced search through tags
+      summary: Performs fuzzy search through tags
       description: Give user an option to perform an advanced search and then call this endpoint with the search term
       operationId: advancedSearch
       tags: [Navigation]
@@ -377,40 +387,6 @@ paths:
           description: No Matches Found
         '400':
           description: Invalid Search Term
-        '404':
-          description: No Such City
-  
-  /api/city/{city}:
-    get:
-      summary: Gets data of all hotels belonging to a city
-      description: Takes a city name in the path and returns all hotels in this city. Meant for Users who click on a city on the homepage.
-      operationId: cityHotels
-      tags: [Navigation]
-      parameters:
-        - name: city
-          in: path
-          required: true
-          schema:
-            type: string
-            enum:
-              - Mumbai
-              - Delhi
-              - Tokyo
-              - Bengaluru
-              - Dubai
-              - Hong Kong
-              - Hyderabad
-              - Singapore
-              - Pune
-          description: City name
-      
-      responses:
-        '200':
-          description: Array of all available hotels
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/search'
         '404':
           description: No Such City
 
@@ -634,53 +610,59 @@ components:
       type: object
       properties:
         cities:
-          type: object
-          properties:
-            cityName:
-              type: object
-              properties:
-                destinationId:
-                    type: string
-                name:
-                    type: string
-                    enum: ["Mumbai", "New Delhi", "Tokyo", "Bengaluru", "Dubai", "Hong Kong", "Hyderabad", "Singapore" , "Pune"]
-                thumbnail:
-                    type: string
-                    description: 'URL for thumbnail'
-              required:
-                - destinationId
-                - name
-                - thumbnail
+          type: array
+          items:
+            type: object
+            properties:
+              displayName:
+                  type: string
+                  description: Name displayed on frontend
+              tag:
+                  type: string
+                  description: tag parameter to use while searching
+              thumbnail:
+                  type: string
+                  description: URL for thumbnail
+            required:
+              - displayName
+              - name
+              - thumbnail
         stars:
-          type: object
-          properties:
-            starName:
-              type: object
-              properties:
-                tag:
-                    type: string
-                    description: This is the exact tag
-                thumbnail:
-                    type: string
-                    description: 'URL for thumbnail'
-              required:
-                - tag
-                - thumbnail
+          type: array
+          items:
+            type: object
+            properties:
+              displayName:
+                  type: string
+                  description: Name displayed on frontend
+              tag:
+                type: string
+                description: tag parameter to use while searching
+              thumbnail:
+                type: string
+                description: URL for thumbnail
+            required:
+              - displayName
+              - name
+              - thumbnail
         tags:
-          type: object
-          properties:
-            tagName:
-              type: object
-              properties:
-                tag:
-                    type: string
-                    description: This is the exact tag
-                thumbnail:
-                    type: string
-                    description: 'URL for thumbnail'
-              required:
-                - tag
-                - thumbnail
+          type: array
+          items:
+            type: object
+            properties:
+              displayName:
+                  type: string
+                  description: Name displayed on frontend
+              tag:
+                type: string
+                description: tag parameter to use while searching
+              thumbnail:
+                type: string
+                description: URL for thumbnail
+            required:
+              - displayName
+              - name
+              - thumbnail
     
     search:
       type: array

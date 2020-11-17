@@ -254,7 +254,7 @@ def search(q, city, check_In, check_Out):
     return jsonify(sortData)
 
 # Universal Hotel search in search bar
-@app.route('/api/search/fuzzy', methods=["GET"])
+@app.route('/api/searchbar', methods=["GET"])
 @verifyFuzzy()
 def fuzzySearch(q, city):
 
@@ -272,7 +272,7 @@ def fuzzySearch(q, city):
     return jsonify(results)
 
 # Advanced search using tags
-@app.route('/api/search/advanced', methods=['GET'])
+@app.route('/api/search/tags', methods=['GET'])
 @verifySearch()
 def advancedSearch(q, city, check_In, check_Out):
 
@@ -315,29 +315,22 @@ def advancedSearch(q, city, check_In, check_Out):
     
     return jsonify(sortData)
 
-# Citywise hotels
-@app.route('/api/city/<string:city>/', methods=['GET'])
-def cityHotels(city):
-
-    city = city.title()
-    if city not in cityList:
-        return Response(status=404, response='No Such City')
-    
-    hotels = db.collection('hotelSummary').where('city', '==', city).order_by('title').get()
-    data = [x.to_dict() for x in hotels]
-
-    return jsonify(data)
-
-
 # Tag based hotels
-@app.route('/api/tags/<string:city>/<string:tag>', methods=['GET'])
-def tagHotels(city, tag):
+@app.route('/api/tags/<string:tag>', methods=['GET'])
+def tagHotels(tag):
 
-    city = city.title()
-    if city not in cityList:
-        return Response(status=404, response='No Such City')
+    ref = db.collection('hotels')
 
-    hotelsInfos = db.collection('hotels').where('city', '==', city).where('tags', 'array_contains', tag).get()
+    city = request.args.get('city', type=str, default=None)
+    if city is None or city.isspace() or city == '':
+        city = None
+    else:
+        city = city.title()
+        if city not in cityList:
+            return Response(status=404, response='No Such City')
+        ref = ref.where('city', '==', city)
+
+    hotelsInfos = ref.where('tags', 'array_contains', tag).get()
     hotelIds = [x.to_dict()['id'] for x in hotelsInfos]
     
     if len(hotelIds) > 0:
@@ -352,7 +345,7 @@ def tagHotels(city, tag):
 
     for subList in hotelIds:
     
-        hotels = db.collection('hotelSummary').where('id', 'in', subList).order_by('rating').get()
+        hotels = db.collection('hotelSummary').where('id', 'in', subList).get()
 
         for x in hotels:
             data.append(x.to_dict())        
