@@ -193,8 +193,50 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/cities'
-  
+                $ref: '#/components/schemas/homepage'
+          
+  /api/tags/{city}/{tag}:
+    get:
+      summary: Gets all hotels having some tag and in a city
+      description: Takes a city name and a tag in the path and returns all hotels in the city having tag. Meant for Users who click on a star/tag card on the homepage.
+      operationId: tagHotels
+      tags: [Navigation]
+      parameters:
+        - name: city
+          in: path
+          required: true
+          schema:
+            type: string
+            enum:
+              - Mumbai
+              - Delhi
+              - Tokyo
+              - Bengaluru
+              - Dubai
+              - Hong Kong
+              - Hyderabad
+              - Singapore
+              - Pune
+          description: City name
+        - name: tag
+          in: path
+          required: true
+          schema:
+            type: string
+          description: tag 
+      
+      responses:
+        '200':
+          description: Array of all available hotels
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/search'
+        '400':
+          description: Error in parameter
+        '404':
+          description: No Such City
+                
   /api/search:
     get:
       summary: Searches through all hotel names
@@ -371,7 +413,7 @@ paths:
                 $ref: '#/components/schemas/search'
         '404':
           description: No Such City
-      
+
   /api/hotel/{hotelId}:
     get:
       summary: Get complete hotel details on selection
@@ -466,6 +508,8 @@ paths:
           description: Input JSON error
         '401':
           description: Unauthorized
+        '403':
+          description: Forbidden Errors
         '404':
           description: Hotel not found
   
@@ -486,6 +530,8 @@ paths:
           description: Deleted
         '401':
           description: Unauthorized
+        '404':
+          description: Hotel Not Found
 
     patch:
       summary: Edit booking using booking ID
@@ -516,6 +562,8 @@ paths:
           description: Input JSON error
         '401':
           description: Unauthorized
+        '404':
+          description: Hotel Not Found
       
   /api/hotel/{hotelId}/review:
     put:
@@ -582,24 +630,57 @@ components:
         phone_number:
           type: string
 
-    cities:
+    homepage:
       type: object
       properties:
-        cityName:
+        cities:
           type: object
           properties:
-            destinationId:
-                type: string
-            name:
-                type: string
-                enum: ["Mumbai", "New Delhi", "Tokyo", "Bengaluru", "Dubai", "Hong Kong", "Hyderabad", "Singapore" , "Pune"]
-            thumbnail:
-                type: string
-                description: 'URL for thumbnail'
-          required:
-            - destinationId
-            - name
-            - thumbnail
+            cityName:
+              type: object
+              properties:
+                destinationId:
+                    type: string
+                name:
+                    type: string
+                    enum: ["Mumbai", "New Delhi", "Tokyo", "Bengaluru", "Dubai", "Hong Kong", "Hyderabad", "Singapore" , "Pune"]
+                thumbnail:
+                    type: string
+                    description: 'URL for thumbnail'
+              required:
+                - destinationId
+                - name
+                - thumbnail
+        stars:
+          type: object
+          properties:
+            starName:
+              type: object
+              properties:
+                tag:
+                    type: string
+                    description: This is the exact tag
+                thumbnail:
+                    type: string
+                    description: 'URL for thumbnail'
+              required:
+                - tag
+                - thumbnail
+        tags:
+          type: object
+          properties:
+            tagName:
+              type: object
+              properties:
+                tag:
+                    type: string
+                    description: This is the exact tag
+                thumbnail:
+                    type: string
+                    description: 'URL for thumbnail'
+              required:
+                - tag
+                - thumbnail
     
     search:
       type: array

@@ -1,6 +1,6 @@
 # Helper Functions
 from flask import request, Response
-from datetime import datetime, timedelta
+from datetime import datetime
 from functools import wraps
 from cerberus import Validator
 
@@ -56,6 +56,11 @@ def verifyBooking(f):
                 return Response(response=f'Error: {v.errors}', status=400)
         except:
             return Response(status=400, response='Validaton Failed')
+        
+        if body['check_In'] < datetime.now():
+            return Response(status=403, response='Check In allowed only after today')
+        if body['check_In'] > body['check_Out']:
+            return Response(status=403, response='Check In allowed only before Check Out')
 
         return f(body, *args, **kwargs)
 
@@ -70,7 +75,7 @@ def verifyEdits(f):
         body = request.get_json()
 
         schema = {
-            'status': {'type':'string', 'required':False, 'allowed':['booked', 'cancelled', 'visited', 'favourite']},
+            'status': {'type':'string', 'required':False, 'allowed':['booked', 'reserved']},
 
             'bookingDetails': {'type':'dict', 'required':False, 'nullable':False, 'empty':False, 'schema':{
                 'bookingName': {'type':'string', 'required':False, 'nullable':False, 'empty':False}, # booking under name
@@ -98,6 +103,11 @@ def verifyEdits(f):
                 return Response(response=f'Error: {v.errors}', status=400)
         except:
             return Response(status=400, response='Validaton Failed')
+        
+        if body['check_In'] < datetime.now():
+            return Response(status=403, response='Check In allowed only after today')
+        if body['check_In'] > body['check_Out']:
+            return Response(status=403, response='Check In allowed only before Check Out')
 
         return f(body, *args, **kwargs)
 

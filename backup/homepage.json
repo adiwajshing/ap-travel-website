@@ -1,0 +1,115 @@
+{
+    "cities":{
+        "Delhi": {
+            "destinationId": "675357",
+            "name": "New Delhi",
+            "thumbnail": "https://www.orangesmile.com/common/img_cities_original/new-delhi--2106102-10.jpg"
+          },
+          "Mumbai": {
+            "destinationId": "1640701",
+            "name": "Mumbai",
+            "thumbnail": "https://images.unsplash.com/photo-1562979314-bee7453e911c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"
+          },
+          "Bengaluru": {
+            "destinationId": "678196",
+            "name": "Bengaluru",
+            "thumbnail": "https://www.zricks.com/img/UpdatesBlog/12220dcb-95ba-4651-a2f2-019d1ad8699754559212.cms%20(1).jpg"
+          },
+          "Hyderabad": {
+            "destinationId": "685250",
+            "name": "Hyderabad",
+            "thumbnail": "https://3.bp.blogspot.com/-bYIl4wD3MZs/Uih5Su6OIhI/AAAAAAAApOE/ChG78q4EK3s/s1600/Hyderabad+1080p+Wallpapers+1.jpg"
+          },
+          "Pune": {
+            "destinationId": "687594",
+            "name": "Pune",
+            "thumbnail": "https://thepunekar.com/thepunekar/wp-content/uploads/2019/05/Screenshot-2019-05-28-at-8.05.20-AM.png"
+          },
+          "Tokyo": {
+            "destinationId": "726784",
+            "name": "Tokyo",
+            "thumbnail": "https://images6.alphacoders.com/109/1092054.jpg"
+          },
+          "Hong Kong": {
+            "destinationId": "10233073",
+            "name": "Hong Kong",
+            "thumbnail": "https://images.hdqwalls.com/wallpapers/skycrappers-hong-kong-4k-6g.jpg"
+          },
+          "Singapore": {
+            "destinationId": "10233154",
+            "name": "Singapore",
+            "thumbnail": "https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+          },
+          "Dubai": {
+            "destinationId": "11594",
+            "name": "Dubai",
+            "thumbnail": "https://i.pinimg.com/originals/0b/75/4a/0b754a4a8f7611b8f4014d03df039357.jpg"
+          }
+    },
+
+    "stars": {
+        "1 Star": {
+            "tag": "1 stars",
+            "thumbnail": "x"
+        },
+        "2 Star": {
+            "tag": "2 stars",
+            "thumbnail": "x"
+        },
+        "3 Star": {
+            "tag": "3 stars",
+            "thumbnail": "x"
+        },
+        "4 Star": {
+            "tag": "4 stars",
+            "thumbnail": "x"
+        },
+        "5 Star": {
+            "tag": "5 stars",
+            "thumbnail": "x"
+        }
+    },
+
+    "tags": {
+        "Business Center": {
+            "tag": "business center",
+            "thumbnail": "x"
+        },
+        "Outdoor Pool": {
+            "tag": "outdoor pool",
+            "thumbnail": "x"
+        },
+        "Airport Shuttle": {
+            "tag": "airport shuttle",
+            "thumbnail": "x"
+        },
+        "Spa Services": {
+            "tag": "spa services",
+            "thumbnail": "x"
+        },
+        "Free WiFi": {
+            "tag": "free wifi",
+            "thumbnail": "x"
+        },
+        "Gym": {
+            "tag": "gym",
+            "thumbnail": "x"
+        },
+        "Laundry Service": {
+            "tag": "laundry service",
+            "thumbnail": "x"
+        },
+        "Breakfast": {
+            "tag": "breakfast available",
+            "thumbnail": "x"
+        },
+        "Conference Center": {
+            "tag": "conference center",
+            "thumbnail": "x"
+        },
+        "Rooftop Terrace": {
+            "tag": "rooftop terrace",
+            "thumbnail": "x"
+        }
+    }
+}

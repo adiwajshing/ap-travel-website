@@ -64,7 +64,7 @@ API_URL = '/openapi.yaml'
 swaggerui_blueprint = get_swaggerui_blueprint(
     SWAGGER_URL,
     API_URL,
-    config={'app_name': "Best of Asia"})
+    config={'app_name': "Staysia"})
 
 app.register_blueprint(swaggerui_blueprint, url_prefix=SWAGGER_URL)
 
@@ -205,9 +205,9 @@ def editUser(data, authDict):
 @app.route('/api/', methods=["GET"])
 def homepage():
     
-    cities = json.load(open('backup/cities.json'))
+    data = db.collection('homepage').document('homepage').get().to_dict()
 
-    return jsonify(cities)
+    return jsonify(data)
 
 # Universal Hotel search on pressing ENTER
 @app.route('/api/search', methods=['GET'])
@@ -271,7 +271,6 @@ def fuzzySearch(q, city):
 
     return jsonify(results)
 
-
 # Advanced search using tags
 @app.route('/api/search/advanced', methods=['GET'])
 @verifySearch()
@@ -316,7 +315,6 @@ def advancedSearch(q, city, check_In, check_Out):
     
     return jsonify(sortData)
 
-
 # Citywise hotels
 @app.route('/api/city/<string:city>/', methods=['GET'])
 def cityHotels(city):
@@ -327,6 +325,37 @@ def cityHotels(city):
     
     hotels = db.collection('hotelSummary').where('city', '==', city).order_by('title').get()
     data = [x.to_dict() for x in hotels]
+
+    return jsonify(data)
+
+
+# Tag based hotels
+@app.route('/api/tags/<string:city>/<string:tag>', methods=['GET'])
+def tagHotels(city, tag):
+
+    city = city.title()
+    if city not in cityList:
+        return Response(status=404, response='No Such City')
+
+    hotelsInfos = db.collection('hotels').where('city', '==', city).where('tags', 'array_contains', tag).get()
+    hotelIds = [x.to_dict()['id'] for x in hotelsInfos]
+    
+    if len(hotelIds) > 0:
+        # citation for next line of code: https://www.geeksforgeeks.org/break-list-chunks-size-n-python/
+        hotelIds = [hotelIds[i * 10:(i + 1) * 10] for i in range((len(hotelIds) + 10 - 1) // 10 )]
+    elif len(hotelIds) == 0:
+        return Response(response='No hotel found', status=404)
+    else:
+        hotelIds = [hotelIds]
+
+    data = list()
+
+    for subList in hotelIds:
+    
+        hotels = db.collection('hotelSummary').where('id', 'in', subList).order_by('rating').get()
+
+        for x in hotels:
+            data.append(x.to_dict())        
 
     return jsonify(data)
 

@@ -45,3 +45,8 @@ def addHotels():
         except:
             print(hotelId)
             continue
+
+def addHomepage():
+
+    data = json.load(open('backup/homepage.json'))
+    db.collection('homepage').document('homepage').set(data)
