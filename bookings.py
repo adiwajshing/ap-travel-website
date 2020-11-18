@@ -57,10 +57,8 @@ def verifyBooking(f):
         except:
             return Response(status=400, response='Validaton Failed')
         
-        if body['check_In'] < datetime.now():
-            return Response(status=403, response='Check In allowed only after today')
-        if body['check_In'] > body['check_Out']:
-            return Response(status=403, response='Check In allowed only before Check Out')
+        if body['bookingDetails']['check_In'] < datetime.now() or body['bookingDetails']['check_In'] > body['bookingDetails']['check_Out']:
+            return Response(status=403, response='Check In allowed only after today and before Check Out')
 
         return f(body, *args, **kwargs)
 
@@ -104,10 +102,11 @@ def verifyEdits(f):
         except:
             return Response(status=400, response='Validaton Failed')
         
-        if body['check_In'] < datetime.now():
-            return Response(status=403, response='Check In allowed only after today')
-        if body['check_In'] > body['check_Out']:
-            return Response(status=403, response='Check In allowed only before Check Out')
+        try:
+            if body['bookingDetails']['check_In'] < datetime.now() or body['bookingDetails']['check_In'] > body['bookingDetails']['check_Out']:
+                return Response(status=403, response='Check In allowed only after today and before Check Out')
+        except KeyError:
+            pass
 
         return f(body, *args, **kwargs)
 

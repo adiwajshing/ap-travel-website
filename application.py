@@ -419,10 +419,10 @@ def addBooking(booking, hotelId):
     for roomName, roomNumber in booking['bookingDetails']['room'].items():
         
         if allRooms.get(roomName) is None:
-            return Response(status=403, response='Room not available')
+            return Response(status=403, response='Room with this name not available')
 
         if booking['status'] == 'booked' and allRooms[roomName]['roomsAvailable'] < roomNumber:
-            return Response(status=403, response='Not Enough Rooms')
+            return Response(status=403, response='Not Enough Rooms of this type')
 
         else:
             allRooms[roomName]['roomsAvailable'] = allRooms[roomName]['roomsAvailable'] - roomNumber
