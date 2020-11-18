@@ -319,6 +319,7 @@ def advancedSearch(q, city, check_In, check_Out):
 @app.route('/api/tags/<string:tag>', methods=['GET'])
 def tagHotels(tag):
 
+    tag = tag.lower()
     ref = db.collection('hotels')
 
     city = request.args.get('city', type=str, default=None)
