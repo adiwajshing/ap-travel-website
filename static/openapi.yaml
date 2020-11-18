@@ -183,8 +183,8 @@ paths:
   
   /api/:
     get:
-      summary: Homepage data containing name of all cities
-      description: Returns an array of all cities and their info.
+      summary: Homepage data containing info of all tags user can filter by
+      description: This returns an object with three keys/categories. Each category (city, stars, tags) should be shown as cards which the user can click on to filter hotels. The displayName in every object is what should be written on/under the card on the frontend while the tag property is the tag you need to filter by. When user clicks a card, take its tag and go to /api/tags/{tag}. If the user has selected a city next to the search bar (like in popular etravel websites- https://www.airbnb.co.in) before clicking a tag, add the city as a query parameter in /api/tags/{tag}. Every card should have the image as the thumbnail link provided with the object. Screenshot of sample site look has been WA messaged.
       operationId: homepage
       tags: [Navigation]
       responses:
@@ -198,7 +198,7 @@ paths:
   /api/tags/{tag}:
     get:
       summary: Gets all hotels having some tag and in a city if city provided
-      description: Takes a city name and a tag and returns all hotels in the city having tag. Meant for Users who click on a star/tag card on the homepage.
+      description: Takes a city name and a tag and returns all hotels in the city having tag. Meant for Users who click on a city/star/tag card on the homepage.
       operationId: tagHotels
       tags: [Navigation]
       parameters:
@@ -240,7 +240,7 @@ paths:
   /api/search:
     get:
       summary: Searches through all hotel names
-      description: Returns array of all hits
+      description: Returns array of all hits when user presses enter on search bar. 
       operationId: search
       tags: [Navigation]
       parameters:
@@ -295,7 +295,7 @@ paths:
   /api/searchbar:
     get:
       summary: Fuzzy search for search bar
-      description: Fast speed search at search bar that returns basic hotel data of hits in an array.
+      description: Fast speed search at search bar that returns basic hotel data of hits in an array before the user hits enter.
       operationId: fuzzySearch
       tags: [Navigation]
       parameters:
@@ -337,7 +337,7 @@ paths:
   /api/search/tags:
     get:
       summary: Performs fuzzy search through tags
-      description: Give user an option to perform an advanced search and then call this endpoint with the search term
+      description: Give user an option to perform an advanced search through tags of hotels and then call this endpoint with the search term.
       operationId: advancedSearch
       tags: [Navigation]
       parameters:
@@ -393,7 +393,7 @@ paths:
   /api/hotel/{hotelId}:
     get:
       summary: Get complete hotel details on selection
-      description: Meant for individual hotel description page
+      description: Meant for individual hotel description page. Mention everything other than the tags, those are for system use.
       operationId: getHotel
       tags: [Navigation]
       parameters:
@@ -416,7 +416,7 @@ paths:
   /api/hotel/{hotelId}/reccomendations:
     get:
       summary: Gets recommendations for selected hotel
-      description: Show this in More Like This contianer when User is looking at details of a hotel using its hotelId.
+      description: Show this in More Like This contianer when User is looking at details of a hotel using its hotelId. Only to be displayed if user has opened up a particular hotel, not while they are just searching. Use hotelId of hotel they are looking at to call this endpoint.
       operationId: getRecc
       tags: [Navigation]
       parameters:
@@ -457,7 +457,7 @@ paths:
   /api/profile/bookings/{hotelId}:
     put:
       summary: Add new booking
-      description: Takes hotelId from path and JSON of booking details, to return succesfully added booking info.
+      description: Takes hotelId from path and JSON of booking details, to return succesfully added booking info. Maybe instead of creating a checkout page make this a modal that takes in all of this information from user before they confirm their booking. The difference between a "booked" status and "reserved" status is that though they take in the same info, the booked ones actually reduce the number of rooms in the hotel while reserved allows users to keep rooms on hold, they can change this whenever they want from their booking page by simply sending the request again with a "booked" status. Please give the option to choose between booking and reserving.
       operationId: addBooking
       tags: [Booking]
       parameters:
@@ -544,7 +544,7 @@ paths:
   /api/hotel/{hotelId}/review:
     put:
       summary: Add a review to a hotel
-      description: Takes in hotel ID in path and review info as JSON, to return changed hotel details (new review array and ratings)
+      description: Takes in hotel ID in path and review info as JSON, to return changed hotel details (new review array and ratings). Name in the object property is the name of the user while title is a title they need to give to the review. There is a default one so they don't HAVE to give a title.
       operationId: addReview
       tags: [Review]
 
