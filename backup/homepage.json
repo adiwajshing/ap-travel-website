@@ -51,27 +51,27 @@
         {
             "displayName": "1 Star",
             "tag": "1 stars",
-            "thumbnail": "x"
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Star_rating_1_of_5.png"
         },
         {
-            "displayName": "1 Star",
+            "displayName": "2 Star",
             "tag": "2 stars",
-            "thumbnail": "x"
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/95/Star_rating_2_of_5.png"
         },
         {
-            "displayName": "1 Star",
+            "displayName": "3 Star",
             "tag": "3 stars",
-            "thumbnail": "x"
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Star_rating_3_of_5.png"
         },
         {
-            "displayName": "1 Star",
+            "displayName": "4 Star",
             "tag": "4 stars",
-            "thumbnail": "x"
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Star_rating_4_of_5.png"
         },
         {
-            "displayName": "1 Star",
+            "displayName": "5 Star",
             "tag": "5 stars",
-            "thumbnail": "x"
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/17/Star_rating_5_of_5.png"
         }
     ],
 
@@ -79,52 +79,52 @@
         {
             "displayName": "Business Center",
             "tag": "business center",
-            "thumbnail": "x"
+            "thumbnail": "https://www.avanta.co.in/wp-content/uploads/2015/03/shutterstock_88924612.jpg"
         },
         {
-            "displayName": "Business Center",
+            "displayName": "Outdoor Pool",
             "tag": "outdoor pool",
-            "thumbnail": "x"
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/92/Backyardpool.jpg"
         },
         {
-            "displayName": "Business Center",
+            "displayName": "Airport Shuttle",
             "tag": "airport shuttle",
-            "thumbnail": "x"
+            "thumbnail": "https://www.visitlisboa.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbmdKIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3b7d4903c3eb1b0812a3190c97f418e449259b5b/coimbra-airport-shuttle-2.jpg"
         },
         {
-            "displayName": "Business Center",
+            "displayName": "Spa Services",
             "tag": "spa services",
-            "thumbnail": "x"
+            "thumbnail": "https://www.healthism.co/wp-content/uploads/2019/10/Spa.jpg"
         },
         {
-            "displayName": "Business Center",
+            "displayName": "Free Wifi",
             "tag": "free wifi",
-            "thumbnail": "x"
+            "thumbnail": "https://i2.wp.com/amberlair.com/wp-content/uploads/2015/09/amberlair-crowdsourced-crowdfunded-boutique-hotel-Champagne-Mobile-Phone.jpg?ssl=1"
         },
         {
-            "displayName": "Business Center",
+            "displayName": "Gym",
             "tag": "gym",
-            "thumbnail": "x"
+            "thumbnail": "https://images.firstpost.com/wp-content/uploads/2020/07/gym-shutterstock-640.jpg?impolicy=website&width=1200&height=800"
         },
         {
-            "displayName": "Business Center",
+            "displayName": "Laundry Service",
             "tag": "laundry service",
-            "thumbnail": "x"
+            "thumbnail": "https://www.martinidrycleaners.com/wp-content/uploads/2018/05/Why-Hire-Laundry-Service.jpg"
         },
         {
-            "displayName": "Business Center",
+            "displayName": "Free Breakfast",
             "tag": "breakfast available",
-            "thumbnail": "x"
+            "thumbnail": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/02/full-english-7355w-2.jpg"
         },
         {
-            "displayName": "Business Center",
+            "displayName": "Conference Center",
             "tag": "conference center",
-            "thumbnail": "x"
+            "thumbnail": "https://www.dgicommunications.com/wp-content/uploads/2018/03/DSC_2917.jpg"
         },
         {
-            "displayName": "Business Center",
+            "displayName": "Rooftop Terrace",
             "tag": "rooftop terrace",
-            "thumbnail": "x"
+            "thumbnail": "https://i.ytimg.com/vi/bvIN0J9YI2o/maxresdefault.jpg"
         }
     ]
 }

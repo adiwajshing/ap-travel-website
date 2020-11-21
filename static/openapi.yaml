@@ -453,6 +453,8 @@ paths:
           description: Unauthorized
       tags:
         - Booking
+      security:
+        - Bearer: []
     
   /api/profile/bookings/{hotelId}:
     put:
@@ -488,6 +490,8 @@ paths:
           description: Forbidden Errors
         '404':
           description: Hotel not found
+      security:
+        - Bearer: []
   
   /api/profile/bookings/{bookingId}:
 
@@ -508,6 +512,8 @@ paths:
           description: Unauthorized
         '404':
           description: Hotel Not Found
+      security:
+        - Bearer: []
 
     patch:
       summary: Edit booking using booking ID
@@ -526,6 +532,8 @@ paths:
           application/json:
             schema: 
               $ref: '#/components/schemas/editBooking'
+      security:
+        - Bearer: []
 
       responses:
         '200':
@@ -573,6 +581,8 @@ paths:
           description: No data sent
         '401':
           description: Unauthorized
+      security:
+        - Bearer: []
 
 components:
   

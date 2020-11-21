@@ -92,11 +92,10 @@ def userId_required(f):
         try:
             decodeToken = auth.verify_id_token(token)
             userId = decodeToken['uid']
-            name = decodeToken.get('name') or ''
         except:
             return Response(status=401, response='Token Verification Failed')
         
-        authDict = {'userId':userId, 'token':token, 'name': name}
+        authDict = {'userId':userId, 'token':token}
 
         return f(authDict, *args, **kwargs)
 
@@ -391,9 +390,10 @@ def getRecc(hotelId):
 
 # Get Bookings
 @app.route('/api/profile/bookings', methods=['GET']) # 
-def getBookings():
+@userId_required
+def getBookings(authDict):
 
-    userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
+    userId = authDict.get('userId')
     booking = db.collection('users').document(userId).collection('bookings').order_by('timestamp', direction=firestore.firestore.Query.DESCENDING).get()
 
     if booking is None:
@@ -405,10 +405,11 @@ def getBookings():
 
 # Add Booking
 @app.route('/api/profile/bookings/<string:hotelId>', methods=['PUT']) # 
+@userId_required
 @verifyBooking
-def addBooking(booking, hotelId):
+def addBooking(booking, authDict, hotelId):
     
-    userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
+    userId = authDict.get('userId')
 
     hotel = db.collection('hotels').document(hotelId).get().to_dict()
     if hotel is None:
@@ -446,10 +447,11 @@ def addBooking(booking, hotelId):
     return jsonify(booking)
 
 # Delete booking
-@app.route('/api/profile/bookings/<string:bookingId>', methods=['DELETE']) # @userId_required
-def booking(bookingId):
+@app.route('/api/profile/bookings/<string:bookingId>', methods=['DELETE']) # 
+@userId_required
+def booking(authDict, bookingId):
 
-    userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
+    userId = authDict.get('userId')
 
     bookingDict = db.collection('users').document(userId).collection('bookings').document(bookingId).get().to_dict()
     if bookingDict is None:
@@ -471,11 +473,12 @@ def booking(bookingId):
     return Response(response='Deleted', status=200)
 
 # Edit bookings
-@app.route('/api/profile/bookings/<string:bookingId>/', methods=['PATCH']) # @userId_required
+@app.route('/api/profile/bookings/<string:bookingId>/', methods=['PATCH']) # 
+@userId_required
 @verifyEdits
-def editBooking(booking, bookingId):
+def editBooking(booking, authDict, bookingId):
 
-    userId = 'qRPq692Ql9Zb3fRvYQdonCwWJc33' #authDict.get('userId')
+    userId = authDict.get('userId')
 
     try:
         db.collection('users').document(userId).collection('bookings').document(bookingId).update(booking)
@@ -493,8 +496,9 @@ def editBooking(booking, bookingId):
 
 # Add review
 @app.route('/api/hotel/<string:hotelId>/review', methods=['PUT'])
+@userId_required
 @verifyReview
-def addReview(review, hotelId):
+def addReview(review, authDict, hotelId):
 
     hotel = db.collection('hotels').document(hotelId).get().to_dict()
     if hotel is None:
@@ -505,7 +509,10 @@ def addReview(review, hotelId):
     reviewId = ''.join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase, k = 20))
 
     review['id'] = reviewId
-    review['name'] = 'Tanish' #authDict.get('name') or '...'
+    try:
+        review['name'] = db.collection('users').document(authDict.get('userId')).get().to_dict().get('name') or 'Some Name'
+    except:
+        review['name'] = 'Some Name'
     hotel['reviews'].insert(0, review)
     
     tempHotel = {
