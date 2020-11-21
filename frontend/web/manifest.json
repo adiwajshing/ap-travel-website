@@ -1,6 +1,6 @@
 {
-    "name": "frontend",
-    "short_name": "frontend",
+    "name": "staysia_web",
+    "short_name": "staysia_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
