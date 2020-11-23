@@ -91,7 +91,10 @@ def userId_required(f):
         # Obtaining userID using token
         try:
             decodeToken = auth.verify_id_token(token)
-            userId = decodeToken['uid']
+            try:
+                userId = decodeToken['uid']
+            except:
+                userId = authCnx.get_account_info(token).get('users')[0]['localId']
         except:
             return Response(status=401, response='Token Verification Failed')
         
