@@ -140,9 +140,9 @@ def login(email, password):
 def addGUser(authDict):
 
     userId = authDict.get('userId')
-    existing = db.collection('users').document(userId).get()
+    existing = db.collection('users').document(userId).get().to_dict()
 
-    if existing is not None: # if user already exists
+    if existing is not None or existing != {}: # if user already exists
         return Response(status=200, response='User Already Exists')
 
     data = {
@@ -396,7 +396,7 @@ def getBookings(authDict):
     userId = authDict.get('userId')
     booking = db.collection('users').document(userId).collection('bookings').order_by('timestamp', direction=firestore.firestore.Query.DESCENDING).get()
 
-    if booking is None:
+    if booking is None or booking == []:
         return []
 
     data = [indv.to_dict() for indv in booking]
