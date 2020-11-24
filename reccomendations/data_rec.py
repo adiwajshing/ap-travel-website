@@ -1,7 +1,8 @@
 import json
 import re
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize 
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 from tqdm import tqdm
