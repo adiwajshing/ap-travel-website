@@ -47,21 +47,28 @@ def roomEdits():
 
     for hotelId, hotelDetails in allHotels.items():
 
-        n = 0
-        newRooms = {}
+        # n = 0
+        # newRooms = {}
 
-        for room in hotelDetails['rooms']:
+        newRooms = hotelDetails['rooms']
 
-            price = hotelDetails['price']['current_price'] + ((random.randint(150, 250)) * n)
+        for roomName in newRooms.keys():
 
-            newRooms[room['name']] = {
-                'name': room['name'],
-                'price': price,
-                'maxOccupants': random.randint(2, 3),
-                'roomsAvailable': random.randint(2,3)
-            }
+            # price = hotelDetails['price']['current_price'] + ((random.randint(150, 250)) * n)
 
-            n += 1
+            # newRooms[room['name']] = {
+            #     'name': room['name'],
+            #     'price': price,
+            #     'maxOccupants': random.randint(2, 3),
+            #     'roomsAvailable': 1,
+            #     'roomBookedOn': []
+            # }
+
+            # n += 1
+
+            newRooms[roomName]['roomsAvailable'] = 1
+            newRooms[roomName]['roomsBookedOn'] = []
+
         
         allHotels[hotelId]['rooms'] = newRooms
 

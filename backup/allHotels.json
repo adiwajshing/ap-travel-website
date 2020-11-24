@@ -80,19 +80,22 @@
         "name": "Comfort Room, 1 King Bed",
         "price": 5600.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Comfort Room, 2 Twin Beds": {
         "name": "Comfort Room, 2 Twin Beds",
         "price": 5848.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room, 1 King Bed": {
         "name": "Premier Room, 1 King Bed",
         "price": 6028.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Plot No 9, National Highway 8-samalka, New Delhi, Delhi N.C.R, 110037, India",
@@ -210,19 +213,22 @@
         "name": "Club Room",
         "price": 3825.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite, 1 King Bed": {
         "name": "Suite, 1 King Bed",
         "price": 4011.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 4185.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Bangla Sahib Road, Connaught Place, New Delhi, Delhi N.C.R, 110 001, India",
@@ -340,13 +346,15 @@
         "name": "Deluxe Double Room, 1 Double Bed",
         "price": 1440.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Double or Twin Room, 1 Double or 2 Twin Beds": {
         "name": "Executive Double or Twin Room, 1 Double or 2 Twin Beds",
         "price": 1675.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "8718 D.B. Gupta Road Paharganj, New Delhi, Delhi N.C.R, 110055, India",
@@ -436,19 +444,22 @@
         "name": "Double Room",
         "price": 1080.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Triple Room": {
         "name": "Triple Room",
         "price": 1283.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Family Quadruple Room": {
         "name": "Family Quadruple Room",
         "price": 1570.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "9201/4,Multani Dhanda, Paharganj, New Delhi, DL, 110055, India",
@@ -538,7 +549,8 @@
         "name": "Deluxe Double Room, 1 Double Bed, Non Smoking",
         "price": 990.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "L-74, Street Number 9, NH 8, Mahipalpur, Near I.G.I. Airport (T3), New Delhi, 110037, India",
@@ -658,19 +670,22 @@
         "name": "Deluxe Room, 1 King Bed",
         "price": 7268.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Horizon Deluxe, Room, 1 King Bed": {
         "name": "Horizon Deluxe, Room, 1 King Bed",
         "price": 7454.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 7604.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "19, Ashoka Road, Connaught Place, New Delhi, Delhi N.C.R, 110001, India",
@@ -789,19 +804,22 @@
         "name": "Deluxe Double Room",
         "price": 2625.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Twin Room": {
         "name": "Deluxe Twin Room",
         "price": 2850.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Double Room (Club)": {
         "name": "Executive Double Room (Club)",
         "price": 2961.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Plot no 3, Sector 10, District Center, Dwarka, New Delhi, Delhi N.C.R, 110075, India",
@@ -899,19 +917,22 @@
         "name": "Standard Room, 1 King Bed",
         "price": 3200.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Twin Room": {
         "name": "Standard Twin Room",
         "price": 3357.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite": {
         "name": "Suite",
         "price": 3654.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1 Janpath Lane, New Delhi, Delhi, 110001, India",
@@ -1030,19 +1051,22 @@
         "name": "Superior Room, 1 King Bed, Business Lounge Access",
         "price": 7000.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Suite, Business Lounge Access": {
         "name": "Superior Suite, Business Lounge Access",
         "price": 7180.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 1 King Bed": {
         "name": "Standard Room, 1 King Bed",
         "price": 7434.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Asset 2, Aerocity Hospitality District, IGI Airport New Delhi, New Delhi, Delhi N.C.R, 110037, India",
@@ -1161,19 +1185,22 @@
         "name": "Business Room (Class)",
         "price": 2108.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 2271.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room": {
         "name": "Superior Room",
         "price": 2428.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Plot No. 4, Sector 13, Dwarka, New Delhi, Delhi N.C.R, 110075, India",
@@ -1293,19 +1320,22 @@
         "name": "Superior Room King Bed",
         "price": 5850.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Cabana Room": {
         "name": "Cabana Room",
         "price": 6029.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room King Bed": {
         "name": "Premier Room King Bed",
         "price": 6170.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "12 Dr APJ Abdul Kalam Road, (Formerly known as Aurangzeb Road), New Delhi, Delhi N.C.R, 110011, India",
@@ -1424,19 +1454,22 @@
         "name": "Deluxe Room, 1 King Bed",
         "price": 8910.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 King Bed, Non Smoking": {
         "name": "Executive Room, 1 King Bed, Non Smoking",
         "price": 9138.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite, 1 King Bed, Non Smoking": {
         "name": "Executive Suite, 1 King Bed, Non Smoking",
         "price": 9306.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Asset Area 4 - Hospitality District, Delhi Aerocity, New Delhi, Delhi N.C.R, 110037, India",
@@ -1555,19 +1588,22 @@
         "name": "Royal Premiere Room",
         "price": 14850.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Grand Premiere Room": {
         "name": "Grand Premiere Room",
         "price": 15082.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premiere Room": {
         "name": "Premiere Room",
         "price": 15184.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Diplomatic Enclave Chanakyapuri, New Delhi, Delhi N.C.R, 110023, India",
@@ -1666,19 +1702,22 @@
         "name": "Deluxe Room",
         "price": 5400.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room": {
         "name": "Superior Room",
         "price": 5583.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room": {
         "name": "Premium Room",
         "price": 5820.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "37, Shaheed Bhagat Singh Marg, Next to Shivaji Stadium, New Delhi, Delhi N.C.R, 110001, India",
@@ -1798,19 +1837,22 @@
         "name": "Standard Twin Room, 2 Twin Beds",
         "price": 1979.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 1 Queen Bed": {
         "name": "Standard Room, 1 Queen Bed",
         "price": 2170.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 1 Queen Bed (Extra benefits)": {
         "name": "Standard Room, 1 Queen Bed (Extra benefits)",
         "price": 2477.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Asset No 9, Hospitality District, Delhi Aerocity, New Delhi, Delhi N.C.R, 110037, India",
@@ -1906,19 +1948,22 @@
         "name": "Deluxe King Room",
         "price": 5872.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior King Room": {
         "name": "Superior King Room",
         "price": 6096.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room": {
         "name": "Premium Room",
         "price": 6288.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "5-A, Hospitality District, Aerocity, Indra Gandhi International Airport, New Delhi, Delhi, 110037, India",
@@ -2014,7 +2059,8 @@
         "name": "Queen Private - Ensuite Room",
         "price": 1100.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "4775, Main Bazar Rd, Paharganj, New Delhi, 110055, India",
@@ -2112,19 +2158,22 @@
         "name": "Deluxe Room, 1 Bedroom, Non Smoking, City View",
         "price": 962.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Business Room, 1 Bedroom, Non Smoking, City View": {
         "name": "Business Room, 1 Bedroom, Non Smoking, City View",
         "price": 1145.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Royal Room, 1 Bedroom, Non Smoking, City View": {
         "name": "Royal Room, 1 Bedroom, Non Smoking, City View",
         "price": 1388.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Main dadri road, Sector 82 NSEZ, Noida, UP, 201304, India",
@@ -2243,19 +2292,22 @@
         "name": "Deluxe Room, 1 Twin Bed (Delight)",
         "price": 3869.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room, 1 Twin Bed (Indulgence)": {
         "name": "Premium Room, 1 Twin Bed (Indulgence)",
         "price": 4115.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room, 1 Double Bed (Indulgence)": {
         "name": "Premium Room, 1 Double Bed (Indulgence)",
         "price": 4365.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Sujan Singh Park, Subramania Bharti Marg, New Delhi, Delhi N.C.R, 110003, India",
@@ -2346,7 +2398,8 @@
         "name": "Double Room",
         "price": 1000.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "C54 South Extension, Part 2, 3rd Floor, New Delhi, Delhi, 110049, India",
@@ -2458,19 +2511,22 @@
         "name": "Boutique Double",
         "price": 4376.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite, 1 King Bed": {
         "name": "Suite, 1 King Bed",
         "price": 4562.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 Double or 2 Twin Beds": {
         "name": "Executive Room, 1 Double or 2 Twin Beds",
         "price": 4858.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Off International Airport Approach Road, Marol, Andheri - East, Mumbai, Maharashtra, 400059, India",
@@ -2589,19 +2645,22 @@
         "name": "The Mercury City Facing Guest Room",
         "price": 5436.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "The Earth Lagoon Room": {
         "name": "The Earth Lagoon Room",
         "price": 5609.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Mercury Lagoon Room": {
         "name": "Mercury Lagoon Room",
         "price": 5760.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Opposite Domestic Airport (Terminal 1), Vile Parle, Mumbai, Maharashtra, 400099, India",
@@ -2696,19 +2755,22 @@
         "name": "Deluxe Suite",
         "price": 8099.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 8278.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room, City View": {
         "name": "Premier Room, City View",
         "price": 8563.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Sahar, Mumbai, Maharashtra, 400059, India",
@@ -2825,19 +2887,22 @@
         "name": "Suite, 1 Double Bed",
         "price": 4275.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room": {
         "name": "Standard Room",
         "price": 4474.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Suite, 1 Double Bed": {
         "name": "Club Suite, 1 Double Bed",
         "price": 4697.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Central Avenue, Hiranandani Gardens, Powai, Mumbai, Maharashtra, 400076, India",
@@ -2935,13 +3000,15 @@
         "name": "Comfort Queen Room",
         "price": 4949.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Comfort Single Room": {
         "name": "Comfort Single Room",
         "price": 5135.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "At Level 1, Terminal 2, CSIA Mumbai, Mumbai, 400099, India",
@@ -3059,19 +3126,22 @@
         "name": "Deluxe Double Room",
         "price": 2499.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Triple Room": {
         "name": "Deluxe Triple Room",
         "price": 2717.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Single Room": {
         "name": "Deluxe Single Room",
         "price": 2941.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Subash Road,Near Garware House, Vile Parle East, Mumbai, Maharashtra, 400057, India",
@@ -3190,19 +3260,22 @@
         "name": "Deluxe Room",
         "price": 4710.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room": {
         "name": "Executive Room",
         "price": 4896.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room": {
         "name": "Club Room",
         "price": 5210.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Nehru Road, Vile Parle East, Adjacent to Domestic Airport, Mumbai, Maharashtra, 400 099, India",
@@ -3318,7 +3391,8 @@
         "name": "Elite Room ",
         "price": 3264.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Kohinoor City, Kirol Road,Off LBS Road, Kurla(W),Andheri / Int'l. Airport, Mumbai, Maharashtra, 400070, India",
@@ -3434,13 +3508,15 @@
         "name": "Deluxe Room",
         "price": 3870.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Deluxe": {
         "name": "Executive Deluxe",
         "price": 4088.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Central Avenue, Hiranandani Gardens, Powai, Mumbai, Maharashtra, 400076, India",
@@ -3560,19 +3636,22 @@
         "name": "Deluxe Double or Twin Room, Non Smoking",
         "price": 2799.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room": {
         "name": "Executive Room",
         "price": 2968.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite": {
         "name": "Suite",
         "price": 3289.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Andheri Kurla Road, Andheri East, Mumbai, Maharashtra, 400059, India",
@@ -3658,19 +3737,22 @@
         "name": "Executive Double or Twin Room",
         "price": 4374.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Double or Twin Room": {
         "name": "Deluxe Double or Twin Room",
         "price": 4557.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room, 1 King Bed": {
         "name": "Club Room, 1 King Bed",
         "price": 4790.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Near International Airport, Church Road, Close to Airport Road Metro Station, Mumbai, Maharashtra, 400059, India",
@@ -3757,19 +3839,22 @@
         "name": "Executive Double Room, 1 Bedroom, City View, Executive Level",
         "price": 3900.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Double Room, 1 Bedroom": {
         "name": "Deluxe Double Room, 1 Bedroom",
         "price": 4081.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Twin Room, 2 Single Beds": {
         "name": "Executive Twin Room, 2 Single Beds",
         "price": 4302.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "344 Sab TV Lane, Opposite Laxmi Plaza, Off New Link Road, Andheri West, Mumbai, Maharashtra, 400053, India",
@@ -3888,13 +3973,15 @@
         "name": "Wintergreen Room",
         "price": 3599.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "The Fern Club Room": {
         "name": "The Fern Club Room",
         "price": 3837.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "411/ B, Hemu Kalani Marg, Chembur East, Mumbai, Maharashtra, 400071, India",
@@ -4011,19 +4098,22 @@
         "name": "Junior Suite, 1 King Bed",
         "price": 4500.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Luxury Room, 1 King Bed": {
         "name": "Luxury Room, 1 King Bed",
         "price": 4659.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Luxury Room, 2 Twin Beds": {
         "name": "Luxury Room, 2 Twin Beds",
         "price": 4914.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "C-57, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra, 400051, India",
@@ -4140,13 +4230,15 @@
         "name": "Mirable",
         "price": 3600.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Myra": {
         "name": "Club Myra",
         "price": 3781.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "131 / B, New Link Road, Chakala, Andheri (East), Mumbai, Maharashtra, 400 099, India",
@@ -4263,19 +4355,22 @@
         "name": "Deluxe Room, 1 Queen Bed, Partial Sea View",
         "price": 5000.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 1 Queen Bed, City View": {
         "name": "Superior Room, 1 Queen Bed, City View",
         "price": 5247.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 2 Twin Beds, City View": {
         "name": "Superior Room, 2 Twin Beds, City View",
         "price": 5380.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "90 Cuffe Parade, Colaba, Mumbai, Maharashtra, 400005, India",
@@ -4392,19 +4487,22 @@
         "name": "Superior Room",
         "price": 5580.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room, Pool View": {
         "name": "Premier Room, Pool View",
         "price": 5777.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room": {
         "name": "Executive Room",
         "price": 6010.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "39 Juhu Beach, Mumbai, Maharashtra, 400049, India",
@@ -4524,13 +4622,15 @@
         "name": "Executive Room",
         "price": 4275.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room (Reflection)": {
         "name": "Club Room (Reflection)",
         "price": 4460.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Corner of the International Airport, Approach Road, Marol, Andheri, Mumbai, Maharashtra, 400 059, India",
@@ -4629,13 +4729,15 @@
         "name": "Wintergreen Room",
         "price": 4725.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Fern Club Room": {
         "name": "Fern Club Room",
         "price": 4878.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "4/277 I.B Patel Road, Behind HP Petrol, Pump, Village Pahadi, Goregaon East, Mumbai, Maharashtra, 400063, India",
@@ -4732,19 +4834,22 @@
         "name": "Premium Room, 1 Double Bed, Non Smoking",
         "price": 4900.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room, 1 King Bed, Non Smoking": {
         "name": "Premium Room, 1 King Bed, Non Smoking",
         "price": 5126.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Grand Room, 1 King Bed, Non Smoking": {
         "name": "Grand Room, 1 King Bed, Non Smoking",
         "price": 5350.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "No. 17 and 17/1, Madhavanagar Extension, Race Course Lane, Corp Ward No. 77, Bengaluru, Karnataka, 560001, India",
@@ -4849,19 +4954,22 @@
         "name": "Deluxe Room",
         "price": 3000.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 King Bed": {
         "name": "Executive Room, 1 King Bed",
         "price": 3203.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite, 1 King Bed": {
         "name": "Suite, 1 King Bed",
         "price": 3452.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "4/1, St Mark's Road, Near Residency Rd, Near M G Rd, Bengaluru, Karnataka, 560001, India",
@@ -4948,19 +5056,22 @@
         "name": "Deluxe Room",
         "price": 2010.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room": {
         "name": "Club Room",
         "price": 2242.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, City View": {
         "name": "Superior Room, City View",
         "price": 2468.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "46, Richmond Road - Off M.G Road, Bengaluru, Karnataka, 560 025, India",
@@ -5066,19 +5177,22 @@
         "name": "Suite, 1 Queen Bed",
         "price": 1840.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Hazel Suite": {
         "name": "Hazel Suite",
         "price": 2038.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Winter Green Room": {
         "name": "Winter Green Room",
         "price": 2334.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "6/1, Tumkur Main Road, Next to Sparsh Hospital, Yeshwanthpur, Bengaluru, Karnataka, 560022, India",
@@ -5184,19 +5298,22 @@
         "name": "Standard Room, 1 Queen Bed",
         "price": 2299.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Twin Room, 2 Twin Beds": {
         "name": "Standard Twin Room, 2 Twin Beds",
         "price": 2541.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 1 Queen Bed (Extra benefits)": {
         "name": "Standard Room, 1 Queen Bed (Extra benefits)",
         "price": 2649.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Opp. Kanteerava Stadium/Mallya Hospital, Raja Ram Mohan Roy Road, Bengaluru, Karnataka, 560027, India",
@@ -5312,19 +5429,22 @@
         "name": "Club Room",
         "price": 7200.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room": {
         "name": "Premier Room",
         "price": 7391.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite (Turret)": {
         "name": "Suite (Turret)",
         "price": 7604.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "23 Old Airport Road, Bengaluru, Karnataka, 560008, India",
@@ -5422,19 +5542,22 @@
         "name": "Luxury Room",
         "price": 1700.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Twin Room": {
         "name": "Superior Twin Room",
         "price": 1910.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Grand Suite, 2 Bedrooms, City View": {
         "name": "Grand Suite, 2 Bedrooms, City View",
         "price": 2138.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "No 65, TS Arcade, Hosur Main Rd, Chandapura, Anekal, Karnataka, 560099, India",
@@ -5528,19 +5651,22 @@
         "name": "Room, 1 King Bed (Bangalore View)",
         "price": 4973.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed": {
         "name": "Deluxe Room, 1 King Bed",
         "price": 5162.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Horizon Club, Room, 1 King Bed": {
         "name": "Horizon Club, Room, 1 King Bed",
         "price": 5281.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "No 56-6B Palace Road, Bengaluru, Karnataka, 560052, India",
@@ -5633,13 +5759,15 @@
         "name": "Standard Room",
         "price": 1203.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 1422.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "11 Park Road, Near Indian Express, Bengaluru, karnataka, 560052, India",
@@ -5756,19 +5884,22 @@
         "name": "Deluxe Room, 2 Twin Beds",
         "price": 2789.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 King Bed": {
         "name": "Executive Room, 1 King Bed",
         "price": 2948.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 3265.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "134, Old Airport Road, Kodhilli, Bengaluru, Karnataka, 560017, India",
@@ -5852,19 +5983,22 @@
         "name": "Basic Room",
         "price": 2399.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 2633.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Double Room": {
         "name": "Deluxe Double Room",
         "price": 2767.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "528,SY No 165, Off Channasandra Main Rd., B/s Global School Vijay Nagar Whitefield, Bengaluru, KA, 560066, India",
@@ -5973,19 +6107,22 @@
         "name": "Deluxe Room",
         "price": 5750.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Luxury Room": {
         "name": "Luxury Room",
         "price": 5910.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room": {
         "name": "Premier Room",
         "price": 6144.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "37-39 Mahatma Gandhi Road, MG Road- Residency Road, Bengaluru, Karnataka, 560 001, India",
@@ -6105,19 +6242,22 @@
         "name": "Suite, 1 Bedroom, Balcony",
         "price": 3300.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite, 2 Bedrooms, Balcony": {
         "name": "Suite, 2 Bedrooms, Balcony",
         "price": 3470.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Studio, 1 Double Bed, Balcony": {
         "name": "Studio, 1 Double Bed, Balcony",
         "price": 3752.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "12th Main, 3rd Block, Kormangala, Near BDA Complex, Bengaluru, Karnataka, 560034, India",
@@ -6232,19 +6372,22 @@
         "name": "Yellow Ribbon Double",
         "price": 2429.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Yellow Ribbon Single": {
         "name": "Yellow Ribbon Single",
         "price": 2599.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Blue Ribbon Single": {
         "name": "Blue Ribbon Single",
         "price": 2829.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "70 Brigade Road, Bengaluru, Karnataka, 560025, India",
@@ -6334,19 +6477,22 @@
         "name": "Classic Double Room",
         "price": 450.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Double Room": {
         "name": "Deluxe Double Room",
         "price": 691.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Twin Room": {
         "name": "Deluxe Twin Room",
         "price": 802.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "4, Chhabria Suites, 1st Cross, MSR Road, Mathikere, Bengaluru, Karnataka, 560054, India",
@@ -6459,19 +6605,22 @@
         "name": "Deluxe Room ",
         "price": 4346.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "1Bed Room Suite ": {
         "name": "1Bed Room Suite ",
         "price": 4533.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "2 Bed Room Suite": {
         "name": "2 Bed Room Suite",
         "price": 4702.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Swiss Town, Hollywood Junction, Sadahalli Post, Devanahalli Road, Devanahalli, Karnataka, 562110, India",
@@ -6587,19 +6736,22 @@
         "name": "Club Room, 1 King Bed",
         "price": 5850.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room": {
         "name": "Club Room",
         "price": 6020.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 6328.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "No 43 Electronic City, Hosur Rd, Bengaluru, Karnataka, 560100, India",
@@ -6697,13 +6849,15 @@
         "name": "Business Single Room",
         "price": 899.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Classic Double or Twin Room": {
         "name": "Classic Double or Twin Room",
         "price": 1141.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1st Main Rd, Bengaluru, KA, 560037, India",
@@ -6816,19 +6970,22 @@
         "name": "Deluxe Room, 1 King Bed, City View",
         "price": 4000.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 2 Twin Beds, Lake View": {
         "name": "Deluxe Room, 2 Twin Beds, Lake View",
         "price": 4212.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed, Lake View": {
         "name": "Deluxe Room, 1 King Bed, Lake View",
         "price": 4422.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "41/3 Mahatma Gandhi Road, Bengaluru, Karnataka, 560001, India",
@@ -6941,19 +7098,22 @@
         "name": "Club Superior Room ",
         "price": 1890.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room": {
         "name": "Club Room",
         "price": 2067.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room": {
         "name": "Standard Room",
         "price": 2190.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "47/1 Dickenson Road, Manipal Centre, Bengaluru, Karnataka, 560 042, India",
@@ -7070,19 +7230,22 @@
         "name": "Deluxe Room, 1 Queen Bed",
         "price": 2000.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Twin Room, 2 Twin Beds": {
         "name": "Deluxe Twin Room, 2 Twin Beds",
         "price": 2150.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 Queen Bed (Extra benefits)": {
         "name": "Deluxe Room, 1 Queen Bed (Extra benefits)",
         "price": 2430.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Opp RMZ Ecospace Business Park, Marthahall-Sarjapur, Outer Ring Rd, Bengaluru, Karnataka, 560103, India",
@@ -7196,19 +7359,22 @@
         "name": "Executive Room, Non Smoking",
         "price": 3920.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 1 Queen Bed, City View": {
         "name": "Room, 1 Queen Bed, City View",
         "price": 4116.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room, 1 Double Bed, City View, Tower": {
         "name": "Club Room, 1 Double Bed, City View, Tower",
         "price": 4270.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "6 -3 -1187, Begumpet, Hyderabad, Andhra Pradesh, 500016, India",
@@ -7325,13 +7491,15 @@
         "name": "Superior Room",
         "price": 1955.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 2153.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Hill Ridge Springs, Gachibowli, Near Hitech City, Hyderabad, Telangana, 500 032, India",
@@ -7451,19 +7619,22 @@
         "name": "Superior Room",
         "price": 3400.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 3639.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Business Room (Class)": {
         "name": "Business Room (Class)",
         "price": 3726.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "8-2-409 Road No 6 Banjara Hills, Hyderabad, Andhra Pradesh, 500034, India",
@@ -7582,19 +7753,22 @@
         "name": "Superior Room, 1 Queen Bed",
         "price": 7600.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 1 Queen Bed, Pool View": {
         "name": "Superior Room, 1 Queen Bed, Pool View",
         "price": 7822.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room, 1 Queen Bed, Executive Level": {
         "name": "Premier Room, 1 Queen Bed, Executive Level",
         "price": 7982.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Rajiv Gandhi International Airport, Shamshabad, RR District, Hyderabad, Andhra Pradesh, 500409, India",
@@ -7690,19 +7864,22 @@
         "name": "Deluxe Room, 1 Queen Bed, City View",
         "price": 2100.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 1 Queen Bed, City View": {
         "name": "Superior Room, 1 Queen Bed, City View",
         "price": 2287.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 1 Queen Bed, Lake View": {
         "name": "Superior Room, 1 Queen Bed, Lake View",
         "price": 2570.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "6 3 551, Banjara Hills, Somajiguda, Hyderabad, 500082, India",
@@ -7799,19 +7976,22 @@
         "name": "Suite, 1 King Bed, Smoking, Microwave",
         "price": 2474.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 2 Twin Beds, Non Smoking": {
         "name": "Standard Room, 2 Twin Beds, Non Smoking",
         "price": 2654.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 1 King Bed, Non Smoking": {
         "name": "Standard Room, 1 King Bed, Non Smoking",
         "price": 2838.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "6-1-70, Lakdi-ka-pul, Hyderabad, Andhra Pradesh, 500004, India",
@@ -7909,19 +8089,22 @@
         "name": "Executive Room",
         "price": 5096.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room, 1 King Bed": {
         "name": "Club Room, 1 King Bed",
         "price": 5251.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Apartment, 1 Bedroom, City View": {
         "name": "Apartment, 1 Bedroom, City View",
         "price": 5458.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Plot No.5, Hyderabad Knowledge City, Madhapur, Hyderabad, Telangana, 500081, India",
@@ -8016,19 +8199,22 @@
         "name": "Standard Room, 1 Queen Bed, Non Smoking, City View",
         "price": 1162.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed, Non Smoking, City View": {
         "name": "Deluxe Room, 1 King Bed, Non Smoking, City View",
         "price": 1365.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room, 1 King Bed, Non Smoking, City View": {
         "name": "Premium Room, 1 King Bed, Non Smoking, City View",
         "price": 1538.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Acsys hotel plot 24 jayabhari Enclave, beside Radisson, DLF line,Gachibowli, Hyderabad, 500032, India",
@@ -8114,7 +8300,8 @@
         "name": "Double or Twin Room",
         "price": 882.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "9-2-0207 Near Secunderabad Railway, Rezimental Bazar, Hyderabad, Telangana, 500025, India",
@@ -8198,13 +8385,15 @@
         "name": "Standard Room",
         "price": 1114.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 1295.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Plot No.14&15, Opp. Max Cure Hospital, Street No. 3, Patrika Nagar Hitect City, Hyderabad, Telangana, 500081, India",
@@ -8319,19 +8508,22 @@
         "name": "Premier Room, 1 Queen Bed, Executive Level",
         "price": 2475.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 1 Queen Bed": {
         "name": "Standard Room, 1 Queen Bed",
         "price": 2686.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room, 2 Twin Beds, Executive Level": {
         "name": "Premier Room, 2 Twin Beds, Executive Level",
         "price": 2905.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Novotel & HICC Complex, (Adjacent to Hitec City), Hyderabad, Telangana, 500081, India",
@@ -8425,13 +8617,15 @@
         "name": "Deluxe Room",
         "price": 2542.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room": {
         "name": "Premium Room",
         "price": 2785.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Plot no 1274,Road No 63,63A, Near Jubliee hills Check-post, Hyderabad, 500033, India",
@@ -8523,19 +8717,22 @@
         "name": "Deluxe Room, 1 King Bed",
         "price": 4275.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 2 Queen Beds": {
         "name": "Deluxe Room, 2 Queen Beds",
         "price": 4461.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room, 1 King Bed, Non Smoking": {
         "name": "Club Room, 1 King Bed, Non Smoking",
         "price": 4623.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Plot No. 132, Miyapur Rd. Gachibowli, Hyderabad, Telangana, 500032, India",
@@ -8652,19 +8849,22 @@
         "name": "Standard Room",
         "price": 1965.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room": {
         "name": "Club Room",
         "price": 2123.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Junior Suite": {
         "name": "Junior Suite",
         "price": 2411.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Begumpet Airport Exit Road, Begumpet, Hyderabad, Andhra Pradesh, 500001, India",
@@ -8781,19 +8981,22 @@
         "name": "Superior Room, 1 King Bed, City View (Charm)",
         "price": 3800.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 2 Twin Beds, City View (Charm)": {
         "name": "Superior Room, 2 Twin Beds, City View (Charm)",
         "price": 4035.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room, 1 King Bed, City View (Indulgence)": {
         "name": "Premium Room, 1 King Bed, City View (Indulgence)",
         "price": 4154.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1 10 147 148 Mayuri Marg, Hyderabad, Andhra Pradesh, 500016, India",
@@ -8890,19 +9093,22 @@
         "name": "Superior Studio",
         "price": 2800.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Studio": {
         "name": "Deluxe Studio",
         "price": 2993.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room": {
         "name": "Premier Room",
         "price": 3134.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Sy.no 115/1, Kapil Towers, IT Park, Nanakramguda,Financial District, Hyderabad, Andhra Pradesh, 500032, India",
@@ -9001,19 +9207,22 @@
         "name": "Standard Double or Twin Room",
         "price": 1350.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Double Room": {
         "name": "Deluxe Double Room",
         "price": 1559.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Double Room": {
         "name": "Executive Double Room",
         "price": 1662.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-7-227 to 234 Near Paradise Circle, S.D. Road, Hyderabad, Telangana, 500003, India",
@@ -9112,13 +9321,15 @@
         "name": "Standard Room",
         "price": 1502.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 1737.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "AC Guards Road, Red Hills, Lakdikapul, Hyderabad, Telangana, 500004, India",
@@ -9209,13 +9420,15 @@
         "name": "Executive Room",
         "price": 1799.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Luxury Room": {
         "name": "Luxury Room",
         "price": 1983.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Gosha Road, MJ Market, Hyderabad, Telangana, 500001, India",
@@ -9303,19 +9516,22 @@
         "name": "Deluxe Single Room, 1 Twin Bed, City View",
         "price": 1620.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Classic Double Room": {
         "name": "Classic Double Room",
         "price": 1773.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Single Room": {
         "name": "Executive Single Room",
         "price": 2088.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Gowlidoddi Rd, Hyderabad, Telangana, 500032, India",
@@ -9432,19 +9648,22 @@
         "name": "Superior Room",
         "price": 1619.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room": {
         "name": "Club Room",
         "price": 1846.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Junior Suite": {
         "name": "Junior Suite",
         "price": 2081.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "6-1-71, Lakdi Ka Pul, Hyderabad, Andhra Pradesh, 500004, India",
@@ -9538,7 +9757,8 @@
         "name": "Deluxe Room",
         "price": 1620.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Hotel CannyChoice Inn, Plot No 60 & 61,, Green Hamlet, Shilpa Park Rd, Kondapur, Hyderabad, Telangana, 500084, India",
@@ -9628,19 +9848,22 @@
         "name": "Standard Double Room",
         "price": 2700.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Double Room, 1 Queen Bed": {
         "name": "Executive Double Room, 1 Queen Bed",
         "price": 2880.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Single Room": {
         "name": "Deluxe Single Room",
         "price": 3002.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "9-4-147 to 153, opp.railway station, Gurudwaralane, Rezimental Bazar, Hyderabad, Telangana, 500003, India",
@@ -9752,19 +9975,22 @@
         "name": "Superior Room, 1 King Bed, Mountain View",
         "price": 8100.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 King Bed": {
         "name": "Executive Room, 1 King Bed",
         "price": 8307.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite, 1 Bedroom, Balcony, Mountain View": {
         "name": "Suite, 1 Bedroom, Balcony, Mountain View",
         "price": 8442.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Senapati Bapat Road, Pune, Maharashtra, 411053, India",
@@ -9857,7 +10083,8 @@
         "name": "Standard Double Room",
         "price": 2672.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "BGP, 10/14 & 10/15 BG Block, MIDC, Bhosari, Pune, Maharashtra, 411026, India",
@@ -9970,19 +10197,22 @@
         "name": "Room",
         "price": 2698.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Grand Room": {
         "name": "Grand Room",
         "price": 2934.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Grande Room with Free One-Way Airport Transfer": {
         "name": "Premium Grande Room with Free One-Way Airport Transfer",
         "price": 3072.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "135/136, Mumbai-Banglore Bypass Hwy, Paud, Maharashtra, 411057, India",
@@ -10074,19 +10304,22 @@
         "name": "Deluxe Room, 2 Queen Beds, Non Smoking",
         "price": 9450.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room, 1 King Bed, Non Smoking, Golf View": {
         "name": "Club Room, 1 King Bed, Non Smoking, Golf View",
         "price": 9659.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed, Non Smoking, Golf View": {
         "name": "Deluxe Room, 1 King Bed, Non Smoking, Golf View",
         "price": 9856.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Golf Course Square Airport Road, Pune, Maharashtra, 411006, India",
@@ -10204,19 +10437,22 @@
         "name": "Executive Room",
         "price": 4980.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club- Twin": {
         "name": "Club- Twin",
         "price": 5219.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Grand Room": {
         "name": "Grand Room",
         "price": 5466.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Plot No. 587, CST No. 1221/C, Apte Road, Shivaji Nagar, Pune, Maharashtra, 411004, India",
@@ -10333,19 +10569,22 @@
         "name": "Studio, 1 King Bed, Non Smoking, Balcony",
         "price": 7470.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Studio, 1 King Bed, Non Smoking, Balcony": {
         "name": "Deluxe Studio, 1 King Bed, Non Smoking, Balcony",
         "price": 7658.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite, 1 Bedroom, Balcony": {
         "name": "Suite, 1 Bedroom, Balcony",
         "price": 7954.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "81, Mundhwa, Koregaon Park Annex, Pune, Maharashtra, 411036, India",
@@ -10441,19 +10680,22 @@
         "name": "Winter green back view",
         "price": 4781.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Winter green premium garden view": {
         "name": "Winter green premium garden view",
         "price": 4959.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Hazel Suite": {
         "name": "Hazel Suite",
         "price": 5197.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Amanora Park Town, Magarpatta Road, Hadapsar, Pune, Maharashtra, 411028, India",
@@ -10552,19 +10794,22 @@
         "name": "Deluxe Double or Twin Room",
         "price": 3999.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room": {
         "name": "Executive Room",
         "price": 4152.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite": {
         "name": "Suite",
         "price": 4371.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Off Mumbai-Banglore Bypass, Narhe Ambegoan, By Sinhagad College, Pune, Maharashtra, 411041, India",
@@ -10659,19 +10904,22 @@
         "name": "Basic Room",
         "price": 1333.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room": {
         "name": "Standard Room",
         "price": 1523.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 1799.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "S No 33, Parinay Complex, Sinhgad Rd, Manik Baug, Pune, Maharashtra, 411051, India",
@@ -10787,19 +11035,22 @@
         "name": "Superior Room, 1 Queen Bed",
         "price": 4499.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room, 1 Queen Bed": {
         "name": "Premium Room, 1 Queen Bed",
         "price": 4724.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 4901.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "11 Koregaon Road, Pune, Maharashtra, 411001, India",
@@ -10919,19 +11170,22 @@
         "name": "Deluxe Room",
         "price": 4980.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room": {
         "name": "Club Room",
         "price": 5182.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite": {
         "name": "Suite",
         "price": 5348.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Marisoft Annexe, Kalyani Nagar, Pune, Maharashtra, 411014, India",
@@ -11028,13 +11282,15 @@
         "name": "Business Room",
         "price": 2399.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 2559.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "100 -101, Viman Nagar, Sakore Nagar Road, Pune, Maharashtra, 411014, India",
@@ -11126,7 +11382,8 @@
         "name": "Standard Room",
         "price": 2698.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Plot No. P-63, D 1 Block, MIDC, Opposite Bird Valley Udyan, Pune, 411019, India",
@@ -11214,13 +11471,15 @@
         "name": "Standard Room",
         "price": 1632.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Room": {
         "name": "Premium Room",
         "price": 1789.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Survey No 161 Behind Laxman Villa, Bhosale Nagar Hadapsar, Pune, 411028, India",
@@ -11307,7 +11566,8 @@
         "name": "Standard Room",
         "price": 1725.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Off Fergusson College Rd., Deccan, Gymkhana, Opp. to Roopali Restaurant, Pune, Maharashtra, 411004, India",
@@ -11400,19 +11660,22 @@
         "name": "Room, 1 King Bed",
         "price": 4505.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 2 Twin Beds": {
         "name": "Room, 2 Twin Beds",
         "price": 4664.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 1 King Bed with Sofa bed (Specialty)": {
         "name": "Room, 1 King Bed with Sofa bed (Specialty)",
         "price": 4923.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Rajiv Gandhi Infotech Park, Phase 1, Paud, Maharashtra, 411057, India",
@@ -11527,19 +11790,22 @@
         "name": "Deluxe Room, 1 King Bed, Non Smoking",
         "price": 5500.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 Double Bed, Non Smoking": {
         "name": "Executive Room, 1 Double Bed, Non Smoking",
         "price": 5709.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Junior Suite, 1 King Bed, Non Smoking": {
         "name": "Junior Suite, 1 King Bed, Non Smoking",
         "price": 5806.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "S. No 19 and 20, P4 Rajiv Gandhi Infotech Park, Paud, Maharashtra, 411057, India",
@@ -11629,19 +11895,22 @@
         "name": "Deluxe Room, 1 King Bed, City View",
         "price": 4300.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 2 Twin Beds, City View": {
         "name": "Deluxe Room, 2 Twin Beds, City View",
         "price": 4524.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite, 1 Bedroom, City View": {
         "name": "Executive Suite, 1 Bedroom, City View",
         "price": 4748.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Xion Complex, Hinjawadi Road, Hinjawadi, Pune, Paud, Maharashtra, 411057, India",
@@ -11732,19 +12001,22 @@
         "name": "Deluxe Room",
         "price": 1330.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Grand Apartment": {
         "name": "Grand Apartment",
         "price": 1527.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Apartment": {
         "name": "Premium Apartment",
         "price": 1664.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "World Trade Center, Zensar IT Park, Rakshak Nagar, Kharadi, Pune, Maharashtra, 411014, India",
@@ -11860,19 +12132,22 @@
         "name": "Standard Room, 1 Queen Bed",
         "price": 1599.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Twin Room, 2 Twin Beds": {
         "name": "Standard Twin Room, 2 Twin Beds",
         "price": 1755.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 Queen Bed (Extra benefits)": {
         "name": "Deluxe Room, 1 Queen Bed (Extra benefits)",
         "price": 1941.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Survey No 32 Viman Nagar Rd, Pune, Maharashtra, 411014, India",
@@ -11971,19 +12246,22 @@
         "name": "Deluxe Room",
         "price": 2700.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       " Super Deluxe room ": {
         "name": " Super Deluxe room ",
         "price": 2933.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Studio ": {
         "name": "Studio ",
         "price": 3178.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "3 Qunees Garden Road, Gen AK Vaidya Marg, Pune, Maharashtra, 411001, India",
@@ -12102,7 +12380,8 @@
         "name": "Executive Room, 2 Bedrooms",
         "price": 1999.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "361/2-3,Bund Garden Road, Opp Pune Central Mall, Pune, Maharashtra, 411001, India",
@@ -12221,19 +12500,22 @@
         "name": "Adventure Resort King Bed ",
         "price": 11500.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Adventure Resort Twin Bed ": {
         "name": "Adventure Resort Twin Bed ",
         "price": 11739.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Camp Della Resorts Room King Bed": {
         "name": "Camp Della Resorts Room King Bed",
         "price": 11946.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Kunegaon, Lonavala, Maharashtra, 410401, India",
@@ -12352,19 +12634,22 @@
         "name": "King Hilton Guest Room",
         "price": 16074.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "King Deluxe Room": {
         "name": "King Deluxe Room",
         "price": 16315.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "King Superior Deluxe": {
         "name": "King Superior Deluxe",
         "price": 16406.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-9-1 Daiba, Minato-ku, Tokyo, 135-8625, Japan",
@@ -12483,19 +12768,22 @@
         "name": "Concept Twin Room",
         "price": 4226.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard King": {
         "name": "Standard King",
         "price": 4392.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe King": {
         "name": "Deluxe King",
         "price": 4712.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-6-3 Higashi-Shimbashi, Minato-ku, Tokyo, 105-8333, Japan",
@@ -12615,19 +12903,22 @@
         "name": "Double Room",
         "price": 2317.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Twin Room": {
         "name": "Twin Room",
         "price": 2551.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Single Room": {
         "name": "Single Room",
         "price": 2791.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "7-27-9 Shinjuku Shinjuku-ku, Tokyo, Tokyo-to, 160-0022, Japan",
@@ -12721,19 +13012,22 @@
         "name": "Double Room",
         "price": 5638.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Twin Room": {
         "name": "Twin Room",
         "price": 5831.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Special Offer - Double Room": {
         "name": "Special Offer - Double Room",
         "price": 5962.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "8-11 Ginza, Tokyo, 104-0061, Japan",
@@ -12824,19 +13118,22 @@
         "name": "Superior Double Room (For 1 Guest)",
         "price": 3798.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Double Room (For 2 Guests)": {
         "name": "Superior Double Room (For 2 Guests)",
         "price": 3967.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Twin Room (For 1 Guest)": {
         "name": "Superior Twin Room (For 1 Guest)",
         "price": 4202.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-17-4 Sotokanda, Chiyoda, Tokyo, 101-0021, Japan",
@@ -12953,19 +13250,22 @@
         "name": "Economy Double Room, Non Smoking",
         "price": 4310.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Single Room, Non Smoking": {
         "name": "Single Room, Non Smoking",
         "price": 4495.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Double Room, Smoking": {
         "name": "Standard Double Room, Smoking",
         "price": 4616.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Atre Omori, 1-6-16, Omorikita, Ota-ku, Tokyo, Tokyo-to, 143-0016, Japan",
@@ -13064,19 +13364,22 @@
         "name": "Executive Room, 1 King Bed, Non Smoking (chapter 2 King)",
         "price": 31865.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 King Bed, Non Smoking, Garden View (chapter 2 King)": {
         "name": "Executive Room, 1 King Bed, Non Smoking, Garden View (chapter 2 King)",
         "price": 32028.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 1 King Bed, Non Smoking (chapter 1 King)": {
         "name": "Room, 1 King Bed, Non Smoking (chapter 1 King)",
         "price": 32333.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-10-30 Kaigan, Minato-ku, Tokyo, Japan",
@@ -13174,19 +13477,22 @@
         "name": "Comfort Double Room",
         "price": 3378.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Double Room": {
         "name": "Superior Double Room",
         "price": 3560.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Comfort Twin Room": {
         "name": "Comfort Twin Room",
         "price": 3812.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "4-3, Akasaka, Minato, Tokyo, 107-0052, Japan",
@@ -13274,19 +13580,22 @@
         "name": "4F, Non Smoking",
         "price": 6335.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "2F, Non Smoking": {
         "name": "2F, Non Smoking",
         "price": 6511.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "3F, Non Smoking": {
         "name": "3F, Non Smoking",
         "price": 6749.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "2-45-8 Nishinippori, Arakawa, Tokyo, 116-0013, Ghana",
@@ -13375,19 +13684,22 @@
         "name": "Semidouble with Breakfast, Smoking (breakfast charge for 6yo & under)",
         "price": 4740.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Semidouble with Breakfast, Non Smoking (breakfast charge for 6yo & under)": {
         "name": "Semidouble with Breakfast, Non Smoking (breakfast charge for 6yo & under)",
         "price": 4934.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Single Room, Women only, Non Smoking (breakfast charge for 6yo & under)": {
         "name": "Single Room, Women only, Non Smoking (breakfast charge for 6yo & under)",
         "price": 5200.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "3-2-9 Nishishinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",
@@ -13481,19 +13793,22 @@
         "name": "Deluxe Single Room",
         "price": 2414.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Triple Room": {
         "name": "Triple Room",
         "price": 2622.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Single Room": {
         "name": "Single Room",
         "price": 2862.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "16-12 Nihonbashikoami-cho, Tokyo, 103-0016, Japan",
@@ -13606,19 +13921,22 @@
         "name": "Studio, 1 Double Bed",
         "price": 3222.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Studio, 2 Twin Beds": {
         "name": "Studio, 2 Twin Beds",
         "price": 3442.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Studio, 1 Double Bed": {
         "name": "Deluxe Studio, 1 Double Bed",
         "price": 3690.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-2-9, Kabukicho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0021, Japan",
@@ -13707,19 +14025,22 @@
         "name": "Standard Room For 1 Person, Non Smoking",
         "price": 2686.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room For 2 Person, Non Smoking": {
         "name": "Standard Room For 2 Person, Non Smoking",
         "price": 2894.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Twin Room, Non Smoking": {
         "name": "Twin Room, Non Smoking",
         "price": 3178.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "2-10-2 Nagatacho, Tokyo, 100-0014, Japan",
@@ -13809,19 +14130,22 @@
         "name": "Single Room, Non Smoking",
         "price": 3186.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Double Room, Non Smoking": {
         "name": "Double Room, Non Smoking",
         "price": 3395.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Twin Room, Non Smoking": {
         "name": "Deluxe Twin Room, Non Smoking",
         "price": 3542.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "7-11-12 Ginza, Chuo, Tokyo, Tokyo-to, 104-0061, Japan",
@@ -13939,19 +14263,22 @@
         "name": "Single Room, Non Smoking",
         "price": 3423.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Double Room, 1 King Bed, Non Smoking": {
         "name": "Premier Double Room, 1 King Bed, Non Smoking",
         "price": 3587.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Double Room, 1 Double Bed, Smoking": {
         "name": "Standard Double Room, 1 Double Bed, Smoking",
         "price": 3849.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "3-10-9 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",
@@ -14046,19 +14373,22 @@
         "name": "Standard Room, 2 Twin Beds, Non Smoking, Refrigerator",
         "price": 2317.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 1 Queen Bed, Non Smoking, Refrigerator": {
         "name": "Standard Room, 1 Queen Bed, Non Smoking, Refrigerator",
         "price": 2532.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 2 Twin Beds, Non Smoking": {
         "name": "Superior Room, 2 Twin Beds, Non Smoking",
         "price": 2643.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "5-1-6 Ueno, Taitol-ku, Tokyo, 110-0005, Japan",
@@ -14147,19 +14477,22 @@
         "name": "Hollywood Twin",
         "price": 5150.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Twin": {
         "name": "Standard Twin",
         "price": 5363.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Twin Room with Extra Bed": {
         "name": "Standard Twin Room with Extra Bed",
         "price": 5556.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-Chome 5-3 Yaesu, Chuo, Tokyo, 103-0028, Japan",
@@ -14251,19 +14584,22 @@
         "name": "Studio",
         "price": 18836.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Studio, 2 Twin Beds": {
         "name": "Studio, 2 Twin Beds",
         "price": 18986.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 Bedroom": {
         "name": "Deluxe Room, 1 Bedroom",
         "price": 19240.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-1-1 Otemachi, Chiyodaku, Tokyo, 100-0004, Japan",
@@ -14361,19 +14697,22 @@
         "name": "Standard Twin Room, Non Smoking",
         "price": 2393.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Economy Twin Room, Non Smoking": {
         "name": "Economy Twin Room, Non Smoking",
         "price": 2600.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Economy Double Room, Non Smoking": {
         "name": "Economy Double Room, Non Smoking",
         "price": 2811.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "4-5-12, Taito, Tokyo, 110-0016, Japan",
@@ -14491,19 +14830,22 @@
         "name": "Standard Double Room, Non Smoking (140cm bed, 2018 Trip Advisor Award)",
         "price": 6554.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Double Room, Smoking (140cm bed, 2018 Trip Advisor Award)": {
         "name": "Standard Double Room, Smoking (140cm bed, 2018 Trip Advisor Award)",
         "price": 6732.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Twin Room, Non Smoking (2018 Trip Advisor Award)": {
         "name": "Superior Twin Room, Non Smoking (2018 Trip Advisor Award)",
         "price": 6956.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-1-16 Kandamisaki-cho, Chiyoda-ku, Tokyo, 101-0061, Japan",
@@ -14598,19 +14940,22 @@
         "name": "Economy Single, Non-smoking",
         "price": 3693.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Economy Double, Non Smoking": {
         "name": "Economy Double, Non Smoking",
         "price": 3938.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Double Non-smoking": {
         "name": "Superior Double Non-smoking",
         "price": 4187.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "2-14-5 Kabuki-cho, Shinjuku, Tokyo, Tokyo-to, 160-0021, Japan",
@@ -14700,19 +15045,22 @@
         "name": "Semi-double Room",
         "price": 4120.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Twin Room": {
         "name": "Standard Twin Room",
         "price": 4323.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Single Room": {
         "name": "Standard Single Room",
         "price": 4448.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1-24 Hamamatsucho, Minato-ku, Tokyo, 105-0013, Japan",
@@ -14802,19 +15150,22 @@
         "name": "Single Room, Non Smoking",
         "price": 3482.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Single Room, Smoking": {
         "name": "Single Room, Smoking",
         "price": 3732.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Double Room, Non Smoking": {
         "name": "Standard Double Room, Non Smoking",
         "price": 3838.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "3-7-8 Kyobashi, Chuo-ku, Tokyo, 104-0031, Japan",
@@ -14904,19 +15255,22 @@
         "name": "Single Room, Non Smoking (A)",
         "price": 3592.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Single Room, Smoking (A)": {
         "name": "Single Room, Smoking (A)",
         "price": 3825.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Single Room, Non Smoking (B)": {
         "name": "Single Room, Non Smoking (B)",
         "price": 3920.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "5-11-16 Shinjuku, Tokyo, 160-0022, Japan",
@@ -15009,19 +15363,22 @@
         "name": "Deluxe\u00a0City View\u00a0King Room",
         "price": 16252.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe\u00a0Sea View\u00a0King Room": {
         "name": "Deluxe\u00a0Sea View\u00a0King Room",
         "price": 16420.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Deluxe\u00a0City\u00a0View King Room with Club Lounge Access": {
         "name": "Club Deluxe\u00a0City\u00a0View King Room with Club Lounge Access",
         "price": 16588.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "38 Hung Luen Road, Hung Hom Bay, Kowloon, 000000, Hong Kong SAR",
@@ -15141,19 +15498,22 @@
         "name": "Superior Room",
         "price": 4015.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 4179.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room": {
         "name": "Standard Room",
         "price": 4331.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "387-397, Queen's Road East, Wan Chai, Hong Kong, Hong Kong SAR",
@@ -15273,19 +15633,22 @@
         "name": "Comfort Room",
         "price": 3312.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room": {
         "name": "Superior Room",
         "price": 3535.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room": {
         "name": "Executive Room",
         "price": 3728.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "88 Tai Kok Tsui Road, Kowloon, Hong Kong SAR",
@@ -15405,19 +15768,22 @@
         "name": "Standard Room",
         "price": 3442.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room": {
         "name": "Superior Room",
         "price": 3596.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room": {
         "name": "Executive Room",
         "price": 3768.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "375-377 Queen's Road East, Wan Chai, Hong Kong, Hong Kong SAR",
@@ -15537,19 +15903,22 @@
         "name": "Room, 1 King Bed (Dream)",
         "price": 3728.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 2 Twin Beds (Dream)": {
         "name": "Room, 2 Twin Beds (Dream)",
         "price": 3928.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 1 King Bed (Dream Space)": {
         "name": "Room, 1 King Bed (Dream Space)",
         "price": 4028.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "22 Hennessy Road, Wanchai, Hong Kong, Hong Kong SAR",
@@ -15669,19 +16038,22 @@
         "name": "Deluxe Peak View King Room",
         "price": 21032.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Peak View Twin Room": {
         "name": "Deluxe Peak View Twin Room",
         "price": 21257.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Harbour View King Room": {
         "name": "Deluxe Harbour View King Room",
         "price": 21504.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Pacific Place, Supreme Court Road, Central, Hong Kong, Hong Kong SAR",
@@ -15780,19 +16152,22 @@
         "name": "Standard Double Room",
         "price": 2799.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Twin Room": {
         "name": "Deluxe Twin Room",
         "price": 3033.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Triple Room": {
         "name": "Triple Room",
         "price": 3177.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "119 Wo Yi Hop Road, Kwai Tsing, 00000, Hong Kong SAR",
@@ -15910,19 +16285,22 @@
         "name": "Premier Room, 1 King Bed",
         "price": 3728.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 1 King Bed": {
         "name": "Superior Room, 1 King Bed",
         "price": 3945.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 2 Twin Beds": {
         "name": "Superior Room, 2 Twin Beds",
         "price": 4082.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "348 Nathan Road, Kowloon, Hong Kong SAR",
@@ -16040,19 +16418,22 @@
         "name": "Queen Studio",
         "price": 5319.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Twin Studio": {
         "name": "Twin Studio",
         "price": 5469.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Suite": {
         "name": "Premium Suite",
         "price": 5695.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Hollywood Center, 77-91 Queen's Road West, Hong Kong, Hong Kong SAR",
@@ -16172,19 +16553,22 @@
         "name": "City View Room",
         "price": 6214.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Residence Club Harbour View Room with Club Lounge Access": {
         "name": "Residence Club Harbour View Room with Club Lounge Access",
         "price": 6372.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Residence Club Deluxe Room with Club Lounge Access": {
         "name": "Residence Club Deluxe Room with Club Lounge Access",
         "price": 6696.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "72 Mody Road, Tsim Sha Tsui East, Kowloon, Hong Kong SAR",
@@ -16304,19 +16688,22 @@
         "name": "Superior Room",
         "price": 4101.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Club Superior Room, Business Lounge Access": {
         "name": "Executive Club Superior Room, Business Lounge Access",
         "price": 4337.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 4507.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "71 Mody Road, Tsimshatsui, Kowloon, Hong Kong SAR",
@@ -16430,19 +16817,22 @@
         "name": "Premier Room, 1 Queen Bed (Executive)",
         "price": 4493.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 1 Queen Bed": {
         "name": "Superior Room, 1 Queen Bed",
         "price": 4678.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 1 Queen Bed": {
         "name": "Standard Room, 1 Queen Bed",
         "price": 4893.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "238 Jaffe Road, Wanchai, Hong Kong, Hong Kong SAR",
@@ -16531,19 +16921,22 @@
         "name": "Superior King Room",
         "price": 7189.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Sunrise Deluxe King Room": {
         "name": "Sunrise Deluxe King Room",
         "price": 7373.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Suite": {
         "name": "Premium Suite",
         "price": 7513.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1 Chi Wo Street, Jordan, Kowloon, Hong Kong SAR",
@@ -16659,19 +17052,22 @@
         "name": "Standard Room, 1 Queen Bed, City View",
         "price": 2562.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 1 Queen Bed, Harbor View": {
         "name": "Standard Room, 1 Queen Bed, Harbor View",
         "price": 2798.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 2 Twin Beds, City View": {
         "name": "Standard Room, 2 Twin Beds, City View",
         "price": 2902.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "No. 28 Des Voeux Road West, Sheung Wan, Hong Kong, Hong Kong SAR",
@@ -16764,19 +17160,22 @@
         "name": "Deluxe Single Room",
         "price": 738.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Double Room": {
         "name": "Deluxe Double Room",
         "price": 957.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Triple Room": {
         "name": "Deluxe Triple Room",
         "price": 1148.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Flat A4, 11/F, Block A,Chungking Mansion, 36-44 Nathan Road, Kowloon, Hong Kong SAR",
@@ -16890,19 +17289,22 @@
         "name": "CLUB 36 - King Room City View",
         "price": 9177.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "CLUB 36 - Twin Room City View": {
         "name": "CLUB 36 - Twin Room City View",
         "price": 9395.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "CLUB 36 - King Room Harbour View": {
         "name": "CLUB 36 - King Room Harbour View",
         "price": 9549.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "17 Science Museum Rd, Tsim Sha Tsui East, Kowloon, Hong Kong SAR",
@@ -17022,19 +17424,22 @@
         "name": "Deluxe Side Harbour View Twin Room ",
         "price": 9560.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Harbour View King Room ": {
         "name": "Deluxe Harbour View King Room ",
         "price": 9785.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe King Room": {
         "name": "Deluxe King Room",
         "price": 10054.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "64 Mody Road, Tsim Sha Tsui East, Kowloon, Hong Kong SAR",
@@ -17148,19 +17553,22 @@
         "name": "Superior Room",
         "price": 3061.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 3255.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Family Suite with Sofa Bed": {
         "name": "Family Suite with Sofa Bed",
         "price": 3541.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "28 Kin Chuen Street, Kwai Chung, Kwai Tsing, Hong Kong SAR",
@@ -17267,19 +17675,22 @@
         "name": "Superior Room",
         "price": 9942.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 10110.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Suite": {
         "name": "Deluxe Suite",
         "price": 10404.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "9 Cheong Tat Road, Chek Lap Kok, Hong Kong SAR",
@@ -17392,19 +17803,22 @@
         "name": "Superior Room - Harbour View",
         "price": 5943.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room - Harbour View": {
         "name": "Deluxe Room - Harbour View",
         "price": 6131.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Grand Deluxe Room - Harbour View": {
         "name": "Grand Deluxe Room - Harbour View",
         "price": 6427.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "23, Oil Street, North Point, ( MTR Fortress Hill Exit A ), Hong Kong, Hong Kong SAR",
@@ -17522,19 +17936,22 @@
         "name": "Superior Room",
         "price": 10239.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 1 King Bed, Non Smoking (Crowne Privilege)": {
         "name": "Room, 1 King Bed, Non Smoking (Crowne Privilege)",
         "price": 10443.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed, Non Smoking": {
         "name": "Deluxe Room, 1 King Bed, Non Smoking",
         "price": 10637.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "8 Leighton Road, Causeway Bay, Hong Kong, 00000, Hong Kong SAR",
@@ -17651,19 +18068,22 @@
         "name": "Deluxe City View Queen Room",
         "price": 5258.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Harbour View Queen Room": {
         "name": "Deluxe Harbour View Queen Room",
         "price": 5437.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior City View Queen Room": {
         "name": "Superior City View Queen Room",
         "price": 5736.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "508 Queens Road West, Western District, Hong Kong, Hong Kong SAR",
@@ -17780,19 +18200,22 @@
         "name": "Superior Twin Room",
         "price": 6348.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Twin Room": {
         "name": "Deluxe Twin Room",
         "price": 6533.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Queen Room": {
         "name": "Superior Queen Room",
         "price": 6742.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "72 Gloucester Road, Wanchai, Hong Kong, Hong Kong SAR",
@@ -17910,19 +18333,22 @@
         "name": "Standard Double Room",
         "price": 3996.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Double Room": {
         "name": "Superior Double Room",
         "price": 4215.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Studio, 2 Twin Beds": {
         "name": "Executive Studio, 2 Twin Beds",
         "price": 4432.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "23 Morrison Hill Road, Wanchai, Hong Kong, Hong Kong SAR",
@@ -18041,19 +18467,22 @@
         "name": "Wonderful, Guest Room, 1 King Bed",
         "price": 48217.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Wonderful Twin, Guest Room, 2 Double": {
         "name": "Wonderful Twin, Guest Room, 2 Double",
         "price": 48447.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Spectacular King, Guest Room, 1 King, Harbor View, Balcony": {
         "name": "Spectacular King, Guest Room, 1 King, Harbor View, Balcony",
         "price": 48715.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "21 Ocean Way, Singapore, 098374, Singapore",
@@ -18172,19 +18601,22 @@
         "name": "Superior Room",
         "price": 7816.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Single Room": {
         "name": "Club Single Room",
         "price": 7984.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 8246.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1 Tanglin Road, Singapore, 247905, Singapore",
@@ -18282,19 +18714,22 @@
         "name": "Premium Cabin, 1 Queen Bed, View",
         "price": 7119.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Cabin, 1 Queen Bed, View (Queen with 1 Bunk)": {
         "name": "Premium Cabin, 1 Queen Bed, View (Queen with 1 Bunk)",
         "price": 7354.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Cabin, 1 Queen Bed": {
         "name": "Premium Cabin, 1 Queen Bed",
         "price": 7513.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "366 Orchard Road, Singapore, 238904, Singapore",
@@ -18392,19 +18827,22 @@
         "name": "Superior Room",
         "price": 10674.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 10918.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Single Room": {
         "name": "Club Single Room",
         "price": 11124.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "100 Peck Seah Street, Singapore, 079333, Singapore",
@@ -18523,19 +18961,22 @@
         "name": "1 Bedroom Apartment",
         "price": 8890.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "2 Bedroom Apartment": {
         "name": "2 Bedroom Apartment",
         "price": 9097.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room": {
         "name": "Club Room",
         "price": 9316.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "165 Tanjong Pagar Road, Singapore, 088539, Singapore",
@@ -18654,19 +19095,22 @@
         "name": "Executive Room, 1 King Bed, Non Smoking",
         "price": 20014.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Grand Deluxe, 1 King, Botanic Garden View": {
         "name": "Grand Deluxe, 1 King, Botanic Garden View",
         "price": 20254.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Grand Deluxe, 2 Double Beds, Botanic Garden View": {
         "name": "Grand Deluxe, 2 Double Beds, Botanic Garden View",
         "price": 20414.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "29 Tanglin Road, Singapore, 247911, Singapore",
@@ -18765,19 +19209,22 @@
         "name": "Executive Studio",
         "price": 15767.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Studio": {
         "name": "Premier Studio",
         "price": 15969.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Suite, 1 Bedroom": {
         "name": "Deluxe Suite, 1 Bedroom",
         "price": 16217.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "11 Cairnhill Road, Singapore, 229724, Singapore",
@@ -18897,19 +19344,22 @@
         "name": "Club Villa (Jasmine)",
         "price": 7403.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Villa (Peony)": {
         "name": "Club Villa (Peony)",
         "price": 7619.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Suite (Skyline)": {
         "name": "Club Suite (Skyline)",
         "price": 7719.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1 Farrer Park Station Road, Singapore, 217562, Singapore",
@@ -19007,19 +19457,22 @@
         "name": "Good Room Single",
         "price": 4833.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Good Room King": {
         "name": "Good Room King",
         "price": 4995.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Good Room Queen": {
         "name": "Good Room Queen",
         "price": 5295.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "200 Middle Road, Singapore, 188980, Singapore",
@@ -19138,19 +19591,22 @@
         "name": "Urban Room",
         "price": 10934.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Lifestyle Room": {
         "name": "Lifestyle Room",
         "price": 11161.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Signature Room": {
         "name": "Signature Room",
         "price": 11242.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "3 Upper Pickering Street, Singapore, 059413, Singapore",
@@ -19269,19 +19725,22 @@
         "name": "Deluxe Room, 1 King Bed",
         "price": 6725.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 2 Twin Beds": {
         "name": "Deluxe Room, 2 Twin Beds",
         "price": 6878.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 King Bed": {
         "name": "Executive Room, 1 King Bed",
         "price": 7071.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "231 Outram Road, Singapore, 169040, Singapore",
@@ -19373,13 +19832,15 @@
         "name": "Premium Queen Cabin",
         "price": 5635.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Family Cabin": {
         "name": "Family Cabin",
         "price": 5820.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "78 Airport Boulevard, Changi, 04-280, Singapore, 819666, Singapore",
@@ -19493,19 +19954,22 @@
         "name": "Standard Room, 1 Queen Bed, Non Smoking",
         "price": 7986.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, 2 Twin Beds, Non Smoking": {
         "name": "Standard Room, 2 Twin Beds, Non Smoking",
         "price": 8156.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, Non Smoking": {
         "name": "Standard Room, Non Smoking",
         "price": 8354.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "2 Magazine Road, Singapore, 059573, Singapore",
@@ -19622,13 +20086,15 @@
         "name": "Cosy Room",
         "price": 12686.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 12915.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "76 Telok Ayer Street, Singapore, 048464, Singapore",
@@ -19743,19 +20209,22 @@
         "name": "Executive Room",
         "price": 10251.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room": {
         "name": "Premier Room",
         "price": 10412.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Club Room": {
         "name": "Premier Club Room",
         "price": 10745.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "76 Bras Basah Road, Singapore, 189558, Singapore",
@@ -19871,19 +20340,22 @@
         "name": "Standard Room",
         "price": 6441.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 1 Queen Bed, Accessible, Non Smoking": {
         "name": "Room, 1 Queen Bed, Accessible, Non Smoking",
         "price": 6676.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, Multiple Beds, Non Smoking": {
         "name": "Room, Multiple Beds, Non Smoking",
         "price": 6885.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "270 Jalan Besar, Singapore, 209019, Singapore",
@@ -20001,19 +20473,22 @@
         "name": "Deluxe Room, 2 Twin Beds, Non Smoking",
         "price": 20610.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed, Non Smoking": {
         "name": "Deluxe Room, 1 King Bed, Non Smoking",
         "price": 20801.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premier Room, 1 King Bed, Non Smoking, Corner": {
         "name": "Premier Room, 1 King Bed, Non Smoking, Corner",
         "price": 21022.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "190 Orchard Boulevard, Singapore, 248646, Singapore",
@@ -20132,19 +20607,22 @@
         "name": "Deluxe Room, 1 King Bed, Non Smoking",
         "price": 8950.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 2 Twin Beds, Non Smoking": {
         "name": "Deluxe Room, 2 Twin Beds, Non Smoking",
         "price": 9134.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 King Bed, Non Smoking": {
         "name": "Executive Room, 1 King Bed, Non Smoking",
         "price": 9304.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "39 Scotts Road, Singapore, 228230, Singapore",
@@ -20263,19 +20741,22 @@
         "name": "Quay Room",
         "price": 19037.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Heritage Room": {
         "name": "Heritage Room",
         "price": 19193.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Straits Club Courtyard Room": {
         "name": "Straits Club Courtyard Room",
         "price": 19463.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "1 Fullerton Square, Singapore, 049178, Singapore",
@@ -20394,19 +20875,22 @@
         "name": "Standard Single (No-Window)",
         "price": 4792.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Twin (No-Window)": {
         "name": "Superior Twin (No-Window)",
         "price": 5021.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Double (No-Window)": {
         "name": "Superior Double (No-Window)",
         "price": 5234.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "62 Upper Cross Street, Singapore, 058353, Singapore",
@@ -20504,19 +20988,22 @@
         "name": "Superior Room, 1 Queen Bed",
         "price": 7973.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed": {
         "name": "Deluxe Room, 1 King Bed",
         "price": 8142.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Signature Suite, 1 King Bed": {
         "name": "Signature Suite, 1 King Bed",
         "price": 8355.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "11 Jalan Klapa, Singapore, 199323, Singapore",
@@ -20636,19 +21123,22 @@
         "name": "Superior Room",
         "price": 8353.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 8597.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room": {
         "name": "Club Room",
         "price": 8769.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "390 Victoria Street, Singapore, 188061, Singapore",
@@ -20743,19 +21233,22 @@
         "name": "Deluxe Double or Twin Room, No Windows",
         "price": 5434.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Twin Room, No Windows": {
         "name": "Standard Twin Room, No Windows",
         "price": 5597.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Queen, With Window": {
         "name": "Standard Queen, With Window",
         "price": 5844.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "23 Middle Rd, Singapore, 188933, Singapore",
@@ -20847,19 +21340,22 @@
         "name": "Room, Balcony",
         "price": 4149.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room": {
         "name": "Deluxe Room",
         "price": 4399.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Family Room": {
         "name": "Family Room",
         "price": 4577.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "32 Hamilton Road, Singapore, 209201, Singapore",
@@ -20976,19 +21472,22 @@
         "name": "Grand Deluxe Family Room",
         "price": 12006.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Imperial One Bedroom Suite King": {
         "name": "Imperial One Bedroom Suite King",
         "price": 12180.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Junior Suite One King Bed": {
         "name": "Junior Suite One King Bed",
         "price": 12444.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Palm Jumeirah, West Crescent, Dubai, United Arab Emirates",
@@ -21105,19 +21604,22 @@
         "name": "Standard Double Room",
         "price": 4168.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Classic Double Room with Palm View": {
         "name": "Classic Double Room with Palm View",
         "price": 4410.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Classic Double Room with City View": {
         "name": "Classic Double Room with City View",
         "price": 4496.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Dubai Media City, Plot No. 1, Dubai, 121818, United Arab Emirates",
@@ -21213,19 +21715,22 @@
         "name": "Double Room, Smoking",
         "price": 1574.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Twin Room, Non Smoking": {
         "name": "Twin Room, Non Smoking",
         "price": 1744.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Twin Room, Smoking": {
         "name": "Twin Room, Smoking",
         "price": 1880.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Opposite Terminal 3, via Street 52b, Dubai International Airport, Dubai, United Arab Emirates",
@@ -21318,19 +21823,22 @@
         "name": "Classic Room, 1 King Bed",
         "price": 2136.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Classic Room": {
         "name": "Classic Room",
         "price": 2349.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Room, 1 King Bed (Club)": {
         "name": "Club Room, 1 King Bed (Club)",
         "price": 2634.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Al Thanayah 1, Tecom, Dubai, United Arab Emirates",
@@ -21444,19 +21952,22 @@
         "name": "Suite (Dusit)",
         "price": 4994.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite, 2 Bedrooms Apartment": {
         "name": "Suite, 2 Bedrooms Apartment",
         "price": 5212.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Apartment, 1 Double Bed": {
         "name": "Apartment, 1 Double Bed",
         "price": 5432.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "133 Sheikh Zayed Road, Dubai, United Arab Emirates",
@@ -21576,19 +22087,22 @@
         "name": "Royal Suite (Bridge)",
         "price": 22718.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Suite, 2 Bedrooms (Executive)": {
         "name": "Club Suite, 2 Bedrooms (Executive)",
         "price": 22871.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Club Suite, 2 Bedrooms (Regal)": {
         "name": "Club Suite, 2 Bedrooms (Regal)",
         "price": 23150.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Crescent Road, The Palm, Dubai, United Arab Emirates",
@@ -21707,19 +22221,22 @@
         "name": "Royal Villa, 1 Bedroom (Beit Al Bahar)",
         "price": 24011.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, Balcony (Ocean)": {
         "name": "Deluxe Room, Balcony (Ocean)",
         "price": 24211.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Royal Villa, 2 Bedrooms (Beit Al Bahar)": {
         "name": "Royal Villa, 2 Bedrooms (Beit Al Bahar)",
         "price": 24479.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Jumeirah Beach Road, Po Box 11416, Dubai, 11416, United Arab Emirates",
@@ -21815,19 +22332,22 @@
         "name": "Standard Room, City View",
         "price": 2785.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, City View": {
         "name": "Deluxe Room, City View",
         "price": 2952.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Suite": {
         "name": "Executive Suite",
         "price": 3283.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Sheikh Zayed Road, Barsha Heights, Near Internet City Metro Station, Dubai, United Arab Emirates",
@@ -21923,19 +22443,22 @@
         "name": "Classic Twin Room",
         "price": 2260.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Classic King Room": {
         "name": "Classic King Room",
         "price": 2491.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Classic Connecting Room": {
         "name": "Classic Connecting Room",
         "price": 2640.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Near Mall of the Emirates,, Dubai, United Arab Emirates",
@@ -22032,19 +22555,22 @@
         "name": "Standard Room",
         "price": 6106.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, Balcony": {
         "name": "Superior Room, Balcony",
         "price": 6286.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite (Lounge Access)": {
         "name": "Suite (Lounge Access)",
         "price": 6444.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Al Abraaj Street, Business Bay, Dubai, United Arab Emirates",
@@ -22139,19 +22665,22 @@
         "name": "Double Room, Non Smoking",
         "price": 1544.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Family Room, Non Smoking": {
         "name": "Family Room, Non Smoking",
         "price": 1734.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Double Room, Smoking": {
         "name": "Double Room, Smoking",
         "price": 1852.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Culture Village, Al Jaddaf, Dubai, United Arab Emirates",
@@ -22246,19 +22775,22 @@
         "name": "Apartment, 1 Bedroom",
         "price": 3670.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Family Apartment": {
         "name": "Family Apartment",
         "price": 3827.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed": {
         "name": "Deluxe Room, 1 King Bed",
         "price": 4132.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Cluster J, Jumeirah Lakes Towers, Dubai, 37246, United Arab Emirates",
@@ -22373,19 +22905,22 @@
         "name": "Deluxe Room with One King Bed",
         "price": 3995.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room with One King Bed": {
         "name": "Superior Room with One King Bed",
         "price": 4210.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Family Room": {
         "name": "Family Room",
         "price": 4397.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Airport Road, Casablanca Street, Al Garhoud, Dubai, 13018, United Arab Emirates",
@@ -22480,19 +23015,22 @@
         "name": "Premium Apartment, 1 Bedroom",
         "price": 3767.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Apartment, 2 Bedrooms": {
         "name": "Premium Apartment, 2 Bedrooms",
         "price": 4011.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Apartment, 2 Bedrooms": {
         "name": "Deluxe Apartment, 2 Bedrooms",
         "price": 4223.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Deira Corniche, Po Box 6655, Dubai, United Arab Emirates",
@@ -22612,19 +23150,22 @@
         "name": "Deluxe Room - Double Bed",
         "price": 3027.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room - Double Bed": {
         "name": "Superior Room - Double Bed",
         "price": 3180.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Suite - Double Bed": {
         "name": "Suite - Double Bed",
         "price": 3407.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Sheikh Khalifah Bin Zayed Street, Opp. Burjuman Centre, Dubai, 8264, United Arab Emirates",
@@ -22744,19 +23285,22 @@
         "name": "Executive Room (Lounge Access)",
         "price": 4086.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Suite, 1 Bedroom (Lounge Access)": {
         "name": "Standard Suite, 1 Bedroom (Lounge Access)",
         "price": 4305.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room": {
         "name": "Superior Room",
         "price": 4396.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Dubai Media City, Dubai, 211723, United Arab Emirates",
@@ -22853,19 +23397,22 @@
         "name": "Superior Room, 1 King Bed",
         "price": 2385.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 2 Twin Beds": {
         "name": "Superior Room, 2 Twin Beds",
         "price": 2600.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed": {
         "name": "Deluxe Room, 1 King Bed",
         "price": 2717.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "TECOM BARSHA HEIGHTS, DUBAI, Dubai, 119667, United Arab Emirates",
@@ -22983,19 +23530,22 @@
         "name": "Superior Double Room, 1 Double Bed",
         "price": 3884.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room, 2 Twin Beds (Family)": {
         "name": "Superior Room, 2 Twin Beds (Family)",
         "price": 4122.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Executive Room, 1 Queen Bed with Sofa bed": {
         "name": "Executive Room, 1 Queen Bed with Sofa bed",
         "price": 4298.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Al Mustaqbal Street, Dubai, 9622, United Arab Emirates",
@@ -23115,19 +23665,22 @@
         "name": "Room, 1 King Bed",
         "price": 3121.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 2 Twin Beds": {
         "name": "Room, 2 Twin Beds",
         "price": 3331.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room, 1 King Bed, Pool View": {
         "name": "Room, 1 King Bed, Pool View",
         "price": 3541.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "45th St., Dubai, United Arab Emirates",
@@ -23225,19 +23778,22 @@
         "name": "Superior Room",
         "price": 4376.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Double Room": {
         "name": "Superior Double Room",
         "price": 4579.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Room (Sky)": {
         "name": "Superior Room (Sky)",
         "price": 4768.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Jumeirah Village Circle, Dubai, 118561, United Arab Emirates",
@@ -23334,13 +23890,15 @@
         "name": "Room (Rover)",
         "price": 3919.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Room (Rover - Burj View)": {
         "name": "Room (Rover - Burj View)",
         "price": 4143.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "312 Al Mustaqbal Street, Zabeel 2, Dubai, United Arab Emirates",
@@ -23458,19 +24016,22 @@
         "name": "Executive Room, Balcony (Creek View & Lounge Access)",
         "price": 4520.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Standard Room, Balcony (Creek View)": {
         "name": "Standard Room, Balcony (Creek View)",
         "price": 4724.0,
         "maxOccupants": 2,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Junior Suite (Creek View & Lounge Access)": {
         "name": "Junior Suite (Creek View & Lounge Access)",
         "price": 4970.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Bani Yas Road, Deira, Dubai, 476, United Arab Emirates",
@@ -23583,19 +24144,22 @@
         "name": "Superior Room, 1 King Bed, Balcony (Grand)",
         "price": 6338.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Superior Twin Room, 2 Twin Beds, Balcony (Grand)": {
         "name": "Superior Twin Room, 2 Twin Beds, Balcony (Grand)",
         "price": 6572.0,
         "maxOccupants": 3,
-        "roomsAvailable": 2
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Panoramic Suite, 1 Bedroom": {
         "name": "Panoramic Suite, 1 Bedroom",
         "price": 6664.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Meydan Racecourse, Al Meydan Road, Nad Al Sheba, Dubai, 9305, United Arab Emirates",
@@ -23688,19 +24252,22 @@
         "name": "Deluxe Suite, 1 Bedroom, Non Smoking",
         "price": 4665.0,
         "maxOccupants": 3,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Deluxe Room, 1 King Bed": {
         "name": "Deluxe Room, 1 King Bed",
         "price": 4832.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       },
       "Premium Suite, 1 Bedroom, Non Smoking": {
         "name": "Premium Suite, 1 Bedroom, Non Smoking",
         "price": 5065.0,
         "maxOccupants": 2,
-        "roomsAvailable": 3
+        "roomsAvailable": 1,
+        "roomsBookedOn": []
       }
     },
     "address": "Sheikh Zayed Road, Next to Al Attar, Trade Centre Area, Dubai, 2260, United Arab Emirates",

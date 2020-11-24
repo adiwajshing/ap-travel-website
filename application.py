@@ -426,13 +426,18 @@ def addBooking(booking, authDict, hotelId):
         if allRooms.get(roomName) is None:
             return Response(status=403, response='Room with this name not available')
 
-        if booking['status'] == 'booked' and allRooms[roomName]['roomsAvailable'] < roomNumber:
+        if allRooms[roomName]['roomsAvailable'] < roomNumber:
             return Response(status=403, response='Not Enough Rooms of this type')
 
-        else:
-            allRooms[roomName]['roomsAvailable'] = allRooms[roomName]['roomsAvailable'] - roomNumber
-            price = price + (allRooms[roomName]['price'] * roomNumber)
+        timeDiff = booking['bookingDetails']['check_Out'] - booking['bookingDetails']['check_In']
+        for i in range(timeDiff.days):
+            middleDay = booking['bookingDetails']['check_In'] + timedelta(days=i)
+            if middleDay.strftime('%d/%m/%Y') in allRooms[roomName]['roomsBookedOn']:
+                return Response(status=403, response='Not Enough Rooms of this type on given dates')
+            else:
+                allRooms[roomName]['roomsBookedOn'].append(middleDay.strftime('%d/%m/%Y'))
 
+        price = price + (allRooms[roomName]['price'] * roomNumber)
     
     bookingId = ''.join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase, k = 20))
 
@@ -452,7 +457,7 @@ def addBooking(booking, authDict, hotelId):
 # Delete booking
 @app.route('/api/profile/bookings/<string:bookingId>', methods=['DELETE']) # 
 @userId_required
-def booking(authDict, bookingId):
+def delBooking(authDict, bookingId):
 
     userId = authDict.get('userId')
 
@@ -466,8 +471,14 @@ def booking(authDict, bookingId):
             return Response(status=404, response='Hotel Not Found')
         allRooms = hotel['rooms']
         
-        for roomName, roomNumber in bookingDict['bookingDetails']['room'].items():
-            allRooms[roomName]['roomsAvailable'] = allRooms[roomName]['roomsAvailable'] + roomNumber
+        prevDays = set()
+        timeDiff = bookingDict['bookingDetails']['check_Out'] - bookingDict['bookingDetails']['check_In']
+        for i in range(timeDiff.days):
+            middleDay = bookingDict['bookingDetails']['check_In'] + timedelta(days=i)
+            prevDays.add(middleDay.strftime('%d/%m/%Y'))
+
+        for roomName in bookingDict['bookingDetails']['room'].keys():
+            allRooms[roomName]['roomsBookedOn'] = list(set(allRooms[roomName]['roomsBookedOn']) - prevDays)
         
         db.collection('hotels').document(bookingDict['hotelId']).update({'rooms':allRooms})
     
@@ -475,22 +486,48 @@ def booking(authDict, bookingId):
 
     return Response(response='Deleted', status=200)
 
-# Edit bookings
+# Convert reserve to booking
 @app.route('/api/profile/bookings/<string:bookingId>/', methods=['PATCH']) # 
 @userId_required
-@verifyEdits
-def editBooking(booking, authDict, bookingId):
+def editBooking(authDict, bookingId):
 
     userId = authDict.get('userId')
+    booking = db.collection('users').document(userId).collection('bookings').document(bookingId).get().to_dict()
 
-    try:
-        db.collection('users').document(userId).collection('bookings').document(bookingId).update(booking)
-    except NotFound:
+    if booking is None:
         return Response(status=404, response='Booking not found')
+    if booking['status'] == 'booked':
+        return Response(status=403, response='Alredy booked, try bookings with reserved status')
 
-    data = db.collection('users').document(userId).collection('bookings').document(bookingId).get().to_dict()
+    hotelId = booking['hotelId']
+    hotel = db.collection('hotels').document(hotelId).get().to_dict()
+    if hotel is None:
+        return Response(status=404, response='Hotel Not Found')
 
-    return jsonify(data)
+    allRooms = hotel['rooms']
+    for roomName, roomNumber in booking['bookingDetails']['room'].items():
+        
+        if allRooms.get(roomName) is None:
+            return Response(status=403, response='Room with this name not available')
+
+        if allRooms[roomName]['roomsAvailable'] < roomNumber:
+            return Response(status=403, response='Not Enough Rooms of this type')
+
+        timeDiff = booking['bookingDetails']['check_Out'] - booking['bookingDetails']['check_In']
+        for i in range(timeDiff.days):
+            middleDay = booking['bookingDetails']['check_In'] + timedelta(days=i)
+            if middleDay.strftime('%d/%m/%Y') in allRooms[roomName]['roomsBookedOn']:
+                return Response(status=403, response='Not Enough Rooms of this type on given dates')
+            else:
+                allRooms[roomName]['roomsBookedOn'].append(middleDay.strftime('%d/%m/%Y'))
+    
+    booking['status'] = 'booked'
+    booking['timestamp'] = datetime.now()
+
+    db.collection('users').document(userId).collection('bookings').document(bookingId).update(booking)
+    db.collection('hotels').document(hotelId).update({'rooms':allRooms})
+
+    return jsonify(booking)
 
 
 #=========================
