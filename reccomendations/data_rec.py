@@ -1,7 +1,22 @@
 import json
+import re
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize 
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 from tqdm import tqdm
+
+#====================================================
+
+starWeight = {"0":4, "1":3, "2":2, "3":1, "4":0}
+starKeys = [int(x) for x in starWeight.keys()]
+
+priceWeight = {"500":5, "750":4, "1000":3, "1250":2, "1500":1, "1750":0}
+priceKeys = [int(x) for x in priceWeight.keys()]
+
+stopWordSet = set(stopwords.words('english'))
+
+#====================================================
 
 def cleanTags(fileName='tagFrequency'):
     
@@ -223,11 +238,8 @@ def userPreferenceScoring(indvHotel, preferences):
     score = 0
     scoreWeight = 0.5
 
-    starWeight = {"0":4, "1":3, "2":2, "3":1, "4":0}
-    starKeys = [int(x) for x in starWeight.keys()]
-
-    priceWeight = {"500":5, "750":4, "1000":3, "1250":2, "1500":1, "1750":0}
-    priceKeys = [int(x) for x in priceWeight.keys()]
+    indvHotelReview = set()
+    reviewWeight = 1/30
 
     priceDiff = abs(indvHotel['price']['current_price'] - preferences['avgPrice'])
     starDiff = abs(indvHotel['starRating'] - preferences['avgStar'])
@@ -239,11 +251,23 @@ def userPreferenceScoring(indvHotel, preferences):
     score += starWeight[str(starRange)]
 
     for tag in indvHotel['tags']:
-        score = score + (preferences['commonTags'].get(tag) or 0)
+        if tag in preferences['commonTags']:
+            score += 1
     
-    # reviews
-    
-    return score * scoreWeight
+    for review in indvHotel['reviews']:
+        tempReviewSet = set(review['review'].split()) - stopWordSet
+        indvHotelReview = indvHotelReview.union(tempReviewSet)
+
+    indvHotelReview = [re.sub(r'[^\w\s]', '', x.lower()) for x in indvHotelReview]
+    for reviewWord in indvHotelReview:
+        if not reviewWord.isalpha():
+            indvHotelReview.remove(reviewWord)
+
+    # Citation: next line taken from https://www.geeksforgeeks.org/python-percentage-similarity-of-lists/
+    similarity = round(len(set(indvHotelReview) & set(preferences['reviewWords'])) / float(len(set(indvHotelReview) | set(preferences['reviewWords']))) * 100)
+    score = score + (similarity * reviewWeight)
+
+    return round(score * scoreWeight, 3)
 
 def runRecEngine(hotelId):
 
@@ -259,12 +283,6 @@ def runRecEngine(hotelId):
     cityWeight = 4
     neighbourhoodWeight = 5
     fuzzyWeight = 0.1
-
-    starWeight = {"0":4, "1":3, "2":2, "3":1, "4":0}
-    starKeys = [int(x) for x in starWeight.keys()]
-
-    priceWeight = {"500":5, "750":4, "1000":3, "1250":2, "1500":1, "1750":0}
-    priceKeys = [int(x) for x in priceWeight.keys()]
 
     calcWeight = dict()
 
@@ -312,3 +330,63 @@ def runRecEngine(hotelId):
     final = [int(k) for k in calcWeight.keys()][0:10]
 
     return final
+
+def addAvgHotel(hotelInfo, avgHotel):
+
+    if avgHotel is None:
+
+        commonTags = set(hotelInfo['tags'])
+        reviewWords = set()
+        
+        for review in hotelInfo['reviews']:
+            tempReviewSet = set(review['review'].split()) - stopWordSet
+            reviewWords = reviewWords.union(tempReviewSet)
+
+        reviewWords = [re.sub(r'[^\w\s]', '', x.lower()) for x in reviewWords]
+        for reviewWord in reviewWords:
+            if not reviewWord.isalpha():
+                reviewWords.remove(reviewWord)
+
+        returnDict = {
+            'totalHotels': 1,
+            'avgPrice': hotelInfo['price']['current_price'],
+            'avgStar': hotelInfo['starRating'],
+            'commonTags': list(commonTags),
+            'reviewWords': reviewWords
+        }
+
+        return returnDict
+
+    totalHotels = avgHotel['totalHotels']
+    oldAvgPrice = avgHotel['avgPrice']
+    oldAvgStar = avgHotel['avgStar']
+    oldTags = set(avgHotel['commonTags'])
+    oldReviewWords = set(avgHotel['reviewWords'])
+
+    newAvgPrice = ((oldAvgPrice * totalHotels)  + hotelInfo['price']['current_price']) / (totalHotels + 1)
+    newAvgStar = ((oldAvgStar * totalHotels)  + hotelInfo['starRating']) / (totalHotels + 1)
+
+    indvHotelReview = set()
+    for review in hotelInfo['reviews']:
+        tempReviewSet = set(review['review'].split()) - stopWordSet
+        indvHotelReview = indvHotelReview.union(tempReviewSet)
+
+    indvHotelReview = [re.sub(r'[^\w\s]', '', x.lower()) for x in indvHotelReview]
+    for reviewWord in indvHotelReview:
+        if not reviewWord.isalpha():
+            indvHotelReview.remove(reviewWord)
+        else:
+            oldReviewWords.add(reviewWord)
+
+    for tag in hotelInfo['tags']:
+        oldTags.add(tag)
+
+    returnDict = {
+        'totalHotels': totalHotels + 1,
+        'avgPrice': round(newAvgPrice, 3),
+        'avgStar': round(newAvgStar, 3),
+        'commonTags': list(oldTags),
+        'reviewWords': list(oldReviewWords)
+    }
+
+    return returnDict

@@ -24,7 +24,7 @@ from profiles import verifySignUp, verifySignIn, verifyProfile
 from bookings import dateConvert, verifyBooking, verifyEdits
 from searching import verifySearch, verifyFuzzy
 from others import verifyReview, cacheFunc
-from reccomendations.data_rec import runRecEngine
+from reccomendations.data_rec import runRecEngine, addAvgHotel
 
 #==============================
 # Flask Setup
@@ -183,6 +183,11 @@ def viewUser(authDict):
 
     if data is None:
         return Response(status=404, response='User Info Not Found')
+
+    try:
+        data.pop('avgHotel')
+    except:
+        pass
 
     return jsonify(data)
 
@@ -451,6 +456,14 @@ def addBooking(booking, authDict, hotelId):
 
     if booking['status'] == 'booked': # update only if it is booked
         db.collection('hotels').document(hotelId).update({'rooms':allRooms})
+
+        try:
+            userInfo = db.collection('users').document(userId).get().to_dict()
+            avgHotel = userInfo.get('avgHotel')
+            newAvgHotel = addAvgHotel(hotel, avgHotel)
+            db.collection('users').document(userId).update({'avgHotel':newAvgHotel})
+        except:
+            pass
 
     return jsonify(booking)
 
