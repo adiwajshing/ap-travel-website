@@ -25,6 +25,7 @@ jobs:
     - name: Move frontend
       run: |
         mv -v frontend/build/web/* static/
+        mv -v static/assets/assets/* static/assets/
         rm -rf frontend
       
     - name: Deploy to Heroku

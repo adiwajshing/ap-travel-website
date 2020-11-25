@@ -71,8 +71,8 @@ app.register_blueprint(swaggerui_blueprint, url_prefix=SWAGGER_URL)
 #==============================
 # Error Handling
 
-@app.errorhandler(404)
-def page_not_found(e):
+@app.route('/', methods=["GET"])
+def index():
     return app.send_static_file('index.html'), 200
 
 #==============================
