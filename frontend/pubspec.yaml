@@ -1,0 +1,32 @@
+name: frontend
+description: Web app for Staysia
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^4.3.2+2
+  dio: ^3.0.10
+  pedantic: ^1.9.2
+  logger_flutter: ^0.7.1
+  shared_preferences: ^0.5.12+4
+  page_transition: ^1.1.7+2
+  rflutter_alert: ^1.1.0
+  flutter_spinkit: ^4.1.2+1
+  pretty_dio_logger: ^1.1.1
+  firebase_auth: null
+  google_sign_in: null
+  overlay_support: ^1.0.5
+  carousel_slider: ^2.3.1
+  flutter_rating: ^0.0.2
+  get: ^3.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

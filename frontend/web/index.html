@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      Fore more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+    -->
+    <base href="/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Staysia">
+
+    <meta name="google-signin-client_id"
+          content="118406109624-du841vfr6mpam0mjn0u2fnd7s1ls0v3b.apps.googleusercontent.com">
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="staysia_web">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>Staysia</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+
+<script>
+      var firebaseConfig = {
+    "apiKey": "AIzaSyDjjvDaL8yVhgF2SqKQKl5yUn7TX1oa-OQ",
+    "authDomain": "e-travel-d1276.firebaseapp.com",
+    "databaseURL": "https://e-travel-d1276.firebaseio.com",
+    "projectId": "e-travel-d1276",
+    "storageBucket": "e-travel-d1276.appspot.com",
+    "messagingSenderId": "118406109624",
+    "appId": "1:118406109624:web:4308162416c87b6a40574d",
+    "measurementId": "G-BTNWDBEXSR"
+}
+      firebase.initializeApp(firebaseConfig);
+
+</script>
+
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+
+</script>
+
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
