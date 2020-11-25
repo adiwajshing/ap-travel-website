@@ -94,11 +94,11 @@ class NavigationController {
             .toList()
             .cast<Hotel>();
       } else {
-        return null;
+        return [];
       }
     } catch (e) {
       logger.e(e);
-      return null;
+      return [];
     }
   }
 
