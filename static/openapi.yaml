@@ -291,6 +291,8 @@ paths:
           description: Invalid Search Term
         '404':
           description: No Such City
+      security:
+        - Bearer: []
     
   /api/searchbar:
     get:
@@ -435,6 +437,8 @@ paths:
                 $ref: '#/components/schemas/search'
         '404':
           description: Hotel Not Found
+      security:
+        - Bearer: []
       
   
   /api/profile/bookings:

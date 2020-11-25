@@ -24,7 +24,7 @@ from profiles import verifySignUp, verifySignIn, verifyProfile
 from bookings import dateConvert, verifyBooking, verifyEdits
 from searching import verifySearch, verifyFuzzy
 from others import verifyReview, cacheFunc
-from reccomendations.data_rec import runRecEngine, addAvgHotel
+from reccomendations.data_rec import runRecEngine, addAvgHotel, userPreferenceScoring
 
 #==============================
 # Flask Setup
@@ -104,6 +104,32 @@ def userId_required(f):
 
     return decorated
 
+def userId_passed(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+
+        try:
+            token = request.headers['Authorization']
+            token = token.split('Bearer ')[1]
+        except:
+            return f(None, *args, **kwargs)
+
+        # Obtaining userID using token
+        try:
+            decodeToken = auth.verify_id_token(token)
+            try:
+                userId = decodeToken['uid']
+            except:
+                userId = authCnx.get_account_info(token).get('users')[0]['localId']
+        except:
+            return f(None, *args, **kwargs)
+        
+        authDict = {'userId':userId, 'token':token}
+
+        return f(authDict, *args, **kwargs)
+
+    return decorated
+
 #=========================
 # OAUTH2 SECTION
 #=========================
@@ -148,8 +174,13 @@ def addGUser(authDict):
     if existing is not None: # if user already exists
         return Response(status=200, response='User Already Exists')
 
+    try:
+        name = authDict.get('email')[:authDict.get('email').index('@')]
+    except:
+        name = authDict.get('email')
+
     data = {
-        'name': authDict.get('name') or '...',
+        'name': name,
         'email': authDict.get('email'),
         'phone_number': None
     }
@@ -219,7 +250,8 @@ def homepage():
 # Universal Hotel search on pressing ENTER
 @app.route('/api/search', methods=['GET'])
 @verifySearch()
-def search(q, city, check_In, check_Out):
+@userId_passed
+def search(authDict, q, city, check_In, check_Out):
 
     if city:
         hotelNames = searchCityHotels.get(city).keys()
@@ -228,6 +260,20 @@ def search(q, city, check_In, check_Out):
 
     editDistance = 60
     fuzzy = process.extractBests(q, hotelNames, score_cutoff=editDistance, limit=len(hotelNames))
+
+    if authDict is not None:
+        newFuzzy = []
+        userId = authDict.get('userId')
+        userPreferences = db.collection('users').document(userId).get().to_dict().get('avgHotel')
+
+        if userPreferences is not None:
+            for hotelIndex in range(len(fuzzy)):
+                userScore = userPreferenceScoring(searchHotels[fuzzy[hotelIndex][0]]['id'], userPreferences)
+                newFuzzy.append((fuzzy[hotelIndex][0],fuzzy[hotelIndex][1] + userScore))
+
+            newFuzzy.sort(key = lambda x: x[1], reverse=True)
+            fuzzy = newFuzzy
+
     searchList = [hotel[0] for hotel in fuzzy]
 
     if len(searchList) > 10:
@@ -374,9 +420,19 @@ def getHotel(hotelId):
 
 # Reccomendations
 @app.route('/api/hotel/<string:hotelId>/reccomendations', methods=['GET'])
-def getRecc(hotelId):
+@userId_passed
+def getRecc(authDict, hotelId):
 
-    hotelIds = runRecEngine(hotelId)
+    if authDict is None:
+        hotelIds = runRecEngine(hotelId, None)
+    else:
+        userId = authDict.get('userId')
+        userPreferences = db.collection('users').document(userId).get().to_dict().get('avgHotel')
+
+        if userPreferences is None:
+            hotelIds = runRecEngine(hotelId, None)
+        else:
+            hotelIds = runRecEngine(hotelId, userPreferences)
 
     if hotelIds is None:
         return Response(status=404, response='Hotel Not Found')
@@ -540,6 +596,16 @@ def editBooking(authDict, bookingId):
     db.collection('users').document(userId).collection('bookings').document(bookingId).update(booking)
     db.collection('hotels').document(hotelId).update({'rooms':allRooms})
 
+    try:
+        userInfo = db.collection('users').document(userId).get().to_dict()
+        avgHotel = userInfo.get('avgHotel')
+        newAvgHotel = addAvgHotel(hotel, avgHotel)
+        db.collection('users').document(userId).update({'avgHotel':newAvgHotel})
+    except:
+        print('Reserve to Average Failed')
+        pass
+
+
     return jsonify(booking)
 
 
@@ -563,9 +629,9 @@ def addReview(review, authDict, hotelId):
 
     review['id'] = reviewId
     try:
-        review['name'] = db.collection('users').document(authDict.get('userId')).get().to_dict().get('name') or 'Some Name'
+        review['name'] = db.collection('users').document(authDict.get('userId')).get().to_dict().get('name') or 'Anonymous'
     except:
-        review['name'] = 'Some Name'
+        review['name'] = 'Anonymous'
     hotel['reviews'].insert(0, review)
     
     tempHotel = {

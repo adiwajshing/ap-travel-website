@@ -17,6 +17,7 @@ priceKeys = [int(x) for x in priceWeight.keys()]
 
 stopWordSet = set(stopwords.words('english'))
 
+allHotelsX = json.load(open('reccomendations/hashHotels.json'))
 #====================================================
 
 def cleanTags(fileName='tagFrequency'):
@@ -237,7 +238,11 @@ def engine(fileName='reccomended'):
 def userPreferenceScoring(indvHotel, preferences):
 
     score = 0
-    scoreWeight = 0.5
+    scoreWeight = 1
+
+    if isinstance(indvHotel, int):
+        indvHotel =  allHotelsX[str(indvHotel)]
+        scoreWeight = 0.2 #less scores for search
 
     indvHotelReview = set()
     reviewWeight = 1/30
@@ -270,7 +275,7 @@ def userPreferenceScoring(indvHotel, preferences):
 
     return round(score * scoreWeight, 3)
 
-def runRecEngine(hotelId):
+def runRecEngine(hotelId, preferences=None):
 
     allHotels = json.load(open('reccomendations/hashHotels.json'))
     tagHash = json.load(open('search/searchTags.json'))
@@ -326,6 +331,11 @@ def runRecEngine(hotelId):
                     calcWeight[tempId] = calcWeight[tempId] + cityWeight
         
             calcWeight[tempId] = round(calcWeight[tempId] * indvHotel['rating'], 3)
+    
+    if preferences is not None: # do user based scoring
+        for selectedHotels in calcWeight:
+            userScore = userPreferenceScoring(allHotels[selectedHotels], preferences)
+            calcWeight[selectedHotels] = calcWeight[selectedHotels] + userScore
 
     calcWeight = {k: v for k, v in sorted(calcWeight.items(), key=lambda item: item[1], reverse=True)}
     final = [int(k) for k in calcWeight.keys()][0:10]
