@@ -91,16 +91,24 @@ def userId_required(f):
         # Obtaining userID using token
         try:
             decodeToken = auth.verify_id_token(token)
-            print(decodeToken)
             try:
                 userId = decodeToken['uid']
             except:
-                userId = authCnx.get_account_info(token).get('users')[0]['localId']
-                print(authCnx.get_account_info(token))
+                decodeToken = authCnx.get_account_info(token)
+                userId = decodeToken.get('users')[0]['localId']
+
+            try:
+                info = {
+                    'name': decodeToken['name'],
+                    'email': decodeToken['email']
+                }
+            except:
+                info = {}
+
         except:
             return Response(status=401, response='Token Verification Failed')
         
-        authDict = {'userId':userId, 'token':token}
+        authDict = {'userId':userId, 'token':token, 'info':info}
 
         return f(authDict, *args, **kwargs)
 
@@ -176,14 +184,9 @@ def addGUser(authDict):
     if existing is not None: # if user already exists
         return Response(status=200, response='User Already Exists')
 
-    try:
-        name = authDict.get('email')[:authDict.get('email').index('@')]
-    except:
-        name = authDict.get('email')
-
     data = {
-        'name': name,
-        'email': authDict.get('email'),
+        'name': authDict['info'].get('name') or 'Unknown',
+        'email': authDict['info'].get('email') or 'Unknown',
         'phone_number': None
     }
 
