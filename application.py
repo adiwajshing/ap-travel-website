@@ -91,10 +91,12 @@ def userId_required(f):
         # Obtaining userID using token
         try:
             decodeToken = auth.verify_id_token(token)
+            print(decodeToken)
             try:
                 userId = decodeToken['uid']
             except:
                 userId = authCnx.get_account_info(token).get('users')[0]['localId']
+                print(authCnx.get_account_info(token))
         except:
             return Response(status=401, response='Token Verification Failed')
         
@@ -327,20 +329,37 @@ def fuzzySearch(q, city):
 # Advanced search using tags
 @app.route('/api/search/tags', methods=['GET'])
 @verifySearch()
-def advancedSearch(q, city, check_In, check_Out):
+@userId_passed
+def advancedSearch(authDict, q, city, check_In, check_Out):
 
     tagNames = searchTags.keys()
     fuzzy = process.extractBests(q, tagNames, limit=3)
-    tagList = list()
     searchList = set()
+    scoreKeeper = dict()
 
-    for tag in fuzzy:
-        tagList.append(tag[0])
-    for tag in tagList:
-        searchList = searchList.union(set(list(searchTags.get(tag).keys())))
+    for tag in range(len(fuzzy)):
+        tempList = searchTags.get(fuzzy[tag][0]).keys()
+        searchList = searchList.union(tempList)
+
+        if authDict is not None:
+            for hotel in tempList:
+                oldScore = scoreKeeper.get(hotel) or 0
+                scoreKeeper[hotel] = oldScore + (10 - (tag * 4)) # scoring on fuzzy tag: 1st tag: 10, 2nd: 6, 3rd: 2    
 
     if city:
         searchList = searchList.intersection(set(list(searchTags.get(city.lower()).keys())))
+    
+    if authDict is not None:
+
+        userId = authDict.get('userId')
+        userPref = db.collection('users').document(userId).get().to_dict().get('avgHotel')
+
+        if userPref is not None:
+            for hotel in scoreKeeper:
+                userScore = userPreferenceScoring(hotel, userPref)
+                scoreKeeper[hotel] = scoreKeeper[hotel] + userScore
+
+        searchList = [k for k, v in sorted(scoreKeeper.items(), key=lambda item: item[1], reverse=True)]
 
     searchList = [int(x) for x in searchList]
 

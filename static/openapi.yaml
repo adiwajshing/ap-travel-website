@@ -391,6 +391,9 @@ paths:
           description: Invalid Search Term
         '404':
           description: No Such City
+      security:
+        - Bearer: []
+      
 
   /api/hotel/{hotelId}:
     get:
