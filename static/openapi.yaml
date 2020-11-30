@@ -551,7 +551,33 @@ paths:
           description: Forbidden Errors
         '404':
           description: Hotel or Booking Not Found
-      
+  
+  /api/profile/bookings/email/{bookingId}:
+
+    get:
+      summary: Convert reserved booking into confirmed booking using booking ID
+      description: 'Takes bookingId from path and returns JSON of new booking after conversion from reserved to booked. Bsically works as a checkout feature and actually blocks the date for a hotel.'
+      operationId: emailBooking
+      tags: [Booking]
+      parameters:
+        - name: bookingId
+          in: path
+          required: true
+          schema:
+            type: string
+      security:
+        - Bearer: []
+
+      responses:
+        '200':
+          description: Email sent
+        '401':
+          description: Unauthorized
+        '403':
+          description: Failed to send
+        '404':
+          description: Valid booking not found
+
   /api/hotel/{hotelId}/review:
     put:
       summary: Add a review to a hotel

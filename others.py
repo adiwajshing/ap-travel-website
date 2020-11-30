@@ -58,3 +58,28 @@ def cacheFunc(minutes=5, content_type='application/json; charset=utf-8'):
     return fwrap
 
 #==============================
+
+def emailFormat(booking):
+
+    message = f'''Greetings {booking.get('bookingDetails').get('bookingName')}!
+
+We are pleased to confirm your booking at the {booking.get('title')}. Your confirmation number is {booking.get('bookingId').upper()}.
+
+Here are your reservation details:
+Check-In: {booking.get('bookingDetails').get('check_In').strftime('%B %d, %Y')}
+Check-Out: {booking.get('bookingDetails').get('check_Out').strftime('%B %d, %Y')}
+Total Guests: {booking.get('bookingDetails').get('guests')}
+Rooms: {','.join(booking.get('bookingDetails').get('room').keys())}
+
+General Instructions:
+
+1) An Invoice of ₹{booking.get('price')} will be provided to you on check-in. 
+2) Please carry a ID Proof for verification at the Front Desk. 
+3) Since these are trying times for all of us, we humbly ask you to follow COVID-19 safety guidlines during your travel. As an agent between you and the hotel, the responibility of providing health guarantees often falls on us and thus we request all our clients to take necessary precautions, while we make sure the hotels do the same for you :)
+
+The iconic, stylish and sophisticated, {booking.get("title")} offers stunning, leading edge design with a genuine, inviting ambiance sure to delight travel savvy, modern guests and it can't wait for your visit!!
+
+Looking forward to welcoming you soon! Until then, write to us with any concerns.
+The Staysia Booking Team'''
+
+    return message

@@ -3,6 +3,7 @@ from flask import Flask, request, Response, redirect, jsonify
 from flask_swagger_ui import get_swaggerui_blueprint
 from cerberus import Validator
 from flask_cors import CORS
+from flask_mail import Mail, Message
 import firebase_admin
 from firebase_admin import auth, credentials, firestore
 from fuzzywuzzy import process
@@ -23,7 +24,7 @@ from datetime import datetime, timedelta
 from profiles import verifySignUp, verifySignIn, verifyProfile
 from bookings import dateConvert, verifyBooking, verifyEdits
 from searching import verifySearch, verifyFuzzy
-from others import verifyReview, cacheFunc
+from others import verifyReview, cacheFunc, emailFormat
 from reccomendations.data_rec import runRecEngine, addAvgHotel, userPreferenceScoring
 
 #==============================
@@ -46,6 +47,17 @@ except:
     cred = credentials.Certificate(json.load(open('fbAdminConfig.json')))
 default_app = firebase_admin.initialize_app(cred)
 db = firestore.client()
+
+#==============================
+# Configure Email
+
+mail = Mail()
+app.config["MAIL_SERVER"] = "smtp.gmail.com"
+app.config["MAIL_PORT"] = 465
+app.config["MAIL_USE_SSL"] = True
+app.config["MAIL_USERNAME"] = os.getenv('MAIL_USER')
+app.config["MAIL_PASSWORD"] = os.getenv('MAIL_PASS')
+mail.init_app(app)
 
 #==============================
 # In Memory Searching
@@ -629,6 +641,38 @@ def editBooking(authDict, bookingId):
 
 
     return jsonify(booking)
+
+
+@app.route('/api/profile/bookings/email/<string:bookingId>', methods=['GET'])
+@userId_required
+def emailBooking(authDict, bookingId):
+
+    userId = authDict.get('userId')
+    ref = db.collection('users').document(userId)
+
+    userEmail = authDict['info'].get('email')
+
+    if userEmail is None:
+        profile = ref.get().to_dict()
+        userEmail = profile.get('email')
+    
+    if userEmail is None:
+        return Response(status=403, response='Failed to send email')
+
+    booking = ref.collection('bookings').document(bookingId).get().to_dict()
+
+    if booking is None or booking.get('status') != 'booked':
+        return Response(status=404, response='Valid booking not found or booking is of reserved type')
+
+    msg = Message(f"Your Staysia Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
+    msg.body = emailFormat(booking)
+
+    try:
+        mail.send(msg)
+    except:
+        return Response(status=403, response='Failed to send email')
+
+    return Response(status=200, response='Email Sent')
 
 
 #=========================
