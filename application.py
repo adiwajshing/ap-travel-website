@@ -8,6 +8,7 @@ import firebase_admin
 from firebase_admin import auth, credentials, firestore
 from fuzzywuzzy import process
 from google.api_core.exceptions import NotFound
+from pdfgeneratorapi import PDFGenerator
 import pyrebase
 import requests
 import gunicorn
@@ -58,6 +59,9 @@ app.config["MAIL_USE_SSL"] = True
 app.config["MAIL_USERNAME"] = os.getenv('MAIL_USER')
 app.config["MAIL_PASSWORD"] = os.getenv('MAIL_PASS')
 mail.init_app(app)
+
+pdf_client = PDFGenerator(api_key=os.getenv('PDF_KEY'),api_secret=os.getenv('PDF_SECRET'))
+pdf_client.set_workspace('staysia.bookings@gmail.com')
 
 #==============================
 # In Memory Searching
@@ -559,7 +563,7 @@ def addBooking(booking, authDict, hotelId):
 
         userEmail = userInfo.get('email')
 
-        msg = Message(f"Your Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
+        msg = Message(f"Your Staysia Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
         msg.body = emailFormat(booking)
         
         try:
@@ -655,7 +659,7 @@ def editBooking(authDict, bookingId):
 
     return jsonify(booking)
 
-
+# Email Booking
 @app.route('/api/profile/bookings/email/<string:bookingId>', methods=['GET'])
 @userId_required
 def emailBooking(authDict, bookingId):
@@ -677,7 +681,7 @@ def emailBooking(authDict, bookingId):
     if booking is None or booking.get('status') != 'booked':
         return Response(status=404, response='Valid booking not found or booking is of reserved type')
 
-    msg = Message(f"Your Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
+    msg = Message(f"Your Staysia Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
     msg.body = emailFormat(booking)
 
     try:
@@ -687,6 +691,34 @@ def emailBooking(authDict, bookingId):
 
     return Response(status=200, response='Email Sent')
 
+# Download PDF
+@app.route('/api/profile/bookings/pdf/<string:bookingId>', methods=['GET'])
+@userId_required
+def downloadPDF(authDict, bookingId):
+
+    userId = authDict.get('userId')
+    booking = db.collection('users').document(userId).collection('bookings').document(bookingId).get().to_dict()
+
+    if booking is None or booking.get('status') != 'booked':
+        return Response(status=404, response='Valid booking not found or booking is of reserved type')
+
+    booking['bookingDetails']['check_In'] = booking['bookingDetails']['check_In'].strftime('%B %d, %Y')
+    booking['bookingDetails']['check_Out'] = booking['bookingDetails']['check_Out'].strftime('%B %d, %Y')
+
+    temp = ''
+
+    for k, v in booking['bookingDetails']['room'].items():
+        temp += f'{k}: {v}; '
+    
+    booking['bookingDetails']['room'] = temp.rstrip('; ')
+    booking.pop('timestamp')
+    
+    try:
+        responsePDF = pdf_client.create_document(template_id=172921, data=booking, document_format="pdf", response_format="url")
+    except:
+        return Response(status=403, response='Error in generating PDF')
+        
+    return responsePDF.response
 
 #=========================
 # REVIEW ROUTES

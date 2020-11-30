@@ -3,6 +3,7 @@ from flask import request, Response
 from datetime import datetime, timedelta
 from functools import wraps
 from cerberus import Validator
+import json
 
 
 #==============================
@@ -63,20 +64,17 @@ def emailFormat(booking):
 
     message = f'''Greetings {booking.get('bookingDetails').get('bookingName')}!
 
-We are pleased to confirm your booking at the {booking.get('title')}.
+We are pleased to confirm your booking at the {booking.get('title')}. Your reservation number is {booking.get('bookingId').upper()}.
 
 Here are your reservation details:
 
-Reservation Number: {booking.get('bookingId').upper()}
-Reservation Status: Booked
-Booked Under Name: {booking.get('bookingDetails').get('bookingName')}
-
+Reservation Status: Confirmed
 Hotel Name: {booking.get('title')}
 Check In Date: {booking.get('bookingDetails').get('check_In').strftime('%B %d, %Y')}
 Check Out Date: {booking.get('bookingDetails').get('check_Out').strftime('%B %d, %Y')}
 
 Total Guests: {booking.get('bookingDetails').get('guests')}
-Rooms: {','.join(booking.get('bookingDetails').get('room').keys())}
+Rooms: {';'.join(booking.get('bookingDetails').get('room').keys())}
 Price: ₹{booking.get('price')}
 
 General Instructions:
