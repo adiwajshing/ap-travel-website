@@ -555,8 +555,8 @@ paths:
   /api/profile/bookings/email/{bookingId}:
 
     get:
-      summary: Convert reserved booking into confirmed booking using booking ID
-      description: 'Takes bookingId from path and returns JSON of new booking after conversion from reserved to booked. Bsically works as a checkout feature and actually blocks the date for a hotel.'
+      summary: Send a booking email to user.
+      description: "Call this route only after you receive a 200 confirmation from the Add Booking PUT route and only if the type/status was 'booked' not 'reserved'. So once you have received the 200 from the PUT route, like usual redirect to the bookings page and then call this in the background. If it returns 200, tell user that you have sent a confirmation email. Also next to the delete button on the booking card in the user's all booking page, have a email icon that when clicked on resends the email by calling this route once more."
       operationId: emailBooking
       tags: [Booking]
       parameters:
