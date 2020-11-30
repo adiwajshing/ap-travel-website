@@ -240,7 +240,7 @@ def userPreferenceScoring(indvHotel, preferences):
     score = 0
     scoreWeight = 1
 
-    if isinstance(indvHotel, int):
+    if isinstance(indvHotel, int) or isinstance(indvHotel, str):
         indvHotel =  allHotelsX[str(indvHotel)]
         scoreWeight = 0.2 #less scores for search
 

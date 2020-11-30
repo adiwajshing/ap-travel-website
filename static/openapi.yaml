@@ -556,7 +556,7 @@ paths:
 
     get:
       summary: Send a booking email to user.
-      description: "Call this route only after you receive a 200 confirmation from the Add Booking PUT route and only if the type/status was 'booked' not 'reserved'. So once you have received the 200 from the PUT route, like usual redirect to the bookings page and then call this in the background. If it returns 200, tell user that you have sent a confirmation email. Also next to the delete button on the booking card in the user's all booking page, have a email icon that when clicked on resends the email by calling this route once more."
+      description: "If route returns 200, tell user that you have sent a confirmation email. Also next to the delete button on the booking card in the user's all booking page, have a email icon that when clicked on resends the email confirmation by calling this route once more."
       operationId: emailBooking
       tags: [Booking]
       parameters:

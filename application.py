@@ -546,13 +546,26 @@ def addBooking(booking, authDict, hotelId):
 
     if booking['status'] == 'booked': # update only if it is booked
         db.collection('hotels').document(hotelId).update({'rooms':allRooms})
+        userInfo = db.collection('users').document(userId).get().to_dict()
 
         try:
-            userInfo = db.collection('users').document(userId).get().to_dict()
             avgHotel = userInfo.get('avgHotel')
             newAvgHotel = addAvgHotel(hotel, avgHotel)
             db.collection('users').document(userId).update({'avgHotel':newAvgHotel})
         except:
+            pass
+
+        #=========================
+
+        userEmail = userInfo.get('email')
+
+        msg = Message(f"Your Staysia Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
+        msg.body = emailFormat(booking)
+        
+        try:
+            mail.send(msg)
+        except:
+            print('Mail sending error')
             pass
 
     return jsonify(booking)
