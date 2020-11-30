@@ -63,13 +63,21 @@ def emailFormat(booking):
 
     message = f'''Greetings {booking.get('bookingDetails').get('bookingName')}!
 
-We are pleased to confirm your booking at the {booking.get('title')}. Your confirmation number is {booking.get('bookingId').upper()}.
+We are pleased to confirm your booking at the {booking.get('title')}.
 
 Here are your reservation details:
-Check-In: {booking.get('bookingDetails').get('check_In').strftime('%B %d, %Y')}
-Check-Out: {booking.get('bookingDetails').get('check_Out').strftime('%B %d, %Y')}
+
+Reservation Number: {booking.get('bookingId').upper()}
+Reservation Status: Booked
+Booked Under Name: {booking.get('bookingDetails').get('bookingName')}
+
+Hotel Name: {booking.get('title')}
+Check In Date: {booking.get('bookingDetails').get('check_In').strftime('%B %d, %Y')}
+Check Out Date: {booking.get('bookingDetails').get('check_Out').strftime('%B %d, %Y')}
+
 Total Guests: {booking.get('bookingDetails').get('guests')}
 Rooms: {','.join(booking.get('bookingDetails').get('room').keys())}
+Price: ₹{booking.get('price')}
 
 General Instructions:
 

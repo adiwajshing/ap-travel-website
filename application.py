@@ -559,7 +559,7 @@ def addBooking(booking, authDict, hotelId):
 
         userEmail = userInfo.get('email')
 
-        msg = Message(f"Your Staysia Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
+        msg = Message(f"Your Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
         msg.body = emailFormat(booking)
         
         try:
@@ -677,7 +677,7 @@ def emailBooking(authDict, bookingId):
     if booking is None or booking.get('status') != 'booked':
         return Response(status=404, response='Valid booking not found or booking is of reserved type')
 
-    msg = Message(f"Your Staysia Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
+    msg = Message(f"Your Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
     msg.body = emailFormat(booking)
 
     try:
