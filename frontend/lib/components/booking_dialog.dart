@@ -459,8 +459,12 @@ class _BookingDialogState extends State<BookingDialog> {
       return 0;
     } else {
       var sum = 0;
-      for (var temp in roomsData.values) {
-        sum += temp as int;
+      for (var roomName in roomsData.keys) {
+        sum += (widget.hotel.rooms
+                    .firstWhere((element) => element.name == roomName)
+                    .maxOccupants *
+                (roomsData[roomName] as int))
+            .toInt();
       }
       return sum;
     }
@@ -524,7 +528,7 @@ class _BookingDialogState extends State<BookingDialog> {
         ),
         background: Colors.deepOrange,
       );
-    } else if(isCheckoutDate && dateTime==checkInDateTime) {
+    } else if (isCheckoutDate && dateTime == checkInDateTime) {
       dateTime = checkOutDateTime;
       showSimpleNotification(
         Text(
@@ -533,7 +537,7 @@ class _BookingDialogState extends State<BookingDialog> {
         ),
         background: Colors.deepOrange,
       );
-    }else if(!isCheckoutDate && dateTime==checkOutDateTime) {
+    } else if (!isCheckoutDate && dateTime == checkOutDateTime) {
       dateTime = checkInDateTime;
       showSimpleNotification(
         Text(

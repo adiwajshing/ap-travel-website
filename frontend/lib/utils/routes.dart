@@ -10,6 +10,7 @@ const patchProfile = '/profile';
 const getHome = '/';
 const getHotelsWithTags = '/tags/'; //needs {tag}
 const searchHotelsWithName = '/search';
+const advanceSearch = '/search/tags';
 const fuzzySearch = '/searchbar'; //Fuzzy search for search bar
 // const fuzzyTagSearch = '/search/tags';
 const getHotelById = '/hotel/'; // needs {hotelId}

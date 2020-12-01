@@ -32,8 +32,8 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
   @override
   void initState() {
     getResults = (widget.queryParamsAndType['useAdvanceSearch'] as bool)
-        ? NavigationController.getHotelsWithTagController(
-            tag: widget.queryParamsAndType['q'] as String,
+        ? NavigationController.advanceSearchController(
+            q: widget.queryParamsAndType['q'] as String,
           )
         : NavigationController.searchHotelWithNameController(
             q: widget.queryParamsAndType['q'] as String,
