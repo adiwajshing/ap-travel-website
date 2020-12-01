@@ -563,7 +563,7 @@ def addBooking(booking, authDict, hotelId):
 
         userEmail = userInfo.get('email')
 
-        msg = Message(f"Your Staysia Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
+        msg = Message(f"Your Hotel Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
         msg.body = emailFormat(booking)
         
         try:
@@ -655,7 +655,15 @@ def editBooking(authDict, bookingId):
     except:
         print('Reserve to Average Failed')
         pass
-
+    
+    try:
+        userEmail = userInfo.get('email')
+        msg = Message(f"Your Hotel Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
+        msg.body = emailFormat(booking)
+        mail.send(msg)
+    except:
+        print('Mail sending error')
+        pass
 
     return jsonify(booking)
 
@@ -681,7 +689,7 @@ def emailBooking(authDict, bookingId):
     if booking is None or booking.get('status') != 'booked':
         return Response(status=404, response='Valid booking not found or booking is of reserved type')
 
-    msg = Message(f"Your Staysia Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
+    msg = Message(f"Your Hotel Booking! #{booking.get('bookingId').upper()}", sender='staysia@gmail.com', recipients=[userEmail])
     msg.body = emailFormat(booking)
 
     try:

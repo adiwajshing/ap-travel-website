@@ -581,7 +581,7 @@ paths:
   /api/profile/bookings/pdf/{bookingId}:
 
     get:
-      summary: Send a booking email to user.
+      summary: Generate PDF of booking.
       description: "Next to the delete button on the booking card in the user's all booking page, have a print option that when clicked on returns a url of a pdf which you open up in the tab for the user."
       operationId: pdfBooking
       tags: [Booking]
