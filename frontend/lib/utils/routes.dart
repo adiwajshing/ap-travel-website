@@ -22,6 +22,7 @@ const getBookings = '/profile/bookings';
 const addNewBooking = '/profile/bookings/'; //needs {hotelId}
 const deleteBookingById = '/profile/bookings/'; //needs {bookingId}
 const editBookingById = '/profile/bookings/'; //needs {bookingId}
+const printBookingPdf = '/profile/bookings/pdf/';
 
 // Review routes
 const addReviewToHotel = '/hotel/{hotelId}/review'; //needs {hotelId}

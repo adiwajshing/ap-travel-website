@@ -60,7 +60,7 @@ class _GoogleButtonState extends State<GoogleButton> {
                       .setLoggedInStatus(true);
                   showSimpleNotification(
                     Text(
-                      'Logged in!!!',
+                      'Logged in',
                       style: TextStyle(color: Colors.white),
                     ),
                     background: Colors.green,

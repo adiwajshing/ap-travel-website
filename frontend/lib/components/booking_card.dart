@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:overlay_support/overlay_support.dart';
 import 'package:frontend/controller/booking_controller.dart';
 import 'package:frontend/models/booking.dart';
+import 'dart:js' as js;
 
 import '../main.dart';
 
@@ -162,7 +164,59 @@ class _BookingCardState extends State<BookingCard> {
               child: Row(
                 children: [
                   widget.booking.status == 'booked'
-                      ? SizedBox.shrink()
+                      ? IconButton(
+                          icon: Icon(
+                            Icons.print,
+                            color: Colors.white,
+                          ),
+                          tooltip: 'Print Booking',
+                          onPressed: () async {
+                            try {
+                              setState(() {
+                                isLoading = true;
+                              });
+                              // ignore: omit_local_variable_types
+                              String pdfUrl = await BookingController
+                                  .printBookingPdfController(
+                                      bookingId: widget.booking.bookingId);
+                              if (pdfUrl != null) {
+                                setState(() {
+                                  isLoading = false;
+                                });
+                                showSimpleNotification(
+                                  Text(
+                                    'Successfully printed booking!',
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  background: Colors.green,
+                                );
+                                js.context.callMethod('open', [pdfUrl]);
+                              } else {
+                                showSimpleNotification(
+                                  Text(
+                                    'An error occurred while printing booking.',
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  background: Colors.red,
+                                );
+                                setState(() {
+                                  isLoading = false;
+                                });
+                              }
+                            } catch (e) {
+                              logger.e(e);
+                              showSimpleNotification(
+                                Text(
+                                  'An error occurred while printing booking.',
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                                background: Colors.red,
+                              );
+                              setState(() {
+                                isLoading = false;
+                              });
+                            }
+                          })
                       : IconButton(
                           icon: Icon(
                             Icons.check,
@@ -231,7 +285,7 @@ class _BookingCardState extends State<BookingCard> {
                                                                   context);
                                                               showSimpleNotification(
                                                                 Text(
-                                                                  'Successfully confirmed booking!!!',
+                                                                  'Successfully confirmed booking!',
                                                                   style: TextStyle(
                                                                       color: Colors
                                                                           .white),
@@ -369,11 +423,9 @@ class _BookingCardState extends State<BookingCard> {
                                 });
                           },
                         ),
-                  widget.booking.status == 'booked'
-                      ? SizedBox.shrink()
-                      : SizedBox(
-                          width: 10,
-                        ),
+                  SizedBox(
+                    width: 10,
+                  ),
                   IconButton(
                     tooltip: 'Delete booking',
                     icon: Icon(
@@ -567,7 +619,17 @@ class _BookingCardState extends State<BookingCard> {
                 ],
               ),
             ),
-          )
+          ),
+          isLoading
+              ? Center(
+                child: Container(
+                    color: Colors.white.withOpacity(0.7),
+                    child: SpinKitCircle(
+                      color: Theme.of(context).accentColor,
+                    ),
+                  ),
+              )
+              : SizedBox.shrink()
         ],
       ),
     );
