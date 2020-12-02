@@ -489,7 +489,7 @@ class _BookingCardState extends State<BookingCard> {
                                                         Navigator.pop(context);
                                                         showSimpleNotification(
                                                           Text(
-                                                            'Successfully deleted booking!!!',
+                                                            'Successfully deleted booking!',
                                                             style: TextStyle(
                                                                 color: Colors
                                                                     .white),

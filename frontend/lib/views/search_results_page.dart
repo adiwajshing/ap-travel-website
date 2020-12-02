@@ -11,6 +11,7 @@ import 'package:frontend/components/hotel_card.dart';
 import 'package:frontend/components/responsive_widget.dart';
 import 'package:frontend/controller/navigation_controller.dart';
 import 'package:frontend/models/hotel.dart';
+import 'package:frontend/utils/constants.dart';
 
 import 'home_page.dart';
 
@@ -28,6 +29,7 @@ class SearchResultsPage extends StatefulWidget {
 class _SearchResultsPageState extends State<SearchResultsPage> {
   Future<List<Hotel>> getResults;
   List<Hotel> results = [];
+  String selectedCity;
 
   @override
   void initState() {
@@ -117,6 +119,10 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                           ),
                         ),
                         _sortingWidgets(),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        _filterByCities()
                       ],
                     )
                   : Row(
@@ -147,6 +153,8 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                         ),
                         Spacer(),
                         _sortingWidgets(),
+                        // Spacer(),
+                        _filterByCities()
                       ],
                     ),
             ),
@@ -157,9 +165,15 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                       snapshot.connectionState == ConnectionState.done) {
                     // ignore: omit_local_variable_types
                     results = snapshot.data;
+                    if (selectedCity != null) {
+
+                      results = results
+                          .where((element) => element.city == selectedCity).toList();
+                    }
                     if (results.isEmpty) {
                       return NoData(message: 'No results found');
                     } else {
+
                       return Expanded(
                         child: GridView.builder(
                           padding: EdgeInsets.symmetric(
@@ -199,6 +213,37 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                 }),
           ],
         ),
+      ),
+    );
+  }
+
+  Widget _filterByCities() {
+    return Container(
+      padding: EdgeInsets.fromLTRB(10, 5, 5, 5),
+      margin: EdgeInsets.symmetric(horizontal: 5),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(10),
+        boxShadow: [BoxShadow(color: Colors.grey, blurRadius: 5)],
+      ),
+      child: DropdownButton(
+        hint: Text(
+          'Select City',
+          style: TextStyle(color: Colors.grey[800], fontSize: 14),
+        ),
+        icon: Icon(Icons.location_on),
+        underline: SizedBox.shrink(),
+        value: selectedCity,
+        items: cities
+            .map((e) => DropdownMenuItem(
+                  child: Text(e),
+                  value: e,
+                ))
+            .toList(),
+        onChanged: (String value) {
+          selectedCity = value;
+          setState(() {});
+        },
       ),
     );
   }
