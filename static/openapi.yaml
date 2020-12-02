@@ -442,6 +442,27 @@ paths:
           description: Hotel Not Found
       security:
         - Bearer: []
+  
+  /api/hotel/{hotelId}/network:
+    get:
+      summary: Gets hotels that other people stayed at w.r.t selected hotel
+      description: Show this in 'Others Also Stayed At' just like you did with the reccomendations.
+      operationId: getNetwork
+      tags: [Navigation]
+      parameters:
+        - name: hotelId
+          in: path
+          required: true
+          schema:
+            type: string
+      
+      responses:
+        '200':
+          description: Hotels other people stayed at generated and returned as a general search array
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/search'
       
   
   /api/profile/bookings:

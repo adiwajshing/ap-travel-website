@@ -486,6 +486,50 @@ def getRecc(authDict, hotelId):
 
     return jsonify(sortData)
 
+# Booking Network
+@app.route('/api/hotel/<string:hotelId>/network', methods=['GET'])
+def getNetwork(hotelId):
+
+    network = db.collection('bookingNetwork').document(hotelId).get().to_dict()
+    if network is None:
+        return jsonify([])
+    
+    rawList = network.get('clients')
+    clientList = {k: v for k, v in sorted(rawList.items(), key=lambda item: item[1], reverse=True)[:10]}
+
+    if rawList != clientList:
+        db.collection('bookingNetwork').document(hotelId).update({'clients':clientList})
+
+    destinationId = network['destinationId']
+    unionHotels = set()
+
+    for client in clientList:
+        tempBookings = db.collection('users').document(client).collection('bookings').get()
+        if tempBookings is None or tempBookings == []:
+            continue
+
+        data = [indv.to_dict().get('hotelId') for indv in tempBookings]
+        unionHotels = unionHotels.union(set(data))
+
+    unionHotels = unionHotels.remove(hotelId)
+    if unionHotels is None or len(unionHotels) < 1:
+        return jsonify([])
+
+    unionHotels = [int(y) for y in unionHotels]
+    unionHotels = [unionHotels[i * 10:(i + 1) * 10] for i in range((len(unionHotels) + 10 - 1) // 10 )]
+
+    finalData = list()
+
+    for subList in unionHotels:
+        hotelsRef = db.collection('hotelSummary').where('destinationId', '==', destinationId).where('id', 'in', subList)
+        hotels = hotelsRef.order_by('starRating', direction=firestore.firestore.Query.DESCENDING).limit(10).get()
+        for result in hotels:
+            if len(finalData) >= 10:
+                return jsonify(finalData)
+            finalData.append(result.to_dict())
+    
+    return jsonify(finalData)
+
 #=========================
 # BOOKING ROUTES
 #=========================
@@ -557,6 +601,7 @@ def addBooking(booking, authDict, hotelId):
             newAvgHotel = addAvgHotel(hotel, avgHotel)
             db.collection('users').document(userId).update({'avgHotel':newAvgHotel})
         except:
+            print('Avg Hotel error')
             pass
 
         #=========================
@@ -571,6 +616,28 @@ def addBooking(booking, authDict, hotelId):
         except:
             print('Mail sending error')
             pass
+        
+        try:
+            oldNetwork = db.collection('bookingNetwork').document(hotelId).get().to_dict()
+
+            if oldNetwork is None:
+                db.collection('bookingNetwork').document(hotelId).set({
+                    'clients':{userId: 1},
+                    'city': hotel['city'],
+                    'destinationId': hotel['destinationId']
+                })
+
+            else:
+                ref = 'clients.' + userId
+
+                if userId in oldNetwork['clients']:
+                    db.collection('bookingNetwork').document(hotelId).update({ref: firestore.firestore.Increment(1)})
+                else:
+                    db.collection('bookingNetwork').document(hotelId).update({ref: 0})
+        except:
+            print('Network adding error')
+            pass
+
 
     return jsonify(booking)
 
@@ -664,6 +731,28 @@ def editBooking(authDict, bookingId):
     except:
         print('Mail sending error')
         pass
+
+    try:
+        oldNetwork = db.collection('bookingNetwork').document(hotelId).get().to_dict()
+
+        if oldNetwork is None:
+            db.collection('bookingNetwork').document(hotelId).set({
+                'clients':{userId: 1},
+                'city': hotel['city'],
+                'destinationId': hotel['destinationId']
+            })
+
+        else:
+            ref = 'clients.' + userId
+
+            if userId in oldNetwork['clients']:
+                db.collection('bookingNetwork').document(hotelId).update({ref: firestore.firestore.Increment(1)})
+            else:
+                db.collection('bookingNetwork').document(hotelId).update({ref: 0})
+    except:
+        print('Network adding error')
+        pass
+
 
     return jsonify(booking)
 
