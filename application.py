@@ -364,9 +364,6 @@ def advancedSearch(authDict, q, city, check_In, check_Out):
             for hotel in tempList:
                 oldScore = scoreKeeper.get(hotel) or 0
                 scoreKeeper[hotel] = oldScore + (10 - (tag * 4)) # scoring on fuzzy tag: 1st tag: 10, 2nd: 6, 3rd: 2    
-
-    if city:
-        searchList = searchList.intersection(set(list(searchTags.get(city.lower()).keys())))
     
     if authDict is not None:
 
@@ -393,8 +390,12 @@ def advancedSearch(authDict, q, city, check_In, check_Out):
     data = dict()
 
     for searchSubList in searchList:
+        
+        ref = db.collection('hotelSummary').where('id', 'in', searchSubList)
+        if city:
+            ref = ref.where('city', '==', city.title())
 
-        hotels = db.collection('hotelSummary').where('id', 'in', searchSubList).get()
+        hotels = ref.get()
 
         for result in hotels:
             result = result.to_dict()
@@ -495,10 +496,7 @@ def getNetwork(hotelId):
         return jsonify([])
     
     rawList = network.get('clients')
-    clientList = {k: v for k, v in sorted(rawList.items(), key=lambda item: item[1], reverse=True)[:10]}
-
-    if rawList != clientList:
-        db.collection('bookingNetwork').document(hotelId).update({'clients':clientList})
+    clientList = [k for k, v in sorted(rawList.items(), key=lambda item: item[1], reverse=True)[:10]]
 
     destinationId = network['destinationId']
     unionHotels = set()
