@@ -248,6 +248,25 @@ def createNewHotel(hotelInfo):
 
 #==============================
 
+def amenitiesAdder():
+
+    for hotelInfo in allHotels.values():
+
+        title = hotelInfo['title']
+        
+        if hotelSummary.get(title) is None:
+            print(f'Error:  {title}')
+            input('tanish')
+        
+        else:
+            hotelSummary[title]['tags'] =  hotelInfo['feature_bullets']['Main amenities']
+
+    jsonWrite = json.dumps(hotelSummary, indent = 2) 
+    with open('hotelSummary2.json', "w") as output: 
+        output.write(jsonWrite)
+
+#==============================
+
 for hotelId, hotelInfo in allHotels.items():
 
     idStr = hotelId

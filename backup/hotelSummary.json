@@ -15,7 +15,22 @@
     "rating": 8.6,
     "neighbourhood": "South West",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "70 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Business center",
+      "Train station pick-up service",
+      "In-room childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Garden",
+      "Free WiFi and free parking "
+    ]
   },
   "The Metropolitan Hotel and Spa New Delhi": {
     "id": 255037,
@@ -33,7 +48,22 @@
     "rating": 7.4,
     "neighbourhood": "Connaught Place",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "178 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "Business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Car rentals on site",
+      "Free WiFi and free parking "
+    ]
   },
   "Hotel City Star, Delhi": {
     "id": 424978,
@@ -51,7 +81,22 @@
     "rating": 8.0,
     "neighbourhood": "Paharganj",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "31 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Health club",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Computer station",
+      "Lobby fireplace",
+      "Front desk safe",
+      "Free WiFi and free parking "
+    ]
   },
   "ADB Rooms Gaurav Guest House, Delhi": {
     "id": 1858974400,
@@ -69,7 +114,13 @@
     "rating": 6.0,
     "neighbourhood": "Paharganj",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "400 smoke-free guestrooms",
+      "Daily housekeeping",
+      "24-hour front desk",
+      "Free WiFi "
+    ]
   },
   "Hotel Viva Palace, Delhi": {
     "id": 701094272,
@@ -87,7 +138,22 @@
     "rating": 9.0,
     "neighbourhood": "New Delhi",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "48 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Rooftop terrace",
+      "Conference center",
+      "24-hour front desk",
+      "Front desk safe",
+      "ATM/banking services",
+      "Laundry service",
+      "Meeting room",
+      "Concierge services",
+      "Wedding services",
+      "Free continental breakfast, free WiFi, and free parking "
+    ]
   },
   "Shangri-La's Eros Hotel, New Delhi": {
     "id": 242768,
@@ -105,7 +171,22 @@
     "rating": 8.8,
     "neighbourhood": "Connaught Place",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "320 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Garden",
+      "Free WiFi and free parking "
+    ]
   },
   "WelcomHotel Dwarka - Member ITC Hotel Group, Delhi": {
     "id": 392920,
@@ -123,7 +204,22 @@
     "rating": 7.8,
     "neighbourhood": "Dwarka",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "322 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Free WiFi and free parking "
+    ]
   },
   "Bloomrooms Janpath, Delhi": {
     "id": 953567200,
@@ -141,7 +237,22 @@
     "rating": 6.0,
     "neighbourhood": "Connaught Place",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "38 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "24-hour fitness center",
+      "Business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Water dispenser",
+      "Meeting room",
+      "Concierge services",
+      "Free newspapers in the lobby",
+      "Free WiFi and free parking "
+    ]
   },
   "Novotel New Delhi Aerocity Hotel": {
     "id": 495375,
@@ -159,7 +270,22 @@
     "rating": 8.5,
     "neighbourhood": "Aerocity",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "400 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "24-hour business center",
+      "In-room childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Free WiFi and free parking "
+    ]
   },
   "Radisson Blu Hotel New Delhi Dwarka": {
     "id": 391034,
@@ -177,7 +303,22 @@
     "rating": 7.6,
     "neighbourhood": "Dwarka",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "294 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "24-hour business center",
+      "Shopping center shuttle",
+      "Childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Free WiFi and free parking "
+    ]
   },
   "The Claridges New Delhi": {
     "id": 216075,
@@ -195,7 +336,22 @@
     "rating": 8.4,
     "neighbourhood": "New Delhi",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "132 smoke-free guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "Outdoor pool",
+      "Health club",
+      "Spa services",
+      "24-hour business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Garden",
+      "Free WiFi and free parking "
+    ]
   },
   "JW Marriott Hotel New Delhi Aerocity": {
     "id": 434655,
@@ -213,7 +369,22 @@
     "rating": 9.2,
     "neighbourhood": "Aerocity",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "511 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Business center",
+      "Limo/town car service",
+      "Childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Free WiFi in lobby and free parking "
+    ]
   },
   "The Leela Palace New Delhi": {
     "id": 353117,
@@ -231,7 +402,22 @@
     "rating": 9.2,
     "neighbourhood": "Diplomatic Enclave",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "254 shared guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "Childcare",
+      "24-hour front desk",
+      "Garden",
+      "Free continental breakfast, free WiFi, and free parking "
+    ]
   },
   "The Connaught, New Delhi - IHCL SeleQtions": {
     "id": 327741,
@@ -249,7 +435,22 @@
     "rating": 6.0,
     "neighbourhood": "Connaught Place",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "104 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour fitness center",
+      "4 meeting rooms",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Computer station",
+      "Front desk safe",
+      "ATM/banking services",
+      "Free Internet and free parking "
+    ]
   },
   "ibis New Delhi Aerocity Hotel": {
     "id": 399882,
@@ -267,7 +468,22 @@
     "rating": 8.0,
     "neighbourhood": "Aerocity",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "445 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "24-hour business center",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Computer station",
+      "Laundry service",
+      "Conference space",
+      "Free WiFi and free parking "
+    ]
   },
   "Pride Plaza Hotel Aerocity New Delhi": {
     "id": 563277,
@@ -285,7 +501,22 @@
     "rating": 9.0,
     "neighbourhood": "Aerocity",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "385 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "Business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Lobby fireplace",
+      "Free WiFi and free parking "
+    ]
   },
   "Hari Piorko Inn Express , Delhi": {
     "id": 644006656,
@@ -303,7 +534,22 @@
     "rating": 6.0,
     "neighbourhood": "Paharganj",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "35 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Full-service spa",
+      "Breakfast available",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Air conditioning",
+      "Computer station",
+      "Lobby fireplace",
+      "Front desk safe",
+      "Free WiFi "
+    ]
   },
   "Hotel White Castle, Delhi": {
     "id": 1666613408,
@@ -321,7 +567,22 @@
     "rating": 7.0,
     "neighbourhood": "Noida",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "50 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "24-hour business center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Computer station",
+      "Front desk safe",
+      "ATM/banking services",
+      "Vending machine",
+      "Water dispenser",
+      "Free WiFi and free parking "
+    ]
   },
   "Ambassador, New Delhi - IHCL SeleQtions": {
     "id": 179150,
@@ -339,7 +600,22 @@
     "rating": 6.9,
     "neighbourhood": "New Delhi",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "88 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Rooftop terrace",
+      "Breakfast available",
+      "24-hour health club",
+      "Valet parking",
+      "24-hour business center",
+      "Limo/town car service",
+      "In-room childcare",
+      "24-hour front desk",
+      "Free WiFi and free parking "
+    ]
   },
   "Hotel Red Stone , Delhi": {
     "id": 1758549376,
@@ -357,7 +633,14 @@
     "rating": 6.0,
     "neighbourhood": "South Extension",
     "city": "Delhi",
-    "destinationId": "675357"
+    "destinationId": "675357",
+    "tags": [
+      "300 guestrooms",
+      "Daily housekeeping",
+      "24-hour room service",
+      "24-hour front desk",
+      "Free WiFi "
+    ]
   },
   "Waterstones Hotel, Mumbai": {
     "id": 261061,
@@ -375,7 +658,22 @@
     "rating": 6.9,
     "neighbourhood": "Marol",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "99 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and 2 bars/lounges",
+      "Outdoor pool",
+      "Free children's club",
+      "Free area shuttle",
+      "Indoor tennis court",
+      "Spa services",
+      "24-hour business center",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Garden",
+      "Free WiFi in lobby and free parking "
+    ]
   },
   "Sahara Star, Mumbai": {
     "id": 186860,
@@ -393,7 +691,22 @@
     "rating": 6.7,
     "neighbourhood": "Vile Parle East",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "354 guestrooms",
+      "Daily housekeeping",
+      "5 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "Business center",
+      "Airport pick-up service",
+      "24-hour front desk",
+      "Front desk safe",
+      "ATM/banking services",
+      "Free WiFi and free parking "
+    ]
   },
   "The Leela Mumbai": {
     "id": 116390,
@@ -411,7 +724,22 @@
     "rating": 10.0,
     "neighbourhood": "Mumbai",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "392 guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "WiFi in the lobby",
+      "Health club",
+      "24-hour business center",
+      "Airport pick-up service",
+      "Terrace",
+      "24-hour front desk",
+      "Free parking "
+    ]
   },
   "Meluha - The Fern, Mumbai": {
     "id": 373983,
@@ -429,7 +757,22 @@
     "rating": 8.3,
     "neighbourhood": "Hiranandani Gardens",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "141 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "Business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Conference space",
+      "Multilingual staff",
+      "Free WiFi and free parking "
+    ]
   },
   "Niranta Transit Hotel Mumbai Airport": {
     "id": 600667,
@@ -447,7 +790,21 @@
     "rating": 8.0,
     "neighbourhood": "Vile Parle East",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "23 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Spa services",
+      "Business center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Concierge services",
+      "Luggage storage",
+      "Reception hall",
+      "Free WiFi "
+    ]
   },
   "Hotel Planet Residency, Mumbai": {
     "id": 457829,
@@ -465,7 +822,22 @@
     "rating": 8.8,
     "neighbourhood": "Vile Parle East",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "30 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Conference center",
+      "Airport shuttle",
+      "Terrace",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Garden",
+      "Front desk safe",
+      "Laundry service",
+      "Free WiFi "
+    ]
   },
   "The Orchid Ecotel Mumbai Airport": {
     "id": 139941,
@@ -483,7 +855,22 @@
     "rating": 6.7,
     "neighbourhood": "Vile Parle East",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "372 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Spa services",
+      "Conference center",
+      "Airport shuttle",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Free WiFi and free parking "
+    ]
   },
   "Kohinoor Elite, Mumbai": {
     "id": 386194,
@@ -501,7 +888,18 @@
     "rating": 8.3,
     "neighbourhood": "Christian Gaon",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "100 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Free continental breakfast, free WiFi, and free parking "
+    ]
   },
   "Rodas Hotel, Mumbai": {
     "id": 222650,
@@ -519,7 +917,22 @@
     "rating": 8.8,
     "neighbourhood": "Hiranandani Gardens",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "36 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "Business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Front desk safe",
+      "ATM/banking services",
+      "Laundry service",
+      "Free WiFi and free parking "
+    ]
   },
   "VITS Mumbai International Airport": {
     "id": 222651,
@@ -537,7 +950,22 @@
     "rating": 6.3,
     "neighbourhood": "Bhim Nagar",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "195 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Indoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Laundry service",
+      "Conference space",
+      "Multilingual staff",
+      "Free WiFi and free parking "
+    ]
   },
   "T24 Residency, Mumbai": {
     "id": 550330,
@@ -555,7 +983,22 @@
     "rating": 7.0,
     "neighbourhood": "Marol",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "55 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Library",
+      "Laundry service",
+      "Conference space",
+      "Free WiFi "
+    ]
   },
   "The Empresa Hotel, Mumbai": {
     "id": 670547,
@@ -573,7 +1016,22 @@
     "rating": 7.0,
     "neighbourhood": "Mumbai",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "33 guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Breakfast available",
+      "WiFi in the lobby",
+      "Health club",
+      "Spa services",
+      "Business center",
+      "24-hour front desk",
+      "Free parking "
+    ]
   },
   "The Fern Residency - Mumbai": {
     "id": 411066,
@@ -591,7 +1049,22 @@
     "rating": 7.5,
     "neighbourhood": "Chembur East",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "73 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and pool bar",
+      "Outdoor pool",
+      "Breakfast available",
+      "Business center",
+      "Airport drop-off service",
+      "Childcare",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Conference space",
+      "Free WiFi and free parking "
+    ]
   },
   "Sofitel Mumbai BKC Hotel": {
     "id": 374462,
@@ -609,7 +1082,22 @@
     "rating": 9.0,
     "neighbourhood": "Bandra Kurla complex",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "302 smoke-free guestrooms",
+      "Daily housekeeping",
+      "5 restaurants and 5 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Conference center",
+      "Airport shuttle",
+      "In-room childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Free WiFi and free parking "
+    ]
   },
   "The Mirador, Mumbai": {
     "id": 208245,
@@ -627,7 +1115,22 @@
     "rating": 6.5,
     "neighbourhood": "Chakala",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "106 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Computer station",
+      "Laundry service",
+      "Concierge services",
+      "Free newspapers in the lobby",
+      "Free WiFi and free parking "
+    ]
   },
   "President, Mumbai - IHCL SeleQtions": {
     "id": 151698,
@@ -645,7 +1148,22 @@
     "rating": 8.3,
     "neighbourhood": "Cuffe Parade",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "287 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Sauna",
+      "24-hour business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Free WiFi and free parking "
+    ]
   },
   "Sun N Sand Hotel Mumbai": {
     "id": 186440,
@@ -663,7 +1181,22 @@
     "rating": 7.9,
     "neighbourhood": "Juhu",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "120 guestrooms",
+      "Daily housekeeping",
+      "5 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "Childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Free parking "
+    ]
   },
   "Mirage Hotel, Mumbai": {
     "id": 279291,
@@ -681,7 +1214,22 @@
     "rating": 8.1,
     "neighbourhood": "Marol",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "126 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Breakfast available",
+      "24-hour fitness center",
+      "24-hour business center",
+      "Airport shuttle",
+      "Terrace",
+      "24-hour front desk",
+      "Garden",
+      "Car rentals on site",
+      "Free WiFi and free parking "
+    ]
   },
   "The Fern Goregaon, Mumbai": {
     "id": 647177,
@@ -699,7 +1247,22 @@
     "rating": 6.0,
     "neighbourhood": "Goregaon East",
     "city": "Mumbai",
-    "destinationId": "1640701"
+    "destinationId": "1640701",
+    "tags": [
+      "88 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "Airport shuttle",
+      "Childcare",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Laundry service",
+      "Free WiFi and free parking "
+    ]
   },
   "Renaissance Bengaluru Race Course Hotel": {
     "id": 866318656,
@@ -717,7 +1280,22 @@
     "rating": 7.0,
     "neighbourhood": "Gandhi Nagar",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "144 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Breakfast available",
+      "24-hour fitness center",
+      "Spa services",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Computer station",
+      "Free WiFi in lobby and free parking "
+    ]
   },
   "St. Mark's Hotel, Bengaluru": {
     "id": 313310,
@@ -735,7 +1313,22 @@
     "rating": 8.1,
     "neighbourhood": "Shanthala Nagar",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "96 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Fitness center",
+      "24-hour business center",
+      "Airport pick-up service",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Garden",
+      "Computer station",
+      "Free WiFi and free parking "
+    ]
   },
   "WelcomHotel Bengaluru - Member ITCHotel Group": {
     "id": 460981,
@@ -753,7 +1346,22 @@
     "rating": 10.0,
     "neighbourhood": "Bangalore City Center",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "115 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "Conference center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Computer station",
+      "Free parking "
+    ]
   },
   "The Fern Residency Yeshwanthpur, Bengaluru": {
     "id": 449047,
@@ -771,7 +1379,22 @@
     "rating": 8.5,
     "neighbourhood": "Yeshwanthpur",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "64 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Indoor pool",
+      "Breakfast available",
+      "Business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Laundry service",
+      "Conference space",
+      "Multilingual staff",
+      "Concierge services",
+      "Free WiFi and free parking "
+    ]
   },
   "ibis Bengaluru City Centre Hotel": {
     "id": 470467,
@@ -789,7 +1412,22 @@
     "rating": 7.1,
     "neighbourhood": "Bangalore City Center",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "173 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Fitness center",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Computer station",
+      "Lobby fireplace",
+      "Laundry service",
+      "Free WiFi and free parking "
+    ]
   },
   "The Leela Palace Bengaluru": {
     "id": 198732,
@@ -807,7 +1445,22 @@
     "rating": 8.1,
     "neighbourhood": "Bengaluru",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "357 guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Lobby fireplace",
+      "Free WiFi in lobby and free parking "
+    ]
   },
   "TS Royal Grand - Attibele, Hosur, Bengaluru": {
     "id": 737331232,
@@ -825,7 +1478,22 @@
     "rating": 7.0,
     "neighbourhood": "Bommasandra",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "38 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "24-hour health club",
+      "24-hour business center",
+      "24-hour front desk",
+      "Garden",
+      "Front desk safe",
+      "Laundry service",
+      "Multilingual staff",
+      "Free WiFi and free parking "
+    ]
   },
   "Shangri-La Hotel Bengaluru": {
     "id": 546124,
@@ -843,7 +1511,22 @@
     "rating": 9.0,
     "neighbourhood": "Vasanth Nagar",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "397 guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and 4 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Nightclub",
+      "Rooftop terrace",
+      "Breakfast available",
+      "24-hour health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "Childcare",
+      "Free WiFi and free parking "
+    ]
   },
   "Regenta Place, Bengaluru": {
     "id": 1090122048,
@@ -861,7 +1544,21 @@
     "rating": 8.0,
     "neighbourhood": "Shivaji Nagar",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "83 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Fitness center",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Self-serve laundry",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "TV in a common area",
+      "Free WiFi and free parking "
+    ]
   },
   "Sterlings Mac Hotel & Suites, Bengaluru": {
     "id": 366878,
@@ -879,7 +1576,22 @@
     "rating": 7.5,
     "neighbourhood": "Bengaluru",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "190 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Arcade/game room",
+      "Library",
+      "Free WiFi in lobby and free parking "
+    ]
   },
   "The Zinc Whitefield Bengaluru": {
     "id": 1773744832,
@@ -897,7 +1609,22 @@
     "rating": 8.0,
     "neighbourhood": "Whitefield",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "193 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Full-service spa",
+      "Outdoor pool",
+      "3 meeting rooms",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Front desk safe",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Free WiFi and free parking "
+    ]
   },
   "The Oberoi, Bengaluru": {
     "id": 130594,
@@ -915,7 +1642,22 @@
     "rating": 9.3,
     "neighbourhood": "Bengaluru",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "160 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "WiFi in the lobby",
+      "Fitness center",
+      "24-hour business center",
+      "Airport pick-up service",
+      "Childcare",
+      "Terrace",
+      "Free WiFi and free parking "
+    ]
   },
   "Grand Mercure Bengaluru": {
     "id": 307719,
@@ -933,7 +1675,22 @@
     "rating": 9.2,
     "neighbourhood": "Koramangala 3 Block",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "126 shared guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "Business center",
+      "Airport shuttle",
+      "Terrace",
+      "24-hour front desk",
+      "Garden",
+      "Free WiFi and free parking "
+    ]
   },
   "Iris Hotel, Bengaluru": {
     "id": 276446,
@@ -951,7 +1708,22 @@
     "rating": 8.0,
     "neighbourhood": "Bangalore City Center",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "60 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Fitness center",
+      "Spa services",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Air conditioning",
+      "Free WiFi and free parking "
+    ]
   },
   "Hotel Shyam Inn, Bengaluru": {
     "id": 1828285536,
@@ -969,7 +1741,18 @@
     "rating": 7.0,
     "neighbourhood": "Bengaluru",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "25 guestrooms",
+      "Daily housekeeping",
+      "24-hour room service",
+      "24-hour front desk",
+      "Air conditioning",
+      "Self-serve laundry",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Clarks Exotica Convention, Resort & Spa, Bengaluru": {
     "id": 376561,
@@ -987,7 +1770,22 @@
     "rating": 8.5,
     "neighbourhood": "Devanahalli",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "123 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Indoor and outdoor tennis courts",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Garden",
+      "Arcade/game room",
+      "Free WiFi and free parking "
+    ]
   },
   "The Oterra Bengaluru Electronics City": {
     "id": 343166,
@@ -1005,7 +1803,22 @@
     "rating": 7.7,
     "neighbourhood": "Electronics City",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "264 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Conference center",
+      "Airport shuttle",
+      "In-room childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Free WiFi and free parking "
+    ]
   },
   "Hotel DBrooks, Bengaluru": {
     "id": 1744079296,
@@ -1023,7 +1836,22 @@
     "rating": 10.0,
     "neighbourhood": "Brookefield",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "61 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Fitness center",
+      "24-hour front desk",
+      "Laundry service",
+      "Conference space",
+      "Multilingual staff",
+      "Concierge services",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "TV in a common area",
+      "Free WiFi and free parking "
+    ]
   },
   "Taj MG Road, Bengaluru": {
     "id": 212473,
@@ -1041,7 +1869,22 @@
     "rating": 9.1,
     "neighbourhood": "Ulsoor",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "167 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Nightclub",
+      "Breakfast available",
+      "Internet in the lobby",
+      "24-hour fitness center",
+      "24-hour business center",
+      "Airport shuttle",
+      "Childcare",
+      "Free WiFi and free parking "
+    ]
   },
   "Royal Orchid Central Bengaluru": {
     "id": 240388,
@@ -1059,7 +1902,22 @@
     "rating": 6.5,
     "neighbourhood": "Bangalore City Center",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "130 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "Fitness center",
+      "Business center",
+      "Airport shuttle",
+      "Childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Lobby fireplace",
+      "Free WiFi and free parking "
+    ]
   },
   "Ibis Bengaluru Outer Ring Road": {
     "id": 373122,
@@ -1077,7 +1935,22 @@
     "rating": 7.0,
     "neighbourhood": "Bellandur",
     "city": "Bengaluru",
-    "destinationId": "678196"
+    "destinationId": "678196",
+    "tags": [
+      "311 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool access",
+      "24-hour health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Computer station",
+      "Laundry service",
+      "Free WiFi and free parking "
+    ]
   },
   "ITC Kakatiya, a Luxury Collection Hotel, Hyderabad": {
     "id": 151249,
@@ -1095,7 +1968,22 @@
     "rating": 8.7,
     "neighbourhood": "Begumpet",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "188 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "WiFi in the lobby",
+      "Health club",
+      "24-hour business center",
+      "Train station pick-up service",
+      "24-hour front desk",
+      "Garden",
+      "Front desk safe",
+      "Free parking "
+    ]
   },
   "Ellaa Hotel Gachibowli, Hyderabad": {
     "id": 263039,
@@ -1113,7 +2001,22 @@
     "rating": 7.5,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "117 guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "Full-service spa",
+      "Indoor pool",
+      "Breakfast available",
+      "Sauna",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Laundry service",
+      "Free WiFi and free parking "
+    ]
   },
   "Radisson Blu Plaza Hotel Hyderabad Banjara Hills": {
     "id": 416468,
@@ -1131,7 +2034,22 @@
     "rating": 7.1,
     "neighbourhood": "Green Valley",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "155 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Free WiFi and free parking "
+    ]
   },
   "Novotel Hyderabad Airport Hotel": {
     "id": 269109,
@@ -1149,7 +2067,22 @@
     "rating": 9.6,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "292 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Free children's club",
+      "24-hour health club",
+      "Conference center",
+      "Train station pick-up service",
+      "Terrace",
+      "24-hour front desk",
+      "Free WiFi and free parking "
+    ]
   },
   "Mercure Hyderabad KCP Hotel": {
     "id": 551570,
@@ -1167,7 +2100,22 @@
     "rating": 6.0,
     "neighbourhood": "Punjagutta",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "128 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Rooftop terrace",
+      "Breakfast available",
+      "24-hour health club",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Garden",
+      "Computer station",
+      "Free WiFi and free parking "
+    ]
   },
   "Best Western Ashoka, Hyderabad": {
     "id": 530470,
@@ -1185,7 +2133,22 @@
     "rating": 8.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "77 guestrooms",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "24-hour fitness center",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Conference space",
+      "Hair salon",
+      "Multilingual staff",
+      "Free WiFi and free parking "
+    ]
   },
   "ITC Kohenur, a Luxury Collection Hotel, Hyderabad": {
     "id": 778299488,
@@ -1203,7 +2166,22 @@
     "rating": 8.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "274 guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Free parking "
+    ]
   },
   "Treebo Trend Acsys, Hyderabad": {
     "id": 1041405760,
@@ -1221,7 +2199,19 @@
     "rating": 9.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "31 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Conference center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Free on-the-go breakfast, free WiFi, and free parking "
+    ]
   },
   "Sri Simran Park Hotel, Hyderabad": {
     "id": 1285853184,
@@ -1239,7 +2229,12 @@
     "rating": 7.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "59 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant"
+    ]
   },
   "Treebo Trend Rain Tree, Hyderabad": {
     "id": 1158077088,
@@ -1257,7 +2252,17 @@
     "rating": 10.0,
     "neighbourhood": "HITEC City",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "47 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Air conditioning",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Free buffet breakfast, free WiFi, and free parking "
+    ]
   },
   "Novotel Hyderabad Convention Centre Hotel": {
     "id": 250985,
@@ -1275,7 +2280,22 @@
     "rating": 7.2,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "288 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Nightclub",
+      "Breakfast available",
+      "24-hour health club",
+      "Valet parking",
+      "24-hour business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "Free WiFi and free parking "
+    ]
   },
   "Treebo Tryst Tree Inn Jubliee, Hyderabad": {
     "id": 1434437184,
@@ -1293,7 +2313,17 @@
     "rating": 10.0,
     "neighbourhood": "Jubilee Hills",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "37 smoke-free guestrooms",
+      "Restaurant",
+      "Conference center",
+      "Air conditioning",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Free on-the-go breakfast, free WiFi, and free parking "
+    ]
   },
   "Le Meridien Hyderabad": {
     "id": 1417854464,
@@ -1311,7 +2341,22 @@
     "rating": 6.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "241 smoke-free guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Fitness center",
+      "Business center",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Front desk safe",
+      "Free WiFi in lobby and free parking "
+    ]
   },
   "The Manohar Hyderabad": {
     "id": 306133,
@@ -1329,7 +2374,22 @@
     "rating": 2.8,
     "neighbourhood": "Begumpet",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "128 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Massage/treatment rooms",
+      "Business center",
+      "Airport shuttle",
+      "Childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Free WiFi and free parking "
+    ]
   },
   "Vivanta Hyderabad, Begumpet": {
     "id": 397200,
@@ -1347,7 +2407,22 @@
     "rating": 8.5,
     "neighbourhood": "Begumpet",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "181 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "Business center",
+      "Airport shuttle",
+      "Childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Free WiFi and free parking "
+    ]
   },
   "Oakwood Residence Kapil Hyderabad": {
     "id": 512191,
@@ -1365,7 +2440,22 @@
     "rating": 7.0,
     "neighbourhood": "Nanakram Guda",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "158 apartments",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Indoor pool",
+      "Breakfast available",
+      "24-hour fitness center",
+      "Conference center",
+      "Airport pick-up service",
+      "Childcare",
+      "24-hour front desk",
+      "Front desk safe",
+      "Convenience store",
+      "Free WiFi and free parking "
+    ]
   },
   "Welkin Hotel , Hyderabad": {
     "id": 1835764160,
@@ -1383,7 +2473,22 @@
     "rating": 10.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "49 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Room service",
+      "Airport drop-off service",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Concierge services",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Tour/ticket assistance",
+      "Lockers available",
+      "Free WiFi and free parking "
+    ]
   },
   "Treebo Trend Wood Bridge, Hyderabad": {
     "id": 692429,
@@ -1401,7 +2506,22 @@
     "rating": 9.0,
     "neighbourhood": "Lakdi Ka Pul",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "57 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Business center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Multilingual staff",
+      "Concierge services",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Tour/ticket assistance",
+      "Free continental breakfast, free WiFi, and free parking "
+    ]
   },
   "HMC Hotel, Hyderabad": {
     "id": 1864318784,
@@ -1419,7 +2539,14 @@
     "rating": 9.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "55 smoke-free guestrooms",
+      "Daily housekeeping",
+      "24-hour room service",
+      "24-hour front desk",
+      "Free WiFi "
+    ]
   },
   "The Conclave, Hyderabad": {
     "id": 1568525472,
@@ -1437,7 +2564,20 @@
     "rating": 6.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "36 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Tour/ticket assistance",
+      "Lockers available",
+      "Free buffet breakfast, free WiFi, and free parking "
+    ]
   },
   "The Central Court Hotel, Hyderabad": {
     "id": 321657,
@@ -1455,7 +2595,22 @@
     "rating": 7.2,
     "neighbourhood": "Lakdi Ka Pul",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "76 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and 2 bars/lounges",
+      "Breakfast available",
+      "24-hour business center",
+      "Airport shuttle",
+      "Terrace",
+      "24-hour front desk",
+      "Laundry service",
+      "Conference space",
+      "Multilingual staff",
+      "Concierge services",
+      "Free WiFi and free parking "
+    ]
   },
   "Cannychoice Inn, Hyderabad": {
     "id": 1727182272,
@@ -1473,7 +2628,17 @@
     "rating": 9.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "45 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "24-hour front desk",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Free WiFi and free parking "
+    ]
   },
   "Hotel Lotus Grand, Hyderabad": {
     "id": 1564248448,
@@ -1491,7 +2656,18 @@
     "rating": 6.0,
     "neighbourhood": "Hyderabad",
     "city": "Hyderabad",
-    "destinationId": "685250"
+    "destinationId": "685250",
+    "tags": [
+      "97 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Air conditioning",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Lockers available",
+      "Free WiFi in lobby and free parking "
+    ]
   },
   "JW Marriott Hotel Pune": {
     "id": 361496,
@@ -1509,7 +2685,22 @@
     "rating": 9.0,
     "neighbourhood": "Model Colony",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "415 smoke-free guestrooms",
+      "Daily housekeeping",
+      "8 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Breakfast available",
+      "24-hour health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Free WiFi in lobby "
+    ]
   },
   "The Fern Residency, Pune": {
     "id": 580754,
@@ -1527,7 +2718,20 @@
     "rating": 10.0,
     "neighbourhood": "Bhosari",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "40 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "24-hour front desk",
+      "Laundry service",
+      "Concierge services",
+      "Barbecue grills",
+      "Free newspapers in the lobby",
+      "Reception hall",
+      "Free WiFi and free parking "
+    ]
   },
   "Sayaji Pune": {
     "id": 370202,
@@ -1545,7 +2749,22 @@
     "rating": 9.2,
     "neighbourhood": "Paud",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "240 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Free area shuttle",
+      "Fitness center",
+      "Spa services",
+      "Business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Garden",
+      "Front desk safe",
+      "Free buffet breakfast, free WiFi, and free parking "
+    ]
   },
   "The Ritz-Carlton, Pune": {
     "id": 1263495904,
@@ -1563,7 +2782,22 @@
     "rating": 8.0,
     "neighbourhood": "Yerawada",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "198 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Rooftop terrace",
+      "Breakfast available",
+      "5 meeting rooms",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Laundry service",
+      "Conference space",
+      "Hair salon",
+      "Free WiFi "
+    ]
   },
   "Ramee Grand Hotel and Spa, Pune": {
     "id": 403278,
@@ -1581,7 +2815,22 @@
     "rating": 6.1,
     "neighbourhood": "Shivajinagar",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "88 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Laundry service",
+      "Concierge services",
+      "Free WiFi and free parking "
+    ]
   },
   "Marriott Suites Pune": {
     "id": 279184,
@@ -1599,7 +2848,22 @@
     "rating": 8.6,
     "neighbourhood": "Mundhwa",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "199 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and 2 bars/lounges",
+      "Nightclub",
+      "Breakfast available",
+      "Free supervised kid's activities",
+      "Outdoor tennis court",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Garden",
+      "Arcade/game room",
+      "Free WiFi in lobby "
+    ]
   },
   "Amanora The Fern Hotels & Club, Pune": {
     "id": 701516,
@@ -1617,7 +2881,22 @@
     "rating": 8.0,
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "26 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "Business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Front desk safe",
+      "Laundry service",
+      "Conference space",
+      "Concierge services",
+      "Free WiFi and free parking "
+    ]
   },
   "Hotel Deccan Pavilion Pune": {
     "id": 569204736,
@@ -1635,7 +2914,22 @@
     "rating": 9.0,
     "neighbourhood": "Vadgaon Budruk",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "42 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "Business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Laundry service",
+      "Meeting room",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Tour/ticket assistance",
+      "Free WiFi "
+    ]
   },
   "Treebo Trend Popular Hotel, Pune": {
     "id": 1343339744,
@@ -1653,7 +2947,18 @@
     "rating": 8.0,
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "34 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Outdoor pool",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Free WiFi and free parking "
+    ]
   },
   "Blue Diamond - IHCL SeleQtions, Pune": {
     "id": 184710,
@@ -1671,7 +2976,22 @@
     "rating": 8.2,
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "110 smoke-free guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Internet in the lobby",
+      "Health club",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Free WiFi and free parking "
+    ]
   },
   "Royal Orchid Central Pune": {
     "id": 267814,
@@ -1689,7 +3009,22 @@
     "rating": 8.7,
     "neighbourhood": "Kalyani Nagar",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "115 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Front desk safe",
+      "Free WiFi and free parking "
+    ]
   },
   "Lemon Tree Hotel Viman Nagar Pune": {
     "id": 1144651008,
@@ -1707,7 +3042,20 @@
     "rating": 8.0,
     "neighbourhood": "Viman Nagar",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "69 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Fitness center",
+      "5 meeting rooms",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Self-serve laundry",
+      "Conference space",
+      "Free newspapers in the lobby",
+      "Free WiFi and free parking "
+    ]
   },
   "Treebo Tryst Grand Emerald, Pune": {
     "id": 600716,
@@ -1725,7 +3073,17 @@
     "rating": 7.0,
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "30 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Rooftop terrace",
+      "Business center",
+      "24-hour front desk",
+      "Laundry service",
+      "Free continental breakfast, free WiFi, and free parking "
+    ]
   },
   "Treebo Trend Park View, Pune": {
     "id": 629156,
@@ -1743,7 +3101,16 @@
     "rating": 10.0,
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "16 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "24-hour front desk",
+      "Self-serve laundry",
+      "Luggage storage",
+      "Free continental breakfast, free WiFi, and free parking "
+    ]
   },
   "Treebo Trip Hill View, Pune": {
     "id": 748742464,
@@ -1761,7 +3128,16 @@
     "rating": 8.0,
     "neighbourhood": "Shivajinagar",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "24 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Room service",
+      "Business center",
+      "24-hour front desk",
+      "Laundry service",
+      "Free continental breakfast, free WiFi, and free parking "
+    ]
   },
   "Hyatt Place Pune Hinjawadi": {
     "id": 493340,
@@ -1779,7 +3155,22 @@
     "rating": 6.0,
     "neighbourhood": "Phase 1",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "117 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour fitness center",
+      "24-hour business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Garden",
+      "Library",
+      "Free WiFi "
+    ]
   },
   "Courtyard by Marriott Pune Hinjewadi": {
     "id": 313971,
@@ -1797,7 +3188,22 @@
     "rating": 9.1,
     "neighbourhood": "Paud",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "153 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Breakfast available",
+      "24-hour business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Garden",
+      "Library",
+      "Front desk safe",
+      "Snack bar/deli",
+      "Free WiFi "
+    ]
   },
   "Vivanta Pune, Hinjawadi": {
     "id": 547751,
@@ -1815,7 +3221,22 @@
     "rating": 8.0,
     "neighbourhood": "Paud",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "150 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Indoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Spa services",
+      "Conference center",
+      "Airport shuttle",
+      "Terrace",
+      "24-hour front desk",
+      "Computer station",
+      "Free WiFi and free parking "
+    ]
   },
   "Bird Of Paradise Hospitality, Pune": {
     "id": 1048795840,
@@ -1833,7 +3254,18 @@
     "rating": 8.0,
     "neighbourhood": "Kharadi",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "30 guestrooms",
+      "Daily housekeeping",
+      "Room service",
+      "Conference center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Conference space",
+      "Porter/bellhop",
+      "Free WiFi and free parking "
+    ]
   },
   "ibis Pune Viman Nagar Hotel": {
     "id": 322079,
@@ -1851,7 +3283,22 @@
     "rating": 6.7,
     "neighbourhood": "Viman Nagar",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "160 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "24-hour fitness center",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Library",
+      "Computer station",
+      "Laundry service",
+      "Multilingual staff",
+      "Free WiFi and free parking "
+    ]
   },
   "Residency Club, Pune": {
     "id": 664677,
@@ -1869,7 +3316,22 @@
     "rating": 7.0,
     "neighbourhood": "Pune",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "22 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Indoor and outdoor tennis courts",
+      "Spa services",
+      "Business center",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Front desk safe",
+      "Free buffet breakfast, free WiFi, and free parking "
+    ]
   },
   "The Sirona Hotel, Pune": {
     "id": 491154,
@@ -1887,7 +3349,21 @@
     "rating": 6.6,
     "neighbourhood": "Koregaon Park",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "20 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Front desk safe",
+      "Laundry service",
+      "Meeting room",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Free buffet breakfast, free WiFi, and free parking "
+    ]
   },
   "Della Resorts, Pune": {
     "id": 439620,
@@ -1905,7 +3381,22 @@
     "rating": 5.4,
     "neighbourhood": "Kune Village",
     "city": "Pune",
-    "destinationId": "687594"
+    "destinationId": "687594",
+    "tags": [
+      "168 guestrooms",
+      "Daily housekeeping",
+      "5 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Nightclub",
+      "Breakfast available",
+      "WiFi in the lobby",
+      "Fitness center",
+      "24-hour business center",
+      "Airport pick-up service",
+      "Children's club",
+      "Free parking "
+    ]
   },
   "Hilton Tokyo Odaiba": {
     "id": 127950,
@@ -1923,7 +3414,21 @@
     "rating": 8.5,
     "neighbourhood": "Daiba",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "453 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "4 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Indoor pool and outdoor pool",
+      "Breakfast available",
+      "WiFi in the lobby",
+      "Free area shuttle",
+      "Health club",
+      "Self parking",
+      "24-hour business center"
+    ]
   },
   "The Royal Park Hotel Iconic Tokyo Shiodome": {
     "id": 205955,
@@ -1941,7 +3446,22 @@
     "rating": 7.7,
     "neighbourhood": "Shiodome",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "490 smoke-free guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "Full-service spa",
+      "Breakfast available",
+      "Fitness center",
+      "Conference center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Convenience store",
+      "Laundry service",
+      "Free Internet"
+    ]
   },
   "Sotetsu Fresa Inn Higashi Shinjuku, Tokyo": {
     "id": 312768,
@@ -1959,7 +3479,22 @@
     "rating": 7.9,
     "neighbourhood": "Okubo",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "311 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "Self parking",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Vending machine",
+      "Microwave in a common area",
+      "Laundry service",
+      "Multilingual staff",
+      "Free Internet"
+    ]
   },
   "Remm Plus Ginza, Tokyo": {
     "id": 1195432448,
@@ -1977,7 +3512,18 @@
     "rating": 7.0,
     "neighbourhood": "Ginza",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "238 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "24-hour front desk",
+      "Vending machine",
+      "Laundry service",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Hotel Mets Akihabara, Tokyo": {
     "id": 1181451104,
@@ -1995,7 +3541,19 @@
     "rating": 9.0,
     "neighbourhood": "Chiyoda",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "196 guestrooms",
+      "Daily housekeeping",
+      "Breakfast available",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Vending machine",
+      "Laundry service",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Omori Tokyu REI Hotel, Tokyo": {
     "id": 144186,
@@ -2013,7 +3571,22 @@
     "rating": 8.0,
     "neighbourhood": "Ota",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "197 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "4 meeting rooms",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Vending machine",
+      "Laundry service",
+      "Luggage storage",
+      "Ballroom",
+      "Free WiFi "
+    ]
   },
   "Mesm Tokyo, Autograph Collection": {
     "id": 1366909408,
@@ -2031,7 +3604,22 @@
     "rating": 7.0,
     "neighbourhood": "Kaigan",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "265 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "24-hour fitness center",
+      "Spa services",
+      "24-hour front desk",
+      "Front desk safe",
+      "Laundry service",
+      "Meeting room",
+      "Concierge services",
+      "Luggage storage",
+      "Porter/bellhop",
+      "Free WiFi "
+    ]
   },
   "Hotel Vista Premio Tokyo Akasaka": {
     "id": 719083456,
@@ -2049,7 +3637,21 @@
     "rating": 8.0,
     "neighbourhood": "Akasaka",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "140 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "24-hour front desk",
+      "Air conditioning",
+      "Vending machine",
+      "Microwave in a common area",
+      "Self-serve laundry",
+      "Multilingual staff",
+      "Luggage storage",
+      "Free Internet"
+    ]
   },
   "Le Petit Tokyo": {
     "id": 1909235456,
@@ -2067,7 +3669,12 @@
     "rating": 9.0,
     "neighbourhood": "Nishinippori",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "3 apartments",
+      "Housekeeping (on request)",
+      "Free WiFi "
+    ]
   },
   "Shinjuku Washington Hotel Main, Tokyo": {
     "id": 239916,
@@ -2085,7 +3692,22 @@
     "rating": 9.0,
     "neighbourhood": "Nishi-Shinjuku",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "1297 guestrooms",
+      "Daily housekeeping",
+      "15 restaurants and bar/lounge",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Convenience store",
+      "ATM/banking services",
+      "Laundry service",
+      "Multilingual staff",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Via Inn Nihonbashi Ningyocho, Tokyo": {
     "id": 1182701376,
@@ -2103,7 +3725,17 @@
     "rating": 8.0,
     "neighbourhood": "Nihonbashiningyocho",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "240 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Breakfast available",
+      "24-hour front desk",
+      "Microwave in a common area",
+      "Refrigerator in a common area",
+      "Self-serve laundry",
+      "Free WiFi "
+    ]
   },
   "Citadines Central Shinjuku Tokyo": {
     "id": 268046,
@@ -2121,7 +3753,22 @@
     "rating": 8.0,
     "neighbourhood": "Kabukicho",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "206 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "24-hour front desk",
+      "Convenience store",
+      "Microwave in a common area",
+      "Laundry service",
+      "Multilingual staff",
+      "Concierge services",
+      "Luggage storage",
+      "Tour/ticket assistance",
+      "Newspapers in lobby (surcharge)",
+      "Free WiFi "
+    ]
   },
   "APA Hotel Pride, Tokyo": {
     "id": 1040513984,
@@ -2139,7 +3786,17 @@
     "rating": 8.0,
     "neighbourhood": "Nagatacho",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "500 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Self parking",
+      "24-hour front desk",
+      "Microwave in a common area",
+      "Laundry service",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Sotetsu Fresa Inn Ginza-Nanachome, Tokyo": {
     "id": 599621,
@@ -2157,7 +3814,22 @@
     "rating": 9.0,
     "neighbourhood": "Ginza",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "286 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "Self parking",
+      "24-hour front desk",
+      "Air conditioning",
+      "Computer station",
+      "Front desk safe",
+      "Convenience store",
+      "Vending machine",
+      "Microwave in a common area",
+      "Free WiFi "
+    ]
   },
   "Akasaka Granbell Hotel, Tokyo": {
     "id": 337793,
@@ -2175,7 +3847,21 @@
     "rating": 8.8,
     "neighbourhood": "Akasaka",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "61 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Front desk safe",
+      "Water dispenser",
+      "Laundry service",
+      "Free newspapers in the lobby",
+      "Luggage storage",
+      "Free continental breakfast and free WiFi "
+    ]
   },
   "Best Western Hotel Fino Tokyo Akihabara": {
     "id": 931663808,
@@ -2193,7 +3879,19 @@
     "rating": 6.0,
     "neighbourhood": "Taito",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "80 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "Self parking",
+      "Business center",
+      "24-hour front desk",
+      "Laundry service",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Karaksa Hotel Tokyo Station": {
     "id": 921256736,
@@ -2211,7 +3909,15 @@
     "rating": 6.0,
     "neighbourhood": "Yaesu",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "151 smoke-free guestrooms",
+      "Daily housekeeping",
+      "24-hour front desk",
+      "Air conditioning",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Ascott Marunouchi Tokyo": {
     "id": 574575200,
@@ -2229,7 +3935,22 @@
     "rating": 8.0,
     "neighbourhood": "Otemachi",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "130 apartments",
+      "Daily housekeeping",
+      "Restaurant",
+      "Indoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Self parking",
+      "24-hour business center",
+      "Terrace",
+      "24-hour front desk",
+      "Garden",
+      "Laundry service",
+      "Free WiFi "
+    ]
   },
   "Cotoha Hotel Okachimachi, Tokyo": {
     "id": 636594,
@@ -2247,7 +3968,21 @@
     "rating": 8.0,
     "neighbourhood": "Ueno",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "31 guestrooms",
+      "Daily housekeeping",
+      "Breakfast available",
+      "Bar/lounge",
+      "24-hour front desk",
+      "Air conditioning",
+      "Vending machine",
+      "Microwave in a common area",
+      "Water dispenser",
+      "Multilingual staff",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Hotel Niwa Tokyo": {
     "id": 359540,
@@ -2265,7 +4000,22 @@
     "rating": 8.7,
     "neighbourhood": "Suidobashi",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "238 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Breakfast available",
+      "Fitness center",
+      "24-hour business center",
+      "Terrace",
+      "24-hour front desk",
+      "Snack bar/deli",
+      "Vending machine",
+      "Microwave in a common area",
+      "Laundry service",
+      "Free WiFi "
+    ]
   },
   "Shinjuku Granbell Hotel, Tokyo": {
     "id": 452172,
@@ -2283,7 +4033,22 @@
     "rating": 8.0,
     "neighbourhood": "Kabukicho",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "485 guestrooms",
+      "Restaurant and bar/lounge",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Valet parking",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Garden",
+      "Front desk safe",
+      "Laundry service",
+      "Luggage storage",
+      "Tour/ticket assistance",
+      "Free WiFi "
+    ]
   },
   "Henn Na Hotel Tokyo Hamamatsucho": {
     "id": 643937664,
@@ -2301,7 +4066,16 @@
     "rating": 9.0,
     "neighbourhood": "Hamamatsucho",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "118 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "24-hour front desk",
+      "Air conditioning",
+      "Free WiFi "
+    ]
   },
   "Hotel Intergate Tokyo Kyobashi": {
     "id": 688274208,
@@ -2319,7 +4093,19 @@
     "rating": 8.0,
     "neighbourhood": "Kyobashi",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "200 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "Self parking",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Laundry service",
+      "Luggage storage",
+      "Free Internet"
+    ]
   },
   "Via Inn Shinjuku, Tokyo": {
     "id": 1173460608,
@@ -2337,7 +4123,16 @@
     "rating": 10.0,
     "neighbourhood": "Shinjuku",
     "city": "Tokyo",
-    "destinationId": "726784"
+    "destinationId": "726784",
+    "tags": [
+      "226 guestrooms",
+      "Daily housekeeping",
+      "Self parking",
+      "24-hour front desk",
+      "Microwave in a common area",
+      "Self-serve laundry",
+      "Free WiFi "
+    ]
   },
   "Kerry Hotel, Hong Kong": {
     "id": 519714464,
@@ -2355,7 +4150,22 @@
     "rating": 10.0,
     "neighbourhood": "Hung Hom Bay",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "546 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "3 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Valet parking",
+      "Conference center",
+      "Airport shuttle",
+      "Terrace",
+      "Free WiFi "
+    ]
   },
   "Dorsett Wanchai Hong Kong": {
     "id": 221715,
@@ -2373,7 +4183,22 @@
     "rating": 7.5,
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "454 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "Free area shuttle",
+      "Fitness center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Front desk safe",
+      "Laundry service",
+      "Conference space",
+      "Free WiFi "
+    ]
   },
   "Dorsett Mongkok, Hong Kong": {
     "id": 308476,
@@ -2391,7 +4216,22 @@
     "rating": 7.6,
     "neighbourhood": "Tai Kok Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "285 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Internet in the lobby",
+      "Fitness center",
+      "24-hour front desk",
+      "Laundry service",
+      "Meeting room",
+      "Multilingual staff",
+      "Concierge services",
+      "Luggage storage",
+      "Tour/ticket assistance",
+      "Free Internet"
+    ]
   },
   "Cosmo Hotel Hong Kong": {
     "id": 230954,
@@ -2409,7 +4249,22 @@
     "rating": 7.2,
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "142 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "Free area shuttle",
+      "Fitness center",
+      "Airport shuttle",
+      "In-room childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Car rentals on site",
+      "Front desk safe",
+      "Free WiFi "
+    ]
   },
   "OZO Wesley Hong Kong": {
     "id": 465501,
@@ -2427,7 +4282,22 @@
     "rating": 8.0,
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "251 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "Fitness center",
+      "Self parking",
+      "Limo/town car service",
+      "24-hour front desk",
+      "Computer station",
+      "Laundry service",
+      "Meeting room",
+      "Multilingual staff",
+      "Free WiFi "
+    ]
   },
   "Island Shangri-La, Hong Kong": {
     "id": 205409,
@@ -2445,7 +4315,22 @@
     "rating": 8.0,
     "neighbourhood": "Admiralty",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "565 guestrooms",
+      "Daily housekeeping",
+      "8 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour fitness center",
+      "Valet parking",
+      "Business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Free WiFi "
+    ]
   },
   "Silka Tsuen Wan Hong Kong": {
     "id": 676537,
@@ -2463,7 +4348,22 @@
     "rating": 8.0,
     "neighbourhood": "Kwai Chung",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "409 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "Fitness center",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Computer station",
+      "Front desk safe",
+      "Vending machine",
+      "Laundry service",
+      "Free WiFi "
+    ]
   },
   "Novotel Nathan Road Kowloon Hong Kong": {
     "id": 129614,
@@ -2481,7 +4381,22 @@
     "rating": 8.7,
     "neighbourhood": "Jordan",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "389 guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "Free children's club",
+      "Fitness center",
+      "Business center",
+      "Airport shuttle",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Free WiFi "
+    ]
   },
   "The Figo, Hong Kong": {
     "id": 419449,
@@ -2499,7 +4414,22 @@
     "rating": 8.7,
     "neighbourhood": "Sheung Wan",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "46 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Fitness center",
+      "Conference center",
+      "Terrace",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Garden",
+      "Arcade/game room",
+      "Library",
+      "Computer station",
+      "Free WiFi "
+    ]
   },
   "New World Millennium Hong Kong Hotel": {
     "id": 129643,
@@ -2517,7 +4447,22 @@
     "rating": 8.5,
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "463 guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "5 restaurants and 2 bars/lounges",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour fitness center",
+      "Valet parking",
+      "Business center",
+      "Airport shuttle",
+      "Childcare",
+      "24-hour front desk",
+      "Free WiFi "
+    ]
   },
   "Regal Kowloon Hotel, Hong Kong": {
     "id": 193959,
@@ -2535,7 +4480,22 @@
     "rating": 8.7,
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "600 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "3 restaurants and bar/lounge",
+      "Internet in the lobby",
+      "Fitness center",
+      "Valet parking",
+      "Business center",
+      "Childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Garden",
+      "Free WiFi "
+    ]
   },
   "Novotel Century Hong Kong": {
     "id": 151176,
@@ -2553,7 +4513,22 @@
     "rating": 8.4,
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "509 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Valet parking",
+      "Conference center",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Car rentals on site",
+      "Computer station",
+      "Free WiFi "
+    ]
   },
   "Hotel Stage, Hong Kong": {
     "id": 571600,
@@ -2571,7 +4546,22 @@
     "rating": 10.0,
     "neighbourhood": "Jordan",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "97 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "2 meeting rooms",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Snack bar/deli",
+      "Laundry service",
+      "Conference space",
+      "Multilingual staff",
+      "Concierge services",
+      "Free full breakfast and free WiFi "
+    ]
   },
   "ibis Hong Kong Central And Sheung Wan": {
     "id": 415581,
@@ -2589,7 +4579,22 @@
     "rating": 8.0,
     "neighbourhood": "Sheung Wan",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "550 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "Fitness center",
+      "Conference center",
+      "24-hour front desk",
+      "Computer station",
+      "Front desk safe",
+      "Snack bar/deli",
+      "Laundry service",
+      "Conference space",
+      "Free WiFi "
+    ]
   },
   "W's Lounge, Hong Kong": {
     "id": 1284128032,
@@ -2607,7 +4612,16 @@
     "rating": 9.0,
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "10 smoke-free guestrooms",
+      "Near the beach",
+      "Airport pick-up service",
+      "24-hour front desk",
+      "Front desk safe",
+      "Laundry service",
+      "Luggage storage"
+    ]
   },
   "Hotel ICON, Hong Kong": {
     "id": 372210,
@@ -2625,7 +4639,22 @@
     "rating": 9.1,
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "262 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "3 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Free WiFi "
+    ]
   },
   "Kowloon Shangri-La, Hong Kong": {
     "id": 105344,
@@ -2643,7 +4672,22 @@
     "rating": 8.0,
     "neighbourhood": "Tsim Sha Tsui",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "688 guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "5 restaurants and bar/lounge",
+      "Full-service spa",
+      "Breakfast available",
+      "Free area shuttle",
+      "Health club",
+      "Valet parking",
+      "Business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "Free WiFi "
+    ]
   },
   "Dorsett Tsuen Wan, Hong Kong": {
     "id": 446476,
@@ -2661,7 +4705,22 @@
     "rating": 8.2,
     "neighbourhood": "Kwai Chung",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "546 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Breakfast available",
+      "Seasonal outdoor pool",
+      "Fitness center",
+      "Valet parking",
+      "Business center",
+      "Limo/town car service",
+      "Childcare",
+      "24-hour front desk",
+      "Air conditioning",
+      "Free WiFi "
+    ]
   },
   "Regal Airport Hotel, Hong Kong": {
     "id": 142031,
@@ -2679,7 +4738,22 @@
     "rating": 8.0,
     "neighbourhood": "Chek Lap Kok",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "1171 smoke-free guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "Full-service spa",
+      "Indoor pool and outdoor pool",
+      "Breakfast available",
+      "Free area shuttle",
+      "24-hour fitness center",
+      "Self parking",
+      "Conference center",
+      "Limo/town car service",
+      "In-room childcare",
+      "Free WiFi "
+    ]
   },
   "Harbour Grand Hong Kong": {
     "id": 311204,
@@ -2697,7 +4771,22 @@
     "rating": 8.8,
     "neighbourhood": "North Point",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "828 smoke-free guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Free area shuttle",
+      "Fitness center",
+      "Valet parking",
+      "Business center",
+      "Childcare",
+      "Free WiFi "
+    ]
   },
   "Crowne Plaza Hong Kong Causeway Bay": {
     "id": 333175,
@@ -2715,7 +4804,22 @@
     "rating": 8.9,
     "neighbourhood": "Causeway Bay",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "263 guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and bar/lounge",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Fitness center",
+      "Valet parking",
+      "Business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Free WiFi "
+    ]
   },
   "JEN Hong Kong by Shangri-La": {
     "id": 269881,
@@ -2733,7 +4837,22 @@
     "rating": 8.8,
     "neighbourhood": "Sai Wan",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "283 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Breakfast available",
+      "Seasonal outdoor pool",
+      "24-hour fitness center",
+      "Self parking",
+      "Business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Free WiFi "
+    ]
   },
   "Gloucester Luk Kwok Hong Kong": {
     "id": 121353,
@@ -2751,7 +4870,22 @@
     "rating": 7.6,
     "neighbourhood": "Wan Chai",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "196 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants",
+      "Breakfast available",
+      "Fitness center",
+      "Business center",
+      "Limo/town car service",
+      "Childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Car rentals on site",
+      "Free WiFi "
+    ]
   },
   "South Pacific Hotel, Hong Kong": {
     "id": 143705,
@@ -2769,7 +4903,22 @@
     "rating": 7.6,
     "neighbourhood": "Bowrington",
     "city": "Hong Kong",
-    "destinationId": "10233073"
+    "destinationId": "10233073",
+    "tags": [
+      "298 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Breakfast available",
+      "Fitness center",
+      "Business center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Laundry service",
+      "Conference space",
+      "Multilingual staff",
+      "Concierge services",
+      "Free WiFi "
+    ]
   },
   "Sentosa Cove Singapore": {
     "id": 411956,
@@ -2787,7 +4936,22 @@
     "rating": 8.4,
     "neighbourhood": "Singapore",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "240 guestrooms",
+      "Daily housekeeping",
+      "Marina",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Free area shuttle",
+      "24-hour health club",
+      "24-hour business center",
+      "Limo/town car service",
+      "In-room childcare",
+      "Free WiFi and free parking "
+    ]
   },
   "Orchard Rendezvous Hotel by Far East Hospitality, Singapore": {
     "id": 112533,
@@ -2805,7 +4969,22 @@
     "rating": 7.9,
     "neighbourhood": "Orchard",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "388 guestrooms",
+      "Daily housekeeping",
+      "6 restaurants and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Business center",
+      "Limo/town car service",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Free WiFi and free parking "
+    ]
   },
   "YOTEL Singapore Orchard Road": {
     "id": 611363776,
@@ -2823,7 +5002,22 @@
     "rating": 8.0,
     "neighbourhood": "Orchard",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "610 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Self parking",
+      "24-hour business center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Multilingual staff",
+      "Free WiFi "
+    ]
   },
   "Oasia Hotel Downtown Singapore": {
     "id": 431564416,
@@ -2841,7 +5035,22 @@
     "rating": 9.0,
     "neighbourhood": "Tanjong Pagar",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "314 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "2 outdoor pools",
+      "Breakfast available",
+      "24-hour fitness center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Laundry service",
+      "Meeting rooms",
+      "Concierge services",
+      "Free WiFi "
+    ]
   },
   "Amara Singapore": {
     "id": 115277,
@@ -2859,7 +5068,22 @@
     "rating": 8.1,
     "neighbourhood": "Tanjong Pagar",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "384 smoke-free guestrooms",
+      "Daily housekeeping",
+      "5 restaurants and 2 bars/lounges",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Spa services",
+      "Business center",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Convenience store",
+      "Free WiFi and free parking "
+    ]
   },
   "The St. Regis Singapore": {
     "id": 260530,
@@ -2877,7 +5101,22 @@
     "rating": 8.9,
     "neighbourhood": "Orchard",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "299 smoke-free guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour fitness center",
+      "Valet parking",
+      "Business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "24-hour front desk",
+      "Free WiFi "
+    ]
   },
   "Ascott Orchard Singapore": {
     "id": 520156448,
@@ -2895,7 +5134,22 @@
     "rating": 8.0,
     "neighbourhood": "Newton",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "220 smoke-free apartments",
+      "Housekeeping on weekdays",
+      "Restaurant",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Self parking",
+      "Childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Free WiFi "
+    ]
   },
   "One Farrer Hotel, Singapore": {
     "id": 474995,
@@ -2913,7 +5167,22 @@
     "rating": 9.0,
     "neighbourhood": "Farrer Park",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "237 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour room service",
+      "24-hour fitness center",
+      "Conference center",
+      "Airport shuttle",
+      "Childcare",
+      "24-hour front desk",
+      "Air conditioning",
+      "Free WiFi and free parking "
+    ]
   },
   "Hotel G Singapore": {
     "id": 643063,
@@ -2931,7 +5200,22 @@
     "rating": 8.0,
     "neighbourhood": "Bencoolen",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "308 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Breakfast available",
+      "Fitness center",
+      "Self parking",
+      "24-hour front desk",
+      "Air conditioning",
+      "ATM/banking services",
+      "Microwave in a common area",
+      "Refrigerator in a common area",
+      "Laundry service",
+      "Free WiFi "
+    ]
   },
   "Parkroyal Collection Pickering, Singapore": {
     "id": 421327,
@@ -2949,7 +5233,22 @@
     "rating": 8.3,
     "neighbourhood": "Downtown Singapore",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "367 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Fitness center",
+      "Business center",
+      "24-hour front desk",
+      "Garden",
+      "Laundry service",
+      "Free WiFi and free parking "
+    ]
   },
   "D'Hotel Singapore": {
     "id": 337770,
@@ -2967,7 +5266,21 @@
     "rating": 8.2,
     "neighbourhood": "Singapore River",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "41 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "24-hour fitness center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Laundry service",
+      "Multilingual staff",
+      "Luggage storage",
+      "Porter/bellhop",
+      "Free WiFi and free parking "
+    ]
   },
   "YotelAir Singapore Changi Airport": {
     "id": 1216885216,
@@ -2985,7 +5298,17 @@
     "rating": 8.0,
     "neighbourhood": "Singapore",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "130 smoke-free guestrooms",
+      "Daily housekeeping",
+      "24-hour fitness center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Laundry service",
+      "Free WiFi "
+    ]
   },
   "Holiday Inn Express Singapore Clarke Quay": {
     "id": 439438,
@@ -3003,7 +5326,22 @@
     "rating": 7.5,
     "neighbourhood": "Singapore River",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "442 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and swim-up bar",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Fitness center",
+      "Self parking",
+      "24-hour business center",
+      "24-hour front desk",
+      "Computer station",
+      "Self-serve laundry",
+      "Meeting room",
+      "Free WiFi "
+    ]
   },
   "AMOY by Far East Hospitality, Singapore": {
     "id": 439593,
@@ -3021,7 +5359,19 @@
     "rating": 7.0,
     "neighbourhood": "Financial District Singapore",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "37 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Free airport pick-up",
+      "Limo/town car service",
+      "24-hour front desk",
+      "Laundry service",
+      "Concierge services",
+      "Luggage storage",
+      "Tour/ticket assistance",
+      "Free WiFi and free parking "
+    ]
   },
   "Carlton Hotel Singapore": {
     "id": 118565,
@@ -3039,7 +5389,22 @@
     "rating": 8.9,
     "neighbourhood": "Downtown Singapore",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "940 guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and pool bar",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Business center",
+      "Limo/town car service",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Free WiFi and free parking "
+    ]
   },
   "Holiday Inn Express Singapore Serangoon": {
     "id": 489533,
@@ -3057,7 +5422,22 @@
     "rating": 8.9,
     "neighbourhood": "Lavender, Singapore",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "119 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "24-hour fitness center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Computer station",
+      "Snack bar/deli",
+      "Laundry service",
+      "Meeting room",
+      "Multilingual staff",
+      "Luggage storage",
+      "Free buffet breakfast and free WiFi "
+    ]
   },
   "Four Seasons Hotel Singapore": {
     "id": 133982,
@@ -3075,7 +5455,22 @@
     "rating": 8.9,
     "neighbourhood": "Orchard",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "255 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "2 indoor and 2 outdoor tennis courts",
+      "Self parking",
+      "Airport shuttle",
+      "Childcare",
+      "Terrace",
+      "24-hour front desk",
+      "Free WiFi "
+    ]
   },
   "Sheraton Towers Singapore": {
     "id": 105615,
@@ -3093,7 +5488,21 @@
     "rating": 7.5,
     "neighbourhood": "Newton",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "420 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "WiFi in the lobby",
+      "Free shopping center shuttle",
+      "24-hour fitness center",
+      "Valet parking",
+      "Business center",
+      "Airport shuttle",
+      "24-hour front desk"
+    ]
   },
   "The Fullerton Hotel Singapore": {
     "id": 192673,
@@ -3111,7 +5520,22 @@
     "rating": 8.1,
     "neighbourhood": "Financial District Singapore",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "400 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Room service",
+      "Fitness center",
+      "Valet parking",
+      "Conference center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Free WiFi in lobby "
+    ]
   },
   "Bliss Hotel Singapore": {
     "id": 455941,
@@ -3129,7 +5553,22 @@
     "rating": 7.4,
     "neighbourhood": "Chinatown",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "42 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Business center",
+      "Airport shuttle",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Laundry service",
+      "Multilingual staff",
+      "Concierge services",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "XY Hotel Bugis by Asanda Hotels and Resorts, Singapore": {
     "id": 738071776,
@@ -3147,7 +5586,22 @@
     "rating": 7.0,
     "neighbourhood": "Kampong Glam",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "15 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour business center",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Garden",
+      "Front desk safe",
+      "Meeting room",
+      "Free WiFi "
+    ]
   },
   "Village Hotel Bugis by Far East Hospitality, Singapore": {
     "id": 134927,
@@ -3165,7 +5619,22 @@
     "rating": 6.6,
     "neighbourhood": "Kampong Glam",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "393 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "3 meeting rooms",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Multilingual staff",
+      "Concierge services",
+      "Free WiFi and free parking "
+    ]
   },
   "Populous Hotel Bugis, Singapore": {
     "id": 967427808,
@@ -3183,7 +5652,18 @@
     "rating": 8.0,
     "neighbourhood": "Singapore",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "80 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Multilingual staff",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Arcadia Hotel, Singapore": {
     "id": 573479,
@@ -3201,7 +5681,19 @@
     "rating": 6.0,
     "neighbourhood": "Lavender, Singapore",
     "city": "Singapore",
-    "destinationId": "10233154"
+    "destinationId": "10233154",
+    "tags": [
+      "36 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Rooftop terrace",
+      "Breakfast available",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Luggage storage",
+      "Free WiFi "
+    ]
   },
   "Jumeirah Zabeel Saray, Dubai": {
     "id": 364994,
@@ -3219,7 +5711,22 @@
     "rating": 7.8,
     "neighbourhood": "Palm Jumeirah",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "405 guestrooms",
+      "Daily housekeeping",
+      "On a private beach",
+      "8 restaurants and bar/lounge",
+      "Full-service spa",
+      "2 indoor pools and 2 outdoor pools",
+      "Free water park",
+      "Breakfast available",
+      "2 outdoor tennis courts",
+      "Beach towels",
+      "Business center",
+      "Childcare",
+      "Free Internet and free parking "
+    ]
   },
   "Media One Hotel Dubai": {
     "id": 328432,
@@ -3237,7 +5744,22 @@
     "rating": 7.8,
     "neighbourhood": "Dubai Media City",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "264 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "4 restaurants and 2 bars/lounges",
+      "Outdoor pool",
+      "Nightclub",
+      "Fitness center",
+      "Conference center",
+      "Airport shuttle",
+      "24-hour front desk",
+      "Air conditioning",
+      "Front desk safe",
+      "Free WiFi in lobby and free parking "
+    ]
   },
   "Premier Inn Dubai International Airport": {
     "id": 101013152,
@@ -3255,7 +5777,22 @@
     "rating": 10.0,
     "neighbourhood": "Garhoud",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "281 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Fitness center",
+      "24-hour business center",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Vending machine",
+      "Laundry service",
+      "Free WiFi and free parking "
+    ]
   },
   "Signature 1 Hotel Tecom, Dubai": {
     "id": 569736,
@@ -3273,7 +5810,22 @@
     "rating": 6.0,
     "neighbourhood": "Barsha Heights",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "301 guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "3 restaurants and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "Health club",
+      "Self parking",
+      "Business center",
+      "Airport shuttle",
+      "Childcare",
+      "Terrace",
+      "Free WiFi and free parking "
+    ]
   },
   "Dusit Thani Dubai": {
     "id": 197154,
@@ -3291,7 +5843,22 @@
     "rating": 8.7,
     "neighbourhood": "DIFC",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "321 smoke-free guestrooms",
+      "Daily housekeeping",
+      "3 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Indoor pool and outdoor pool",
+      "Nightclub",
+      "Breakfast available",
+      "Free area shuttle",
+      "Health club",
+      "Valet parking",
+      "Conference center",
+      "Airport shuttle",
+      "Free WiFi and free parking "
+    ]
   },
   "Atlantis The Palm, Dubai": {
     "id": 274263,
@@ -3309,7 +5876,22 @@
     "rating": 7.4,
     "neighbourhood": "Palm Jumeirah",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "1539 smoke-free guestrooms",
+      "Daily housekeeping",
+      "On a private beach",
+      "20 restaurants and 3 bars/lounges",
+      "Full-service spa",
+      "2 outdoor pools and lazy river",
+      "Free water park",
+      "Breakfast available",
+      "Free supervised kid's activities",
+      "Free shopping center shuttle",
+      "3 outdoor tennis courts",
+      "Free beach cabanas",
+      "Free WiFi and free parking "
+    ]
   },
   "Jumeirah Beach Hotel, Dubai": {
     "id": 172395,
@@ -3327,7 +5909,22 @@
     "rating": 7.6,
     "neighbourhood": "Umm Suqeim 3",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "618 guestrooms",
+      "Daily housekeeping",
+      "On a private beach",
+      "17 restaurants and 4 bars/lounges",
+      "Full-service spa",
+      "6 outdoor pools and lazy river",
+      "Free water park",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Free children's club",
+      "Free area shuttle",
+      "7 outdoor tennis courts",
+      "Free WiFi and free parking "
+    ]
   },
   "Dusit Kenz Hotel Dubai": {
     "id": 627254,
@@ -3345,7 +5942,22 @@
     "rating": 8.0,
     "neighbourhood": "Barsha Heights",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "237 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Free shopping center shuttle",
+      "Fitness center",
+      "24-hour business center",
+      "Airport shuttle",
+      "Childcare",
+      "Terrace",
+      "Free WiFi "
+    ]
   },
   "Rose Plaza Hotel Al Barsha, Dubai": {
     "id": 1780392096,
@@ -3363,7 +5975,21 @@
     "rating": 8.0,
     "neighbourhood": "Al Barsha 1",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "104 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Outdoor pool",
+      "Rooftop terrace",
+      "Breakfast available",
+      "24-hour front desk",
+      "Air conditioning",
+      "Laundry service",
+      "Conference space",
+      "Concierge services",
+      "Free WiFi "
+    ]
   },
   "Radisson Blu Hotel Dubai Waterfront": {
     "id": 692168,
@@ -3381,7 +6007,22 @@
     "rating": 7.0,
     "neighbourhood": "Downtown Dubai",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "432 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Nightclub",
+      "Breakfast available",
+      "Free children's club",
+      "Free shuttle",
+      "Health club",
+      "Business center",
+      "Terrace",
+      "Free WiFi and free parking "
+    ]
   },
   "Premier Inn Dubai Al Jaddaf": {
     "id": 1027240128,
@@ -3399,7 +6040,19 @@
     "rating": 6.0,
     "neighbourhood": "Jadaf",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "389 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Fitness center",
+      "24-hour business center",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Conference space",
+      "Free WiFi and free parking "
+    ]
   },
   "Bonnington Jumeirah Lakes Towers, Dubai": {
     "id": 341549,
@@ -3417,7 +6070,22 @@
     "rating": 9.0,
     "neighbourhood": "Dubai",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "208 guestrooms",
+      "Daily housekeeping",
+      "Near the beach",
+      "6 restaurants and 2 bars/lounges",
+      "Indoor pool",
+      "Breakfast available",
+      "Free shuttle",
+      "Ski storage",
+      "Fitness center",
+      "Spa services",
+      "Conference center",
+      "Limo/town car service",
+      "Free WiFi and free parking "
+    ]
   },
   "Millennium Airport Hotel Dubai": {
     "id": 191084,
@@ -3435,7 +6103,22 @@
     "rating": 8.5,
     "neighbourhood": "Garhoud",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "341 guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and 2 bars/lounges",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "Spa services",
+      "7 meeting rooms",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Garden",
+      "Free WiFi and free parking "
+    ]
   },
   "Hyatt Regency Galleria Residence Dubai": {
     "id": 431204128,
@@ -3453,7 +6136,22 @@
     "rating": 10.0,
     "neighbourhood": "Deira",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "388 apartments",
+      "Daily housekeeping",
+      "Near the beach",
+      "4 restaurants and 5 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Nightclub",
+      "Breakfast available",
+      "Free children's club",
+      "2 outdoor tennis courts",
+      "Business center",
+      "Limo/town car service",
+      "Free parking "
+    ]
   },
   "Park Regis Kris Kin Hotel Dubai": {
     "id": 366153,
@@ -3471,7 +6169,22 @@
     "rating": 8.7,
     "neighbourhood": "Bur Dubai",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "384 guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and 3 bars/lounges",
+      "Outdoor pool",
+      "Breakfast available",
+      "Fitness center",
+      "24-hour business center",
+      "Airport shuttle",
+      "Childcare",
+      "24-hour front desk",
+      "Coffee/tea in a common area",
+      "Air conditioning",
+      "Free WiFi and free parking "
+    ]
   },
   "Radisson Blu Hotel, Dubai Media City": {
     "id": 239112,
@@ -3489,7 +6202,22 @@
     "rating": 7.9,
     "neighbourhood": "Dubai Media City",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "246 guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and 2 poolside bars",
+      "Full-service spa",
+      "2 outdoor pools",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Free shopping center shuttle",
+      "Health club",
+      "Self parking",
+      "Conference center",
+      "Airport shuttle",
+      "Free WiFi and free parking "
+    ]
   },
   "Millennium Place Barsha Heights Hotel, Dubai": {
     "id": 1278271104,
@@ -3507,7 +6235,22 @@
     "rating": 9.0,
     "neighbourhood": "Barsha Heights",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "468 guestrooms",
+      "Daily housekeeping",
+      "4 restaurants and bar/lounge",
+      "4 outdoor pools",
+      "Breakfast available",
+      "Free supervised kid's activities",
+      "Free shuttle",
+      "Health club",
+      "Spa services",
+      "Business center",
+      "Airport shuttle",
+      "Terrace",
+      "Free WiFi "
+    ]
   },
   "Novotel World Trade Centre, Dubai": {
     "id": 246212,
@@ -3525,7 +6268,22 @@
     "rating": 7.8,
     "neighbourhood": "Trade Center",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "412 guestrooms",
+      "Daily housekeeping",
+      "Restaurant and 2 bars/lounges",
+      "Outdoor pool",
+      "Breakfast available",
+      "Free shuttle",
+      "Health club",
+      "Valet parking",
+      "Spa services",
+      "Conference center",
+      "Airport shuttle",
+      "Terrace",
+      "Free WiFi "
+    ]
   },
   "Hyatt Place Dubai Al Rigga": {
     "id": 462839,
@@ -3543,7 +6301,22 @@
     "rating": 6.9,
     "neighbourhood": "Al Muraqqabat",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "210 smoke-free guestrooms",
+      "Daily housekeeping",
+      "Restaurant and bar/lounge",
+      "Outdoor pool",
+      "Breakfast available",
+      "Free area shuttle",
+      "24-hour fitness center",
+      "Spa services",
+      "24-hour business center",
+      "Childcare",
+      "24-hour front desk",
+      "Air conditioning",
+      "Free WiFi and free parking "
+    ]
   },
   "FIVE Jumeirah Village Dubai": {
     "id": 1244836672,
@@ -3561,7 +6334,22 @@
     "rating": 10.0,
     "neighbourhood": "Jumeirah Village Circle",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "350 smoke-free guestrooms",
+      "Daily housekeeping",
+      "2 restaurants and 4 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "Free shuttle",
+      "24-hour health club",
+      "24-hour front desk",
+      "Air conditioning",
+      "ATM/banking services",
+      "Laundry service",
+      "Free WiFi and free parking "
+    ]
   },
   "Rove Downtown Dubai": {
     "id": 573751,
@@ -3579,7 +6367,22 @@
     "rating": 9.0,
     "neighbourhood": "Za'abeel 2",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "420 guestrooms",
+      "Daily housekeeping",
+      "Restaurant",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour fitness center",
+      "4 meeting rooms",
+      "Airport shuttle",
+      "Terrace",
+      "24-hour front desk",
+      "Air conditioning",
+      "Arcade/game room",
+      "Free WiFi and free parking "
+    ]
   },
   "Radisson Blu Hotel, Dubai Deira Creek": {
     "id": 106230,
@@ -3597,7 +6400,22 @@
     "rating": 8.7,
     "neighbourhood": "Al Rigga",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "288 guestrooms",
+      "Daily housekeeping",
+      "9 restaurants and 3 bars/lounges",
+      "Outdoor pool",
+      "Nightclub",
+      "Breakfast available",
+      "24-hour health club",
+      "Spa services",
+      "24-hour business center",
+      "Airport shuttle",
+      "In-room childcare",
+      "Terrace",
+      "Free WiFi and free parking "
+    ]
   },
   "The Meydan Hotel, Dubai": {
     "id": 340117,
@@ -3615,7 +6433,22 @@
     "rating": 8.1,
     "neighbourhood": "Dubai",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "284 guestrooms",
+      "Daily housekeeping",
+      "Golf course",
+      "4 restaurants and 2 bars/lounges",
+      "Full-service spa",
+      "Outdoor pool",
+      "Nightclub",
+      "Rooftop terrace",
+      "Breakfast available",
+      "Health club",
+      "Beach umbrellas",
+      "Conference center",
+      "Free WiFi and free parking "
+    ]
   },
   "Gevora Hotel, Dubai": {
     "id": 735014880,
@@ -3633,6 +6466,21 @@
     "rating": 8.0,
     "neighbourhood": "DIFC",
     "city": "Dubai",
-    "destinationId": "11594"
+    "destinationId": "11594",
+    "tags": [
+      "528 smoke-free guestrooms",
+      "Daily housekeeping",
+      "3 restaurants",
+      "Full-service spa",
+      "Outdoor pool",
+      "Breakfast available",
+      "24-hour health club",
+      "Business center",
+      "Airport shuttle",
+      "Childcare",
+      "24-hour front desk",
+      "Air conditioning",
+      "Free WiFi and free parking "
+    ]
   }
 }
