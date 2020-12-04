@@ -7,6 +7,7 @@ import 'package:frontend/components/explore_drawer.dart';
 
 import 'package:frontend/components/TopBarContents.dart';
 import 'package:frontend/components/hotel_card.dart';
+import 'package:frontend/components/multi_select.dart';
 
 import 'package:frontend/components/responsive_widget.dart';
 import 'package:frontend/controller/navigation_controller.dart';
@@ -29,7 +30,12 @@ class SearchResultsPage extends StatefulWidget {
 class _SearchResultsPageState extends State<SearchResultsPage> {
   Future<List<Hotel>> getResults;
   List<Hotel> results = [];
+  List<Hotel> fixedResults = [];
   String selectedCity;
+  List allTags;
+  List selectedTags = [];
+  String sortType = '';
+  Set selectedTagIndex = {};
 
   @override
   void initState() {
@@ -122,7 +128,11 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                         SizedBox(
                           height: 5,
                         ),
-                        _filterByCities()
+                        _filterByCities(),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        _selectTags(),
                       ],
                     )
                   : Row(
@@ -154,7 +164,8 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                         Spacer(),
                         _sortingWidgets(),
                         // Spacer(),
-                        _filterByCities()
+                        _selectTags(),
+                        _filterByCities(),
                       ],
                     ),
             ),
@@ -165,15 +176,62 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                       snapshot.connectionState == ConnectionState.done) {
                     // ignore: omit_local_variable_types
                     results = snapshot.data;
+                    fixedResults = snapshot.data;
                     if (selectedCity != null) {
-
                       results = results
-                          .where((element) => element.city == selectedCity).toList();
+                          .where((element) => element.city == selectedCity)
+                          .toList();
+                    }
+                    if (selectedTags != null && selectedTags.isNotEmpty) {
+                      results = results.where((hotel) {
+                        // ignore: omit_local_variable_types
+                        bool containTag = false;
+                        for (var tag in selectedTags) {
+                          if (hotel.tags.contains(tag)) {
+                            containTag = true;
+                            break;
+                          }
+                        }
+                        if (containTag) {
+                          return true;
+                        } else {
+                          return false;
+                        }
+                      }).toList();
+                    }
+                    if (sortType.isNotEmpty) {
+                      // ignore: omit_local_variable_types
+                      String mainType = sortType.split(' ')[0];
+                      // ignore: omit_local_variable_types
+                      String resultType = sortType.split(' ')[1];
+                      if (mainType == 'Price') {
+                        if (resultType == 'up') {
+                          results.sort(
+                            (a, b) => a.price.currentPrice
+                                .compareTo(b.price.currentPrice),
+                          );
+                        } else {
+                          results.sort(
+                            (a, b) => b.price.currentPrice
+                                .compareTo(a.price.currentPrice),
+                          );
+                        }
+                      } else {
+                        if (resultType == 'up') {
+                          results.sort(
+                            (a, b) => a.rating.compareTo(b.rating),
+                          );
+                        } else {
+                          results.sort(
+                            (a, b) => b.rating.compareTo(a.rating),
+                          );
+                        }
+                      }
+                      print('type: $sortType');
                     }
                     if (results.isEmpty) {
                       return NoData(message: 'No results found');
                     } else {
-
                       return Expanded(
                         child: GridView.builder(
                           padding: EdgeInsets.symmetric(
@@ -217,6 +275,68 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
     );
   }
 
+  Widget _selectTags() {
+    return Container(
+      margin: EdgeInsets.symmetric(horizontal: 5),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(10),
+        boxShadow: [BoxShadow(color: Colors.grey, blurRadius: 5)],
+      ),
+      child: FlatButton(
+        padding: EdgeInsets.symmetric(horizontal: 5, vertical: 22),
+        splashColor: Colors.transparent,
+        onPressed: () {
+          _showMultiSelect();
+        },
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              'Tags  ',
+              style: TextStyle(color: Colors.grey[800], fontSize: 14),
+            ),
+            Icon(Icons.tag),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _showMultiSelect() async {
+    // ignore: omit_local_variable_types
+    List tags = [];
+    fixedResults.forEach((element) {
+      tags.addAll(element.tags);
+    });
+    // ignore: omit_local_variable_types
+    tags = Set<String>.from(tags).toList();
+    // ignore: omit_local_variable_types
+    List<MultiSelectDialogItem> items = [];
+    // ignore: omit_local_variable_types
+    for (int i = 0; i < tags.length; i++) {
+      items.add(MultiSelectDialogItem(i, tags[i] as String));
+    }
+    final selected = await showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return MultiSelectDialog(
+          items: items,
+          initialSelectedLabels: selectedTags,
+          initialSelectedValues: selectedTagIndex,
+        );
+      },
+    );
+    print('selected: $selected');
+    setState(() {
+      selectedTags =
+          selected == null ? selectedTags : selected['values'] as List;
+      selectedTagIndex =
+          selected == null ? selectedTagIndex : selected['index'] as Set;
+    });
+    print(selectedTags);
+  }
+
   Widget _filterByCities() {
     return Container(
       padding: EdgeInsets.fromLTRB(10, 5, 5, 5),
@@ -228,7 +348,7 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
       ),
       child: DropdownButton(
         hint: Text(
-          'Select City',
+          'City',
           style: TextStyle(color: Colors.grey[800], fontSize: 14),
         ),
         icon: Icon(Icons.location_on),
@@ -278,7 +398,9 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                   results.sort(
                     (a, b) => a.rating.compareTo(b.rating),
                   );
-                  setState(() {});
+                  setState(() {
+                    sortType = 'Rating up';
+                  });
                 },
               ),
               IconButton(
@@ -288,7 +410,9 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                   results.sort(
                     (a, b) => b.rating.compareTo(a.rating),
                   );
-                  setState(() {});
+                  setState(() {
+                    sortType = 'Rating down';
+                  });
                 },
               ),
             ],
@@ -322,7 +446,9 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                     (a, b) =>
                         a.price.currentPrice.compareTo(b.price.currentPrice),
                   );
-                  setState(() {});
+                  setState(() {
+                    sortType = 'Price up';
+                  });
                 },
               ),
               IconButton(
@@ -333,7 +459,9 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
                     (a, b) =>
                         b.price.currentPrice.compareTo(a.price.currentPrice),
                   );
-                  setState(() {});
+                  setState(() {
+                    sortType = 'Price down';
+                  });
                 },
               ),
             ],

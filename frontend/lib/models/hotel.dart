@@ -5,6 +5,7 @@ class Hotel {
   String neighbourhood;
   Price price;
   double rating;
+  List tags;
   int starRating;
   String thumbnail;
   String title;
@@ -14,6 +15,7 @@ class Hotel {
       destinationId,
       id,
       neighbourhood,
+      tags,
       price,
       rating,
       starRating,
@@ -22,6 +24,7 @@ class Hotel {
 
   Hotel.fromJson(Map<String, dynamic> json) {
     city = json['city'] as String;
+    tags = json['tags'] as List;
     destinationId = json['destinationId'] as String;
     id = json['id'] as int;
     neighbourhood = json['neighbourhood'] as String;
@@ -39,6 +42,7 @@ class Hotel {
     data['city'] = city;
     data['destinationId'] = destinationId;
     data['id'] = id;
+    data['tags'] = tags;
     data['neighbourhood'] = neighbourhood;
     if (price != null) {
       data['price'] = price.toJson();
