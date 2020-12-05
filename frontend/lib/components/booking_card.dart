@@ -426,6 +426,65 @@ class _BookingCardState extends State<BookingCard> {
                   SizedBox(
                     width: 10,
                   ),
+                  widget.booking.status == 'booked'
+                      ? IconButton(
+                          icon: Icon(
+                            Icons.email_outlined,
+                            color: Colors.white,
+                          ),
+                          tooltip: 'Send Confirmation',
+                          onPressed: () async {
+                            try {
+                              setState(() {
+                                isLoading = true;
+                              });
+                              // ignore: omit_local_variable_types
+                              bool mailSent = await BookingController
+                                  .sendBookingConfirmationController(
+                                      bookingId: widget.booking.bookingId);
+                              if (mailSent) {
+                                setState(() {
+                                  isLoading = false;
+                                });
+                                showSimpleNotification(
+                                  Text(
+                                    'Successfully sent confirmation mail!',
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  background: Colors.green,
+                                );
+                              } else {
+                                showSimpleNotification(
+                                  Text(
+                                    'An error occurred while sending mail.',
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  background: Colors.red,
+                                );
+                                setState(() {
+                                  isLoading = false;
+                                });
+                              }
+                            } catch (e) {
+                              logger.e(e);
+                              showSimpleNotification(
+                                Text(
+                                  'An error occurred while sending mail.',
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                                background: Colors.red,
+                              );
+                              setState(() {
+                                isLoading = false;
+                              });
+                            }
+                          })
+                      : SizedBox.shrink(),
+                  widget.booking.status == 'booked'
+                      ? SizedBox(
+                          width: 10,
+                        )
+                      : SizedBox.shrink(),
                   IconButton(
                     tooltip: 'Delete booking',
                     icon: Icon(
@@ -622,13 +681,13 @@ class _BookingCardState extends State<BookingCard> {
           ),
           isLoading
               ? Center(
-                child: Container(
+                  child: Container(
                     color: Colors.white.withOpacity(0.7),
                     child: SpinKitCircle(
                       color: Theme.of(context).accentColor,
                     ),
                   ),
-              )
+                )
               : SizedBox.shrink()
         ],
       ),

@@ -346,4 +346,52 @@ class NavigationController {
       return null;
     }
   }
+  static Future<List<Hotel>> getHotelNetworkByIdController(
+      {@required String hotelId}) async {
+    try {
+      // ignore: omit_local_variable_types
+      Dio _dio = Dio(
+        BaseOptions(
+          baseUrl: 'https://staysia.herokuapp.com/api/',
+          headers: Get.find<Jwt>().token.value == null ||
+              Get.find<Jwt>().token.value == ''
+              ? {}
+              : {
+            'Authorization': 'Bearer ${Get.find<Jwt>().token.value}',
+            // 'X-Requested-With': 'XMLHttpRequest',
+          },
+          contentType: Headers.formUrlEncodedContentType,
+        ),
+      )..interceptors.addAll([
+        PrettyDioLogger(requestBody: true, requestHeader: true),
+        InterceptorsWrapper(
+          onError: (DioError error) async {
+            if (error.response == null) {
+              // ignore: avoid_print
+              print(error);
+            } else if (error.response.statusCode == 401) {
+              Get.find<Jwt>().setToken(null);
+              final preferences = await SharedPreferences.getInstance();
+              await preferences.remove('jwt');
+              //TODO: push to login page
+            }
+          },
+        ),
+      ]);
+      final res = await _dio.get(
+        getHotelNetworkById.replaceAll('{hotelId}', hotelId),
+      );
+      if (res.statusCode >= 200 && res.statusCode < 300) {
+        return (res.data as List<dynamic>)
+            .map((e) => Hotel.fromJson(e as Map<String, dynamic>))
+            .toList()
+            .cast<Hotel>();
+      } else {
+        return null;
+      }
+    } catch (e) {
+      logger.e(e);
+      return null;
+    }
+  }
 }

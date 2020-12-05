@@ -174,6 +174,48 @@ class BookingController {
     }
   }
 
+  static Future<bool> sendBookingConfirmationController(
+      {@required String bookingId}) async {
+    try {
+      // ignore: omit_local_variable_types
+      Dio _dio = Dio(
+        BaseOptions(
+          baseUrl: 'https://staysia.herokuapp.com/api/',
+          headers: {
+            'Authorization': 'Bearer ${Get.find<Jwt>().token.value}',
+            // 'X-Requested-With': 'XMLHttpRequest',
+          },
+          contentType: Headers.formUrlEncodedContentType,
+        ),
+      )..interceptors.addAll([
+          PrettyDioLogger(requestBody: true, requestHeader: true),
+          InterceptorsWrapper(
+            onError: (DioError error) async {
+              if (error.response == null) {
+                // ignore: avoid_print
+                print(error);
+              } else if (error.response.statusCode == 401) {
+                Get.find<Jwt>().setToken(null);
+                final preferences = await SharedPreferences.getInstance();
+                await preferences.remove('jwt');
+                //TODO: push to login page
+              }
+            },
+          ),
+        ]);
+      final res = await _dio.get(sendBookingConfirmation + bookingId);
+      if (res.statusCode == 200) {
+        logger.d(res.data);
+        return true;
+      } else {
+        return false;
+      }
+    } catch (e) {
+      logger.e(e);
+      return false;
+    }
+  }
+
   static Future<String> printBookingPdfController(
       {@required String bookingId}) async {
     try {

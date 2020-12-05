@@ -37,6 +37,7 @@ class _HotelDetailsPageState extends State<HotelDetailsPage> {
 
   Future<DetailedHotel> getHotel;
   Future<List<Hotel>> getRecommendations;
+  Future<List<Hotel>> getNetwork;
 
   @override
   void initState() {
@@ -46,6 +47,9 @@ class _HotelDetailsPageState extends State<HotelDetailsPage> {
     );
     getRecommendations =
         NavigationController.getHotelRecommendationByIdController(
+      hotelId: widget.hotelId.toString(),
+    );
+    getNetwork =NavigationController.getHotelNetworkByIdController(
       hotelId: widget.hotelId.toString(),
     );
     super.initState();
@@ -446,6 +450,8 @@ class _HotelDetailsPageState extends State<HotelDetailsPage> {
               },
             ),
             _recommendedHotels(),
+            SizedBox(height: 20,),
+            _networkHotels()
           ],
         ),
       ),
@@ -494,7 +500,48 @@ class _HotelDetailsPageState extends State<HotelDetailsPage> {
       },
     );
   }
-
+  Widget _networkHotels() {
+    return FutureBuilder<List<Hotel>>(
+      future: getNetwork,
+      builder: (context, snapshot) {
+        final hotels = snapshot.data;
+        if (snapshot.hasData && hotels.isNotEmpty) {
+          return SizedBox(
+            height: 350,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'People who stayed here also visited',
+                  style: TextStyle(
+                    fontSize: 25,
+                    fontFamily: 'Montserrat',
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Expanded(
+                  child: ListView.builder(
+                    shrinkWrap: true,
+                    scrollDirection: Axis.horizontal,
+                    itemBuilder: (context, index) {
+                      return HotelCard(hotels[index]);
+                    },
+                    itemCount: hotels.length,
+                  ),
+                ),
+              ],
+            ),
+          );
+        } else if (snapshot.hasError) {
+          return CustomErrorWidget(
+            message: 'Failed to fetch network....',
+          );
+        } else {
+          return SizedBox.shrink();
+        }
+      },
+    );
+  }
   Widget _getHotelDetails() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,

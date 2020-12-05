@@ -83,7 +83,7 @@ General Instructions:
 2) Please carry an ID Proof for verification at the Front Desk. 
 3) Since these are trying times for all of us, we humbly ask you to follow COVID-19 safety guidelines during your travel. As an agent between you and the hotel, the responsibility of providing health guarantees often falls on us and thus we request all our clients to take necessary precautions, while we make sure the hotels do the same for you :)
 
-The iconic, stylish and sophisticated, {booking.get("title")} offers stunning, leading edge design with a genuine, inviting ambiance sure to delight travel savvy, modern guests and it can't wait for your visit!!
+The iconic, stylish and sophisticated, {booking.get("title")} offers stunning, leading edge design with a genuine, inviting ambiance sure to delight travel savvy, modern guests and it can't wait for your visit!
 
 Looking forward to welcoming you soon! Until then, write to us with any concerns.
 The Staysia Booking Team'''

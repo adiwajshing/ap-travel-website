@@ -16,9 +16,11 @@ const fuzzySearch = '/searchbar'; //Fuzzy search for search bar
 const getHotelById = '/hotel/'; // needs {hotelId}
 const getHotelRecommendationById =
     '/hotel/{hotelId}/reccomendations'; //needs {hotelId}
+const getHotelNetworkById = '/hotel/{hotelId}/network';
 
 // Booking routes
 const getBookings = '/profile/bookings';
+const sendBookingConfirmation = '/profile/bookings/email/';
 const addNewBooking = '/profile/bookings/'; //needs {hotelId}
 const deleteBookingById = '/profile/bookings/'; //needs {bookingId}
 const editBookingById = '/profile/bookings/'; //needs {bookingId}
