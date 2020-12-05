@@ -509,7 +509,7 @@ def getNetwork(hotelId):
         data = [indv.to_dict().get('hotelId') for indv in tempBookings]
         unionHotels = unionHotels.union(set(data))
 
-    unionHotels = unionHotels.remove(hotelId)
+    unionHotels.remove(hotelId)
     if unionHotels is None or len(unionHotels) < 1:
         return jsonify([])
 
