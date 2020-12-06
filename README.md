@@ -46,4 +46,4 @@
  - [Hotel Data API](https://rapidapi.com/apidojo/api/Hotels) : Used only for scraping data. (check [Python File](https://github.com/adiwajshing/ap-travel-website/blob/main/backup/data_scraping.py) OR `backup/data_scraping.py`)
  - [Swagger UI Editor](https://editor.swagger.io) : API documenting tool.
  - [Flutter App](https://blog.codemagic.io/flutter-web-getting-started-with-responsive-design/)
- - Other one line code citations done in `application.py` (search for "citations")
+ - Other one line code citations done in `application.py` (search for "citation")
